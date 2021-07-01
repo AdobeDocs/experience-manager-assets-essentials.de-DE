@@ -2,9 +2,9 @@
 title: Hochladen von Assets in das Repository
 description: Laden Sie Assets in [!DNL Assets Essentials] hoch, zeigen Sie den Upload-Status an und lösen Sie Upload-Probleme auf.
 role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Sobald alle Dateien in die Warteschlange gestellt sind, klicken Sie auf **[!UICO
 
 *Abbildung: Vor dem Hochladen der ausgewählten Assets können Sie Assets zur Warteschlange hinzufügen oder daraus entfernen.*
 
+>[!CAUTION]
+>
+>Verwenden Sie Assets ohne Leerzeichen in den Dateinamen. Die Antworten auf Kommentare funktionieren nicht für solche Assets.
+
 ## Upload-Fortschritt und -Status anzeigen {#upload-progress}
 
 Wenn Sie viele Assets oder verschachtelte Ordner in [!DNL Assets Essentials] hochladen, können einige Assets aus verschiedenen Gründen (z. B. doppelte Asset- und Netzwerkprobleme) nicht hochgeladen werden.
@@ -44,13 +48,13 @@ Um eine Teilmenge von Assets basierend auf dem Upload-Fortschritt oder -Status a
 
 *Abbildung: Filtern Sie die Assets, die Sie hochzuladen versucht haben, nach ihrem Upload-Status oder Upload-Fortschritt.*
 
-Unmittelbar nach dem Hochladen der Assets verarbeitet Assets Essentials die Assets, um Miniaturansichten zu generieren und Metadaten zu verarbeiten. Bei vielen Assets dauert die Verarbeitung einige Zeit. Wenn keine Miniaturansicht angezeigt wird und eine Verarbeitungsmeldung auf der Miniaturansicht des Platzhalters angezeigt wird, überprüfen Sie den Ordner nach einigen Minuten erneut.
+Unmittelbar nach dem Hochladen der Assets verarbeitet [!DNL Assets Essentials] die Assets, um Miniaturansichten zu generieren und Metadaten zu verarbeiten. Bei vielen Assets dauert die Verarbeitung einige Zeit. Wenn keine Miniaturansicht angezeigt wird und eine Verarbeitungsmeldung auf der Miniaturansicht des Platzhalters angezeigt wird, überprüfen Sie den Ordner nach einigen Minuten erneut.
 
 ![Verarbeitung beim Hochladen](assets/upload-processing.png)
 
 ## Asset-Ausgabedarstellungen {#renditions}
 
-Assets Essentials verarbeitet die hochgeladenen Assets nahezu in Echtzeit und generiert für viele unterstützte Dateitypen Ausgabedarstellungen. Erstellt für Bilder, sind die Ausgabeformate Größenversionen des hochgeladenen Bildes. Sie können nicht nur das Asset, sondern auch die Ausgabeformate herunterladen, um eine geeignete Version zu verwenden. Sie können alle Ausgabeformate eines Assets anzeigen, wenn Sie [ein Asset in der Vorschau anzeigen](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] verarbeitet die hochgeladenen Assets nahezu in Echtzeit und generiert für viele unterstützte Dateitypen Ausgabedarstellungen. Erstellt für Bilder, sind die Ausgabeformate Größenversionen des hochgeladenen Bildes. Sie können nicht nur das Asset, sondern auch die Ausgabeformate herunterladen, um eine geeignete Version zu verwenden. Sie können alle Ausgabeformate eines Assets anzeigen, wenn Sie [ein Asset in der Vorschau anzeigen](/help/navigate-view.md#preview-assets).
 
 ![Ausgabeformate](assets/renditions-view-download.png)
 
