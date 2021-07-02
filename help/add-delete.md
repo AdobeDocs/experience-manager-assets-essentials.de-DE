@@ -2,9 +2,9 @@
 title: Hochladen von Assets in das Repository
 description: Laden Sie Assets in [!DNL Assets Essentials] hoch, zeigen Sie den Upload-Status an und lösen Sie Upload-Probleme auf.
 role: Business Practitioner
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,19 @@ Um eine Teilmenge von Assets basierend auf dem Upload-Fortschritt oder -Status a
 
 *Abbildung: Filtern Sie die Assets, die Sie hochzuladen versucht haben, nach ihrem Upload-Status oder Upload-Fortschritt.*
 
-Unmittelbar nach dem Hochladen der Assets verarbeitet [!DNL Assets Essentials] die Assets, um Miniaturansichten zu generieren und Metadaten zu verarbeiten. Bei vielen Assets dauert die Verarbeitung einige Zeit. Wenn keine Miniaturansicht angezeigt wird und eine Verarbeitungsmeldung auf der Miniaturansicht des Platzhalters angezeigt wird, überprüfen Sie den Ordner nach einigen Minuten erneut.
+Unmittelbar nach dem Hochladen der Assets verarbeitet [!DNL Assets Essentials] die Assets, um Miniaturansichten zu generieren und Metadaten zu verarbeiten. Bei vielen Assets dauert die Verarbeitung einige Zeit. Wenn keine Miniaturansicht angezeigt wird und eine Verarbeitungsmeldung auf der Miniaturansicht des Platzhalters angezeigt wird, überprüfen Sie den Ordner nach einigen Minuten erneut. Während der Verarbeitung generiert [!DNL Assets Essentials] u. a. die Ausgabedarstellungen, fügt Smart-Tags hinzu und indiziert die Asset-Details für die Suche.
 
-![Verarbeitung beim Hochladen](assets/upload-processing.png)
+![Assets sind Prozesse beim Hochladen und die Kachel zeigt die Verarbeitung an](assets/upload-processing.png)
+
+*Abbildung: Hochgeladene Assets zeigen die Verarbeitung der Kachel an, die verarbeitet wird.*
 
 ## Asset-Ausgabedarstellungen {#renditions}
 
 [!DNL Assets Essentials] verarbeitet die hochgeladenen Assets nahezu in Echtzeit und generiert für viele unterstützte Dateitypen Ausgabedarstellungen. Erstellt für Bilder, sind die Ausgabeformate Größenversionen des hochgeladenen Bildes. Sie können nicht nur das Asset, sondern auch die Ausgabeformate herunterladen, um eine geeignete Version zu verwenden. Sie können alle Ausgabeformate eines Assets anzeigen, wenn Sie [ein Asset in der Vorschau anzeigen](/help/navigate-view.md#preview-assets).
 
 ![Ausgabeformate](assets/renditions-view-download.png)
+
+*Abbildung: Zeigen Sie die Ausgabedarstellungen an und laden Sie sie herunter.*
 
 ## Fehlgeschlagene Uploads verwalten {#resolve-upload-fails}
 
@@ -87,5 +91,7 @@ Benutzer können nicht mehr benötigte einzelne Assets oder Ordner löschen. Fü
 * Verwenden Sie die Option, die auf der Miniaturansicht eines Assets oder Ordners verfügbar ist.
 
    ![Optionen für die Asset-Miniaturansicht zum Verwalten eines Assets](assets/options-on-thumbnail.png)
+
+   *Abbildung: Aktionen für Dateien und Ordner sind auf der Asset- oder Ordnerkachel verfügbar.*
 
 * Wählen Sie ein Asset oder einen Ordner aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Löschen]** ![Löschsymbol](assets/do-not-localize/delete-icon.png) .
