@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Metadaten
 description: Verwalten von Metadaten von Assets in [!DNL Assets Essentials]
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 13%
@@ -51,7 +51,7 @@ Die Smart-Tags werden nahezu in Echtzeit angewendet und basierend auf dem Inhalt
 
 Smart-Tags enthalten auch einen Konfidenzwert in Prozent. Sie zeigt die Konfidenz an, die mit dem angewendeten Tag verbunden ist. Sie können die automatisch angewendeten Smart-Tags moderieren.
 
-## Hinzufügen oder Aktualisieren von Tags {#manually-tag}
+## Tags hinzufügen oder aktualisieren {#manually-tag}
 
 Zusätzlich zu den Smart-Tags, die automatisch mit dem Smart-Service [!DNL Adobe Sensei] hinzugefügt werden, können Sie Ihren Assets weitere Tags hinzufügen. Öffnen Sie ein Asset für die Vorschau, klicken Sie auf [!UICONTROL Tags] und geben Sie die gewünschten Suchbegriffe in das Feld [!UICONTROL Suchbegriffe] ein. Um das Tag hinzuzufügen, drücken Sie die Eingabetaste. [!DNL Assets Essentials] indiziert das Keyword in nahezu Echtzeit, und Ihr Team kann die aktualisierten Assets bald mit den neuen Keywords durchsuchen.
 
