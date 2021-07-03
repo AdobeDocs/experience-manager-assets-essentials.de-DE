@@ -1,12 +1,12 @@
 ---
 title: Unterstützte Dateiformate
 description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle von [!DNL Assets Essentials]
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 42d85b0d1a1c2e1ac3c3dac4b0c151a7aa3af8b9
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 38%
+source-wordcount: '196'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 38%
 Die verschiedenen Dateitypen unterstützen die Anwendungsfälle und Funktionen unterschiedlich, wie unten beschrieben. Die Legende gibt den Grad der Unterstützung an.
 
 | Unterstützungsebene | Beschreibung |
-| :-----------: | ------------------------------ |
+|---------------|-------------------------|
 | ✓ | Unterstützt |
 | * | Bedingt unterstützt |
 | - | Nicht zutreffend |
@@ -31,67 +31,70 @@ Die verschiedenen Dateitypen unterstützen die Anwendungsfälle und Funktionen u
 
 ## Hinzufügen, Hochladen und Anzeigen von Assets {#support-to-upload-view}
 
+<!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
+-->
+
 | Asset-Typ | Durchsuchen | Kopieren | Hochladen | Erstellen | Löschen | Details | Bild-Zoom | Kürzlich angesehen |
-|---|---|---|---|---|---|---|---|---|
-| Rasterbilder |  |  |  |  |  |  |  |  |
-| Ordner |  |  |  |  |  |  |  |  |
-| Videos |  |  |  |  |  |  |  |  |
-| CC-Bibliotheken |  |  |  |  |  |  |  |  |
-| PDF-Dateien |  |  |  |  |  |  |  |  |
-| PSD |  |  |  |  |  |  |  |  |
-| AI |  |  |  |  |  |  |  |  |
-| INDD |  |  |  |  |  |  |  |  |
+|---------------|----------|------|----------|----------|----------|----------|------------|-----------------|
+| Rasterbilder | verwalten |  | verwalten | - | verwalten | verwalten | verwalten | verwalten |
+| Ordner | verwalten |  | verwalten | verwalten | verwalten | verwalten | - | - |
+| Videos | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
+| CC-Bibliotheken | verwalten |  | verwalten | verwalten | verwalten | verwalten | - | - |
+| PDF | verwalten |  | verwalten | - | verwalten | verwalten | - | verwalten |
+| PSD | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
+| AI | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
+| INDD | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
 
 ## Suchen, Verwenden und Bearbeiten von Assets {#support-to-search-use-edit}
 
-| Asset-Typ | Download | Drag &amp; Drop | Bildeditor | Suchen | Smart-Tags | Umbenennen | Versionen |
-| --- | ---  | --- | --- | --- | --- | --- | --- |
-| Rasterbilder |  |  |  |  |  |  |  |
-| Ordner |  |  |  |  |  |  |  |
-| Videos |  |  |  |  |  |  |  |
-| CC-Bibliotheken |  |  |  |  |  |  |  |
-| PDF-Dateien |  |  |  |  |  |  |  |
-| PSD |  |  |  |  |  |  |  |
-| KI |  |  |  |  |  |  |  |
-| INDD |  |  |  |  |  |  |  |
+| Asset-Typ | Download | Drag &amp; Drop | Bildeditor | Suche | Smart-Tags | Umbenennen | Versionen |
+|---------------|----------|---------------|--------------|----------|------------|----------|----------|
+| Rasterbilder | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
+| Ordner | verwalten | verwalten | - | verwalten | - | verwalten | - |
+| Videos | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
+| CC-Bibliotheken | - | - | - | - | - | verwalten | - |
+| PDF | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
+| PSD | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
+| KI | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
+| INDD | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
 
 ## Überprüfen von Assets und Zusammenarbeit {#support-to-review-collaborate}
 
 | Asset-Typ | Anmerken | Kommentar | Erstellen von Aufgaben und Überprüfen |
-| --- | --- | --- | --- |
-| Rasterbilder |  |  |  |
-| Ordner |  |  |  |  |
-| Videos |  |  |  |  |
-| CC-Bibliotheken |  |  |  |  |
-| PDF-Dateien |  |  |  |  |
-| PSD |  |  |  |  |
-| KI |  |  |  |  |
-| INDD |  |  |  |  |
+|---------------|----------|----------|-------------------------|
+| Rasterbilder | verwalten | verwalten | verwalten |
+| Ordner | - | - | - |
+| Videos | - | verwalten | verwalten |
+| CC-Bibliotheken | - | - | - |
+| PDF | - | verwalten | verwalten |
+| PSD | - | verwalten | verwalten |
+| KI | - | verwalten | verwalten |
+| INDD | - | verwalten | verwalten |
 
 ## Sonstige Asset-Management-Aufgaben {#support-to-manage-assets}
 
-| Asset-Typ | Metadaten | Ausgabeformate | Papierkorb | Kopieren | Verschieben |
-| --- | --- | --- | --- | --- | --- |
-| Rasterbilder |  |  |  |  |  |
-| Ordner |  |  |  |  |  |  |
-| Videos |  |  |  |  |  |  |
-| CC-Bibliotheken |  |  |  |  |  |  |
-| PDF-Dateien |  |  |  |  |  |  |
-| PSD |  |  |  |  |  |  |
-| KI |  |  |  |  |  |  |
-| INDD |  |  |  |  |  |  |
+| Asset-Typ | Metadaten   | Ausgabeformate | Papierkorb | Kopieren | Verschieben | [!DNL Adobe Asset Link] einchecken |
+|---------------|----------|------------|----------|----------|----------|----------------------------------|
+| Rasterbilder | * | verwalten | verwalten | verwalten | verwalten | verwalten |
+| Ordner | * | - | verwalten | verwalten | verwalten | - |
+| Videos | * | - | verwalten | verwalten | verwalten | - |
+| CC-Bibliotheken | * | - | - | - | - | - |
+| PDF | * | - | verwalten | verwalten | verwalten | - |
+| PSD | * | - | verwalten | verwalten | verwalten | - |
+| KI | * | - | verwalten | verwalten | verwalten | - |
+| INDD | * | - | verwalten | verwalten | verwalten | - |
 
 <!-- TBD: Saving template table separately.
-| Asset type | Features |
-|---|---|
-| Raster images |  |
-| Folders | |
-| Videos | |
-| CC Libraries | |
-| PDF files | |
-| PSD | |
-| AI | |
-| INDD | |
+| Asset type    | Features |
+|---------------|----------|
+| Raster images |          |
+| Folders       |          |
+| Videos        |          |
+| CC Libraries  |          |
+| PDF files     |          |
+| PSD           |          |
+| AI            |          |
+| INDD          |          |
 
 >[!MORELIKETHIS]
 >
