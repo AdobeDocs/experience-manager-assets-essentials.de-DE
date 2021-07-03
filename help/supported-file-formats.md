@@ -3,7 +3,7 @@ title: Unterstützte Dateiformate
 description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle von [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: e791ef4ffdfdad907b5e868b3f3eab0c597ae4cd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 37%
@@ -35,15 +35,15 @@ Die verschiedenen Dateitypen unterstützen die Anwendungsfälle und Funktionen u
 -->
 
 | Asset-Typ | Durchsuchen | Kopieren | Hochladen | Erstellen | Löschen | Details | Bild-Zoom | Kürzlich angesehen |
-|---------------|----------|------|----------|----------|----------|----------|------------|-----------------|
-| Rasterbilder | verwalten |  | verwalten | - | verwalten | verwalten | verwalten | verwalten |
-| Ordner | verwalten |  | verwalten | verwalten | verwalten | verwalten | - | - |
-| Videos | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
-| CC-Bibliotheken | verwalten |  | verwalten | verwalten | verwalten | verwalten | - | - |
-| PDF | verwalten |  | verwalten | - | verwalten | verwalten | - | verwalten |
-| PSD | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
-| AI | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
-| INDD | verwalten |  | verwalten | - | verwalten | * | - | verwalten |
+|---------------|----------|----------|----------|----------|----------|----------|------------|-----------------|
+| Rasterbilder | verwalten | verwalten | verwalten | - | verwalten | verwalten | verwalten | verwalten |
+| Ordner | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | - | - |
+| Videos | verwalten | verwalten | verwalten | - | verwalten | * | - | verwalten |
+| CC-Bibliotheken | verwalten | - | verwalten | verwalten | verwalten | verwalten | - | - |
+| PDF | verwalten | verwalten | verwalten | - | verwalten | verwalten | - | verwalten |
+| PSD | verwalten | verwalten | verwalten | - | verwalten | * | - | verwalten |
+| AI | verwalten | verwalten | verwalten | - | verwalten | * | - | verwalten |
+| INDD | verwalten | verwalten | verwalten | - | verwalten | * | - | verwalten |
 
 ## Suchen, Verwenden und Bearbeiten von Assets {#support-to-search-use-edit}
 
