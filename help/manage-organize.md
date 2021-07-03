@@ -1,9 +1,9 @@
 ---
 title: Verwalten digitaler Assets
 description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Versions Ihrer Assets in [!DNL Assets Essentials].
-role: Business Practitioner,Leader
+role: User,Leader
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -75,7 +75,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
    ![Option zum Hochladen einer neuen Version eines Assets aus dem Versionsverlauf](assets/view-asset-versions2.png)
 
-### Anzeigen von Versionen eines Assets {#view-versions}
+### Anzeigen von Asset-Versionen {#view-versions}
 
 Beim Hochladen einer doppelten Kopie oder einer geänderten Kopie eines Assets können Sie dessen Versionen erstellen. Mit der Versionierung können Sie historische Assets überprüfen und bei Bedarf zu einer früheren Version zurückkehren.
 
