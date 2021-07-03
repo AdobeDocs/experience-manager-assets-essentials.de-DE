@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Assets Essentials] Benutzeroberfläche'
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## Die [!DNL Assets Essentials]-Benutzeroberfläche {#understand-interface-navigation}
+## Die Benutzeroberfläche von [!DNL Assets Essentials] {#understand-interface-navigation}
 
 [!DNL Assets Essentials] bietet eine intuitive und benutzerfreundliche Benutzeroberfläche. Die saubere Benutzeroberfläche erleichtert das Auffinden und Speichern von Assets und zugehörigen Informationen.
 
@@ -38,7 +38,7 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Schn
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
-## Durchsuchen und Anzeigen von Assets und Ordnern {#browse-repository}
+## Assets und Ordner durchsuchen und anzeigen {#browse-repository}
 
 Sie können die erforderlichen Dateien oder Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste aufrufen. Beim Durchsuchen können Sie die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen, um das Repository visuell zu durchsuchen oder Asset-Details anzuzeigen, um das gewünschte Asset schnell zu finden. Die in der linken Seitenleiste verfügbaren Optionen sind:
 
