@@ -7,8 +7,8 @@ breadcrumb-title: Assets Essentials-Handbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Experience Manager Assets Essentials verwenden.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset-Management
-role: User, Leader
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+role: User,Leader
+source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 11%
