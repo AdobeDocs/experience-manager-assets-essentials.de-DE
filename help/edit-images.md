@@ -1,8 +1,8 @@
 ---
 title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit [!DNL Adobe Photoshop Express] unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
-role: Business Practitioner
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Bilder bearbeiten in [!DNL Assets Essentials] {#edit-images}
+# Bilder in [!DNL Assets Essentials] bearbeiten {#edit-images}
 
 [!DNL Assets Essentials] bietet benutzerfreundliche Bearbeitungsoptionen, die von unterstützt  [!DNL Adobe Photoshop Express]werden. Die verfügbaren Bearbeitungsaktionen sind Bereichsreparatur, Zuschneiden und gerade ausrichten, Bildgröße ändern und Bild anpassen.
 
@@ -20,7 +20,7 @@ Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Versio
 
 *Abbildung: Die Optionen zum Bearbeiten von Bildern werden von  [!DNL Adobe Photoshop Express]unterstützt.*
 
-## Bereichsreparaturbilder {#spot-heal-images}
+## Spot-Heal-Bilder {#spot-heal-images}
 
 Wenn ein Bild kleine Flecken oder Objekte aufweist, können Sie die Flecken mithilfe der von Adobe Photoshop bereitgestellten Funktion zur Fleckheilung bearbeiten und entfernen.
 
@@ -41,7 +41,7 @@ Um Ihre Änderungen zu speichern, klicken Sie auf **[!UICONTROL Bild zuschneiden
 
 Mit vielen Standardoptionen können Sie Ihr Bild auf die besten Proportionen zuschneiden, die für verschiedene Social-Media-Profile und -Beiträge geeignet sind.
 
-## Bildgröße ändern {#resize-image}
+## Bild vergrößern {#resize-image}
 
 Die Größenanpassung eines Bildes auf eine bestimmte Größe ist ein beliebtes Anwendungsbeispiel. [!DNL Assets Essentials] ermöglicht Ihnen, die Größe des Bildes schnell an die gängigen Bildgrößen anzupassen, indem Sie vorab berechnete neue Auflösungen für bestimmte Bildgrößen bereitstellen. Sie können die gebräuchlichen Bildgrößen in Zentimetern oder Zoll anzeigen, um die Abmessungen zu ermitteln. Standardmäßig behält die Methode zur Größenanpassung das Seitenverhältnis bei. Um das Seitenverhältnis manuell zu überschreiben, klicken Sie auf ![](assets/do-not-localize/lock-closed-icon.png).
 
