@@ -1,8 +1,8 @@
 ---
 title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und wie bekannte Probleme auftreten können.
-role: Business Practitioner, Leader
-source-git-commit: 4a7fe369485db5cae843694c68f84133c9118337
+role: User, Leader
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 2%
