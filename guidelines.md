@@ -1,15 +1,15 @@
 ---
 source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # Richtlinien für die Teilnahme an der [!DNL Adobe Experience Manager]-Dokumentation
 
 ## Dokumentationsphilosophie
 
-Wir wissen, dass Benutzer von [!DNL Adobe Experience Manager] in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Daher ist es wichtig, dass diese Tools bei der Bereitstellung erweiterter neuer Tools in [!DNL Experience Manager] durch genaue und klare Dokumentation ergänzt werden, damit der Kunde sofort seine [!DNL Experience Manager]-Investition nutzen und den ROI maximieren kann.
+Wir wissen, dass Benutzer von [!DNL Adobe Experience Manager] in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Deshalb ist es wichtig, dass, wenn Adobe fortschrittliche neue Tools in [!DNL Experience Manager] bereitstellt, diese durch genaue und klare Dokumentation ergänzt werden, damit der Kunde sofort seine [!DNL Experience Manager]-Investition nutzen und den ROI maximieren kann.
 
 Das Ziel der [!DNL Experience Manager]-Dokumentation besteht darin, Benutzer von [!DNL Experience Manager] schnellstmöglich mit der Dokumentation vertraut zu machen. Daher steht bei uns eine genaue und nutzbare Dokumentation im Vordergrund und wir bemühen uns ständig um eine aktualisierte und bessere Dokumentation.
 
