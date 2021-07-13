@@ -1,12 +1,12 @@
 ---
 title: Versionshinweise
-description: Versionshinweise und bekannte Probleme von [!DNL Assets Essentials]
+description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 4%
+ht-degree: 28%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 4%
 Die aktuelle Version ist die erste öffentliche Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde. [!DNL Assets Essentials] bietet einfache Asset-Management-Funktionen und die erste Version unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
 
 * Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Vorschau der Assets und Versionen anzeigen.
-* Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen nach einer schnellen Asset-Erkennung.
+* Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
 * Grundlegende Asset-Management-Vorgänge wie das Aktualisieren, Löschen, Herunterladen und Verwalten von Metadaten.
-* Integration mit [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+* Integration mit [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de).
 
 Derzeit ist [!DNL Assets Essentials] für [[!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer.html)-Kunden verfügbar.
 
