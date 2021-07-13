@@ -1,31 +1,31 @@
 ---
 title: Unterstützte Dateiformate
-description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle von [!DNL Assets Essentials]
+description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle von  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: c63e9ab1054398dc055643f0dca6631bae881047
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 33%
+ht-degree: 89%
 
 ---
 
 
 # Unterstützte Dateiformate in [!DNL Assets Essentials] {#file-format-support}
 
-[!DNL Assets Essentials] unterstützt eine breite Palette von Dateiformaten und jede Funktionalität unterstützt unterschiedliche Dateitypen.
+[!DNL Assets Essentials] unterstützt eine breite Palette von Dateiformaten und jede Funktionalität bietet unterschiedliche Unterstützung für verschiedene Dateitypen.
 
-* ![Bilddateityp ](assets/do-not-localize/image-icon.png) iconImages: GIF, JPG, PNG und TIFF
-* ![Dokumentdateityp ](assets/do-not-localize/document-icon.png) iconDocuments: DOCX, PDF, PPTX und XLSX
-* ![Videodateityp ](assets/do-not-localize/video-icon.png) iconVideos: MP4
+* ![image file type icon](assets/do-not-localize/image-icon.png) Bild-Typen: GIF, JPG, PNG, und TIFF
+* ![document file type icon](assets/do-not-localize/document-icon.png) Dokument-Typen: DOCX, PDF, PPTX und XLSX
+* ![video file type icon](assets/do-not-localize/video-icon.png) Video-Typen: MP4
 
-Die verschiedenen Dateitypen unterstützen die Anwendungsfälle und Funktionen unterschiedlich, wie unten beschrieben. Die Legende gibt den Grad der Unterstützung an.
+Die verschiedenen Dateitypen haben unterschiedliche Grade der Unterstützung für die unten beschriebenen Anwendungsfälle und Funktionen. Die Legende gibt den Grad der Unterstützung an.
 
 | Unterstützungsebene | Beschreibung |
 |-------------------|-------------------------|
 | ✓ | Unterstützt |
 | ‡ | Bedingt unterstützt |
-| - | Nicht zutreffend |
+| − | Nicht zutreffend |
 
 ## Hinzufügen, Hochladen und Anzeigen von Assets {#support-to-upload-view}
 
@@ -46,7 +46,7 @@ Die verschiedenen Dateitypen unterstützen die Anwendungsfälle und Funktionen u
 
 ## Suchen, Verwenden und Bearbeiten von Assets {#support-to-search-use-edit}
 
-| Asset-Typ | [Download](/help/manage-organize.md#download) | Drag &amp; Drop | [Bildeditor](/help/edit-images.md) | [Suchen](/help/search.md) | [Smart-Tags](/help/metadata.md#tags) | [Umbenennen](/help/manage-organize.md) | [Versionen](/help/manage-organize.md#versions-of-assets) |
+| Asset-Typ | [Download](/help/manage-organize.md#download) | Drag-and-Drop | [Bildeditor](/help/edit-images.md) | [Suchen](/help/search.md) | [Smart-Tags](/help/metadata.md#tags) | [Umbenennen](/help/manage-organize.md) | [Versionen](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Rasterbilder | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
 | Ordner | verwalten | verwalten | - | verwalten | - | verwalten | - |
@@ -72,7 +72,7 @@ Die verschiedenen Dateitypen unterstützen die Anwendungsfälle und Funktionen u
 
 ## Sonstige Asset-Management-Aufgaben {#support-to-manage-assets}
 
-| Asset-Typ | [Metadaten](/help/metadata.md) | [Ausgabeformate](/help/add-delete.md#renditions) | [Papierkorb](/help/add-delete.md#delete-assets) | Kopieren | Verschieben |
+| Asset-Typ | [Metadaten](/help/metadata.md) | [Ausgabedarstellungen](/help/add-delete.md#renditions) | [Papierkorb](/help/add-delete.md#delete-assets) | Kopieren | Verschieben |
 |---------------|-------------------|------------|----------|----------|----------|
 | Rasterbilder | verwalten | verwalten | verwalten | verwalten | verwalten |
 | Ordner | verwalten | - | verwalten | verwalten | verwalten |
