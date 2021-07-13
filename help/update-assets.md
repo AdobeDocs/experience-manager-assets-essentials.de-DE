@@ -6,7 +6,7 @@ contentOwner: AG
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ Link to versioning once an asset is updated.
 >[!MORELIKETHIS]
 >
 >* [Bearbeiten von Bildern](edit-images.md)
-* [Anzeigen von Asset-Versionen](navigate-view.md#view-versions)
-* [Ein Asset löschen](manage-organize.md#delete-assets)
+* [Anzeigen von Versionen eines Assets](navigate-view.md#view-versions)
+* [Löschen eines Assets](manage-organize.md#delete-assets)
 
