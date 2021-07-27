@@ -2,10 +2,10 @@
 title: Benutzeroberfläche von [!DNL Assets Essentials]
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in  [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 91%
 
 ---
 
@@ -40,11 +40,15 @@ Benutzeroberfläche von ![[!DNL Assets Essentials] ](assets/essentials-interface
 
 ## Durchsuchen und Anzeigen von Assets und Ordnern {#browse-repository}
 
-Sie können die erforderlichen Dateien oder Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste aufrufen. Um das gewünschte Asset schnell zu finden, können Sie zum visuellen Durchsuchen des Repositorys die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen oder um Asset-Details anzuzeigen. Die in der linken Seitenleiste verfügbaren Optionen sind:
+Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste durchsuchen. Um das gewünschte Asset schnell zu finden, können Sie zum visuellen Durchsuchen des Repositorys die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen oder um Asset-Details anzuzeigen. Die in der linken Seitenleiste verfügbaren Optionen sind:
 
-* **Assets**: Liste aller Ordner und Assets in einer Baumstrukturansicht, auf die Sie Zugriff haben.
-* **Kürzlich angezeigt**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Hier werden die Assets, an denen Sie beim Durchsuchen der Repository-Dateien oder -Ordner vorbeiscrollen, nicht angezeigt.
-* **Bibliotheken**: Zugriff auf die Ansicht [!DNL Adobe Creative Cloud Team]-Bibliotheken (CCT). Diese Ansicht ist nur sichtbar, wenn der Benutzer berechtigt ist, CCT-Bibliotheken zu verwenden.
+* **Assets**: Liste aller Ordner in einer Baumansicht, auf die Sie Zugriff haben.
+* **Kürzlich angezeigt**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Die Assets, die Sie beim Durchsuchen der Repository-Dateien oder -Ordner durchblättern, werden nicht angezeigt.
+* **Papierkorb**:
+
+<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+* **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
+-->
 
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
