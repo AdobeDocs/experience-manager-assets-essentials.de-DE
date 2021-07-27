@@ -2,10 +2,10 @@
 title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen können, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und bekannte Probleme.
 role: User, Leader
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 87%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,9 @@ Die Verwaltung digitaler Assets mit [!DNL Assets Essentials] erfordert nur drei 
 
 * **Schritt 1**: [Hochladen](/help/add-delete.md) und [Anzeigen](/help/navigate-view.md) von Assets.
 * **Schritt 2**: [Durchsuchen](/help/search.md) und [Herunterladen](/help/manage-organize.md#download) von Assets.
-* **Schritt 3**: [Verwalten und Organisieren](/help/manage-organize.md) von Assets.
+* **Schritt 3**:  [Verwalten und ](/help/manage-organize.md) Organisieren der Assets
 
-Um [!DNL Assets Essentials] zu verwenden, melden Sie sich unter [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) an. Wenden Sie sich an den Administrator Ihres Unternehmens, um Zugriff zu erhalten.
+Um [!DNL Assets Essentials] zu verwenden, melden Sie sich unter [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) an. Wählen Sie beim Anmelden `Company or School Account` aus. Wenden Sie sich an den Administrator Ihres Unternehmens, um Zugriff zu erhalten.
 
 Weitere Referenzinformationen, die hilfreich sein können, sind [Verständnis der Benutzeroberfläche](/help/navigate-view.md), [Liste der Anwendungsfälle](#use-cases) <!-- TBD: [supported file types](/help/supported-file-formats.md), --> und [Bekannte Probleme](/help/release-notes.md#known-issues).
 
@@ -56,11 +56,11 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 | Benutzeraufgaben | Funktionalität und Anleitungsinformationen |
 |-----|------|
 | Wie fügt man ein Asset hinzu? | <ul> <li> [Hochladen von Assets](/help/add-delete.md) </li> <li> [Ausgabedarstellungen](/help/add-delete.md#renditions) </li> </ul> |
-| Wie aktualisiert man Assets oder zugehörige Informationen? | <ul> <li>Vorhandenes Asset ändern</li> <li>[Erstellen von Versionen](/help/manage-organize.md#create-versions) und [Anzeigen von Versionen](/help/navigate-view.md#view-versions)</li> <li>[Bearbeiten von Bildern](/help/edit-images.md)</li> </ul> |
-| Wie findet man Assets? | <ul> <li>[Durchsuchen des Repositorys](/help/navigate-view.md#view-assets-and-details) </li> <li> [Anzeigen der Asset-Vorschau](/help/navigate-view.md#preview-assets) und [Herunterladen von Assets](/help/manage-organize.md) </li> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li>[Suchen von Assets](/help/search.md)</li></ul> |
-| Wie können Assets im Repository bearbeitet werden? | <ul> <li>[Bearbeitung im Browser mit Adobe Photoshop Express](/help/edit-images.md)</li> <li>[Zuschneiden für ein Social-Media-Profil](/help/edit-images.md#crop-straighten-images)</li> <li>[Versionen anzeigen und verwalten](/help/manage-organize.md#create-versions)</li> <li>[Adobe Asset Link](/help/integration.md#integrations) verwenden</ul></ul> |
-| Wie können Assets im Repository gesucht werden? | <ul> <li>[Suchen in einem bestimmten Ordner](/help/search.md)</li> <li>[Gespeicherte Suchvorgänge](/help/search.md)</li> <li>[Suchen nach kürzlich angezeigten Assets](/help/search.md)</li> <li>[Volltextsuche](/help/search.md) |
-| Wie werden neue Assets hinzugefügt? | <ul> <li>[Hochladen von neuen Assets und Ordnern](/help/add-delete.md#add-assets)</li> <li>[Überwachen des Upload-Fortschritts und Verwalten von Uploads](/help/add-delete.md)</li> <li>[Auflösen von Duplikaten](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| Wie aktualisiert man Assets oder zugehörige Informationen? | <ul> <li>Vorhandenes Asset ändern</li> <li>[Erstellen von Versionen](/help/manage-organize.md#create-versions) und [Anzeigen von Versionen](/help/manage-organize.md#view-versions)</li> <li>[Bearbeiten von Bildern](/help/edit-images.md)</li> </ul> |
+| Wie findet man Assets? | <ul> <li>[Durchsuchen des Repositorys](/help/navigate-view.md#view-assets-and-details) </li> <li> [Anzeigen der Asset-Vorschau](/help/navigate-view.md#preview-assets) und [Herunterladen von Assets](/help/manage-organize.md#download) </li> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li>[Suchen von Assets](/help/search.md)</li></ul> |
+| Wie können Assets im Repository bearbeitet werden? | <ul> <li>[Bearbeitung im Browser mit Adobe Photoshop Express](/help/edit-images.md)</li> <li>[Zuschneiden für ein Social-Media-Profil](/help/edit-images.md#crop-straighten-images)</li> <li>[Versionen anzeigen und verwalten](/help/manage-organize.md#view-versions)</li> <li>[Adobe Asset Link](/help/integration.md#integrations) verwenden</ul></ul> |
+| Wie können Assets im Repository gesucht werden? | <ul> <li>[Suchen in einem bestimmten Ordner](/help/search.md#refine-search-results)</li> <li>[Gespeicherte Suchvorgänge](/help/search.md#saved-search)</li> <li>[Suchen nach kürzlich angezeigten Assets](/help/search.md)</li> <li>[Volltextsuche](/help/search.md) |
+| Wie werden neue Assets hinzugefügt? | <ul> <li>[Hochladen von neuen Assets und Ordnern](/help/add-delete.md#add-assets)</li> <li>[Überwachen des Upload-Fortschritts und Verwalten von Uploads](/help/add-delete.md#upload-progress)</li> <li>[Auflösen von Duplikaten](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
 | Kann [!DNL Assets Essentials] mit anderen Lösungen integriert werden? | <ul> <li>[Verwenden der Asset-Auswahl in  [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link]  für  [!DNL Creative Cloud]](/help/integration.md)</li> <li>Integration mit [!DNL Creative Cloud Team]-Bibliotheken</li> </ul> |
 
 <!--TBD: Merge in above table when these use cases are documented/available.
@@ -75,10 +75,10 @@ Adobe begrüßt Feedback zur Lösung. Verwenden Sie die Option [!UICONTROL Feedb
 
 ![Feedback-Option in der Benutzeroberfläche](assets/feedback-panel.png)
 
-Um Feedback zur Dokumentation zu geben, klicken Sie auf [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten Sie die Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Melden Sie ein Problem] ![Erstellen Sie ein GitHub-Problem](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste. Sie können einen der folgenden Schritte ausführen:
+Um Feedback für die Dokumentation zu geben, klicken Sie am rechten Rand auf [!UICONTROL Diese Seite bearbeiten] ![edit the page](assets/do-not-localize/edit-page.png) oder [!UICONTROL Einen Fehler protokollieren] ![create a GitHub issue](assets/do-not-localize/github-issue.png). Sie können einen der folgenden Schritte ausführen:
 
 * Nehmen Sie die Inhaltsaktualisierungen vor und senden Sie eine GitHub-Pull-Anfrage.
-* Erstellen Sie ein Problem oder Ticket in GitHub. Behalten Sie beim Erstellen eines Problems den automatisch ausgefüllten Artikelnamen bei.
+* Erstellen Sie ein Problem oder ein Ticket in GitHub. Behalten Sie beim Erstellen eines Problems den automatisch ausgefüllten Artikelnamen bei.
 
 >[!MORELIKETHIS]
 >
