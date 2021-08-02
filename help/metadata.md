@@ -3,10 +3,10 @@ title: Verwalten von Metadaten
 description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: a176769247bcafcc0497f2480cdec86c5753f218
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 58%
 
 ---
 
@@ -56,6 +56,49 @@ Smart-Tags enthalten auch einen Konfidenzwert in Prozent. Er zeigt die Konfidenz
 Zusätzlich zu den Smart-Tags, die automatisch mit dem intelligenten Service [!DNL Adobe Sensei] hinzugefügt werden, können Sie Ihren Assets weitere Tags hinzufügen. Öffnen Sie ein Asset für die Vorschau, klicken Sie auf [!UICONTROL Tags] und geben Sie die gewünschten Keywords in das Feld [!UICONTROL Keywords] ein. Um das Tag hinzuzufügen, drücken Sie die Eingabetaste. [!DNL Assets Essentials] indiziert das Keyword nahezu in Echtzeit und Ihr Team kann die aktualisierten Assets bald mit den neuen Keywords durchsuchen.
 
 Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die automatisch von [!DNL Assets Essentials] zu allen hochgeladenen Assets hinzugefügt werden.
+
+## Metadatenformulare {#metadata-forms}
+
+Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen benötigen zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets.
+
+Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Essentials ordnet die hochgeladenen Assets automatisch dem Namen des Formulars zu. Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie im Formular definiert. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
+
+>[!IMPORTANT]
+>
+>Das neue Metadatenformular für einen bestimmten Dateityp ersetzt vollständig das Standard-Metadatenformular, das [!DNL Assets Essentials] bereitstellt. Wenn Sie ein Metadatenformular löschen oder umbenennen, sind die Standard-Metadatenfelder erneut für neue Assets verfügbar.
+
+Gehen Sie wie folgt vor, um ein Metadatenformular zu erstellen:
+
+1. Klicken Sie in der linken Leiste auf **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]**.
+
+   ![Option für Metadatenformulare in der linken Seitenleiste](assets/metadata-forms-sidebar.png)
+
+1. Klicken Sie oben rechts in der Benutzeroberfläche auf **[!UICONTROL Erstellen]**.
+1. Geben Sie einen Namen für das Formular ein und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Geben Sie einen Namen für die Registerkarte in **[!UICONTROL Einstellungen]** in der rechten Leiste ein.
+1. Ziehen Sie die erforderlichen Komponenten aus dem in der linken Leiste verfügbaren **[!UICONTROL Komponenten]** auf eine Registerkarte im Formular. Ziehen Sie die Komponenten in die gewünschte Sequenz.
+
+   ![Option für Metadatenformulare in der linken Seitenleiste](assets/metadata-form-new.png)
+
+   *Abbildung: Benutzeroberfläche zur Erstellung von Metadatenformularen mit Optionen zum Hinzufügen von Komponenten und Option zum Anzeigen einer Vorschau des Formulars.*
+
+1. Geben Sie für jede Komponente in der rechten Leiste in der Liste **[!UICONTROL Einstellungen]** einen Namen für die Zuordnung mit den unterstützten Eigenschaften ein.
+1. Optional können Sie für eine Komponente **[!UICONTROL Erforderlich]** auswählen, damit das Metadatenfeld obligatorisch wird, und **[!UICONTROL Schreibgeschützt]** auswählen, damit das Feld auf der Seite [!UICONTROL Details] nicht bearbeitbar ist.
+1. Klicken Sie optional auf **[!UICONTROL Vorschau]** , um eine Vorschau des erstellten Formulars anzuzeigen.
+1. Optional können Sie auf jeder Registerkarte weitere Registerkarten und die erforderlichen Komponenten hinzufügen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn das Formular vollständig ausgefüllt ist.
+
+Nachdem ein Formular erstellt wurde, wird es automatisch angewendet, wenn Benutzer ein Asset des entsprechenden MIME-Typs hochladen.
+
+Um ein vorhandenes Formular wiederzuverwenden und ein neues Formular zu erstellen, wählen Sie ein Metadatenformular aus, klicken Sie in der Symbolleiste auf **[!UICONTROL Kopieren]**, geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Bestätigen]**. Sie können ein Metadatenformular bearbeiten, um es zu ändern. Wenn Sie ein Formular ändern, wird es für Assets verwendet, die nach der Änderung hochgeladen wurden. Die vorhandenen Assets werden nicht geändert.
+
+<!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
+To reuse an existing form to create a new form, do one of these:
+
+* Select a metadata form and click **[!UICONTROL Copy]** from the toolbar, provide a name, and click **[!UICONTROL Confirm]**.
+
+* Click **[!UICONTROL Create]**, select **[!UICONTROL Use existing form structure as template]** option, and select an existing form. 
+-->
 
 <!-- TBD: Queries for PM and engg.
 
