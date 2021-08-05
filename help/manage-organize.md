@@ -3,10 +3,10 @@ title: Verwalten digitaler Assets
 description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Versionieren von Assets in  [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 97%
 
 ---
 
@@ -25,14 +25,11 @@ Verwenden Sie [!DNL Assets Essentials], um die folgenden Asset-Management-Aufgab
 * ![details icon](assets/do-not-localize/edit-in-icon.png) Anklicken, um ein Asset in der Vorschau anzuzeigen und die detaillierten Metadaten anzuzeigen. Aus der Vorschau heraus können Sie die Versionen anzeigen und ein Bild bearbeiten.
 * ![download icon](assets/do-not-localize/download-icon.png) Lädt das ausgewählte Asset in Ihr lokales Dateisystem herunter.
 * ![delete icon](assets/do-not-localize/delete-icon.png) Löscht das ausgewählte Asset oder den ausgewählten Ordner.
-* 
-
-   <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) --> Checkout an asset.
+* Auschecken eines Assets. <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
 * ![copy icon](assets/do-not-localize/copy-icon.png) Kopiert die ausgewählte Datei oder den ausgewählten Ordner.
 * ![move icon](assets/do-not-localize/move-icon.png) Verschiebt das ausgewählte Asset oder den ausgewählten Ordner an einen anderen Speicherort in der Repository-Hierarchie.
 * ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
-* 
-   <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) --> Assign tasks to other users to collaborate on an asset.
+* Weisen Sie anderen Benutzern Aufgaben zur Zusammenarbeit an einem Asset zu. <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
 
 Sie können die gleichen Optionen bei den Miniaturansichten der Assets anzeigen.
 
