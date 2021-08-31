@@ -3,10 +3,10 @@ title: Verwalten digitaler Assets
 description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Versionieren von Assets in  [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ Sie können die gleichen Optionen bei den Miniaturansichten der Assets anzeigen.
 
 ## Herunterladen und Verteilen von Assets {#download}
 
-Sie können ein oder mehrere Assets oder Ordner oder eine Kombination aus beiden auswählen und die Auswahl in Ihr lokales Dateisystem herunterladen. Sie können die Assets bearbeiten und erneut hochladen oder die Assets außerhalb von [!DNL Assets Essentials] verteilen. Sie können auch [die Ausgabedarstellungen](/help/add-delete.md#renditions) eines Assets herunterladen.
+Sie können ein oder mehrere Assets oder Ordner oder eine Kombination aus beiden auswählen und die Auswahl in Ihr lokales Dateisystem herunterladen. Sie können die Assets bearbeiten und erneut hochladen oder die Assets außerhalb von [!DNL Assets Essentials] verteilen. Außerdem können Sie [die Ausgabeformate](/help/add-delete.md#renditions) eines Assets herunterladen.
 
 ## Asset-Versionierung {#versions-of-assets}
 

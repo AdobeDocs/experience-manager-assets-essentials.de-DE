@@ -3,33 +3,19 @@ title: Versionshinweise
 description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: cbeb6f6f59da164115af52dfdbb97023b84bc1d1
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 48%
+source-wordcount: '290'
+ht-degree: 30%
 
 ---
 
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version ist die erste öffentliche Version von [!DNL Assets Essentials], die ab 21. Juni 2021 verfügbar ist. [!DNL Assets Essentials] bietet einfache Asset-Management-Funktionen und die erste Version, die die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen) unterstützt:
-
-* Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Vorschau der Assets und Versionen anzeigen.
-* Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
-* Grundlegende Asset-Management-Vorgänge wie Aktualisierung, Löschen, Download und Verwalten von Metadaten.
-* Integration mit [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de).
-
-Derzeit ist [!DNL Assets Essentials] für [[!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)-Kunden verfügbar.
+Die aktuelle Version von [!DNL Assets Essentials] wird am 30. August 2021 veröffentlicht. Es bietet Integrationen mit [!DNL Adobe Workfront] , mit denen [!DNL Workfront] -Benutzer ihre digitalen Assets im Rahmen der Verwaltung ihrer Arbeit verwalten können. Siehe [Integrationen mit anderen Adobe-Lösungen](/help/integration.md).
 
 Weitere Informationen zur Lösung finden Sie in der [Einführung zu  [!DNL Assets Essentials]](introduction.md). Informationen zu den ersten Schritten mit den Funktionen finden Sie unter [Erste Schritte](/help/get-started.md).
-
-## Aktuelle Version {#release-notes-current}
-
-Die aktuelle Version von Assets Essentials ist 2021.7.0, die am 29. Juli 2021 veröffentlicht wurde und folgende Aktualisierungen enthält:
-
-* Sie können benutzerdefinierte Metadatenformulare erstellen und verwalten, die für die Anzeige von Metadateneigenschaften für Benutzer im Detailbildschirm des Assets unter der Option [!UICONTROL Metadaten-Forms] unter [!DNL Settings] verwendet werden. Siehe [Metadatenformulare](metadata.md#metadata-forms).
-* Verschiedene Fehlerbehebungen und Produktverbesserungen, einschließlich einer besseren Leistung beim Hochladen eines verschachtelten Ordners mit vielen Unterordnern.
 
 ## Bekannte Probleme {#known-issues}
 
@@ -43,3 +29,21 @@ Die Liste der bekannten Probleme des Angebots [!DNL Assets Essentials] wird lauf
 -->
 
 Wenn Sie auf Probleme stoßen oder sogar Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
+
+## Frühere Versionen {#past-release}
+
+### Version 2021.7.0 {#july2021}
+
+[!DNL Assets Essentials] 2021.7.0 wird am 29. Juli 2021 veröffentlicht, mit folgenden Aktualisierungen:
+
+* Sie können benutzerdefinierte Metadatenformulare erstellen und verwalten, die für die Anzeige von Metadateneigenschaften für Benutzer im Detailbildschirm des Assets unter der Option [!UICONTROL Metadaten-Forms] unter [!DNL Settings] verwendet werden. Siehe [Metadatenformulare](metadata.md#metadata-forms).
+* Verschiedene Fehlerbehebungen und Produktverbesserungen, einschließlich einer besseren Leistung beim Hochladen eines verschachtelten Ordners mit vielen Unterordnern.
+
+### Version 2021.6.0 {#june2021}
+
+Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde, bietet einfache Asset-Management-Funktionen. Es unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
+
+* Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Vorschau der Assets und Versionen anzeigen.
+* Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
+* Grundlegende Asset-Management-Vorgänge wie Aktualisierung, Löschen, Download und Verwalten von Metadaten.
+* [!DNL Assets Essentials] ist verfügbar für  [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de).

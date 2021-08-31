@@ -2,10 +2,10 @@
 title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen können, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und bekannte Probleme.
 role: User, Leader
-source-git-commit: 135832e18bdf7ae66f29638cf548088a83daee8d
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 96%
+source-wordcount: '458'
+ht-degree: 89%
 
 ---
 
@@ -55,19 +55,21 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 
 | Benutzeraufgaben | Funktionalität und Anleitungsinformationen |
 |-----|------|
-| Wie fügt man ein Asset hinzu? | <ul> <li> [Hochladen von Assets](/help/add-delete.md) </li> <li> [Ausgabedarstellungen](/help/add-delete.md#renditions) </li> </ul> |
-| Wie aktualisiert man Assets oder zugehörige Informationen? | <ul> <li>Vorhandenes Asset ändern</li> <li>[Erstellen von Versionen](/help/manage-organize.md#create-versions) und [Anzeigen von Versionen](/help/manage-organize.md#view-versions)</li> <li>[Bearbeiten von Bildern](/help/edit-images.md)</li> </ul> |
-| Wie findet man Assets? | <ul> <li>[Durchsuchen des Repositorys](/help/navigate-view.md#view-assets-and-details) </li> <li> [Anzeigen der Asset-Vorschau](/help/navigate-view.md#preview-assets) und [Herunterladen von Assets](/help/manage-organize.md#download) </li> <li>[Suchen von Assets](/help/search.md)</li></ul> |
-| Wie können Assets im Repository bearbeitet werden? | <ul> <li>[Bearbeitung im Browser mit Adobe Photoshop Express](/help/edit-images.md)</li> <li>[Zuschneiden für ein Social-Media-Profil](/help/edit-images.md#crop-straighten-images)</li> <li>[Versionen anzeigen und verwalten](/help/manage-organize.md#view-versions)</li> <li>[Adobe Asset Link](/help/integration.md#integrations) verwenden</ul></ul> |
-| Wie können Assets im Repository gesucht werden? | <ul> <li>[Suchen in einem bestimmten Ordner](/help/search.md#refine-search-results)</li> <li>[Gespeicherte Suchvorgänge](/help/search.md#saved-search)</li> <li>[Suchen nach kürzlich angezeigten Assets](/help/search.md)</li> <li>[Volltextsuche](/help/search.md) |
-| Wie werden neue Assets hinzugefügt? | <ul> <li>[Hochladen von neuen Assets und Ordnern](/help/add-delete.md#add-assets)</li> <li>[Überwachen des Upload-Fortschritts und Verwalten von Uploads](/help/add-delete.md#upload-progress)</li> <li>[Auflösen von Duplikaten](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
-| Metadatenvorgänge | <ul> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li> [Neues Metadatenformular erstellen](/help/metadata.md#metadata-forms) </li> </ul> |
-| Kann [!DNL Assets Essentials] mit anderen Lösungen integriert werden? | <ul> <li>[Verwenden der Asset-Auswahl in  [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link]  für  [!DNL Creative Cloud]](/help/integration.md)</li> <li>Integration mit [!DNL Creative Cloud Team]-Bibliotheken</li> </ul> |
+| Durchsuchen und Anzeigen von Assets | <ul> <li>[Repository durchsuchen](/help/navigate-view.md#view-assets-and-details) </li> <li> [Anzeigen einer Vorschau für ein Asset](/help/navigate-view.md#preview-assets) <li> [Anzeigen von Ausgabeformaten eines Assets](/help/add-delete.md#renditions) </li> <li>[Anzeigen von Versionen eines Assets](/help/manage-organize.md#view-versions)</li></ul> |
+| Hinzufügen neuer Assets | <ul> <li>[Hochladen von neuen Assets und Ordnern](/help/add-delete.md#add-assets)</li> <li>[Überwachen des Upload-Fortschritts und Verwalten von Uploads](/help/add-delete.md#upload-progress)</li> <li>[Auflösen von Duplikaten](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| Aktualisieren von Assets oder zugehörigen Informationen | <ul> <li>[Bearbeiten von Bildern](/help/edit-images.md)</li> <li>[Erstellen von Versionen](/help/manage-organize.md#create-versions) und [Anzeigen von Versionen](/help/manage-organize.md#view-versions)</li> <li>[Bearbeiten von Bildern](/help/edit-images.md)</li> </ul> |
+| Bearbeiten von Assets | <ul> <li>[Bearbeitung im Browser mit Adobe Photoshop Express](/help/edit-images.md)</li> <li>[Zuschneiden für ein Social-Media-Profil](/help/edit-images.md#crop-straighten-images)</li> <li>[Versionen anzeigen und verwalten](/help/manage-organize.md#view-versions)</li> <li>[Verwenden Sie [!DNL Adobe Asset Link]](/help/integration.md#integrations)</ul></ul> |
+| Suchen nach Assets im Repository | <ul> <li>[Suchen in einem bestimmten Ordner](/help/search.md#refine-search-results)</li> <li>[Gespeicherte Suchvorgänge](/help/search.md#saved-search)</li> <li>[Suchen nach kürzlich angezeigten Assets](/help/search.md)</li> <li>[Volltextsuche](/help/search.md) |
+| Herunterladen von Assets | <ul> <li> [Asset-Vorschau](/help/navigate-view.md#preview-assets) </li> <li> [Herunterladen von Assets](/help/manage-organize.md#download) <li> [Herunterladen von Ausgabedarstellungen](/help/add-delete.md#renditions) </li></ul> |
+| Metadatenvorgänge | <ul> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li> [Metadaten aktualisieren](/help/metadata.md#update-metadata)</li> <li> [Neues Metadatenformular erstellen](/help/metadata.md#metadata-forms) </li> </ul> |
+| Integration mit anderen Lösungen | <ul> <li>[Verwenden der Asset-Auswahl in  [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link]  für  [!DNL Creative Cloud]](/help/integration.md)</li> <li>[Integration mit [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
-<!--TBD: Merge in above table when these use cases are documented/available.
+<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
+
 -->
 
 ## ![feedback icon](assets/do-not-localize/feedback-icon.png) Bereitstellen von Produkt-Feedback {#provide-feedback}
