@@ -2,10 +2,10 @@
 title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen können, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und bekannte Probleme.
 role: User, Leader
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 89%
+source-wordcount: '459'
+ht-degree: 86%
 
 ---
 
@@ -74,7 +74,7 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 
 ## ![feedback icon](assets/do-not-localize/feedback-icon.png) Bereitstellen von Produkt-Feedback {#provide-feedback}
 
-Adobe begrüßt Feedback zur Lösung. Verwenden Sie die Option [!UICONTROL Feedback] in der Benutzeroberfläche, um Feedback zu geben, ohne das laufende Programm zu wechseln. Sie ermöglicht auch das Anhängen von Dateien wie Screenshots oder Videoaufzeichnungen eines Problems.
+Adobe begrüßt Feedback zur Lösung. Verwenden Sie die Option [!UICONTROL Feedback] in der Benutzeroberfläche, um Feedback zu geben, ohne das laufende Programm zu wechseln. Außerdem können Sie damit Dateien wie Screenshots oder Videoaufzeichnungen von Problemen anhängen.
 
 ![Feedback-Option in der Benutzeroberfläche](assets/feedback-panel.png)
 
