@@ -4,7 +4,7 @@ description: Aktualisieren von im Repository vorhandenen Assets
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
 ht-degree: 100%
 
@@ -24,6 +24,6 @@ Link to versioning once an asset is updated.
 >[!MORELIKETHIS]
 >
 >* [Bearbeiten von Bildern](edit-images.md)
-* [Anzeigen von Versionen eines Assets](navigate-view.md#view-versions)
-* [Löschen eines Assets](manage-organize.md#delete-assets)
+>* [Anzeigen von Versionen eines Assets](navigate-view.md#view-versions)
+>* [Löschen eines Assets](manage-organize.md#delete-assets)
 
