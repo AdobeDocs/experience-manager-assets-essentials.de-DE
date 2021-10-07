@@ -3,9 +3,9 @@ title: Hochladen von Assets in das Repository
 description: Hochladen von Assets in  [!DNL Assets Essentials], Anzeigen des Upload-Status und Beheben von Upload-Problemen.
 role: User
 source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Sobald alle Dateien in die Warteschlange gestellt sind, klicken Sie auf **[!UICO
 
 >[!CAUTION]
 >
->Verwenden Sie Assets ohne Leerzeichen in den Dateinamen. Die Antworten auf Kommentare funktionieren nicht für solche Assets.
+>Verwenden Sie Assets ohne Leerzeichen in den Dateinamen. Für solche Assets funktionieren die Antworten auf Kommentare nicht.
 
-## Upload-Fortschritt und -Status anzeigen {#upload-progress}
+## Anzeigen von Upload-Fortschritt und -Status {#upload-progress}
 
 Wenn Sie viele Assets oder verschachtelte Ordner in [!DNL Assets Essentials] hochladen, werden einige Assets möglicherweise aus verschiedenen Gründen (z. B. Probleme mit doppelten Assets oder dem Netzwerk) nicht hochgeladen.
 
@@ -48,11 +48,11 @@ Um eine Teilmenge von Assets basierend auf dem Upload-Fortschritt oder -Status a
 
 *Abbildung: Filtern der Assets, die Sie hochzuladen versucht haben, nach ihrem Upload-Status oder Upload-Fortschritt.*
 
-Unmittelbar nach dem Hochladen der Assets verarbeitet [!DNL Assets Essentials] die Assets, um Miniaturansichten zu generieren und Metadaten zu verarbeiten. Bei vielen Assets dauert die Verarbeitung einige Zeit. Wenn keine Miniaturansicht angezeigt wird und eine Verarbeitungsmeldung an der Platzhalter-Miniaturansicht angezeigt wird, überprüfen Sie den Ordner nach einigen Minuten erneut. Während der Verarbeitung generiert [!DNL Assets Essentials] u. a. die Ausgabedarstellungen, fügt Smart-Tags hinzu und indiziert die Asset-Details für die Suche.
+Unmittelbar nach dem Hochladen der Assets verarbeitet [!DNL Assets Essentials] die Assets, um Miniaturansichten zu generieren und Metadaten zu verarbeiten. Bei vielen Assets dauert die Verarbeitung einige Zeit. Wenn keine Miniaturansicht angezeigt wird und eine Verarbeitungsmeldung an der Platzhalter-Miniaturansicht angezeigt wird, überprüfen Sie den Ordner nach einigen Minuten erneut. Während der Verarbeitung generiert [!DNL Assets Essentials] u. a. die Ausgabedarstellungen, fügt Smart-Tags hinzu und indiziert die Asset-Details für die Suche.
 
-![Assets sind Prozesse beim Hochladen und die Kachel zeigt die Verarbeitung an](assets/upload-processing.png)
+![Assets werden beim Hochladen verarbeitet und die Kachel zeigt die Verarbeitung an](assets/upload-processing.png)
 
-*Abbildung: Hochgeladene Assets zeigen die Verarbeitung der Kachel an, die verarbeitet wird.*
+*Abbildung: Hochgeladene Assets zeigen auf der Kachel an, dass sie verarbeitet werden.*
 
 ## Asset-Ausgabedarstellungen {#renditions}
 
@@ -60,11 +60,11 @@ Unmittelbar nach dem Hochladen der Assets verarbeitet [!DNL Assets Essentials] d
 
 ![Ausgabedarstellungen](assets/renditions-view-download.png)
 
-*Abbildung: Zeigen Sie die Ausgabedarstellungen an und laden Sie sie herunter.*
+*Abbildung: Anzeigen und Herunterladen von Ausgabedarstellungen.*
 
 ## Fehlgeschlagene Uploads verwalten {#resolve-upload-fails}
 
-Wenn das Hochladen eines unterstützten Assets aus irgendeinem Grund fehlschlägt, klicken Sie im Bereich **[!UICONTROL Upload-Fortschritt]** auf [!UICONTROL Wiederholen].
+Wenn das Hochladen eines unterstützten Assets aus irgendeinem Grund fehlschlägt, klicken Sie im Bereich [!UICONTROL Upload-Fortschritt] auf **[!UICONTROL Wiederholen]**.
 
 ![Fehlgeschlagenen Upload wiederholen](assets/upload-retry.png)
 
@@ -94,4 +94,4 @@ Benutzer können nicht mehr benötigte einzelne Assets oder Ordner löschen. Fü
 
    *Abbildung: Aktionen für Dateien und Ordner sind auf der Asset- oder Ordnerkachel verfügbar.*
 
-* Wählen Sie ein Asset oder einen Ordner aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Löschen]** ![delete icon](assets/do-not-localize/delete-icon.png).
+* Wählen Sie ein Asset oder einen Ordner aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Löschen]** ![Löschsymbol](assets/do-not-localize/delete-icon.png).
