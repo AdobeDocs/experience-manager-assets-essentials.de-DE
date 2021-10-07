@@ -4,9 +4,9 @@ description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle 
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: c63e9ab1054398dc055643f0dca6631bae881047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Die verschiedenen Dateitypen haben unterschiedliche Grade der Unterstützung fü
 | Unterstützungsebene | Beschreibung |
 |-------------------|-------------------------|
 | ✓ | Unterstützt |
-| ‡ | Bedingt unterstützt |
+| ✓ ‡ | Bedingt unterstützt |
 | − | Nicht zutreffend |
 
 ## Hinzufügen, Hochladen und Anzeigen von Assets {#support-to-upload-view}
@@ -34,11 +34,11 @@ Die verschiedenen Dateitypen haben unterschiedliche Grade der Unterstützung fü
 
 | Asset-Typ | [Durchsuchen](/help/navigate-view.md) | Kopieren | [Hochladen](/help/add-delete.md) | Erstellen | [Löschen](/help/add-delete.md#delete-assets) | Details | Bild-Zoom | [Kürzlich angesehen](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| Rasterbilder | verwalten | verwalten | verwalten | - | verwalten | verwalten | verwalten | verwalten |
-| Ordner | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | - | - |
-| MP4-Videos | verwalten | verwalten | verwalten | - | verwalten | ‡ | - | verwalten |
-| PDF | verwalten | verwalten | verwalten | - | verwalten | verwalten | - | verwalten |
-| PSD, AI und INDD | verwalten | verwalten | verwalten | - | verwalten | ‡ | - | verwalten |
+| Rasterbilder | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| Ordner | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
+| MP4-Videos | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| PSD, AI und INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -48,40 +48,40 @@ Die verschiedenen Dateitypen haben unterschiedliche Grade der Unterstützung fü
 
 | Asset-Typ | [Download](/help/manage-organize.md#download) | Drag-and-Drop | [Bildeditor](/help/edit-images.md) | [Suchen](/help/search.md) | [Smart-Tags](/help/metadata.md#tags) | [Umbenennen](/help/manage-organize.md) | [Versionen](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
-| Rasterbilder | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
-| Ordner | verwalten | verwalten | - | verwalten | - | verwalten | - |
-| Videos | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
-| CC-Bibliotheken | - | - | - | - | - | verwalten | - |
-| PDF | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
-| PSD | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
-| AI | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
-| INDD | verwalten | verwalten | - | verwalten | verwalten | verwalten | - |
+| Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Ordner | ✓ | ✓ | − | ✓ | − | ✓ | − |
+| Videos | ✓ | ✓ | − | ✓ | ✓ | ✓ | − |
+| CC-Bibliotheken | − | − | − | − | − | ✓ | − |
+| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | − |
+| PSD | ✓ | ✓ | − | ✓ | ✓ | ✓ | − |
+| AI | ✓ | ✓ | − | ✓ | ✓ | ✓ | − |
+| INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | − |
 
 ## Überprüfen von Assets und Zusammenarbeit {#support-to-review-collaborate}
 
 | Asset-Typ | Anmerken | Kommentar | Erstellen von Aufgaben und Überprüfen |
 |---------------|----------|----------|-------------------------|
-| Rasterbilder | verwalten | verwalten | verwalten |
-| Ordner | - | - | - |
-| Videos | - | verwalten | verwalten |
-| CC-Bibliotheken | - | - | - |
-| PDF | - | verwalten | verwalten |
-| PSD | - | verwalten | verwalten |
-| KI | - | verwalten | verwalten |
-| INDD | - | verwalten | verwalten |
+| Rasterbilder | ✓ | ✓ | ✓ |
+| Ordner | − | − | − |
+| Videos | − | ✓ | ✓ |
+| CC-Bibliotheken | − | − | − |
+| PDF | − | ✓ | ✓ |
+| PSD | − | ✓ | ✓ |
+| AI | − | ✓ | ✓ |
+| INDD | − | ✓ | ✓ |
 
 ## Sonstige Asset-Management-Aufgaben {#support-to-manage-assets}
 
 | Asset-Typ | [Metadaten](/help/metadata.md) | [Ausgabedarstellungen](/help/add-delete.md#renditions) | [Papierkorb](/help/add-delete.md#delete-assets) | Kopieren | Verschieben |
 |---------------|-------------------|------------|----------|----------|----------|
-| Rasterbilder | verwalten | verwalten | verwalten | verwalten | verwalten |
-| Ordner | verwalten | - | verwalten | verwalten | verwalten |
-| Videos | verwalten | - | verwalten | verwalten | verwalten |
-| CC-Bibliotheken | verwalten | - | - | - | - |
-| PDF | verwalten | - | verwalten | verwalten | verwalten |
-| PSD | verwalten | - | verwalten | verwalten | verwalten |
-| KI | verwalten | - | verwalten | verwalten | verwalten |
-| INDD | verwalten | - | verwalten | verwalten | verwalten |
+| Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Ordner | ✓ | − | ✓ | ✓ | ✓ |
+| Videos | ✓ | − | ✓ | ✓ | ✓ |
+| CC-Bibliotheken | ✓ | − | − | − | − |
+| PDF | ✓ | − | ✓ | ✓ | ✓ |
+| PSD | ✓ | − | ✓ | ✓ | ✓ |
+| AI | ✓ | − | ✓ | ✓ | ✓ |
+| INDD | ✓ | − | ✓ | ✓ | ✓ |
 
 Benutzer von [!DNL Adobe Asset Link] können die Rasterbilder aus den unterstützten [!DNL Adobe Creative Cloud]-Desktop-Programmen in das [!DNL Assets Essentials]-Repository einchecken.
 
