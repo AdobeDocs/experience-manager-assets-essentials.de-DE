@@ -3,7 +3,7 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Photoshop Express]  unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Um Ihre Änderungen zu speichern, klicken Sie auf **[!UICONTROL Bild zuschneiden
 
 Mit vielen Standardoptionen können Sie Ihr Bild auf die besten Proportionen zuschneiden, die für verschiedene Social-Media-Profile und -Posts geeignet sind.
 
-## Bildgröße ändern {#resize-image}
+## Ändern der Bildgröße {#resize-image}
 
 Ein beliebtes Anwendungsbeispiel ist die Größenanpassung eines Bildes auf eine bestimmte Größe. [!DNL Assets Essentials] ermöglicht es Ihnen, die Größe des Bildes schnell an die gängigen Bildgrößen anzupassen, indem es vorab berechnete neue Auflösungen für bestimmte Bildgrößen bereitstellt. Sie können die gebräuchlichen Bildgrößen in Zentimetern oder Zoll anzeigen, um die Abmessungen zu erfahren. Standardmäßig behält die Methode zur Größenanpassung das Seitenverhältnis bei. Um das Seitenverhältnis manuell zu überschreiben, klicken Sie auf ![](assets/do-not-localize/lock-closed-icon.png).
 
@@ -49,7 +49,7 @@ Geben Sie die Dimensionen ein und klicken Sie auf **[!UICONTROL Bildgröße änd
 
 ![Optionen beim Ändern der Bildgröße](assets/resize-image.png)
 
-## Bild anpassen {#adjust-image}
+## Anpassen von Bildern {#adjust-image}
 
 Mit [!DNL Assets Essentials] können Sie die Farbe, den Ton, den Kontrast und mehr mit nur wenigen Klicks anpassen. Klicken Sie im Bearbeitungsfenster auf **[!UICONTROL Bild anpassen]**. Die folgenden Optionen sind in der rechten Seitenleiste verfügbar:
 
