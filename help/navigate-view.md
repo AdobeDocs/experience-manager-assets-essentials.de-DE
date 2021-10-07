@@ -2,13 +2,13 @@
 title: Benutzeroberfläche von [!DNL Assets Essentials]
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in  [!DNL Assets Essentials].
 role: User
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+exl-id: 534a8084-88f7-410e-b872-719e47e62b10
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 91%
 
 ---
-
 
 # Navigieren zu Dateien und Ordnern und Anzeigen von Assets {#view-assets-and-details}
 

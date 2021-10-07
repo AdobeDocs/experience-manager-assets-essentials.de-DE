@@ -24,7 +24,7 @@ Um [!DNL Assets Essentials] zu verwenden, melden Sie sich unter [https://experie
 
 Weitere Referenzinformationen, die hilfreich sein können, sind [Verständnis der Benutzeroberfläche](/help/navigate-view.md), [Liste der Anwendungsfälle](#use-cases) <!-- TBD: [supported file types](/help/supported-file-formats.md), --> und [Bekannte Probleme](/help/release-notes.md#known-issues).
 
-## Zugriff auf [!DNL Assets Essentials] erhalten  {#get-access}
+## Zugriff auf [!DNL Assets Essentials] erhalten {#get-access}
 
 Adobe stellt die Lösung bereit und fügt die von Ihrem Unternehmen benannte Person als Administrator hinzu. Administratoren können mithilfe von [[!DNL Admin Console]](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschiedenen Benutzern aus dem Unternehmen Zugriff gewähren. Wenden Sie sich bei Anfragen bezüglich Ihres Zugriffs an den Administrator Ihres Unternehmens.
 
@@ -62,7 +62,7 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 | Bearbeiten von Assets | <ul> <li>[Bearbeitung im Browser mit Adobe Photoshop Express](/help/edit-images.md)</li> <li>[Zuschneiden für ein Social-Media-Profil](/help/edit-images.md#crop-straighten-images)</li> <li>[Versionen anzeigen und verwalten](/help/manage-organize.md#view-versions)</li> <li>[Verwenden Sie [!DNL Adobe Asset Link]](/help/integration.md#integrations)</ul></ul> |
 | Suchen nach Assets im Repository | <ul> <li>[Suchen in einem bestimmten Ordner](/help/search.md#refine-search-results)</li> <li>[Gespeicherte Suchvorgänge](/help/search.md#saved-search)</li> <li>[Suchen nach kürzlich angezeigten Assets](/help/search.md)</li> <li>[Volltextsuche](/help/search.md) |
 | Herunterladen von Assets | <ul> <li> [Asset-Vorschau](/help/navigate-view.md#preview-assets) </li> <li> [Herunterladen von Assets](/help/manage-organize.md#download) <li> [Herunterladen von Ausgabedarstellungen](/help/add-delete.md#renditions) </li></ul> |
-| Metadatenvorgänge | <ul> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li> [Metadaten aktualisieren](/help/metadata.md#update-metadata)</li> <li> [Neues Metadatenformular erstellen](/help/metadata.md#metadata-forms) </li> </ul> |
+| Metadatenvorgänge | <ul> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li> [Aktualisieren von Metadaten](/help/metadata.md#update-metadata)</li> <li> [Neues Metadatenformular erstellen](/help/metadata.md#metadata-forms) </li> </ul> |
 | Integration mit anderen Lösungen | <ul> <li>[Verwenden der Asset-Auswahl in  [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link]  für  [!DNL Creative Cloud]](/help/integration.md)</li> <li>[Integration mit [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
@@ -73,13 +73,13 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 
 -->
 
-## ![feedback icon](assets/do-not-localize/feedback-icon.png) Bereitstellen von Produkt-Feedback {#provide-feedback}
+## ![Feedback-Symbol](assets/do-not-localize/feedback-icon.png) Bereitstellen von Produkt-Feedback {#provide-feedback}
 
 Adobe begrüßt Feedback zur Lösung. Verwenden Sie die Option [!UICONTROL Feedback] in der Benutzeroberfläche, um Feedback zu geben, ohne das laufende Programm zu wechseln. Außerdem können Sie damit Dateien wie Screenshots oder Videoaufzeichnungen von Problemen anhängen.
 
 ![Feedback-Option in der Benutzeroberfläche](assets/feedback-panel.png)
 
-Um Feedback für die Dokumentation zu geben, klicken Sie am rechten Rand auf [!UICONTROL Diese Seite bearbeiten] ![edit the page](assets/do-not-localize/edit-page.png) oder [!UICONTROL Einen Fehler protokollieren] ![create a GitHub issue](assets/do-not-localize/github-issue.png). Sie können einen der folgenden Schritte ausführen:
+Um Feedback für die Dokumentation zu geben, klicken Sie am rechten Rand auf [!UICONTROL Diese Seite bearbeiten] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder [!UICONTROL Einen Fehler protokollieren] ![GitHub -Fehler erstellen](assets/do-not-localize/github-issue.png). Sie können einen der folgenden Schritte ausführen:
 
 * Nehmen Sie die Inhaltsaktualisierungen vor und senden Sie eine GitHub-Pull-Anfrage.
 * Erstellen Sie ein Problem oder ein Ticket in GitHub. Behalten Sie beim Erstellen eines Problems den automatisch ausgefüllten Artikelnamen bei.

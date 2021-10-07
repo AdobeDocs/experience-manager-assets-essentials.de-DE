@@ -3,19 +3,19 @@ title: Versionshinweise
 description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 26%
 
 ---
 
-
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
 Die aktuelle Version von [!DNL Assets Essentials] wird am 30. August 2021 veröffentlicht. Es bietet Integrationen mit [!DNL Adobe Workfront] , mit denen [!DNL Workfront] -Benutzer ihre digitalen Assets im Rahmen der Verwaltung ihrer Arbeit verwalten können. Weitere Informationen finden Sie unter [Integrationen mit anderen Adobe-Lösungen](/help/integration.md).
 
-Weitere Informationen zur Lösung finden Sie in der [Einführung zu  [!DNL Assets Essentials]](introduction.md). Informationen zu den ersten Schritten mit den Funktionen finden Sie unter [Erste Schritte](/help/get-started.md).
+Weitere Informationen zur Lösung finden Sie in der [Einführung in  [!DNL Assets Essentials]](introduction.md). Informationen zu den ersten Schritten mit den Funktionen finden Sie unter [Erste Schritte](/help/get-started.md).
 
 ## Bekannte Probleme {#known-issues}
 
@@ -28,7 +28,7 @@ Die Liste der bekannten Probleme des Angebots [!DNL Assets Essentials] wird lauf
 * Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
 -->
 
-Wenn Sie auf Probleme stoßen oder sogar Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
+Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
 ## Frühere Versionen {#past-release}
 
@@ -43,7 +43,7 @@ Wenn Sie auf Probleme stoßen oder sogar Verbesserungsanfragen haben, können Si
 
 Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde, bietet einfache Asset-Management-Funktionen. Es unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
 
-* Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Vorschau der Assets und Versionen anzeigen.
+* Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Anzeigen einer Vorschau der Assets und Versionen.
 * Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
 * Grundlegende Asset-Management-Vorgänge wie Aktualisierung, Löschen, Download und Verwalten von Metadaten.
 * [!DNL Assets Essentials] steht  [!DNL Adobe Journey Optimizer] Benutzern zur Verwaltung der Assets beim Erstellen von Nachrichten zur Verfügung. Weitere Informationen finden Sie unter [Integrationen mit anderen Adobe-Lösungen](/help/integration.md).

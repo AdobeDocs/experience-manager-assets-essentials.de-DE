@@ -3,13 +3,13 @@ title: Verwalten von Metadaten
 description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a176769247bcafcc0497f2480cdec86c5753f218
+exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 58%
 
 ---
-
 
 # Metadaten in [!DNL Assets Essentials] {#metadata}
 
@@ -35,7 +35,7 @@ Um die Metadaten eines Assets anzuzeigen, navigieren Sie zum Asset oder suchen S
 
 Die grundlegenden Metadaten wie Titel, Beschreibung und Upload-Datum sind auf der Registerkarte [!UICONTROL Standard] verfügbar. Die Registerkarte [!UICONTROL Erweitert] enthält erweiterte Metadaten wie Kameramodell, Informationen zum Objektiv und Geotags. Die Registerkarte [!UICONTROL Tags] enthält automatisch vergebene Tags, die auf dem Inhalt des Bildes basieren.
 
-## Metadaten aktualisieren {#update-metadata}
+## Aktualisieren von Metadaten {#update-metadata}
 
 Einige Metadatenfelder können Sie manuell aktualisieren. Diese Felder sind unter anderem [!UICONTROL Titel], [!UICONTROL Beschreibung], [!UICONTROL Autor] und [!UICONTROL Schlüsselwörter].
 

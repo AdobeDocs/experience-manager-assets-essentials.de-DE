@@ -2,7 +2,8 @@
 title: Einführung in  [!DNL Assets Essentials]
 description: Überblick über Assets Essentials und Lösungsbeschreibung
 role: User,Leader
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -21,7 +22,7 @@ Adobe bietet eine stabile DAM-Lösung (Digital Asset Management), mit der Sie Ih
 
 [!DNL Assets Essentials] konzentriert sich auf die einfache Benutzeroberfläche und effizientes Suchen und Auffinden von digitalen Assets, um eine gute Asset-Nutzung, Governance und Markenkonsistenz über alle Teams hinweg sicherzustellen. Das Endbenutzererlebnis kann über eine eigenständige Web-Benutzeroberfläche und ein in andere Adobe-Lösungen eingebettetes Erlebnis erfolgen.
 
-Für Administratoren bietet sie eine einfachere Konfiguration und Verwaltung, die zu einer schnelleren Wertschöpfung führt. Administratoren erhalten sofortigen Zugriff auf die Lösung und können mit den aus [!DNL Adobe Admin Console] bekannten Funktionen und Benutzerberechtigungen arbeiten. Administratoren müssen einen benutzerfreundlichen einmaligen Bereitstellungsschritt durchführen, um die Lösung für Benutzer verfügbar zu machen. Siehe [Bereitstellen und Verwalten](/help/deploy-administer.md).
+Für Administratoren bietet sie eine einfachere Konfiguration und Verwaltung, die zu einer schnelleren Wertschöpfung führt. Administratoren erhalten sofortigen Zugriff auf die Lösung und können mit den aus der [!DNL Adobe Admin Console] bekannten Funktionen und Benutzerberechtigungen arbeiten. Administratoren müssen einen benutzerfreundlichen einmaligen Implementierungsschritt durchführen, um die Lösung für Benutzer verfügbar zu machen. Siehe [Implementieren und Verwalten](/help/deploy-administer.md).
 
 Für Benutzer ist die Verwaltung digitaler Assets mit [!DNL Assets Essentials] so einfach wie in den folgenden drei Schritten beschrieben. Siehe [Erste Schritte mit [!DNL Assets Essentials]](/help/get-started.md).
 
@@ -32,3 +33,4 @@ Für Benutzer ist die Verwaltung digitaler Assets mit [!DNL Assets Essentials] s
 >[!MORELIKETHIS]
 >
 >* [[!DNL Assets Essentials] Blog-Beitrag zur Launch-Ankündigung](https://blog.adobe.com/en/publish/2021/04/27/introducing-adobe-experience-manager-assets-essentials-to-simplify-collaboration-across-teams.html)
+
