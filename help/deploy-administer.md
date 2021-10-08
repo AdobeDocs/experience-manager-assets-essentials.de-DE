@@ -107,5 +107,5 @@ Nach der Implementierung stellen Administratoren [!DNL Assets Essentials] nur ei
 >* [[!DNL Cloud Manager] -Hilfe](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=de)
 >* [Dokumentation zu Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
 >* [Versionshinweise](release-notes.md)
->* Erste Schritte mit  [!DNL Assets Essentials] [!DNL Assets Essentials]](get-started.md)
+>* [Erste Schritte mit [!DNL Assets Essentials]](get-started.md)
 
