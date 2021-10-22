@@ -4,9 +4,9 @@ description: Grundlegendes zur Benutzeroberfläche von und Navigation in  [!DNL 
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ Benutzeroberfläche von ![[!DNL Assets Essentials] ](assets/essentials-interface
 
 Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste durchsuchen. Um das gewünschte Asset schnell zu finden, können Sie zum visuellen Durchsuchen des Repositorys die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen oder um Asset-Details anzuzeigen. Die in der linken Seitenleiste verfügbaren Optionen sind:
 
-* **Assets**: Liste aller Ordner in einer Baumansicht, auf die Sie Zugriff haben.
-* **Kürzlich angezeigt**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Die Assets, die Sie beim Durchsuchen der Repository-Dateien oder -Ordner durchblättern, werden nicht angezeigt.
+* **Assets**: Liste aller Ordner in einer Baumstrukturansicht, auf die Sie Zugriff haben.
+* **Kürzlich angesehen**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Hier werden die Assets, an denen Sie beim Durchsuchen der Repository-Dateien oder -Ordner vorbeiscrollen, nicht angezeigt.
 * **Papierkorb**:
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
