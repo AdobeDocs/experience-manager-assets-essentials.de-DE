@@ -7,7 +7,7 @@ exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Verwenden Sie [!DNL Assets Essentials], um die folgenden Asset-Management-Aufgab
 * ![details icon](assets/do-not-localize/edit-in-icon.png) Anklicken, um ein Asset in der Vorschau anzuzeigen und die detaillierten Metadaten anzuzeigen. Aus der Vorschau heraus können Sie die Versionen anzeigen und ein Bild bearbeiten.
 * ![download icon](assets/do-not-localize/download-icon.png) Lädt das ausgewählte Asset in Ihr lokales Dateisystem herunter.
 * ![delete icon](assets/do-not-localize/delete-icon.png) Löscht das ausgewählte Asset oder den ausgewählten Ordner.
-* ![Checkout-](assets/do-not-localize/checkout-icon.png) SymbolCheckout für das ausgewählte Asset.
+* ![checkout icon](assets/do-not-localize/checkout-icon.png) Checkt das ausgewählte Asset aus.
 * ![copy icon](assets/do-not-localize/copy-icon.png) Kopiert die ausgewählte Datei oder den ausgewählten Ordner.
 * ![move icon](assets/do-not-localize/move-icon.png) Verschiebt das ausgewählte Asset oder den ausgewählten Ordner an einen anderen Speicherort in der Repository-Hierarchie.
 * ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
-* ![Aufgabensymbol zuweisen ](assets/do-not-localize/review-delegate-icon.png) Weisen Sie anderen Benutzern Aufgaben zu, um an einem Asset zusammenzuarbeiten.
+* ![assign task icon](assets/do-not-localize/review-delegate-icon.png) Weist anderen Benutzern Aufgaben zu, damit sie an einem Asset zusammenarbeiten können.
 
 Sie können die gleichen Optionen bei den Miniaturansichten der Assets anzeigen.
 
@@ -47,7 +47,7 @@ Sie können die gleichen Optionen bei den Miniaturansichten der Assets anzeigen.
 
 ## Herunterladen und Verteilen von Assets {#download}
 
-Sie können ein oder mehrere Assets oder Ordner oder eine Kombination aus beiden auswählen und die Auswahl in Ihr lokales Dateisystem herunterladen. Sie können die Assets bearbeiten und erneut hochladen oder die Assets außerhalb von [!DNL Assets Essentials] verteilen. Außerdem können Sie [die Ausgabeformate](/help/add-delete.md#renditions) eines Assets herunterladen.
+Sie können ein oder mehrere Assets oder Ordner oder eine Kombination aus beiden auswählen und die Auswahl in Ihr lokales Dateisystem herunterladen. Sie können die Assets bearbeiten und erneut hochladen oder die Assets außerhalb von [!DNL Assets Essentials] verteilen. Sie können auch [die Ausgabedarstellungen eines Assets herunterladen](/help/add-delete.md#renditions).
 
 ## Asset-Versionierung {#versions-of-assets}
 

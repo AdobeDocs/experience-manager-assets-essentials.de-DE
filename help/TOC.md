@@ -4,14 +4,14 @@ product: adobe experience manager
 audience: end-user
 user-guide-title: Handbuch zu Experience Manager Assets Essentials
 breadcrumb-title: Handbuch zu Assets Essentials
-user-guide-description: Assets Essentials ist eine einfache Asset-Management-Lösung, die von anderen Experience Cloud-Anwendungen aus funktioniert.
+user-guide-description: Assets Essentials ist eine einfache Asset-Management-Lösung, die aus anderen Experience Cloud-Programmen heraus funktioniert.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
 source-git-commit: de379a71d5e5cbd62b42ce3618c67d3d7a6fd941
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
