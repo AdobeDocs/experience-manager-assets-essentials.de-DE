@@ -3,10 +3,10 @@ title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen können, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und bekannte Probleme.
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
+source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,8 @@ Weitere Referenzinformationen, die hilfreich sein können, sind [Verständnis de
 
 Adobe stellt die Lösung bereit und fügt die von Ihrem Unternehmen benannte Person als Administrator hinzu. Administratoren können mithilfe von [[!DNL Admin Console]](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschiedenen Benutzern aus dem Unternehmen Zugriff gewähren. Wenden Sie sich bei Anfragen bezüglich Ihres Zugriffs an den Administrator Ihres Unternehmens.
 
+Wenn Sie sich anmelden, nachdem Sie die Anmeldeinformationen angegeben haben, [!DNL Assets Essentials] fordert Sie auf, ein Konto auszuwählen. Wählen Sie in diesem Fall `Company or School Account` um fortzufahren.
+
 ## Konfigurieren von [!DNL Assets Essentials] {#configuration}
 
 Um die Voreinstellungen zu öffnen, klicken Sie auf den Avatar in der oberen rechten Ecke der Benutzeroberfläche. Sie können in den Lösungsvoreinstellungen zwischen den hellen und den dunklen Themen wechseln.
@@ -37,18 +39,6 @@ Wenn Sie Mitglied verschiedener Organisationen sind, können Sie auch die Organi
 Um Ihre [!UICONTROL Experience Cloud-Voreinstellungen] zu ändern, klicken Sie auf [!UICONTROL Voreinstellungen].
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/theme-change.png)
-
-<!-- TBD: What can admins configure? What more can users configure? Any doc that describes Exp Cloud preferences? 
-Metadata forms is out of the scope of 6/17 GA. When the functionality is added, link to it from here. It is about configuring metadata UI. -->
-
-<!-- TBD: This section contains beta-specific video that will be updated post-GA.
-
-## Login experience {#login-experience}
-
-When logging in, after providing the credentials, you can be prompted to select an account. In this case, select `Company or School Account` to proceed.
-
-![Select an account to login](assets/do-not-localize/login-experience.gif)
--->
 
 ## [!DNL Assets Essentials]-Anwendungsfälle  {#use-cases}
 

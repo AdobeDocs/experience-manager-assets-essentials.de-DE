@@ -3,10 +3,10 @@ title: Benutzeroberfläche von [!DNL Assets Essentials]
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in  [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
+source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 Benutzeroberfläche von ![[!DNL Assets Essentials] ](assets/essentials-interface1.png)
 
-*Abbildung: Erster Anmeldebildschirm und wo Sie die wichtigsten Funktionen finden.*
+*Abbildung: Erster Bildschirm nach Anmeldung und Speicherort der wichtigsten Funktionen.*
     *A: Linke Seitenleiste zum Durchsuchen des Repositorys. Bietet Zugriff auf einige andere Optionen.*
     *B: Linke Seitenleiste minimieren oder erweitern, um den Asset-Ansichtsbereich zu vergrößern.*
     *C: Suchergebnisse filtern.*
