@@ -3,10 +3,10 @@ title: Benutzeroberfläche von [!DNL Assets Essentials]
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in  [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
 
@@ -91,11 +91,16 @@ Um ein Asset in der Vorschau anzuzeigen, wählen Sie es aus und klicken Sie oben
 *K: Genauere Vorschau anzeigen. Zoom, Vollbild und andere Optionen.*
 *L: Fortfahren mit dem vorherigen oder nächsten Asset im aktuellen Ordner, ohne zum Ordner zurückzugehen.*
 
+Sie können auch eine Vorschau der Videos anzeigen.
+
+![Videovorschau](/help/assets/preview-video.png)
+
+Wenn Sie ein Asset explizit in der Vorschau anzeigen, dann [!DNL Assets Essentials] zeigt es als kürzlich angezeigtes Asset an.
+
 <!-- TBD: Describe the options.
 
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
-
 -->
 
 >[!MORELIKETHIS]
