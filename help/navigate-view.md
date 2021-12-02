@@ -6,7 +6,7 @@ exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Sie können auch eine Vorschau der Videos anzeigen.
 
 ![Videovorschau](/help/assets/preview-video.png)
 
-Wenn Sie ein Asset explizit in der Vorschau anzeigen, dann [!DNL Assets Essentials] zeigt es als kürzlich angezeigtes Asset an.
+Wenn Sie ein Asset explizit in der Vorschau anzeigen, wird es in [!DNL Assets Essentials] als kürzlich angesehenes Asset angezeigt.
 
 <!-- TBD: Describe the options.
 
