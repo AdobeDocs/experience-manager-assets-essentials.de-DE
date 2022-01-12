@@ -4,9 +4,9 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
-workflow-type: ht
-source-wordcount: '382'
+source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
+workflow-type: tm+mt
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Weitere Informationen zur Lösung finden Sie in der [Einführung in  [!DNL Asset
 
 Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
 
-* Einzelne Assets können nicht in den obersten Ordner (Assets) hochgeladen werden, sondern nur in einen Unterordner im System. <!-- CQ-4337638 -->
+* Ohne
 
 Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
