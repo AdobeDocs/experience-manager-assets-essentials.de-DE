@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials ist eine einfache Asset-Management-Lö
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: 2288978e148f26b7020e5792cba00b91ba180e55
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 94%
+source-wordcount: '64'
+ht-degree: 100%
 
 ---
 
@@ -29,5 +29,4 @@ ht-degree: 94%
 + [Asset-Management-Aufgaben](manage-organize.md)
 + [Bearbeiten von Bildern](edit-images.md)
 + [Verwalten von Asset-Metadaten](metadata.md)
-+ [Freigeben von Links für Assets](share-links-for-assets.md)
 + [Integration mit anderen Lösungen](integration.md)

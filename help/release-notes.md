@@ -4,24 +4,16 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 81%
+source-wordcount: '364'
+ht-degree: 92%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von [!DNL Assets Essentials] wird am 3. Februar 2022 veröffentlicht. In dieser Version:
-
-* [!DNL Assets Essentials] ermöglicht es Ihnen jetzt, einen Link zu erstellen und Assets für andere freizugeben, die keinen Zugriff auf die [!DNL Assets Essentials] Anwendung. Sie können Folgendes definieren: <!-- CQ-4329575 -->
-
-   * Ein Ablaufdatum für den Link
-
-   * Wenn die Empfänger das Asset nach dem Zugriff auf den Link herunterladen dürfen.
-
-   Basierend auf diesen Einstellungen kann der Empfänger des Links auswählen, ob er die Assets in der Vorschau anzeigen oder sie herunterladen möchte.
+Die aktuelle Version von [!DNL Assets Essentials] wird am 3. Februar 2022 veröffentlicht. Diese Version enthält:
 
 * Leistungsverbesserungen für die [!UICONTROL Ordner erstellen] Vorgang. <!-- CQ-4338818 -->
 
