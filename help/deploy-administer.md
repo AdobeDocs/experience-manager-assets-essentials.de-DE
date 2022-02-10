@@ -4,9 +4,9 @@ description: Anwendungsfälle für Administratoren, wie z. B. Implementieren un
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: cbf75aaf05a0f3d798edf4d508325b28d9ca0dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,29 +14,29 @@ ht-degree: 87%
 
 [!DNL Adobe Experience Manager Assets Essentials] wird von Adobe für seine Kunden bereitgestellt. Im Rahmen der Implementierung wird [!DNL Assets Essentials] in der [!DNL Adobe Admin Console] zur Organisation eines Kunden hinzugefügt. Kunden haben auch Zugriff auf [!DNL Experience Manager Cloud Manager] als Implementierungs-Tool und auf [!DNL Admin Console], um Benutzerberechtigungen für die [!DNL Assets Essentials]-Lösung zu verwalten.
 
-## Automatische Bereitstellung von Assets Essentials {#automatic-deployment-assets-essentials}
+## Automatische Implementierung von Assets Essentials {#automatic-deployment-assets-essentials}
 
-Nachdem die Assets Essentials-Lösung bereitgestellt wurde, erhält der Administrator eine E-Mail von Adobe. Die E-Mail enthält eine Begrüßungsnachricht und einen Link zu den ersten Schritten. Darüber hinaus startet Adobe den Prozess zur automatischen Bereitstellung von Assets Essentials. Der Implementierungsprozess dauert eine Stunde.
+Nachdem die Assets Essentials-Lösung bereitgestellt wurde, erhält der Administrator eine E-Mail von Adobe. Die E-Mail enthält eine Willkommensnachricht und einen Link zu den ersten Schritten. Darüber hinaus startet Adobe den Prozess zur automatischen Implementierung von Assets Essentials. Der Implementierungsprozess dauert eine Stunde.
 
-Greifen Sie über den Link in der E-Mail auf die [Admin Console](https://adminconsole.adobe.com) zu und melden Sie sich an. Wenn Sie Administratorzugriff auf mehr als ein Konto einer Organisation haben, wählen Sie die entsprechende Organisation aus oder wechseln Sie mithilfe des Umschalters in der oberen Leiste zu ihr. Sobald der automatische Bereitstellungsprozess abgeschlossen ist, wird die Produktkarte für [!DNL AEM Assets Essentials] ist im [!DNL Admin Console].
+Greifen Sie über den Link in der E-Mail auf die [Admin Console](https://adminconsole.adobe.com) zu und melden Sie sich an. Wenn Sie Administratorzugriff auf mehr als ein Konto einer Organisation haben, wählen Sie die entsprechende Organisation aus oder wechseln Sie mithilfe des Umschalters in der oberen Leiste zu ihr. Sobald der automatische Implementierungsprozess abgeschlossen ist, wird die Produktkarte für [!DNL AEM Assets Essentials] in [!DNL Admin Console] angezeigt.
 
-![Assets Essentials-Implementierung](assets/assets-essentials-deployment.png)
+![Implementierung von Assets Essentials](assets/assets-essentials-deployment.png)
 
-Administratoren müssen nach erfolgreicher Bereitstellung der Assets Essentials-Lösung die folgenden Aufgaben ausführen:
+Administratoren müssen nach erfolgreicher Implementierung der Assets Essentials-Lösung die folgenden Aufgaben ausführen:
 
 * [Verwalten des Benutzerzugriffs ](#add-users-to-essentials) von Organisationsmitgliedern auf [!DNL Assets Essentials].
 * Optional können Sie [den Service-Status und die Protokolle](#view-logs) anzeigen.
 
 >[!NOTE]
 >
->Wenn Assets Essentials vor dem 6. Januar 2022 bereitgestellt wird, führen Sie die [Implementierungsschritte in Cloud Manager](#deploy-essentials) vor der Verwaltung des Benutzerzugriffs von Organisationsmitgliedern.
+>Wenn Assets Essentials vor dem 6. Januar 2022 bereitgestellt wurde, führen Sie die [Implementierungsschritte in Cloud Manager](#deploy-essentials) durch und verwalten Sie anschließend den Benutzerzugriff von Mitgliedern Ihres Unternehmens.
 
 
 ## Benutzerverwaltung {#add-users-to-essentials}
 
 Ein Administrator verwaltet, welche Benutzer Zugriff auf [!DNL Assets Essentials] haben. Administratoren verwenden die [!DNL Adobe Admin Console], um Benutzerzugriff hinzuzufügen oder zu entfernen. [!DNL Assets Essentials] verfügt über die folgenden beiden Arten von Benutzerzugriff.
 
-* Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf die gesamte Benutzeroberfläche. Diese Benutzer können digitale Assets hochladen, organisieren, taggen und suchen.
+* Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf die gesamte Benutzeroberfläche. Diese Benutzer können digitale Assets hochladen, organisieren, taggen und suchen.
 * Endverbraucher-Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf das eingebettete Asset-Auswahlerlebnis im E-Mail-Vorlageneditor von [!DNL Adobe Journey Optimizer]. Weitere Informationen finden Sie unter [Verwenden von  [!DNL Assets Essentials]  in  [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de).
 
 In der [!DNL Admin Console] werden diese beiden Zugriffstypen durch zwei [!UICONTROL Produktprofile] dargestellt. Gehen Sie wie folgt vor, um Mitglieder Ihrer Organisation zu einem der beiden Profile hinzuzufügen oder daraus zu entfernen:
@@ -49,7 +49,7 @@ In der [!DNL Admin Console] werden diese beiden Zugriffstypen durch zwei [!UICON
 
 1. Um einen Benutzer zu einer Gruppe hinzuzufügen, klicken Sie auf die Gruppe, wählen Sie **[!UICONTROL Benutzer hinzufügen]**, geben Sie die Benutzerdetails an und klicken Sie auf **[!UICONTROL Speichern]**. Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
 
-   ![Benutzer hinzufügen zu [!DNL Assets Essentials]](assets/adminconsole-add-user.png) 
+   ![Benutzer hinzufügen zu [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
 
    *Abbildung: Hinzufügen eines Benutzers zu [!DNL Assets Essentials] von der [!DNL Admin Console] aus.*
 
@@ -91,7 +91,7 @@ Nach der Implementierung wird Ihrer Organisation die Berechtigung für [!DNL Ass
 
    >[!NOTE]
    >
-   >Wenn Sie die **[!UICONTROL AEM Assets Essentials]** -Karte im Abschnitt &quot;Produkte&quot;anstelle von **[!UICONTROL AEM Assets Essentials - Cloud Manager]** -Karte, ist die Bereitstellung von Assets Essentials bereits abgeschlossen. Sie können die verbleibenden Schritte überspringen.
+   >Wenn Sie im Abschnitt „Produkte“ die Karte von **[!UICONTROL AEM Assets Essentials]** anstelle der Karte von **[!UICONTROL AEM Assets Essentials – Cloud Manager]** sehen, ist die Implementierung von Assets Essentials bereits abgeschlossen. Sie können dann die verbleibenden Schritte überspringen.
 
 1. Fügen Sie sich als Administrator dem `AEM Assets Essentials - Cloud Manager`-Produktprofil in der [!DNL Admin Console] hinzu. Statt sich selbst können Sie ein anderes Mitglied Ihrer Organisation hinzufügen oder mehr als einen Administrator hinzufügen.
 
