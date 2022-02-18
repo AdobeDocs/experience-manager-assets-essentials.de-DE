@@ -5,23 +5,23 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von [!DNL Assets Essentials] wird am 3. Februar 2022 veröffentlicht. Diese Version enthält:
+Die aktuelle Version von [!DNL Assets Essentials] wurde am 3. Februar 2022 veröffentlicht. Diese Version enthält:
 
-* Leistungsverbesserungen für die [!UICONTROL Ordner erstellen] Vorgang. <!-- CQ-4338818 -->
+* Leistungsverbesserungen für den Vorgang [!UICONTROL Ordner erstellen]. <!-- CQ-4338818 -->
 
 ## Bekannte Probleme {#known-issues}
 
 Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
 
-* Ohne
+* Keine
 
 Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
@@ -29,7 +29,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### Version 2021.11.0 {#november-2021}
 
-[!DNL Assets Essentials] wird am 16. Dezember 2021 veröffentlicht, mit folgenden Aktualisierungen:
+[!DNL Assets Essentials] wurde am 16. Dezember 2021 veröffentlicht und umfasst folgende Updates:
 
 * Adobe stellt Assets Essentials nach Abschluss des Bereitstellungsprozesses automatisch bereit. Die Administratoren müssen keine zusätzlichen Schritte ausführen, um Assets Essentials mithilfe der [!DNL Cloud Manager]-Benutzeroberfläche bereitzustellen. Diese automatische Bereitstellung ist für Umgebungen verfügbar, die nach dem 6. Januar 2022 bereitgestellt werden.
 * Neue Versionen von Creative Cloud-Plug-ins, die mit Assets Essentials funktionieren, sind auf Adobe Exchange verfügbar - [Adobe Asset Link für Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) und [Adobe Asset Link für Photoshop/InDesign/Illustrator 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
