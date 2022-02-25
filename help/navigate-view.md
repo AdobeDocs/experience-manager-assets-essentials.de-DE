@@ -1,12 +1,12 @@
 ---
-title: Benutzeroberfläche von [!DNL Assets Essentials]
+title: '"[!DNL Assets Essentials] Benutzeroberfläche"'
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in  [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
+source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
