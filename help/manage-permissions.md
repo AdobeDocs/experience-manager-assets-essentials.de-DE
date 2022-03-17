@@ -2,7 +2,7 @@
 title: Verwalten von Berechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie die Berechtigungsverwaltungsberechtigungen auch Benutzergruppen auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 94435a9fc17ab02c6872bb165a4cb697b56d5602
+source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -93,13 +93,13 @@ Wenn Sie beispielsweise die `Can View` Berechtigungen für einen Ordner zu einer
 
 Wenn Sie der `Marketing` Ordner nur der Marketing-Abteilung Ihres Unternehmens zuweisen und Berechtigungen für andere anzeigen, `Can View` Berechtigungen für die Supergruppe `All Authenticated Users` und `Can Edit` Berechtigungen für seine Untergruppe `Marketing`.
 
-![Berechtigungen zuweisen](assets/permissions-management-groups-new.png)
+![Berechtigungen zuweisen](assets/permissions-management-groups.svg)
 
 **Berechtigungsvererbung**
 
 Assets Essentials verwendet die Berechtigungsvererbung, mit der Sie die für den übergeordneten Ordner im untergeordneten Ordner festgelegten Berechtigungen erben können. Wenn der übergeordnete Ordner beispielsweise `Can View` Berechtigungen für `All Authenticated Users` und der untergeordnete Ordner `Can Edit` Berechtigungen für `Marketing` Benutzergruppe, ermöglicht es allen authentifizierten Benutzern, Anzeigeberechtigungen für den untergeordneten Ordner und die `Marketing` Benutzergruppe, um Bearbeitungsberechtigungen für den untergeordneten Ordner zu erhalten. Die `Marketing` Benutzergruppe hat Bearbeitungsberechtigungen für weitere Ordnerebenen unter dem untergeordneten Ordner (Marketing).
 
-![Berechtigungen zuweisen](assets/permissions-inheritance-new.png)
+![Berechtigungen zuweisen](assets/permissions-inheritance.svg)
 
 >[!NOTE]
 >
