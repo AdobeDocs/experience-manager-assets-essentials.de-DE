@@ -2,7 +2,7 @@
 title: Verwalten von Berechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie die Berechtigungsverwaltungsberechtigungen auch Benutzergruppen auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 800ebc5040dcd4b6ed4178314b0627cbde7ddeaf
+source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -99,7 +99,7 @@ Wenn Sie der `Marketing` Ordner nur der Marketing-Abteilung Ihres Unternehmens z
 
 Assets Essentials verwendet die Berechtigungsvererbung, mit der Sie die für den übergeordneten Ordner im untergeordneten Ordner festgelegten Berechtigungen erben können. Wenn der übergeordnete Ordner beispielsweise `Can View` Berechtigungen für `All Authenticated Users` und der untergeordnete Ordner `Can Edit` Berechtigungen für `Marketing` Benutzergruppe, ermöglicht es allen authentifizierten Benutzern, Anzeigeberechtigungen für den untergeordneten Ordner und die `Marketing` Benutzergruppe, um Bearbeitungsberechtigungen für den untergeordneten Ordner zu erhalten. Die `Marketing` Benutzergruppe hat Bearbeitungsberechtigungen für weitere Ordnerebenen unter dem untergeordneten Ordner (Marketing).
 
-![Berechtigungen zuweisen](assets/permissions-inheritance.png)
+![Berechtigungen zuweisen](assets/permissions-inheritance-updated.png)
 
 >[!NOTE]
 >
