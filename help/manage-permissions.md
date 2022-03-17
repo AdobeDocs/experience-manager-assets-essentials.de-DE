@@ -2,7 +2,7 @@
 title: Verwalten von Berechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie die Berechtigungsverwaltungsberechtigungen auch Benutzergruppen auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
+source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -15,7 +15,7 @@ Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner ver
 
 Das folgende Datenflussdiagramm zeigt die Abfolge von Aufgaben, die Sie zum Konfigurieren und Verwalten von Berechtigungen für Ordner ausführen, die im Assets Essentials-Repository verfügbar sind:
 
-![Symbolleistenoptionen bei der Auswahl eines Assets](assets/permissions-management.png)
+![Symbolleistenoptionen bei der Auswahl eines Assets](assets/permissions-management-updated.png)
 
 ## Vor dem Verwalten von Berechtigungen für Ordner {#before-managing-permissions}
 
@@ -93,7 +93,7 @@ Wenn Sie beispielsweise die `Can View` Berechtigungen für einen Ordner zu einer
 
 Wenn Sie der `Marketing` Ordner nur der Marketing-Abteilung Ihres Unternehmens zuweisen und Berechtigungen für andere anzeigen, `Can View` Berechtigungen für die Supergruppe `All Authenticated Users` und `Can Edit` Berechtigungen für seine Untergruppe `Marketing`.
 
-![Berechtigungen zuweisen](assets/permissions-management-groups.png)
+![Berechtigungen zuweisen](assets/permissions-management-groups-updated.png)
 
 **Berechtigungsvererbung**
 
@@ -183,7 +183,7 @@ Erstellen Sie die folgenden Benutzergruppen in Admin Console:
 * Rechtspersonal
 
 Die folgende Abbildung zeigt die Ordnerhierarchie und die den einzelnen Benutzergruppen zugewiesenen Berechtigungen:
-![Berechtigungen zuweisen](assets/use-case-permissions-mamagement.png)
+![Berechtigungen zuweisen](assets/use-case-permissions-management.png)
 
 Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordnerhierarchie:
 
