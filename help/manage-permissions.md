@@ -2,7 +2,7 @@
 title: Verwalten von Berechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie die Berechtigungsverwaltungsberechtigungen auch Benutzergruppen auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
+source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -70,7 +70,7 @@ Sie können die folgenden Methoden verwenden, um eine Ordnerstruktur im Assets E
 
 Erstellen Sie eine Ordnerstruktur, die den Geschäftszielen der Organisation entspricht. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Berechtigungsverwaltung](permission-management-best-practices.md).
 
-## Berechtigungen für Ordner verwalten {#manage-permissions-folders}
+## Berechtigungen für Ordner verwalten {#manage-permissions-on-folders}
 
 Sie können die folgenden Berechtigungen den Benutzergruppen oder Benutzern zuweisen. Adobe rät davon ab, Benutzern Berechtigungen zuzuweisen.
 
