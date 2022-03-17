@@ -1,7 +1,8 @@
 ---
 title: Verwalten von Berechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie die Berechtigungsverwaltungsberechtigungen auch Benutzergruppen auf Ordnerebene zuweisen.
-source-git-commit: 0567ef9d10880750f88d83ee506d9b95e9432a93
+exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
+source-git-commit: 800ebc5040dcd4b6ed4178314b0627cbde7ddeaf
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -42,7 +43,7 @@ Hinzufügen von Administratoren:
 
 Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zu, um Ordnerzugriffsstufen im Assets Essentials-Repository zu verwalten. Anschließend können Sie Ihre Benutzer den Benutzergruppen zuweisen.
 
-![Hinzufügen von Benutzern zu Gruppen und Produktprofilen](assets/user-groups-product-profiles.png)
+![Hinzufügen von Benutzern zu Gruppen und Produktprofilen](assets/user-groups-product-profiles-updated.png)
 
 Sie können Benutzer zu Benutzergruppen (1) hinzufügen und [Anwender für Assets Essentials-Produktprofile (2)](#add-admin-users). Es ist jedoch nicht möglich, Benutzergruppen direkt zu Assets Essentials-Produktprofilen (3) hinzuzufügen.
 
