@@ -1,65 +1,65 @@
 ---
 title: Wie können Ordnerberechtigungen effektiv verwaltet werden?
-description: Best Practices für die effektive Berechtigungsverwaltung
+description: Best Practices für die effektive Verwaltung von Zugriffsberechtigungen
 source-git-commit: fe716385939d18aa23d01dac5fe5f041541d2b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Best Practices für die effektive Berechtigungsverwaltung {#best-practices-permissions-management}
+# Best Practices für die effektive Verwaltung von Zugriffsberechtigungen {#best-practices-permissions-management}
 
 Bevor Sie als Administrator mit der Verwaltung der Ordnerberechtigungen für das Assets Essentials-Repository beginnen, gibt es verschiedene Best Practices, die Sie implementieren können, um die Infrastruktur für Administratoren und Endbenutzer während der Verwaltung von Vorgängen intuitiv zu gestalten.
 
-Sie können diese Best Practices bei Folgendem einbinden:
+Sie können diese Best Practices bei den folgenden Aufgaben einbinden:
 
-* [Erstellen von Benutzergruppen in Admin Console](#admin-console-best-practices)
+* [Erstellen von Benutzergruppen in der Admin Console](#admin-console-best-practices)
 
 * [Erstellen der Ordnerstruktur im Assets Essentials-Repository](#folder-structure-assets-essentials)
 
-* [Berechtigungen im Assets Essentials-Repository verwalten](#folder-permissions)
+* [Verwalten von Zugriffsberechtigungen im Assets Essentials-Repository](#folder-permissions)
 
 ## Admin Console {#admin-console-best-practices}
 
-Identifizieren Sie die Zugriffsanforderungen anhand von Benutzergruppen in Ihrer Organisation. Planen und erstellen Sie Benutzergruppen für Ihre Organisation und fügen Sie diesen Benutzergruppen Benutzer hinzu. Es ist einfacher, Ordnerberechtigungen auf der Basis von Benutzergruppen und nicht einzelnen Benutzern zu verwalten.
+Identifizieren Sie die Zugriffsanforderungen anhand von Benutzergruppen in Ihrem Unternehmen. Planen und erstellen Sie Benutzergruppen für Ihr Unternehmen und fügen Sie Benutzer zu diesen Benutzergruppen hinzu. Es ist einfacher, Ordnerberechtigungen auf der Basis von Benutzergruppen und nicht einzelnen Benutzern zu verwalten.
 
-## Ordnerstruktur für Assets Essentials-Repository {#folder-structure-assets-essentials}
+## Ordnerstruktur für das Assets Essentials-Repository {#folder-structure-assets-essentials}
 
 Beachten Sie die folgenden Punkte, wenn Sie mit der Erstellung einer Ordnerstruktur im Assets Essentials-Repository beginnen:
 
-* Zukünftige Governance: Die Ordner, die von Administratoren verwaltet werden, und die Ordner, die [wurde für Berechtigungen an andere Benutzer als Eigentümer delegiert](manage-permissions.md##manage-permissions-folders).
+* Zukünftige Governance: Die Ordner, die von Administratoren verwaltet werden, und die Ordner, die [für Berechtigungen an andere Benutzer als Inhaber delegiert](manage-permissions.md##manage-permissions-folders) wurden.
 
 * Skalierbar: Die Ordnerstruktur sollte den künftigen Anforderungen Ihres Unternehmens entsprechen und leicht skalierbar sein.
 
-* Größe: Ein Ordner darf nicht zu viele Assets enthalten. Dies kann zu Benutzerfreundlichkeits-Problemen führen und schwierig zu handhaben sein.
+* Größe: Ein Ordner darf nicht zu viele Medienelemente enthalten. Dies kann zu Problemen bei der Benutzung führen und schwierig zu handhaben sein.
 
-* Intuitiv: Die Ordnerstruktur sollte für die Endbenutzer einfach zu durchsuchen und intuitiv zu gestalten sein. Benutzer sollten leicht erkennen können, wo ein neues Asset in die Ordnerstruktur hochgeladen werden soll.
+* Intuitiv: Die Ordnerstruktur sollte für die Endbenutzer einfach zu durchsuchen und intuitiv gestaltet sein. Benutzer sollten leicht erkennen können, wo ein neues Medienelement in die Ordnerstruktur hochgeladen werden soll.
 
 Es gibt verschiedene mögliche Ordnerstrukturtypen, die Sie für Ihr Unternehmen verwenden können. Im Folgenden finden Sie einige Beispiele für typische Ordnerstrukturen:
 
-* Funktion und Kategorisierung basierend
+* Basierend auf Funktion und Kategorisierung
 
    ![Funktion und Kategorisierung](assets/function-categorization.png)
 
 * Kampagnenbasiert
 
-   ![Kampagnenbasiert](assets/campaign-based.png)
+   ![Basierend auf Kampagnen](assets/campaign-based.png)
 
-* Angebotsposition (oder -kanal) basierend
+* Basierend auf Angebotsposition (oder Kanal)
 
-   ![Angebotsposition basierend](assets/offer-location.png)
+   ![Basierend auf Angebotsposition](assets/offer-location.png)
 
 
 ## Ordnerberechtigungen {#folder-permissions}
 
-Nachdem Sie Benutzergruppen für Ihr Unternehmen erstellt, Benutzer zu diesen Benutzergruppen hinzugefügt und eine Ordnerstruktur im Assets Essentials-Repository ausgewählt und erstellt haben, die den Anforderungen Ihres Unternehmens entspricht, können Sie mit der Verwaltung von Ordnerberechtigungen für Ihr Unternehmen beginnen. Beachten Sie beim Verwalten von Ordnerberechtigungen die folgenden Punkte:
+Nachdem Sie Benutzergruppen für Ihr Unternehmen erstellt, Benutzer zu diesen Benutzergruppen hinzugefügt und eine Ordnerstruktur im Assets Essentials-Repository ausgewählt und erstellt haben, die den Anforderungen Ihres Unternehmens entspricht, können Sie mit dem Verwalten von Ordnerberechtigungen für Ihr Unternehmen beginnen. Beachten Sie beim Verwalten von Ordnerberechtigungen die folgenden Punkte:
 
-* Wenden Sie Berechtigungen für Benutzergruppen an, nicht für einzelne Benutzer. Dies führt zu einer einfacheren, effizienteren Berechtigungsstruktur.
+* Wenden Sie Zugriffsberechtigungen für Benutzergruppen an, nicht für einzelne Benutzer. Damit erzielen Sie eine einfachere, effizientere Struktur der Zugriffsberechtigungen.
 
-* Halten Sie die Berechtigungsstruktur so einfach wie möglich, um betriebliche Effizienz zu erzielen.
+* Halten Sie die Struktur der Zugriffsberechtigungen so einfach wie möglich, um effiziente Arbeitsabläufe zu gewährleisten.
 
-* Verwenden Sie sorgfältig Zugriffsberechtigungen verweigern und bevorzugen Sie es, positive Berechtigungen (Kann bearbeiten, Kann anzeigen, Inhaber) auf die Ordnerstruktur anzuwenden.
+* Verwenden Sie das Verweigern von Zugriffsberechtigungen mit Bedacht und wenden Sie eher positive Berechtigungen (Bearbeiten, Anzeigen, Inhaber) auf die Ordnerstruktur an.
 
-Beispiele für das Erzielen einer effizienten und einfachen Ordnerstruktur finden Sie unter [Berechtigungen für Ordner verwalten](manage-permissions.md##manage-permissions-folders).
+Beispiele für das Erzielen einer effizienten und einfachen Ordnerstruktur finden Sie unter [Verwalten von Zugriffsberechtigungen auf Ordner](manage-permissions.md##manage-permissions-folders).
 
