@@ -7,23 +7,23 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von [!DNL Assets Essentials] wird am 9. März 2022 veröffentlicht. Diese Version enthält:
+Die aktuelle Version von [!DNL Assets Essentials] wurde am 09. März 2022 veröffentlicht. Was diese Version bietet:
 
-* [!DNL Assets Essentials] ermöglicht Ihnen jetzt, [Link erstellen und Assets für externe Stakeholder freigeben](share-links-for-assets.md), die keinen Zugriff auf die [!DNL Assets Essentials] Anwendung. Sie können ein Ablaufdatum für den Link definieren und ihn dann mithilfe Ihrer bevorzugten Kommunikationsmethode wie E-Mail oder Messaging-Services für andere freigeben. Empfänger des Links können eine Vorschau der Assets anzeigen und sie herunterladen.
+* Mit [!DNL Assets Essentials] können Sie jetzt [einen Link erstellen und Medienelemente für externe Beteiligte freigeben](share-links-for-assets.md), die keinen Zugriff auf das Programm [!DNL Assets Essentials] haben. Sie können ein Ablaufdatum für den Link definieren und ihn dann mithilfe Ihrer bevorzugten Kommunikationsmethode wie E-Mail oder Messaging-Services für andere freigeben. Empfänger des Links können eine Vorschau der Medienelemente anzeigen und sie herunterladen.
 
-* Die [!DNL Assets Essentials] umfasst [Administratorproduktprofil](deploy-administer.md#add-users-to-essentials) auf Admin Console zusätzlich zu den bestehenden regulären und Verbraucherproduktprofilen. Ein Administrator kann jetzt weitere Benutzer dem Administrator-Produktprofil zuweisen.
+* [!DNL Assets Essentials] besitzt jetzt zusätzlich zu den bestehenden regulären und Privatkundenproduktprofilen in der Admin Console auch [ein Administratorproduktprofil](deploy-administer.md#add-users-to-essentials). Ein Administrator kann dem Administratorproduktprofil jetzt weitere Benutzer zuweisen.
 
-* Assets Essentials ermöglicht es Administratoren jetzt, [Verwalten der Zugriffsebenen für Ordner, die im Repository verfügbar sind](manage-permissions.md). Als Administrator können Sie Benutzergruppen erstellen und diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zuweisen. Sie können die Berechtigungsverwaltungsberechtigungen auch auf Ordnerebene Benutzergruppen zuweisen.
+* Assets Essentials ermöglicht es Administratoren jetzt, [die Zugriffsebenen für im Repository verfügbare Ordner zu verwalten](manage-permissions.md). Als Administrator können Sie Benutzergruppen erstellen und diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zuweisen. Sie können Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 
 * Verbesserungen und Fehlerkorrekturen basierend auf dem Kunden-Feedback.
 
-Darüber hinaus [!DNL Adobe Asset Link] -Erweiterung für Creative Cloud (Photoshop, Illustrator und InDesign) eine [neue Version 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), mit Leistungsverbesserungen bei der Startzeit des Bedienfelds und der Download-Geschwindigkeit.
+Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Photoshop, Illustrator und InDesign) in der [neuen Version 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html) veröffentlicht, die Leistungsverbesserungen bei der Bedienfeld-Startzeit und bei der Download-Geschwindigkeit aufweist.
 
 
 ## Bekannte Probleme {#known-issues}
@@ -38,7 +38,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### Version 2022.1.0 {#january-2022}
 
-[!DNL Assets Essentials] wird am 3. Februar 2022 veröffentlicht, mit folgenden Aktualisierungen:
+[!DNL Assets Essentials] wurde am 03. Februar 2022 veröffentlicht und umfasst folgende Updates:
 
 * Leistungsverbesserungen für den Vorgang [!UICONTROL Ordner erstellen]. <!-- CQ-4338818 -->
 
