@@ -4,13 +4,13 @@ description: Überblick über Assets Essentials und Lösungsbeschreibung
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 source-git-commit: c95717e9898ade023d785b9d0191f4bc20f10a39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Überblick über [!DNL Adobe Experience Manager Assets Essentials]  {#assets-essentials}
+# Überblick über [!DNL Adobe Experience Manager Assets Essentials] {#assets-essentials}
 
 <!-- TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 Adobe bietet eine stabile DAM-Lösung (Digital Asset Management), mit der Sie Ihre digitalen Assets optimal nutzen können. Als Teil der Adobe Experience Manager-Produktlinie bietet Adobe eine neue SaaS-Lösung zum Speichern, Verwalten und Finden digitaler Assets, die sich auch nativ mit anderen Adobe-Lösungen integrieren lässt.
 
-[!DNL Experience Manager Assets Essentials] ist eine neue, abgespeckte Ausgabe von [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] bietet ein einheitliches Asset-Management und Zusammenarbeit in einer vereinfachten und konsistenten Benutzeroberfläche. Durch die Benutzerfreundlichkeit können mehr Kreativ- und Marketing-Teams digitale Assets speichern, finden und verteilen. Derzeit wird die eingebettete [!DNL Assets Essentials] Erlebnis kann in die folgenden Lösungen integriert werden:
+[!DNL Experience Manager Assets Essentials] ist eine neue, abgespeckte Ausgabe von [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] bietet ein einheitliches Asset-Management und Zusammenarbeit in einer vereinfachten und konsistenten Benutzeroberfläche. Durch die Benutzerfreundlichkeit können mehr Kreativ- und Marketing-Teams digitale Assets speichern, finden und verteilen. Aktuell kann das eingebettete [!DNL Assets Essentials]-Erlebnis mit den folgenden Lösungen integriert werden:
 
 * Creative Cloud für Unternehmen
 
