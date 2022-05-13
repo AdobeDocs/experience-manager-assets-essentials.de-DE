@@ -2,13 +2,13 @@
 title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Photoshop Express]  unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
-workflow-type: ht
+exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
+source-git-commit: 4d684d59faf0d01d42320b495fcffd06391010ef
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
 ---
-
 
 # Bearbeiten von Bildern in [!DNL Assets Essentials] {#edit-images}
 
@@ -28,8 +28,10 @@ Der Pinsel nimmt den retuschierten Bereich auf und lässt die reparierten Pixel 
 
 ![Bearbeitungsoption Bereichsreparatur](assets/edit-spot-healing.png)
 
-<!-- TBD: See if we should give backlinks to PS docs for these concepts.
-For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). -->
+<!-- 
+TBD: See if we should give backlinks to PS docs for these concepts.
+For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). 
+-->
 
 ## Bilder zuschneiden und gerade ausrichten {#crop-straighten-images}
 
