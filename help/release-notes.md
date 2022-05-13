@@ -4,10 +4,10 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 72%
+source-wordcount: '761'
+ht-degree: 74%
 
 ---
 
@@ -36,8 +36,6 @@ Mit dieser Version optimieren wir die Leistung der Benutzeroberflächenbereitste
 Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
 
 * Sie können Assets nicht mit dem `No Status` Asset-Status.
-
-* Sie können ein Asset mit einem `Expired` Status. Sie können nur über einen Deep-Link oder eine URL auf das Asset zugreifen.
 
 * Assets Essentials unterstützt nicht das Erstellen privater Sammlungen.
 
