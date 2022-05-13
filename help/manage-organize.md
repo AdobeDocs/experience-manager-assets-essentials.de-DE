@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
+source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: '838'
+ht-degree: 79%
 
 ---
 
@@ -83,3 +83,65 @@ Sie können Versionen auch aus der Versions-Zeitleiste erstellen. Wählen Sie di
 ![Anzeigen von Versionen eines Assets](assets/view-asset-versions1.png)
 
 *Abbildung: Zeigen Sie Versionen eines Assets an, kehren Sie zu einer früheren Version zurück oder laden Sie eine andere neue Version hoch.*
+
+## Asset-Status verwalten {#manage-asset-status}
+
+**Erforderliche Berechtigungen:**  `Can Edit`, `Owner`oder Administratorberechtigungen für ein Asset.
+
+Mit Assets Essentials können Sie den Status für im Repository verfügbare Assets festlegen. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser zu steuern und zu verwalten.
+
+Sie können den folgenden Status für Assets festlegen:
+
+* Genehmigt
+
+* Abgelehnt
+
+* Kein Status
+
+### Asset-Status festlegen {#set-asset-status}
+
+So legen Sie den Asset-Status fest:
+
+1. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Details]** in der Symbolleiste.
+
+1. Im **[!UICONTROL Allgemein]** Registerkarte wählen Sie den Asset-Status aus dem **[!UICONTROL Status]** Dropdown-Liste. Zu den möglichen Werten gehören &quot;Genehmigt&quot;, &quot;Abgelehnt&quot;und &quot;Kein Status&quot;(Standard).
+
+   >[!VIDEO](https://video.tv.adobe.com/v/342495)
+
+<!--
+
+### Set asset expiration date {#set-asset-expiration-date}
+
+To set asset expiration date:
+
+1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+
+1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+
+The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
+
+-->
+
+Sie können Assets auch nach einem Asset-Status filtern. Weitere Informationen finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
+
+## Anpassen von Metadatenformularen, um das Asset-Statusfeld einzuschließen {#customize-asset-status-metadata-form}
+
+**Erforderliche Berechtigungen:** Administrator
+
+Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets.
+
+Weitere Informationen zum Hinzufügen zusätzlicher Metadatenfelder zum Metadatenformular finden Sie unter [Metadaten-Forms](metadata.md##metadata-forms).
+
+**Hinzufügen des Metadatenfelds &quot;Asset-Status&quot;zum Formular**
+
+Um das Metadatenfeld Asset-Status zum Formular hinzuzufügen, ziehen Sie **[!UICONTROL Asset-Status]** -Komponente von der linken Leiste zum Formular. Die Zuordnungseigenschaft wird automatisch vorausgefüllt. Speichern Sie das Formular, um die Änderungen zu bestätigen.
+
+<!--
+
+**Add Expiration Date metadata field to the form**
+
+To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
+
+-->
+
+

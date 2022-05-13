@@ -1,0 +1,131 @@
+---
+title: Verwalten von Sammlungen
+description: Eine Sammlung ist ein Satz von Assets in Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
+source-git-commit: 3496f7dea36c47b1fb41d39282ad6028def74499
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 27%
+
+---
+
+# Verwalten von Sammlungen {#manage-collections}
+
+Eine Sammlung ist ein Satz von Assets in Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
+
+Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten.
+
+<!--
+You can share collections with various users that are assigned different levels of privileges, including viewing, editing, and so on.
+-->
+
+Sie können mehrere Sammlungen für einen Benutzer freigeben. Jede Sammlung enthält Referenzen zu Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten.
+
+Sie können die folgenden Aufgaben ausführen, um Sammlungen zu verwalten und zu verwenden:
+
+* [Erstellen von Sammlungen](#create-collection)
+
+* [Hinzufügen von Assets zu einer Sammlung](#add-assets-to-collection)
+
+* [Entfernen von Assets in einer Sammlung](#remove-assets-from-collection)
+
+* [Zugriff auf eine Sammlung verwalten](#manage-collection-access)
+
+* [Suchen nach Sammlungen](#search-collections)
+
+* [Anzeigen und Bearbeiten von Sammlungsmetadaten](#view-edit-collection-metadata)
+
+* [Herunterladen von Sammlungen](#download-collection)
+
+* [Löschen von Sammlungen](#delete-collection)
+
+## Erstellen von Sammlungen {#create-collection}
+
+So erstellen Sie eine Sammlung:
+
+1. Klicken **[!UICONTROL Sammlungen]** in der linken Leiste und klicken Sie dann auf **[!UICONTROL Sammlung erstellen]**.
+
+1. Geben Sie einen Titel und eine optionale Beschreibung für die Sammlung an.
+
+1. Klicken **[!UICONTROL Speichern]** , um die Sammlung zu erstellen.
+
+## Hinzufügen von Assets zu einer Sammlung {#add-assets-to-collection}
+
+So fügen Sie einer Sammlung Assets hinzu:
+
+1. Klicken **[!UICONTROL Assets]** in der linken Leiste und wählen Sie die gewünschten Assets aus.
+
+1. Klicken **[!UICONTROL Zu Sammlung hinzufügen]**.
+
+1. Im [!UICONTROL Sammlungen] wählen Sie die Sammlungen aus, denen die ausgewählten Assets hinzugefügt werden sollen.
+
+1. Klicken **[!UICONTROL Hinzufügen]** , um das Asset den ausgewählten Sammlungen hinzuzufügen.
+
+Um Assets zur Sammlung hinzuzufügen, können Sie auch auf **[!UICONTROL Sammlungen]** Klicken Sie in der linken Leiste auf die Sammlung, der Assets hinzugefügt werden sollen, und klicken Sie auf **[!UICONTROL Zu Sammlung hinzufügen]**, wählen Sie die Assets aus und klicken Sie auf **[!UICONTROL Auswählen]**.
+
+## Entfernen von Assets aus einer Sammlung {#remove-assets-from-collection}
+
+So entfernen Sie Assets aus einer Sammlung:
+
+1. Klicken **[!UICONTROL Sammlungen]** in der linken Leiste, um die Liste der Sammlungen anzuzeigen.
+
+1. Klicken Sie auf die Sammlung und wählen Sie die Assets aus, die Sie aus der Sammlung entfernen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Entfernen]**
+
+<!--
+
+## Manage access to a collection {#manage-collection-access}
+
+The permission management for collections function in the same manner as folders in [!DNL Assets Essentials]. Administrators can manage the access levels for collections available in the repository. As an administrator, you can create user groups and assign permissions to those groups to manage access levels. You can also delegate the permission management privileges to user groups at the collection-level.
+
+For more information, see [Manage permissions for folders and collections](manage-permissions.md).
+
+## Search a collection {#search-collections}
+
+Click **[!UICONTROL Collections]** in the left rail and use the Search box to specify a text as the criteria to search for a collection. [!DNL Assets Essentials] uses the specified text to search collection names, metadata including tags defined for a collection and returns appropriate results.
+
+>[!NOTE]
+>
+>Assets Essentials performs search in collections available at the root level. It does not perform search in assets and folders available in collections.
+
+-->
+
+## Anzeigen und Bearbeiten von Sammlungsmetadaten {#view-edit-collection-metadata}
+
+Sammlungsmetadaten umfassen Daten zur Sammlung, z. B. Titel und Beschreibung.
+
+So zeigen Sie Sammlungsmetadaten an und bearbeiten sie:
+
+1. Klicken **[!UICONTROL Sammlungen]** Wählen Sie in der linken Leiste eine Sammlung aus und klicken Sie auf **[!UICONTROL Details]**.
+1. Anzeigen der Sammlungsmetadaten mit der **[!UICONTROL Allgemein]** Registerkarte.
+1. Ändern Sie die Metadatenfelder nach Bedarf. Sie können die [!UICONTROL Titel], [!UICONTROL Beschreibung]und [!UICONTROL Autor] -Felder.
+
+## Freigeben von Links für Sammlungen {#share-collection-links}
+
+[!DNL Assets Essentials] ermöglicht Ihnen, einen Link zu erstellen und Sammlungen und Assets in Sammlungen für externe Stakeholder freizugeben, die keinen Zugriff auf die [!DNL Assets Essentials] Anwendung. Sie können ein Ablaufdatum für den Link definieren und ihn dann mithilfe Ihrer bevorzugten Kommunikationsmethode wie E-Mail oder Messaging-Services für andere freigeben. Empfänger des Links können eine Vorschau der Medienelemente anzeigen und sie herunterladen.
+
+Weitere Informationen zum Freigeben von Sammlungslinks für externe Akteure finden Sie unter [Freigeben von Links für Assets](share-links-for-assets.md).
+
+## Herunterladen von Sammlungselementen {#download-collection-elements}
+
+So laden Sie Kollektionselemente herunter:
+
+1. Klicken **[!UICONTROL Sammlungen]** in der linken Leiste.
+
+1. Klicken Sie auf die Sammlung und wählen Sie die Elemente aus, die Sie herunterladen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Download]**.
+
+1. Im [!UICONTROL Asset herunterladen] Dialogfeld, klicken Sie auf **[!UICONTROL OK]**.
+
+Die ausgewählten Kollektionselemente werden als ZIP-Datei auf Ihren lokalen Computer heruntergeladen.
+
+## Löschen von Sammlungen {#delete-collection}
+
+So löschen Sie eine Sammlung:
+
+1. Klicken **[!UICONTROL Sammlungen]** in der linken Leiste.
+
+1. Wählen Sie die Sammlung aus, die Sie löschen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Löschen]**.
