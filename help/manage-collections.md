@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets in Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
-source-git-commit: 3496f7dea36c47b1fb41d39282ad6028def74499
+source-git-commit: 6e86dc11e953423c156c3c06cb20c1700afdd59b
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '473'
 ht-degree: 27%
 
 ---
@@ -28,13 +28,9 @@ Sie können die folgenden Aufgaben ausführen, um Sammlungen zu verwalten und zu
 
 * [Entfernen von Assets in einer Sammlung](#remove-assets-from-collection)
 
-* [Zugriff auf eine Sammlung verwalten](#manage-collection-access)
-
-* [Suchen nach Sammlungen](#search-collections)
-
 * [Anzeigen und Bearbeiten von Sammlungsmetadaten](#view-edit-collection-metadata)
 
-* [Herunterladen von Sammlungen](#download-collection)
+* [Herunterladen von Sammlungselementen](#download-collection-elements)
 
 * [Löschen von Sammlungen](#delete-collection)
 
