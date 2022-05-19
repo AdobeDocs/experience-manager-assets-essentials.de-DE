@@ -2,10 +2,10 @@
 title: Integrieren von Assets Essentials mit Adobe Workfront
 description: Integrieren Sie Assets Essentials in die Adobe Workfront-Anwendung, damit Sie in der Workfront-Anwendung auf das Assets Essentials-Repository zugreifen können.
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
-source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
+source-git-commit: 1bb5f1aa1bb03b38964f13f40dc2d2d675a0480f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 19%
+source-wordcount: '634'
+ht-degree: 18%
 
 ---
 
@@ -61,6 +61,8 @@ Weisen Sie die Workfront-Benutzer einem der folgenden Assets Essentials-Produktp
 
 * **[!DNL Assets Essentials]Benutzer** haben Zugriff auf die gesamte Assets Essentials-Benutzeroberfläche. Diese Benutzer können digitale Assets in der Assets Essentials-Anwendung hochladen, organisieren, taggen und suchen. Darüber hinaus haben die Benutzer Zugriff auf das Erlebnis der Asset-Auswahl in [!DNL Adobe Workfront] Anwendung.
 * **[!DNL Assets Essentials]Verbraucherbenutzer**: Zugriff auf das integrierte Asset-Auswahlerlebnis in [!DNL Adobe Workfront] Anwendung.
+
+Darüber hinaus gibt es auch **[!DNL Assets Essentials]Administratoren** Produktprofil, das Administratorzugriff auf die Anwendung bietet.
 
 Weitere Informationen zum Zuweisen von Benutzern zu Assets Essentials-Produktprofilen finden Sie unter [Zuweisen von Benutzern zu Assets Essentials-Produktprofilen](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
 
