@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 79%
+source-wordcount: '901'
+ht-degree: 74%
 
 ---
 
@@ -143,5 +143,17 @@ Um das Metadatenfeld Asset-Status zum Formular hinzuzufügen, ziehen Sie **[!UIC
 To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
 
 -->
+
+## Nächste Schritte {#next-steps}
+
+* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+
+
 
 

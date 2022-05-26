@@ -3,10 +3,10 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Photoshop Express]  unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 4d684d59faf0d01d42320b495fcffd06391010ef
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 92%
 
 ---
 
@@ -66,6 +66,14 @@ Mit [!DNL Assets Essentials] können Sie die Farbe, den Ton, den Kontrast und me
 <!--
 TBD: Insert a video of the available social media options.
 -->
+
+## Nächste Schritte {#next-steps}
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
 
 >[!MORELIKETHIS]
 >

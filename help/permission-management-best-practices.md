@@ -1,10 +1,11 @@
 ---
 title: Wie können Ordnerberechtigungen effektiv verwaltet werden?
 description: Best Practices für die effektive Verwaltung von Zugriffsberechtigungen
-source-git-commit: fe716385939d18aa23d01dac5fe5f041541d2b31
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 91%
 
 ---
 
@@ -63,3 +64,10 @@ Nachdem Sie Benutzergruppen für Ihr Unternehmen erstellt, Benutzer zu diesen Be
 
 Beispiele für das Erzielen einer effizienten und einfachen Ordnerstruktur finden Sie unter [Verwalten von Zugriffsberechtigungen auf Ordner](manage-permissions.md##manage-permissions-folders).
 
+## Nächste Schritte {#next-steps}
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)

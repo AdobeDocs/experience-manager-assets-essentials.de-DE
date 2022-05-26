@@ -3,10 +3,10 @@ title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen können, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und bekannte Probleme.
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 87%
 
 ---
 
@@ -55,6 +55,17 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 | Metadatenvorgänge | <ul> <li>[Anzeigen detaillierter Metadaten](/help/metadata.md) </li> <li> [Aktualisieren von Metadaten](/help/metadata.md#update-metadata)</li> <li> [Erstellen eines neuen Metadatenformulars](/help/metadata.md#metadata-forms) </li> </ul> |
 | Integration mit anderen Lösungen | <ul> <li>[Verwenden der Asset-Auswahl in  [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link]  für  [!DNL Creative Cloud]](/help/integration.md)</li> <li>[Integration mit  [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
+## Nächste Schritte {#next-steps}
+
+* [Video zu den ersten Schritten mit Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+
+
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
@@ -63,16 +74,20 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 
 -->
 
-## ![Feedback-Symbol](assets/do-not-localize/feedback-icon.png) Bereitstellen von Produkt-Feedback {#provide-feedback}
+<!-- 
 
-Adobe begrüßt Feedback zur Lösung. Verwenden Sie die Option [!UICONTROL Feedback] in der Benutzeroberfläche, um Feedback zu geben, ohne das laufende Programm zu wechseln. Sie ermöglicht auch das Anhängen von Dateien wie Screenshots oder Videoaufzeichnungen eines Problems.
+## ![feedback icon](assets/do-not-localize/feedback-icon.png) Provide product feedback {#provide-feedback}
 
-![Feedback-Option in der Benutzeroberfläche](assets/feedback-panel.png)
+Adobe welcomes feedback about the solution. To provide feedback without even switching your working application, use the [!UICONTROL Feedback] option in the user interface. It also lets you attach files such as screenshots or video recording of an issue.
 
-Um Feedback für die Dokumentation zu geben, klicken Sie am rechten Rand auf [!UICONTROL Diese Seite bearbeiten] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder [!UICONTROL Einen Fehler protokollieren] ![GitHub -Fehler erstellen](assets/do-not-localize/github-issue.png). Sie können einen der folgenden Schritte ausführen:
+  ![feedback option in the interface](assets/feedback-panel.png)
 
-* Nehmen Sie die Inhaltsaktualisierungen vor und senden Sie eine GitHub-Pull-Anfrage.
-* Erstellen Sie ein Problem oder ein Ticket in GitHub. Behalten Sie beim Erstellen eines Problems den automatisch ausgefüllten Artikelnamen bei.
+To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png) or [!UICONTROL Log an issue] ![create a GitHub issue](assets/do-not-localize/github-issue.png) from the right sidebar. You can do one of the following: 
+
+* Make the content updates and submit a GitHub pull request.
+* Create an issue or ticket in GitHub. Retain the automatically populated article name when creating an issue.
+
+-->
 
 >[!MORELIKETHIS]
 >

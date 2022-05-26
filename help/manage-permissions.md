@@ -2,10 +2,10 @@
 title: Verwalten von Zugriffsberechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 100%
+source-wordcount: '1643'
+ht-degree: 96%
 
 ---
 
@@ -202,3 +202,13 @@ Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordn
 * /projects/project-x: Alle Benutzer können die Ordner und die Unterordner einsehen. Die Benutzergruppe „Projekt-Manager-Team“ hat Bearbeitungsberechtigungen und kann Berechtigungen für einen Ordner und dessen Unterordner verwalten (Inhaber-Berechtigungen). Die Benutzergruppe „Projekt-X-Team“ verfügt über Bearbeitungsberechtigungen.
 
 * /legal: Keiner der Benutzer kann auf den Ordner zugreifen, der auf den `Deny Access`-Berechtigungen für die Gruppe `All Authenticated Users` basiert. Die Benutzergruppe „Rechtsabteilung“ verfügt über Bearbeitungsberechtigungen.
+
+## Nächste Schritte {#next-steps}
+
+* [Video zum Verwalten von Berechtigungen in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)

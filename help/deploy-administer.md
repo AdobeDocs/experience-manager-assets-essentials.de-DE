@@ -3,10 +3,10 @@ title: Verwalten von Benutzern
 description: Anwendungsfälle für Administratoren, wie z. B. Implementieren und Verwalten von Benutzern in  [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 99%
+source-wordcount: '1201'
+ht-degree: 94%
 
 ---
 
@@ -125,6 +125,18 @@ Nach der Implementierung wird Ihrer Organisation die Berechtigung für [!DNL Ass
    ![Einsatzbereite Umgebung in [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
 
    *Abbildung: Eine Umgebung in [!DNL Cloud Manager], die einsatzbereit ist.*
+
+## Nächste Schritte {#next-steps}
+
+* [Video zur Bereitstellung von Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+
+
 
 >[!MORELIKETHIS]
 >

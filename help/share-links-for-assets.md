@@ -1,13 +1,13 @@
 ---
 title: Wie können Sie Links zu Medienelementen freigeben?
 description: Erstellen Sie einen Link und geben Sie Medienelemente für andere frei, die keinen Zugriff auf das Programm  [!DNL Assets Essentials]  haben.
-source-git-commit: 6c922bac00b2b1aa514c5408a56da514466d4483
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 86%
 
 ---
-
 
 # Freigeben von Links zu Medienelementen {#share-links-assets}
 
@@ -43,3 +43,12 @@ Um alle Medienelemente auf einmal herunterzuladen, wechseln Sie zur **[!UICONTRO
 
 ![Vorschau freigegebener Medienelemente](assets/preview-shared-assets.png)
 
+## Nächste Schritte {#next-steps}
+
+* [Video zum Freigeben von Links für Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)

@@ -1,10 +1,11 @@
 ---
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets in Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
-source-git-commit: 6e86dc11e953423c156c3c06cb20c1700afdd59b
+exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 27%
+source-wordcount: '520'
+ht-degree: 25%
 
 ---
 
@@ -125,3 +126,11 @@ So löschen Sie eine Sammlung:
 1. Wählen Sie die Sammlung aus, die Sie löschen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Löschen]**.
+
+## Nächste Schritte {#next-steps}
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)

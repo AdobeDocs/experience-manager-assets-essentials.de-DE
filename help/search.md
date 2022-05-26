@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 57%
+source-wordcount: '749'
+ht-degree: 53%
 
 ---
 
@@ -122,3 +122,13 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## Nächste Schritte {#next-steps}
+
+* [Video ansehen, um Assets in Assets Essentials zu suchen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)

@@ -2,13 +2,13 @@
 title: Hochladen von Assets in das Repository
 description: Hochladen von Assets in  [!DNL Assets Essentials], Anzeigen des Upload-Status und Beheben von Upload-Problemen.
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+exl-id: a85a4455-4456-48af-aee9-f05300677605
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 93%
 
 ---
-
 
 # Hochladen von Assets {#add-assets}
 
@@ -95,3 +95,13 @@ Benutzer können nicht mehr benötigte einzelne Assets oder Ordner löschen. Fü
    *Abbildung: Aktionen für Dateien und Ordner sind auf der Asset- oder Ordnerkachel verfügbar.*
 
 * Wählen Sie ein Asset oder einen Ordner aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Löschen]** ![Löschsymbol](assets/do-not-localize/delete-icon.png).
+
+## Nächste Schritte {#next-steps}
+
+* [Video zum Hochladen von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
