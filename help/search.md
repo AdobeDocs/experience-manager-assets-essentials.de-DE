@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 53%
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Sie können die Suchergebnisse anhand der folgenden Parameter filtern.
 
 *Abbildung: Filtern gesuchter Assets basierend auf verschiedenen Parametern.*
 
-* Asset-Status: Filtern Sie die Suchergebnisse mithilfe einer `Approved` oder `Rejected` Asset-Status.
+* Asset-Status: Filtern Sie die Suchergebnisse mithilfe eines der Asset-Status `Approved` oder `Rejected`.
 
 * Asset-Typ: Filtern von Suchergebnissen nach den unterstützten Dateitypen: `Images`, `Documents` und `Videos`.
 * MIME-Typ: Filtern nach einem oder mehreren der unterstützten Dateiformate. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
@@ -42,11 +42,11 @@ Sie können die Suchergebnisse anhand der folgenden Parameter filtern.
 
 Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge von `Name`, `Relevancy`, `Size`, `Modified` und `Created` sortieren.
 
-## Benutzerdefinierte Filter verwalten {#custom-filters}
+## Verwalten von benutzerdefinierten Filtern {#custom-filters}
 
-**Erforderliche Berechtigungen:**  `Can Edit`, `Owner`oder Administrator.
+**Erforderliche Berechtigungen:**  `Can Edit`, `Owner` oder Administrator.
 
-Mit Assets Essentials können Sie auch benutzerdefinierte Filter zur Benutzeroberfläche hinzufügen. Sie können diese benutzerdefinierten Filter dann zusätzlich zum [Standardfilter](#refine-search-results) , um die Suchergebnisse zu verfeinern.
+Mit Assets Essentials können Sie auch benutzerdefinierte Filter zur Benutzeroberfläche hinzufügen. Sie können diese benutzerdefinierten Filter dann zusätzlich zu den [Standardfiltern](#refine-search-results) anwenden, um Ihre Suchergebnisse zu verfeinern.
 
 Assets Essentials bietet die folgenden benutzerdefinierten Filter:
 
@@ -58,48 +58,48 @@ Assets Essentials bietet die folgenden benutzerdefinierten Filter:
      </tr>
      <tr>
       <td>Titel</td>
-      <td>Filtern von Assets mit dem Asset-Titel. Der Titel, den Sie in den Suchkriterien angeben, bei denen zwischen Groß- und Kleinschreibung unterschieden werden soll, muss mit dem genauen Titel des Assets übereinstimmen, das in den Ergebnissen angezeigt werden soll.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Titels. Der Titel, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Titel des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird.</td>
      </tr>
      <tr>
       <td>Name</td>
-      <td>Filtern von Assets mit dem Asset-Dateinamen. Der Name, den Sie in den Suchkriterien angeben, bei denen die Groß-/Kleinschreibung beachtet wird, muss mit dem exakten Dateinamen des Assets übereinstimmen, der in den Ergebnissen angezeigt werden soll.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Dateinamens. Der Name, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Namen des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird.</td>
      </tr>
      <tr>
       <td>Asset-Größe</td>
-      <td>Filtern Sie Assets, indem Sie einen Größenbereich in Byte in den Suchkriterien für ein Asset definieren, das in den Ergebnissen angezeigt werden soll.</td>
+      <td>Filtern Sie Assets, indem Sie in den Suchkriterien für ein Asset, das in den Ergebnissen angezeigt werden soll, einen Größenbereich in Byte festlegen.</td>
      </tr>
      <tr>
       <td>Prognostizierte Tags</td>
-      <td>Filtern von Assets mit dem Asset-Smart-Tag . Der Smart-Tag-Name, den Sie in den Suchkriterien angeben, bei denen die Groß-/Kleinschreibung beachtet wird, muss mit dem genauen Smart-Tag-Namen des Assets übereinstimmen, das in den Ergebnissen angezeigt werden soll. Sie können nicht mehrere Smart-Tags in Suchkriterien angeben.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Smart-Tags. Der Smart-Tag-Name, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Smart-Tag-Namen des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird. Sie können nicht mehrere Smart-Tags in den Suchkriterien angeben.</td>
      </tr>    
     </tbody>
    </table>
 
 ### Hinzufügen benutzerdefinierter Filter {#add-custom-filters}
 
-So fügen Sie benutzerdefinierte Filter hinzu:
+Hinzufügen benutzerdefinierter Filter
 
-1. Klicken **[!UICONTROL Filter]**.
+1. Klicken Sie auf **[!UICONTROL Filter]**.
 
-1. Im **[!UICONTROL Benutzerdefinierte Filter]** Abschnitt, klicken Sie auf **[!UICONTROL Bearbeiten]** oder **[!UICONTROL Filter hinzufügen]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Benutzerdefinierte Filter]** auf **[!UICONTROL Bearbeiten]** oder auf **[!UICONTROL Filter hinzufügen]**.
 
    ![Hinzufügen benutzerdefinierter Filter](assets/add-custom-filters.png)
 
-1. Im **[!UICONTROL Verwaltung benutzerdefinierter Filter]** wählen Sie die Filter aus, die Sie der vorhandenen Filterliste hinzufügen möchten. Auswählen **[!UICONTROL Benutzerdefinierte Filter]** , um alle Filter auszuwählen.
+1. Wählen Sie im Dialogfeld **[!UICONTROL Verwaltung benutzerdefinierter Filter]** die Filter aus, die Sie der vorhandenen Filterliste hinzufügen möchten. Wählen Sie **[!UICONTROL Benutzerdefinierte Filter]** aus, um alle Filter auszuwählen.
 
-1. Klicken **[!UICONTROL Bestätigen]** , um die Filter zur Benutzeroberfläche hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um die Filter zur Benutzeroberfläche hinzuzufügen.
 
-### Benutzerdefinierte Filter entfernen {#remove-custom-filters}
+### Entfernen benutzerdefinierter Filter {#remove-custom-filters}
 
-So entfernen Sie benutzerdefinierte Filter:
+Entfernen benutzerdefinierter Filter
 
-1. Klicken **[!UICONTROL Filter]**.
+1. Klicken Sie auf **[!UICONTROL Filter]**.
 
-1. Im **[!UICONTROL Benutzerdefinierte Filter]** Abschnitt, klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Benutzerdefinierte Filter]** auf **[!UICONTROL Bearbeiten]**.
 
-1. Im **[!UICONTROL Verwaltung benutzerdefinierter Filter]** deaktivieren Sie die Auswahl der Filter, die Sie aus der Liste der vorhandenen Filter entfernen müssen.
+1. Heben Sie im Dialogfeld **[!UICONTROL Verwaltung benutzerdefinierter Filter]** die Auswahl der Filter auf, die Sie aus der Liste der vorhandenen Filter entfernen möchten.
 
-1. Klicken **[!UICONTROL Bestätigen]** , um die Filter aus der Benutzeroberfläche zu entfernen.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um die Filter aus der Benutzeroberfläche zu entfernen.
 
 
 ## Gespeicherte Suchvorgänge {#saved-search}

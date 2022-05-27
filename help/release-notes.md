@@ -7,35 +7,35 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von [!DNL Assets Essentials] wird am 12. Mai 2022 veröffentlicht. Was diese Version bietet:
+Die aktuelle Version von [!DNL Assets Essentials] wurde am 12. Mai 2022 veröffentlicht. Was diese Version bietet:
 
-* [!DNL Assets Essentials] unterstützt jetzt [Erstellen von Sammlungen](manage-collections.md). Eine Sammlung ist ein Satz von Assets in Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten.
+* [!DNL Assets Essentials] unterstützt jetzt das [Erstellen von Sammlungen](manage-collections.md). Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten.
 
-* Mit Assets Essentials können Sie jetzt auch [Hinzufügen benutzerdefinierter Filter](search.md#custom-filters) in die -Benutzeroberfläche. Sie können diese benutzerdefinierten Filter dann zusätzlich zu den Standardfiltern anwenden, um Ihre Suchergebnisse zu verfeinern.
+* Assets Essentials ermöglicht jetzt auch das [Hinzufügen benutzerdefinierter Filter](search.md#custom-filters) zur Benutzeroberfläche. Sie können diese benutzerdefinierten Filter dann zusätzlich zu den Standardfiltern anwenden, um Ihre Suchergebnisse zu verfeinern.
 
-* Mit Assets Essentials können Sie jetzt [Status festlegen](manage-organize.md#set-asset-status) auf Assets, die im Repository verfügbar sind. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser zu steuern und zu verwalten.
+* Assets Essentials ermöglicht jetzt das [Festlegen eines Status](manage-organize.md#set-asset-status) für Assets, die im Repository verfügbar sind. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser steuern und verwalten zu können.
 
-* Verbesserungen und Fehlerkorrekturen basierend auf dem Kunden-Feedback.
+* Verbesserungen und Fehlerkorrekturen basierend auf Kunden-Feedback.
 
 ## Inkognito-Modus in Chrome {#incognito-mode}
 
-Mit dieser Version optimieren wir die Leistung der Benutzeroberflächenbereitstellung und bestimmter Funktionen in Assets Essentials - Kommentar zu Assets und Bildbearbeitung - hängt davon ab, ob der lokale Browser-Speicher und Drittanbieter-Cookies aktiviert sind. Der Inkognito-Modus im Chrome-Webbrowser blockiert standardmäßig Drittanbieter-Cookies. Benutzer haben verschiedene Optionen, um weiterhin auf alle Funktionen zugreifen zu können:
+Mit dieser Version optimieren wir die Leistung der Benutzeroberfläche. Bestimmte Funktionen in Assets Essentials –- Kommentare zu Assets und zur Bildbearbeitung – hängen davon ab, dass der lokale Speicher des Browsers und Cookies von Drittanbietern aktiviert sind. Der Inkognito-Modus im Chrome-Webbrowser blockiert standardmäßig Cookies von Drittanbietern – die Nutzer haben eine Reihe von Optionen, um weiterhin auf alle Funktionen zugreifen zu können:
 
-* Verwenden Sie Chrome-Profile anstelle des Inkognito-Modus, wenn der Benutzer Browsersitzungen trennen muss.
+* Verwenden Sie Chrome-Profile anstelle des Inkognito-Modus, wenn der Benutzer Browser-Sitzungen trennen muss.
 
-* Deaktivieren Sie die `Block third-party cookies` im Bildschirm &quot;Inkognito-Modus&quot;in Chrome
+* Abschalten von `Block third-party cookies` im Bildschirm „Inkognito-Modus“ in Chrome
 
 ## Bekannte Probleme {#known-issues}
 
 Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
 
-* Sie können Assets nicht mit dem `No Status` Asset-Status.
+* Sie können Assets nicht unter Verwendung des Asset-Status `No Status` filtern.
 
 * Assets Essentials unterstützt nicht das Erstellen privater Sammlungen.
 
@@ -45,7 +45,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### 2022.2.0 {#march-2022}
 
-[!DNL Assets Essentials] wird am 9. März 2022 veröffentlicht und enthält folgende Aktualisierungen:
+[!DNL Assets Essentials] wurde am 9. März 2022 veröffentlicht und umfasst folgende Updates:
 
 * Mit [!DNL Assets Essentials] können Sie jetzt [einen Link erstellen und Medienelemente für externe Beteiligte freigeben](share-links-for-assets.md), die keinen Zugriff auf das Programm [!DNL Assets Essentials] haben. Sie können ein Ablaufdatum für den Link definieren und ihn dann mithilfe Ihrer bevorzugten Kommunikationsmethode wie E-Mail oder Messaging-Services für andere freigeben. Empfänger des Links können eine Vorschau der Medienelemente anzeigen und sie herunterladen.
 
@@ -53,20 +53,20 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 * Assets Essentials ermöglicht es Administratoren jetzt, [die Zugriffsebenen für im Repository verfügbare Ordner zu verwalten](manage-permissions.md). Als Administrator können Sie Benutzergruppen erstellen und diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zuweisen. Sie können Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 
-* Verbesserungen und Fehlerkorrekturen basierend auf dem Kunden-Feedback.
+* Verbesserungen und Fehlerkorrekturen basierend auf Kunden-Feedback.
 
 Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Photoshop, Illustrator und InDesign) in der [neuen Version 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html) veröffentlicht, die Leistungsverbesserungen bei der Bedienfeld-Startzeit und bei der Download-Geschwindigkeit aufweist.
 
 
 ### Version 2022.1.0 {#january-2022}
 
-[!DNL Assets Essentials] wurde am 03. Februar 2022 veröffentlicht und umfasst folgende Updates:
+[!DNL Assets Essentials] wurde am Donnerstag, 3. Februar 2022 veröffentlicht und umfasst folgende Updates:
 
 * Leistungsverbesserungen für den Vorgang [!UICONTROL Ordner erstellen]. <!-- CQ-4338818 -->
 
 ### Version 2021.11.0 {#november-2021}
 
-[!DNL Assets Essentials] wurde am 16. Dezember 2021 veröffentlicht und umfasst folgende Updates:
+[!DNL Assets Essentials] wurde am Donnerstag, 16. Dezember 2021 veröffentlicht und umfasst folgende Updates:
 
 * Adobe stellt Assets Essentials nach Abschluss des Bereitstellungsprozesses automatisch bereit. Die Administratoren müssen keine zusätzlichen Schritte ausführen, um Assets Essentials mithilfe der [!DNL Cloud Manager]-Benutzeroberfläche bereitzustellen. Diese automatische Bereitstellung ist für Umgebungen verfügbar, die nach dem 6. Januar 2022 bereitgestellt werden.
 * Neue Versionen von Creative Cloud-Plug-ins, die mit Assets Essentials funktionieren, sind auf Adobe Exchange verfügbar - [Adobe Asset Link für Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) und [Adobe Asset Link für Photoshop/InDesign/Illustrator 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).

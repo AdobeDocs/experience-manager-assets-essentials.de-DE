@@ -7,7 +7,7 @@ exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 74%
+ht-degree: 93%
 
 ---
 
@@ -84,13 +84,13 @@ Sie können Versionen auch aus der Versions-Zeitleiste erstellen. Wählen Sie di
 
 *Abbildung: Zeigen Sie Versionen eines Assets an, kehren Sie zu einer früheren Version zurück oder laden Sie eine andere neue Version hoch.*
 
-## Asset-Status verwalten {#manage-asset-status}
+## Verwalten des Asset-Status {#manage-asset-status}
 
-**Erforderliche Berechtigungen:**  `Can Edit`, `Owner`oder Administratorberechtigungen für ein Asset.
+**Erforderliche Berechtigungen:**  `Can Edit`, `Owner` oder Administratorrechte für ein Asset.
 
-Mit Assets Essentials können Sie den Status für im Repository verfügbare Assets festlegen. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser zu steuern und zu verwalten.
+Mit Assets Essentials können Sie den Status für im Repository verfügbare Assets festlegen. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser steuern und verwalten zu können.
 
-Sie können den folgenden Status für Assets festlegen:
+Sie können die folgenden Status für Assets festlegen:
 
 * Genehmigt
 
@@ -98,13 +98,13 @@ Sie können den folgenden Status für Assets festlegen:
 
 * Kein Status
 
-### Asset-Status festlegen {#set-asset-status}
+### Festlegen eines Asset-Status {#set-asset-status}
 
-So legen Sie den Asset-Status fest:
+Festlegen eines Asset-Status
 
-1. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Details]** in der Symbolleiste.
+1. Wählen Sie das Asset aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Details]**.
 
-1. Im **[!UICONTROL Allgemein]** Registerkarte wählen Sie den Asset-Status aus dem **[!UICONTROL Status]** Dropdown-Liste. Zu den möglichen Werten gehören &quot;Genehmigt&quot;, &quot;Abgelehnt&quot;und &quot;Kein Status&quot;(Standard).
+1. Wählen Sie in der Registerkarte **[!UICONTROL Allgemein]** den Asset-Status aus der Dropdown-Liste **[!UICONTROL Status]** aus. Zu den zulässigen Werten gehören „Genehmigt“, „Abgelehnt“ und „Kein Status“ (Standard).
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
@@ -124,17 +124,17 @@ The `Expired` asset card indicator overrides the `Approved` or `Rejected` indica
 
 Sie können Assets auch nach einem Asset-Status filtern. Weitere Informationen finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
 
-## Anpassen von Metadatenformularen, um das Asset-Statusfeld einzuschließen {#customize-asset-status-metadata-form}
+## Anpassen von Metadatenformularen zur Aufnahme eines Asset-Statusfeldes {#customize-asset-status-metadata-form}
 
 **Erforderliche Berechtigungen:** Administrator
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets.
 
-Weitere Informationen zum Hinzufügen zusätzlicher Metadatenfelder zum Metadatenformular finden Sie unter [Metadaten-Forms](metadata.md##metadata-forms).
+Weitere Informationen zum Hinzufügen zusätzlicher Metadatenfelder zum Metadatenformular finden Sie unter [Metadaten-Formulare](metadata.md##metadata-forms).
 
-**Hinzufügen des Metadatenfelds &quot;Asset-Status&quot;zum Formular**
+**Hinzufügen des Metadatenfelds „Asset-Status“ zum Formular**
 
-Um das Metadatenfeld Asset-Status zum Formular hinzuzufügen, ziehen Sie **[!UICONTROL Asset-Status]** -Komponente von der linken Leiste zum Formular. Die Zuordnungseigenschaft wird automatisch vorausgefüllt. Speichern Sie das Formular, um die Änderungen zu bestätigen.
+Um das Metadatenfeld „Asset-Status“ zum Formular hinzuzufügen, ziehen Sie die Komponente **[!UICONTROL Asset-Status]** von der linken Leiste in das Formular. Die Zuordnungseigenschaft wird automatisch vorausgefüllt. Speichern Sie das Formular, um die Änderungen zu bestätigen.
 
 <!--
 
