@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Sie können die Suchergebnisse anhand der folgenden Parameter filtern.
 
 *Abbildung: Filtern gesuchter Assets basierend auf verschiedenen Parametern.*
 
-* Asset-Status: Filtern Sie die Suchergebnisse mithilfe eines der Asset-Status `Approved` oder `Rejected`.
+* Asset-Status: Filtern Sie die Suchergebnisse mithilfe einer `Approved`, `Rejected`oder `No Status` Asset-Status.
 
 * Asset-Typ: Filtern von Suchergebnissen nach den unterstützten Dateitypen: `Images`, `Documents` und `Videos`.
 * MIME-Typ: Filtern nach einem oder mehreren der unterstützten Dateiformate. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
