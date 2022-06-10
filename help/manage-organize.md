@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 93%
+source-wordcount: '992'
+ht-degree: 86%
 
 ---
 
@@ -108,19 +108,16 @@ Festlegen eines Asset-Status
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
-<!--
 
-### Set asset expiration date {#set-asset-expiration-date}
+### Asset-Ablaufdatum festlegen {#set-asset-expiration-date}
 
-To set asset expiration date:
+So legen Sie das Asset-Ablaufdatum fest:
 
-1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+1. Wählen Sie das Asset aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Details]**.
 
-1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+1. Im **[!UICONTROL Allgemein]** Registerkarte festlegen, legen Sie das Ablaufdatum für das Asset mithilfe der  **[!UICONTROL Ablaufdatum]** -Feld.
 
-The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
-
--->
+Die `Expired` Die Anzeige der Asset-Karten setzt die `Approved` oder `Rejected` Indikator für ein Asset.
 
 Sie können Assets auch nach einem Asset-Status filtern. Weitere Informationen finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
 
@@ -136,13 +133,9 @@ Weitere Informationen zum Hinzufügen zusätzlicher Metadatenfelder zum Metadate
 
 Um das Metadatenfeld „Asset-Status“ zum Formular hinzuzufügen, ziehen Sie die Komponente **[!UICONTROL Asset-Status]** von der linken Leiste in das Formular. Die Zuordnungseigenschaft wird automatisch vorausgefüllt. Speichern Sie das Formular, um die Änderungen zu bestätigen.
 
-<!--
+**Metadatenfeld &quot;Ablaufdatum&quot;zum Formular hinzufügen**
 
-**Add Expiration Date metadata field to the form**
-
-To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
-
--->
+Um das Metadatenfeld Ablaufdatum zum Formular hinzuzufügen, ziehen Sie **[!UICONTROL Datum]** -Komponente von der linken Leiste zum Formular. Angeben **Ablaufdatum** als Titel und `pur:expirationDate` als Zuordnungseigenschaft. Speichern Sie das Formular, um die Änderungen zu bestätigen.
 
 ## Nächste Schritte {#next-steps}
 

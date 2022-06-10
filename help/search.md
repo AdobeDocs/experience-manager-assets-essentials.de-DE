@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
+source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 91%
+source-wordcount: '774'
+ht-degree: 77%
 
 ---
 
@@ -58,11 +58,11 @@ Assets Essentials bietet die folgenden benutzerdefinierten Filter:
      </tr>
      <tr>
       <td>Titel</td>
-      <td>Filtern Sie Assets unter Verwendung des Asset-Titels. Der Titel, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Titel des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Titels. Sie können einen Platzhalter (*) verwenden, um Assets Essentials zu ermöglichen, Assets in den Ergebnissen anzuzeigen, die teilweise den Suchkriterien entsprechen. Wenn Sie beispielsweise <b>ma*</b> als Suchkriterium verwendet, zeigt Assets Essentials Assets mit Titeln wie Markt, Marketing, Mann, Manager usw. in den Ergebnissen an.</td>
      </tr>
      <tr>
       <td>Name</td>
-      <td>Filtern Sie Assets unter Verwendung des Asset-Dateinamens. Der Name, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Namen des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Dateinamens. Sie können einen Platzhalter (*) verwenden, um Assets Essentials zu ermöglichen, Assets in den Ergebnissen anzuzeigen, die teilweise den Suchkriterien entsprechen.</td>
      </tr>
      <tr>
       <td>Asset-Größe</td>
@@ -70,7 +70,7 @@ Assets Essentials bietet die folgenden benutzerdefinierten Filter:
      </tr>
      <tr>
       <td>Prognostizierte Tags</td>
-      <td>Filtern Sie Assets unter Verwendung des Asset-Smart-Tags. Der Smart-Tag-Name, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Smart-Tag-Namen des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird. Sie können nicht mehrere Smart-Tags in den Suchkriterien angeben.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Smart-Tags. Sie können einen Platzhalter (*) verwenden, um Assets Essentials zu ermöglichen, Assets in den Ergebnissen anzuzeigen, die teilweise den Suchkriterien entsprechen. Sie können in den Suchkriterien mehrere Smart-Tags angeben, die durch ein Komma getrennt sind.</td>
      </tr>    
     </tbody>
    </table>
