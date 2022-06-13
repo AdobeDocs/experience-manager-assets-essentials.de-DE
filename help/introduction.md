@@ -1,12 +1,12 @@
 ---
 title: Einführung in  [!DNL Assets Essentials]
-description: Verwalten Sie Ihre Assets mit AEM Assets Essentials, einem einfachen Tool, das in Experience Cloud-Anwendungen verwendet werden kann.
+description: Verwalten Sie Ihre Assets mit Experience Manager Assets Essentials, einem einfachen Digital Asset Management-Tool, das in Experience Cloud-Anwendungen verwendet werden kann.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: 2c2d490da79cb2f5d2069049baf3944aaa0050a5
+source-git-commit: 0e41008adfb713f0a40c65433adeac53c195a2ac
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 93%
+source-wordcount: '640'
+ht-degree: 2%
 
 ---
 
@@ -14,31 +14,86 @@ ht-degree: 93%
 
 <!-- TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
+
 -->
 
-Adobe bietet eine stabile DAM-Lösung (Digital Asset Management), mit der Sie Ihre digitalen Assets optimal nutzen können. Als Teil der Adobe Experience Manager-Produktlinie bietet Adobe eine neue SaaS-Lösung zum Speichern, Verwalten und Finden digitaler Assets, die sich auch nativ mit anderen Adobe-Lösungen integrieren lässt.
+Adobe bietet robuste DAM-Lösungen (Digital Asset Management), mit denen Sie Ihre digitalen Assets optimal nutzen können. Adobe Experience Manager Assets Essentials ist die einfache Asset-Management-Lösung von Adobe zum Speichern, Verwalten, Entdecken und Verwenden digitaler Assets.
 
-[!DNL Experience Manager Assets Essentials] ist eine neue, abgespeckte Ausgabe von [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] bietet ein einheitliches Asset-Management und Zusammenarbeit in einer vereinfachten und konsistenten Benutzeroberfläche. Durch die Benutzerfreundlichkeit können mehr Kreativ- und Marketing-Teams digitale Assets speichern, finden und verteilen. Aktuell kann das eingebettete [!DNL Assets Essentials]-Erlebnis mit den folgenden Lösungen integriert werden:
+## Was ist Assets Essentials? {#assets-essemtials-overview}
 
-* Creative Cloud für Unternehmen
+Experience Manager Assets Essentials ist eine einfache Edition von Adobe Experience Manager Assets Cloud Service. Assets Essentials bietet eine einheitliche Asset-Verwaltung und Zusammenarbeit mit einer vereinfachten, modernen Benutzeroberfläche. Die benutzerfreundliche Lösung ermöglicht es kreativen und Marketing-Teams, digitale Assets zu speichern, zu entdecken und zu verteilen.
 
-* Adobe Journey Optimizer
+Mit Assets Essentials können Sie:
 
-* Adobe Workfront
+* Verwalten, Organisieren und Verwalten von Assets an einem zentralen Speicherort
+
+* Zusammenarbeit bei der Entwicklung von Inhalten in allen Teams.
+
+* Rufen Sie genehmigte Assets auf, suchen Sie sie und suchen Sie sie.
+
+* Freigeben und Herunterladen von Assets für die nachgelagerte Bereitstellung.
+
+## Wie greife ich auf Assets Essentials zu? {#access-options}
+
+Assets Essentials bietet eine eigenständige Web-Benutzeroberfläche für Endbenutzer und Administratoren, über die sie auf alle Funktionen der Lösung zugreifen können. Anwender anderer Adobe-Lösungen können über ein eingebettetes Erlebnis, das in Creative Cloud für Enterprise-, Adobe Journey Optimizer- und Adobe Workfront- verfügbar ist, auch auf Assets aus Assets Essentials zugreifen und mit ihnen arbeiten.
+
+![Integration mit anderen Lösungen](assets/assets-essentials-integration.svg)
+
+## Warum Assets Essentials? {#assets-essentials-features}
+
+Assets Essentials bietet wichtige Vorteile:
+
+* **Erste Schritte schnell** mit nativen Tools für die Asset-Verwaltung.
+
+* Erweitern des Zugriffs auf Assets auf mehr Teams, um konsistente Kundenerlebnisse mit **vereinfachtes Asset-Management**.
+
+* Vereinheitlichen des Inhaltslebenszyklus mit nativen Inhalten **Integrationen in andere Adobe-Lösungen**.
+
+* Nutzen Sie eine **Cloud-basierte Plattform**, sicher und skalierbar jederzeit und überall.
+
+* Beginnen Sie mit den grundlegenden DAM-Funktionen und **wachsen** auf Unternehmens-DAM.
+
+**Erste Schritte schnell**
+
+Die Assets Essentials-Lösung wird den Kunden nach Adobe bereitgestellt und steht nach Abschluss des Bereitstellungsprozesses zur Verfügung. Administratoren erhalten Zugriff auf das Produkt in Adobe Admin Console und können sofort mit der Systemkonfiguration und dem Onboarding von Benutzern beginnen.
+
+Weitere Informationen zur Assets Essentials [Administration und Onboarding von Benutzern](deploy-administer.md).
+
+**Vereinfachtes Asset-Management**
+
+Die vereinfachte Benutzeroberfläche von Assets Essentials erleichtert die Verwaltung, Erkennung und Verteilung digitaler Assets. Ein breites Spektrum von Benutzern aus verschiedenen Funktionen, einschließlich Kreativ-, Marketing- und Branchenteams, kann an Assets zusammenarbeiten und auf die richtigen, genehmigten Assets zugreifen, wann und wo sie benötigt werden.
+
+Weitere Informationen finden Sie unter [Erste Schritte mit Ihren Asset-Management-Anforderungen mit Assets Essentials](get-started.md).
+
+**Integration mit anderen Adobe Apps**
+
+Assets Essentials ist mit den unterstützten Adobe-Lösungen integriert und bietet ein eingebettetes Erlebnis über die Benutzeroberflächen dieser Anwendungen. Damit können Benutzer problemlos auf Assets zugreifen, die sie direkt in ihrer Anwendung benötigen. Alle Benutzer können mit denselben zentral verwalteten Assets in ihren vertrauten Tools und Anwendungen arbeiten.
+
+Das eingebettete Assets Essentials-Erlebnis steht für Creative Cloud für Enterprise-, Adobe Journey Optimizer- und Adobe Workfront-Anwendungen zur Verfügung.
 
 Weitere Informationen finden Sie unter [Integration mit anderen Adobe-Lösungen](integration.md).
 
-[!DNL Assets Essentials] konzentriert sich auf die einfache Benutzeroberfläche und effizientes Suchen und Auffinden von digitalen Assets, um eine gute Asset-Nutzung, Governance und Markenkonsistenz über alle Teams hinweg sicherzustellen. Das Endbenutzererlebnis kann über eine eigenständige Web-Benutzeroberfläche und ein in andere Adobe-Lösungen eingebettetes Erlebnis erfolgen.
+**Cloud-basierte Plattform**
 
-Für Administratoren bietet sie eine einfachere Konfiguration und Verwaltung, die zu einer schnelleren Wertschöpfung führt. Administratoren erhalten sofortigen Zugriff auf die Lösung und können mit den aus der [!DNL Adobe Admin Console] bekannten Funktionen und Benutzerberechtigungen arbeiten. Siehe [Implementieren und Verwalten](/help/deploy-administer.md).
+Basierend auf der Cloud-Infrastruktur von Adobe ermöglicht Assets Essentials Unternehmen, sich auf ihre Geschäftsanforderungen zum Erstellen, Verwalten und Verteilen digitaler Assets zu konzentrieren. Darüber hinaus stellt Adobe sicher, dass die Lösung verfügbar, sicher, skalierbar und stets auf dem neuesten Stand ist, mit Produktinnovationen, die Benutzern nahtlos über häufige Updates bereitgestellt werden.
 
-Für Benutzer ist die Verwaltung digitaler Assets mit [!DNL Assets Essentials] so einfach wie in den folgenden drei Schritten beschrieben. Siehe [Erste Schritte mit [!DNL Assets Essentials]](/help/get-started.md).
+**Leistungsstarke Funktionen**
 
-* **Schritt 1**: Hochladen und Anzeigen von Assets.
-* **Schritt 2**: Durchsuchen und Herunterladen von Assets.
-* **Schritt 3**: Verwalten und Organisieren der Assets.
+Profitieren Sie von den zentralen Digital Asset Management-Funktionen verschiedener Teams, um Assets Essentials schnell zu nutzen.
+
+Wenn Ihr Geschäftsbedarf wächst und Sie Unterstützung für erweiterte Digital Asset Management-Anforderungen wie Anpassungen, Erweiterbarkeit und Integrationen, Automatisierung, Dynamic Media und Brand Portal benötigen, bietet Adobe auch [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en).
+
+
+## Nächste Schritte {#next-steps}
+
+* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Assets Essentials] Blog-Beitrag zur Launch-Ankündigung](https://blog.adobe.com/en/publish/2021/04/27/introducing-adobe-experience-manager-assets-essentials-to-simplify-collaboration-across-teams.html)
+>* [[!DNL Assets Essentials] Tutorials-Seite](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=en)
 
