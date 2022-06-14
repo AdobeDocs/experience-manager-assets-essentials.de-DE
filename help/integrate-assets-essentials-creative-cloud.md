@@ -1,88 +1,88 @@
 ---
-title: Integrieren von Assets Essentials mit Creative Cloud-Anwendungen
-description: Integrieren Sie Assets Essentials in Creative Cloud-Anwendungen, damit Sie über den Link "Adobe Asset"im App-Bedienfeld eine Verbindung zu [!DNL Assets Essentials] Repository aus dem unterstützten [!DNL Adobe Creative Cloud] Desktop-Applikationen.
-source-git-commit: f4e56fc6bb76eeb2770b18be88b7da1a1829069c
-workflow-type: tm+mt
+title: Integrieren von Assets Essentials mit Creative Cloud-Programmen
+description: Integrieren Sie Assets Essentials in Creative Cloud-Programmen, damit Sie innerhalb der unterstützten Desktop-Programme von  [!DNL Adobe Creative Cloud]  über das Bedienfeld „Adobe Asset Link“ direkt im Programm eine Verbindung zum  [!DNL Assets Essentials] -Repository herstellen können.
+exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
+source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
-# Integrieren von Assets Essentials mit Creative Cloud-Anwendungen {#integrate-assets-essentials-creative-cloud-applications}
+# Integrieren von Assets Essentials mit Creative Cloud-Programmen {#integrate-assets-essentials-creative-cloud-applications}
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/cce-creative-cloud.png)
 
-## Die Geschichte bis jetzt
+## Die bisherige Entwicklung
 
-Nachher [Konfigurieren von Experience Manager Assets Essentials](adminster-aem-assets-essentials.md) in diesem Tutorial können Sie auf dem Erlebnis aufbauen, um die Creative Cloud-Anwendungen in Assets Essentials zu integrieren.
+Nach der [Konfiguration von Experience Manager Assets Essentials](adminster-aem-assets-essentials.md) in diesem Tutorial können Sie auf den Erfahrungen aufbauen, um die Creative Cloud-Programme mit Assets Essentials zu integrieren.
 
 ## Ziel
 
 * **Zielgruppe**: Creative Cloud-Administratoren
 
-* **Ziel**: Integrieren Sie Assets Essentials in Creative Cloud-Apps, damit kreative Benutzer über den Link &quot;Adobe Asset&quot;im App-Bedienfeld eine Verbindung zu [!DNL Assets Essentials] Repository aus dem unterstützten [!DNL Adobe Creative Cloud] Desktop-Applikationen.
+* **Ziel**: Integrieren von Assets Essentials in Creative Cloud-Programmen, damit Ihre Kreativanwender innerhalb der unterstützten Desktop-Programme von [!DNL Adobe Creative Cloud] über das Bedienfeld „Adobe Asset Link“ direkt im Programm eine Verbindung zum [!DNL Assets Essentials]-Repository herstellen können.
 
 ## Übersicht
 
-[Mit dem programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/de/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Assets Essentials]-Desktop-Programmen heraus eine Verbindung zum [!DNL Adobe Creative Cloud]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum dazu beiträgt, die Geschwindigkeit von Inhalten zu erhöhen.
+[Mit dem programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/de/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Assets Essentials]-Desktop-Programmen heraus eine Verbindung zum [!DNL Adobe Creative Cloud]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum dazu beiträgt, die Content Velocity zu erhöhen.
 
-Anwender von Creative Cloud-Anwendungen können das Bedienfeld &quot;Adobe Asset Link&quot;nur verwenden, wenn Sie die Creative Cloud-Anwendungen in das Repository von Experience Manager Assets Essentials integrieren.
+Anwender von Creative Cloud-Programmen können das Bedienfeld „Adobe Asset Link“ nur verwenden, wenn Sie die Creative Cloud-Programme in das Repository von Experience Manager Assets Essentials integrieren.
 
-Führen Sie die folgenden Schritte aus, um Assets Essentials in Creative Cloud-Anwendungen zu integrieren:
+Führen Sie die folgenden Schritte aus, um Assets Essentials in Creative Cloud-Programmen zu integrieren:
 
-* [Erstellen von Verzeichnissen, die zwischen der Admin Console von Creative Cloud und Experience Cloud vertrauenswürdig sind](#directory-trusting-cc-assets-essentials-consoles)
+* [Erstellen einer vertrauenswürdigen Verzeichnisstruktur zwischen der Admin Console von Creative Cloud und Experience Cloud](#directory-trusting-cc-assets-essentials-consoles)
 
 * [Hinzufügen von Creative Cloud-Benutzern zu Assets Essentials-Produktprofilen](#add-cc-users-assets-essentials-product-profiles)
 
-* [Adobe Asset Link installieren](#install-asset-link)
+* [Installieren von Adobe Asset Link](#install-asset-link)
 
-* [Adobe Asset Link verwenden](#use-asset-link)
+* [Verwenden von Adobe Asset Link](#use-asset-link)
 
-## Erstellen von Verzeichnissen, die zwischen Creative Cloud- und Experience Cloud-Admin Consolen vertrauenswürdig sind {#directory-trusting-cc-assets-essentials-consoles}
+## Herstellen von Verzeichnisvertrauen zwischen der Admin Console von Creative Cloud und Experience Cloud {#directory-trusting-cc-assets-essentials-consoles}
 
-Wenn Ihr Creative Cloud in einer anderen Adobe-Admin Console als der mit Assets Essentials (Experience Cloud-Lösung) bereitgestellt wird, müssen Sie eine Vertrauensbeziehung zwischen den beiden Konsolen hinzufügen.
+Wenn Creative Cloud in einer anderen Adobe-Admin Console als der mit Assets Essentials (Experience Cloud-Lösung) bereitgestellt wird, müssen Sie eine Vertrauensbeziehung zwischen den beiden Konsolen hinzufügen.
 
-Um Creative Cloud- und Assets Essentials-Anwendungen zu integrieren, müssen die Benutzer, die in Admin Console für Creative Cloud verfügbar sind, in Admin Console für Experience Cloud verfügbar gemacht werden. Wenn Creative Cloud und Assets Essentials in separaten Admin Consolen bereitgestellt werden, ist eine Vertrauensbeziehung zwischen ihnen erforderlich, um dies zu aktivieren.
+Um Creative Cloud- und Assets Essentials-Programme zu integrieren, müssen die Benutzer, die in der Admin Console für Creative Cloud verfügbar sind, auch in der Admin Console für Experience Cloud verfügbar gemacht werden. Wenn Creative Cloud und Assets Essentials in separaten Admin Consoles bereitgestellt werden, ist eine Vertrauensbeziehung zwischen ihnen erforderlich, um dies zu aktivieren.
 
-Klicken Sie auf der Admin Console Experience Cloud auf **[!UICONTROL Einstellungen]** und verwenden Sie **[!UICONTROL Verzeichnisse]** -Registerkarte, um ein Verzeichnis zu erstellen, das erstellt werden soll [directory trusting](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) zwischen den beiden Admin Consolen.
+Klicken Sie in der Admin Console von Experience Cloud auf **[!UICONTROL Einstellungen]** und verwenden Sie die Registerkarte **[!UICONTROL Verzeichnisse]**, um ein Verzeichnis zu erstellen, sodass ein [Verzeichnisvertrauen](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html#directory-trusting) zwischen den beiden Admin Consoles hergestellt wird.
 
 ## Hinzufügen von Creative Cloud-Benutzern zu Assets Essentials-Produktprofilen {#add-cc-users-assets-essentials-product-profiles}
 
-Nachdem Sie das Verzeichnis erstellt haben, das zwischen der Admin Console für Creative Cloud und der Admin Console für Experience Cloud vertraut, weisen Sie die Creative Cloud-Benutzer dem **[!DNL Assets Essentials]Benutzer** Produktprofil unter [!DNL Assets Essentials] Produktkarte in der Experience Cloud-Admin Console. Creative Cloud-Benutzer können über ihr Adobe Asset Link-Plug-in-Bedienfeld auf Assets Essentials zugreifen. Darüber hinaus erhalten sie Zugriff auf die gesamte Assets Essentials-Webbenutzeroberfläche, über die sie digitale Assets über einen Webbrowser hochladen, organisieren, taggen und finden können.
+Nachdem Sie das Verzeichnisvertrauen zwischen der Admin Console für Creative Cloud und der Admin Console für Experience Cloud eingerichtet haben, weisen Sie die Creative Cloud-Benutzer dem Produktprofil **[!DNL Assets Essentials]Benutzer** unter der [!DNL Assets Essentials]-Produktkarte in der Admin Console für Experience Cloud zu. Dadurch können Creative Cloud-Benutzer über ihr Plug-in-Bedienfeld „Adobe Asset Link“ auf Assets Essentials zugreifen. Darüber hinaus erhalten sie Zugriff auf die vollständige Web-Benutzeroberfläche von Assets Essentials zum Hochladen, Organisieren, Kennzeichnen und Suchen digitaler Assets über einen Webbrowser.
 
-Andere Assets Essentials-Produktprofile - **[!DNL Assets Essentials]Administratoren** und **[!DNL Assets Essentials]Verbraucherbenutzer** - werden für verschiedene Benutzerberechtigungen verwendet (Anwendungsadministratoren und Anwender, die über Experience Cloud-Integrationen auf Assets Essentials zugreifen).
+Andere Assets Essentials-Produktprofile, wie **[!DNL Assets Essentials]-Administratoren** und **[!DNL Assets Essentials]-Verbraucherbenutzer**, werden für verschiedene Benutzerberechtigungen verwendet (Programmadministratoren und Anwender, die über Experience Cloud-Integrationen auf Assets Essentials zugreifen).
 
 Weitere Informationen zum Zuweisen von Benutzern zu Assets Essentials-Produktprofilen finden Sie unter [Zuweisen von Benutzern zu Assets Essentials-Produktprofilen](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
 
-## Adobe Asset Link installieren {#install-asset-link}
+## Installieren von Adobe Asset Link {#install-asset-link}
 
-[!DNL Adobe Asset Link] -Plug-in kann auf zwei Arten installiert und für kreative Benutzer verfügbar gemacht werden:
+Das Plug-in [!DNL Adobe Asset Link] kann auf zwei Arten installiert und für kreative Benutzer verfügbar gemacht werden:
 
-* Creative-Benutzer können das Plug-in über ihre [!DNL Creative Cloud Desktop] application
-* Creative Cloud-Administrator kann in Admin Console einem Creative Cloud-Package das Asset Link-Plug-in hinzufügen
+* Kreative Benutzer können das Plug-in über ihr [!DNL Creative Cloud Desktop]-Programm installieren
+* Ein Creative Cloud-Administrator kann in der Admin Console das Plug-in „Asset Link“ zu einem Creative Cloud-Paket hinzufügen
 
 Die Wahl hängt von den IT-Richtlinien der Organisation ab.
 
-**Installation mit [!DNL Creative Cloud Desktop] application** wird beschrieben [here](https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html). Es sind zwei Plug-ins verfügbar, die auf gehostet werden [Adobe Exchange](https://exchange.adobe.com/) Marketplace, abhängig von der Creative Cloud-Anwendung:
+**Die Installation mithilfe des [!DNL Creative Cloud Desktop]-Programms** wird [hier](https://helpx.adobe.com/de/creative-cloud/kb/installingextensionsandaddons.html) beschrieben. Es sind zwei Plug-ins verfügbar, die auf dem [Adobe Exchange](https://exchange.adobe.com/)-Marketplace gehostet werden, abhängig vom Creative Cloud-Programm:
 
-* Für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator]und [!DNL Adobe InDesign]: [Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
-* Für [!DNL Adobe XD]: [Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
+* Für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator] und [!DNL Adobe InDesign] handelt es sich um [Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
+* Für [!DNL Adobe XD] ist es [Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
 
-**Installation mit einem Creative Cloud-Package** wird vom Creative Cloud-Administrator in Admin Console ausgeführt, indem beim Erstellen eines Bereitstellungspakets das Asset-Link-Plug-in einbezogen wird, das später auf Benutzercomputern bereitgestellt werden kann. Suchen Sie im verwalteten Bildschirm &quot;Plug-ins auswählen&quot;nach **Adobe Asset Link** im **Vorgestellte Geschäfts-Plugins** Abschnitt. Weitere Informationen finden Sie unter [Verpacken von Apps über die Admin Console](https://helpx.adobe.com/enterprise/using/package-apps-admin-console.html).
+Die **Installation mit einem Creative Cloud-Paket** wird vom Creative Cloud-Administrator in der Admin Console ausgeführt, indem beim Erstellen eines Bereitstellungspakets das Plug-in „Asset Link“ einbezogen wird, das später auf Benutzer-Computern bereitgestellt werden kann. Suchen Sie im verwalteten Bildschirm „Plug-ins auswählen“ nach **Adobe Asset Link** im Abschnitt **Vorgestellte Geschäfts-Plug-ins**. Weitere Informationen finden Sie unter [Verpacken von Programmen über die Admin Console](https://helpx.adobe.com/de/enterprise/using/package-apps-admin-console.html).
 
-## Adobe Asset Link verwenden {#use-asset-link}
+## Verwenden von Adobe Asset Link {#use-asset-link}
 
-Kreative Benutzer können jetzt Adobe Asset Link mit Photoshop, Illustrator, InDesign oder XD verwenden. Um das Bedienfeld auf InDesign oder Illustrator zu öffnen, navigieren Sie zu Windows > Erweiterungen > Adobe Asset Link. Navigieren Sie in Photoshop zu &quot;Fenster&quot;> &quot;Erweiterungen (alt)&quot;> &quot;Adobe Asset Link&quot;.
+Kreative Benutzer können Adobe Asset Link jetzt mit Photoshop, Illustrator, InDesign oder XD verwenden. Um das Bedienfeld in InDesign oder Illustrator zu öffnen, navigieren Sie zu „Fenster“ > „Erweiterungen“ > „Adobe Asset Link“. Navigieren Sie in Photoshop zu „Fenster“ > „Erweiterungen (alt)“ > „Adobe Asset Link“.
 
-Informationen zum Einrichten von Adobe Asset Link für Adobe XD erhalten Sie durch Klicken auf [here](https://helpx.adobe.com/de/enterprise/using/adobe-asset-link-for-xd.html).
+Informationen zum Einrichten von Adobe Asset Link für Adobe XD erhalten Sie, indem Sie [hier](https://helpx.adobe.com/de/enterprise/using/adobe-asset-link-for-xd.html) klicken.
 
 >[!NOTE]
 >
->Bei der Arbeit mit Apple Silicon/M1-Hardware muss Adobe Photoshop mit dem Rosetta-Kompatibilitätsmodus gestartet werden, um sicherzustellen, dass kreative Benutzer Zugriff auf das Adobe Asset Link-Bedienfeld haben, da es mithilfe der CEP-Erweiterungstechnologie erstellt wurde. Weitere Informationen finden Sie unter [Photoshop for Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
+>Bei der Arbeit mit Apple-Chip-/M1-Hardware muss Adobe Photoshop im Rosetta-Kompatibilitätsmodus gestartet werden, um sicherzustellen, dass kreative Benutzer Zugriff auf das Bedienfeld „Adobe Asset Link“ haben, da es mithilfe der CEP-Erweiterungstechnologie erstellt wird. Weitere Informationen finden Sie unter [Photoshop für Apple-Chip](https://helpx.adobe.com/de/photoshop/kb/photoshop-for-apple-silicon.html).
 
 
-Verwenden Sie Adobe Asset Link , um mit im Assets Essentials-Repository gespeicherten Assets zu arbeiten und sie zu ändern. Sie können verschiedene Aufgaben ausführen, z. B.:
+Verwenden Sie Adobe Asset Link, um mit im Assets Essentials-Repository gespeicherten Assets zu arbeiten und sie zu ändern. Sie können verschiedene Aufgaben ausführen, z. B.:
 
 * Suchen und Durchsuchen von Assets
 
@@ -94,10 +94,10 @@ Verwenden Sie Adobe Asset Link , um mit im Assets Essentials-Repository gespeich
 
 * Auschecken und Einchecken eines Assets
 
-* Versionsverlauf und Dateidetails anzeigen
+* Anzeigen von Versionsverlauf und Dateidetails
 
-Anweisungen zum Ausführen dieser Aufgaben finden Sie unter [Verwalten von Assets mithilfe von Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/manage-assets-using-adobe-asset-link.html).
+Anweisungen zum Ausführen dieser Aufgaben finden Sie unter [Verwalten von Assets mithilfe von Adobe Asset Link](https://helpx.adobe.com/de/enterprise/using/manage-assets-using-adobe-asset-link.html).
 
 ## Wie geht es weiter
 
-Nachdem Sie die Creative Cloud-Anwendungen in Assets Essentials integriert haben, [Integration von Adobe Workfront in Experience Manager Assets Essentials](integrate-assets-essentials-workfront.md).
+Nachdem Sie nun die Creative Cloud-Programme mit Assets Essentials integriert haben, [integrieren Sie Adobe Workfront mit Experience Manager Assets Essentials](integrate-assets-essentials-workfront.md).
