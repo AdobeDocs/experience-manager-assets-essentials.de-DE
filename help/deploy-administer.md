@@ -4,9 +4,9 @@ description: Anwendungsfälle für Administratoren, wie z. B. Implementieren un
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 [!DNL Adobe Experience Manager Assets Essentials] wird von Adobe für seine Kunden bereitgestellt. Im Rahmen der Implementierung wird [!DNL Assets Essentials] in der [!DNL Adobe Admin Console] zur Organisation eines Kunden hinzugefügt. Administratoren verwenden [!DNL Admin Console], um Benutzerberechtigungen für die Lösung [!DNL Assets Essentials] zu verwalten, und ernennen Programmadministratoren, um Berechtigungen und Metadatenformulare in [!DNL Assets Essentials] einzurichten.
 
-Klicken Sie auf diese Option, um ein Journey-basiertes Erlebnis zur Verwaltung von Assets Essentials zu erhalten. [link](adminster-aem-assets-essentials.md).
+Klicken Sie auf diesen [Link](adminster-aem-assets-essentials.md), um die Verwaltung von Assets Essentials in einer Tour zu erleben.
 
 ## Automatische Implementierung von Assets Essentials {#automatic-deployment-assets-essentials}
 
@@ -106,7 +106,7 @@ Nach der Implementierung wird Ihrer Organisation die Berechtigung für [!DNL Ass
 
    *Abbildung: Hinzufügen eines Administrators und Auswahl eines Produktprofils in der [!DNL Admin Console].*
 
-1. Um auf [!DNL Cloud Manager] zuzugreifen, klicken Sie auf den Link in der E-Mail mit Zugriff auf [!DNL Cloud Manager]. Alternativ können Sie [https://experience.adobe.com/de/cloud-manager/](https://experience.adobe.com/#/cloud-manager/) in Ihrem Browser aufrufen.
+1. Um auf [!DNL Cloud Manager] zuzugreifen, klicken Sie auf den Link in der E-Mail mit Zugriff auf [!DNL Cloud Manager]. Alternativ können Sie [https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/) in Ihrem Browser aufrufen.
 
 1. Klicken Sie in der Benutzeroberfläche von Cloud Manager oben rechts auf **[!UICONTROL Programm hinzufügen]**.
 
@@ -128,13 +128,13 @@ Nach der Implementierung wird Ihrer Organisation die Berechtigung für [!DNL Ass
 
 ## Nächste Schritte {#next-steps}
 
-* [Video zur Bereitstellung von Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+* [Video zur Bereitstellung von Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=de)
 
-* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
-* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
 
 
 
