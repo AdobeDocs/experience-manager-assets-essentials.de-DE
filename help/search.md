@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 77%
+ht-degree: 84%
 
 ---
 
@@ -125,10 +125,10 @@ When userA is searching and userB add an asset that matches search results, will
 
 ## Nächste Schritte {#next-steps}
 
-* [Video ansehen, um Assets in Assets Essentials zu suchen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [Video zum Suchen von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=de)
 
-* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
-* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)

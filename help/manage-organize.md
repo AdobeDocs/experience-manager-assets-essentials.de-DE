@@ -7,7 +7,7 @@ exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -139,13 +139,13 @@ Um das Metadatenfeld Ablaufdatum zum Formular hinzuzufügen, ziehen Sie **[!UICO
 
 ## Nächste Schritte {#next-steps}
 
-* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html?lang=de)
 
-* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+* Geben Sie Produktfeedback über die Option [!UICONTROL Feedback], die auf der Benutzeroberfläche von Assets Essentials verfügbar ist.
 
-* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
 
 
 

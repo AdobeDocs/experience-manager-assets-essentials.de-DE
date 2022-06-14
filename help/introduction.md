@@ -6,7 +6,7 @@ exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 source-git-commit: 0e41008adfb713f0a40c65433adeac53c195a2ac
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -86,11 +86,11 @@ Wenn Ihr Geschäftsbedarf wächst und Sie Unterstützung für erweiterte Digital
 
 ## Nächste Schritte {#next-steps}
 
-* Stellen Sie Produkt-Feedback mit der [!UICONTROL Feedback] Option in der Benutzeroberfläche von Assets Essentials verfügbar
+* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
-* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar
+* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
 
 
 >[!MORELIKETHIS]
