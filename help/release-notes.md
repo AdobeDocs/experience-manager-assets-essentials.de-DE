@@ -4,14 +4,67 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
-workflow-type: ht
-source-wordcount: '761'
-ht-degree: 100%
+source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 86%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
+
+Die aktuelle Version von [!DNL Assets Essentials] wird am 16. Juni 2022 veröffentlicht.
+
+Was diese Version bietet:
+
+**Asset-Statusverbesserungen**
+
+* Mit Assets Essentials können Sie jetzt [Legen Sie ein Ablaufdatum für ein Asset fest.](manage-organize.md#set-asset-status). Darüber hinaus können Sie [Assets filtern](search.md#refine-search-results) basierend auf der `Expired` Asset-Status und ein Ablaufdatumsbereich.
+
+* Sie können jetzt die Asset-Statusanzeige für alle im Papierkorb verfügbaren Assets anzeigen. Daher können Sie eine Entscheidung treffen, um ein Asset basierend auf seinem Status wiederherzustellen.
+
+**Verbesserungen bei Suchfiltern**
+
+* Mit Assets Essentials können Sie jetzt [Assets filtern](search.md#refine-search-results) mithilfe der `No Status` Asset-Status.
+
+<!--
+
+* Assets Essentials now supports [using a wildcard operator (*) while using custom filters](search.md#custom-filters) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+-->
+
+**Verbesserungen bei Sammlungen**
+
+<!--
+
+* Assets Essentials now enables you to [create Private collections](manage-collections.md#create-collection).
+
+-->
+
+* Assets Essentials unterstützt jetzt [Herunterladen einer Sammlung](manage-collections.md).
+
+* Sie können jetzt das Metadatenfeld Beschreibung für eine Sammlung bearbeiten.
+
+**Dokumentationsverbesserungen**
+
+* Eine neue Version der [Übersichtsdokumentation zu Assets Essentials](introduction.md) ist jetzt verfügbar.
+
+**Verbesserungen auf der Basis von Kunden-Feedback**
+
+* Verbesserungen und Fehlerkorrekturen basierend auf Kunden-Feedback.
+
+
+## Bekannte Probleme {#known-issues}
+
+Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
+
+* Assets Essentials unterstützt nicht das Erstellen privater Sammlungen.
+
+Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
+
+## Frühere Versionen {#past-release}
+
+### 2022.4.0 {#april-2022}
 
 Die aktuelle Version von [!DNL Assets Essentials] wurde am 12. Mai 2022 veröffentlicht. Was diese Version bietet:
 
@@ -23,25 +76,13 @@ Die aktuelle Version von [!DNL Assets Essentials] wurde am 12. Mai 2022 veröffe
 
 * Verbesserungen und Fehlerkorrekturen basierend auf Kunden-Feedback.
 
-## Inkognito-Modus in Chrome {#incognito-mode}
+#### Inkognito-Modus in Chrome {#incognito-mode}
 
 Mit dieser Version optimieren wir die Leistung der Benutzeroberfläche. Bestimmte Funktionen in Assets Essentials –- Kommentare zu Assets und zur Bildbearbeitung – hängen davon ab, dass der lokale Speicher des Browsers und Cookies von Drittanbietern aktiviert sind. Der Inkognito-Modus im Chrome-Webbrowser blockiert standardmäßig Cookies von Drittanbietern – die Nutzer haben eine Reihe von Optionen, um weiterhin auf alle Funktionen zugreifen zu können:
 
 * Verwenden Sie Chrome-Profile anstelle des Inkognito-Modus, wenn der Benutzer Browser-Sitzungen trennen muss.
 
 * Abschalten von `Block third-party cookies` im Bildschirm „Inkognito-Modus“ in Chrome
-
-## Bekannte Probleme {#known-issues}
-
-Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
-
-* Sie können Assets nicht unter Verwendung des Asset-Status `No Status` filtern.
-
-* Assets Essentials unterstützt nicht das Erstellen privater Sammlungen.
-
-Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
-
-## Frühere Versionen {#past-release}
 
 ### 2022.2.0 {#march-2022}
 
