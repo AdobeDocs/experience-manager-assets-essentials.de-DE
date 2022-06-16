@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 84%
+source-wordcount: '802'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +40,10 @@ Sie können die Suchergebnisse anhand der folgenden Parameter filtern.
 * Erstellungsdatum: Das Erstellungsdatum des Assets, wie in den Metadaten angegeben. Das verwendete Standarddatumsformat ist `yyyy-mm-dd`.
 * Änderungsdatum: Das Datum der letzten Änderung der Assets. Das verwendete Standarddatumsformat ist `yyyy-mm-dd`.
 
+* Ablaufdatum: Filtern Sie die Suchergebnisse anhand einer `Expired` Asset-Status. Darüber hinaus können Sie einen Ablaufdatumsbereich für Assets angeben, um Ihre Suchergebnisse weiter zu filtern.
+
+* Benutzerdefinierte Filter: [Hinzufügen benutzerdefinierter Filter](#custom-filters) zur Assets Essentials-Benutzeroberfläche. Wenden Sie die benutzerdefinierten Filter zusätzlich zu den Standardfiltern an, um Ihre Suchergebnisse zu verfeinern.
+
 Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge von `Name`, `Relevancy`, `Size`, `Modified` und `Created` sortieren.
 
 ## Verwalten von benutzerdefinierten Filtern {#custom-filters}
@@ -58,11 +62,11 @@ Assets Essentials bietet die folgenden benutzerdefinierten Filter:
      </tr>
      <tr>
       <td>Titel</td>
-      <td>Filtern Sie Assets unter Verwendung des Asset-Titels. Sie können einen Platzhalter (*) verwenden, um Assets Essentials zu ermöglichen, Assets in den Ergebnissen anzuzeigen, die teilweise den Suchkriterien entsprechen. Wenn Sie beispielsweise <b>ma*</b> als Suchkriterium verwendet, zeigt Assets Essentials Assets mit Titeln wie Markt, Marketing, Mann, Manager usw. in den Ergebnissen an.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Titels. Der Titel, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Titel des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird.</td>
      </tr>
      <tr>
       <td>Name</td>
-      <td>Filtern Sie Assets unter Verwendung des Asset-Dateinamens. Sie können einen Platzhalter (*) verwenden, um Assets Essentials zu ermöglichen, Assets in den Ergebnissen anzuzeigen, die teilweise den Suchkriterien entsprechen.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Dateinamens. Der Name, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Namen des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird.</td>
      </tr>
      <tr>
       <td>Asset-Größe</td>
@@ -70,10 +74,19 @@ Assets Essentials bietet die folgenden benutzerdefinierten Filter:
      </tr>
      <tr>
       <td>Prognostizierte Tags</td>
-      <td>Filtern Sie Assets unter Verwendung des Asset-Smart-Tags. Sie können einen Platzhalter (*) verwenden, um Assets Essentials zu ermöglichen, Assets in den Ergebnissen anzuzeigen, die teilweise den Suchkriterien entsprechen. Sie können in den Suchkriterien mehrere Smart-Tags angeben, die durch ein Komma getrennt sind.</td>
+      <td>Filtern Sie Assets unter Verwendung des Asset-Smart-Tags. Der Smart-Tag-Name, den Sie in den Suchkriterien, die die Groß- und Kleinschreibung berücksichtigen, angeben, muss genau mit dem Smart-Tag-Namen des Assets übereinstimmen, damit es in den Ergebnissen angezeigt wird. Sie können nicht mehrere Smart-Tags in den Suchkriterien angeben.</td>
      </tr>    
     </tbody>
    </table>
+
+<!--
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. For example, if you define <b>ma*</b> as the search criteria, Assets Essentials displays assets with title, such as, market, marketing, man, manchester, and so on in the results.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. You can specify multiple smart tags separated by a comma in the search criteria.
+
+   -->
 
 ### Hinzufügen benutzerdefinierter Filter {#add-custom-filters}
 

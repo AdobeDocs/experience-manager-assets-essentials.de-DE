@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 92%
+source-wordcount: '1036'
+ht-degree: 88%
 
 ---
 
@@ -110,6 +110,8 @@ Festlegen eines Asset-Status
 
 
 ### Asset-Ablaufdatum festlegen {#set-asset-expiration-date}
+
+Mit Assets Essentials können Sie auch das Ablaufdatum für Assets festlegen, die im Repository verfügbar sind. Sie können dann [Suchergebnisse filtern](search.md#refine-search-results) auf der Grundlage einer `Expired` Asset-Status. Darüber hinaus können Sie einen Ablaufdatumsbereich für Assets angeben, um Ihre Suchergebnisse weiter zu filtern.
 
 So legen Sie das Asset-Ablaufdatum fest:
 
