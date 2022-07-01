@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Sie können die Suchergebnisse anhand der folgenden Parameter filtern.
 
 *Abbildung: Filtern gesuchter Assets basierend auf verschiedenen Parametern.*
 
-* Asset-Status: Filtern Sie die Suchergebnisse mithilfe einer `Approved`, `Rejected`oder `No Status` Asset-Status.
+* Asset-Status: Filtern Sie die Suchergebnisse mithilfe eines der Asset-Status `Approved`, `Rejected` oder `No Status`.
 
 * Asset-Typ: Filtern von Suchergebnissen nach den unterstützten Dateitypen: `Images`, `Documents` und `Videos`.
 * MIME-Typ: Filtern nach einem oder mehreren der unterstützten Dateiformate. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
