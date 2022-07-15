@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Festlegen eines Asset-Status
 
 ### Festlegen des Ablaufdatums eines Assets {#set-asset-expiration-date}
 
-Mit Assets Essentials können Sie auch das Ablaufdatum für Assets festlegen, die im Repository verfügbar sind. Sie können dann [Suchergebnisse filtern](search.md#refine-search-results) auf der Grundlage einer `Expired` Asset-Status. Darüber hinaus können Sie einen Ablaufdatumsbereich für Assets angeben, um Ihre Suchergebnisse weiter zu filtern.
+Mit Assets Essentials können Sie ein Ablaufdatum für im Repository verfügbare Assets festlegen. Sie können dann die [Suchergebnisse filtern](search.md#refine-search-results), auf der Grundlage des Asset-Status `Expired`. Darüber hinaus können Sie einen Zeitraum für das Ablaufdatum für Assets angeben, um Ihre Suchergebnisse weiter zu filtern.
 
 So legen Sie das Ablaufdatum eines Assets fest:
 
