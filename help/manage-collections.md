@@ -3,9 +3,9 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Erstellen einer Sammlung
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die-Sammlung zu erstellen.
 
-![Sammlung erstellen](assets/create-collection.png)
+![Erstellen einer Sammlung](assets/create-collection.png)
 
 <!--
 
@@ -113,13 +113,13 @@ Anzeigen und Bearbeiten von Sammlungsmetadaten
 1. Zeigen Sie die Metadaten der Sammlung auf der Registerkarte **[!UICONTROL Allgemein]** an.
 1. Ändern Sie die Metadatenfelder nach Bedarf. Sie können die Felder [!UICONTROL Titel], [!UICONTROL Beschreibung] und [!UICONTROL Autor] ändern.
 
-![Sammlungsmetadaten](assets/collection-metadata.png)
+![Sammlungs-Metadaten](assets/collection-metadata.png)
 
 ## Freigeben von Links für Sammlungen {#share-collection-links}
 
 [!DNL Assets Essentials] ermöglicht es Ihnen, einen Link zu erstellen und Sammlungen und Assets innerhalb von Sammlungen für externe Stakeholder freizugeben, die keinen Zugriff auf [!DNL Assets Essentials] haben. Sie können ein Ablaufdatum für den Link definieren und ihn dann mithilfe Ihrer bevorzugten Kommunikationsmethode wie E-Mail oder Messaging-Services für andere freigeben. Empfänger des Links können eine Vorschau der Medienelemente anzeigen und sie herunterladen.
 
-![Link für Assets freigeben](assets/share-link-collections.png)
+![Freigeben von Links für Assets](assets/share-link-collections.png)
 
 Weitere Informationen zum Freigeben von Sammlungs-Links für externe Stakeholder finden Sie unter [Freigeben von Links zu Assets](share-links-for-assets.md).
 
@@ -131,9 +131,9 @@ So laden Sie eine Sammlung herunter:
 
 1. Wählen Sie die Sammlung aus, die Sie herunterladen möchten, und klicken Sie auf **[!UICONTROL Download]**.
 
-1. Im [!UICONTROL Herunterladen von Assets] Dialogfeld, klicken Sie auf **[!UICONTROL OK]**.
+1. Klicken Sie im Dialogfeld [!UICONTROL Asset herunterladen] auf **[!UICONTROL OK]**.
 
-Die Sammlung wird als ZIP-Datei auf Ihren lokalen Computer heruntergeladen.
+Die ausgewählte Sammlung wird als ZIP-Datei auf Ihren lokalen Computer heruntergeladen.
 
 ## Löschen von Sammlungen {#delete-collection}
 
