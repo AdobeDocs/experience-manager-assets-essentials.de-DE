@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von [!DNL Assets Essentials] wird am 16. Juni 2022 veröffentlicht.
+Die aktuelle Version von [!DNL Assets Essentials] wurde am 16. Juni 2022 veröffentlicht.
 
 Was diese Version bietet:
 
 **Asset-Statusverbesserungen**
 
-* Mit Assets Essentials können Sie jetzt [Legen Sie ein Ablaufdatum für ein Asset fest.](manage-organize.md#set-asset-status). Darüber hinaus können Sie [Assets filtern](search.md#refine-search-results) basierend auf der `Expired` Asset-Status und ein Ablaufdatumsbereich.
+* Mit Assets Essentials können Sie jetzt [ein Ablaufdatum für ein Asset festlegen](manage-organize.md#set-asset-status). Darüber hinaus können Sie [Assets filtern](search.md#refine-search-results) basierend auf dem Asset-Status `Expired` und dem Zeitraum des Ablaufdatums.
 
-* Sie können jetzt die Asset-Statusanzeige für alle im Papierkorb verfügbaren Assets anzeigen. Daher können Sie eine Entscheidung treffen, um ein Asset basierend auf seinem Status wiederherzustellen.
+* Ab jetzt können Sie die Asset-Statusanzeige für alle im Papierkorb verfügbaren Assets anzeigen. Auf diese Weise können Sie eine Entscheidung über die Wiederherstellung eines Assets auf der Grundlage des Status treffen.
 
 **Verbesserungen bei Suchfiltern**
 
-* Mit Assets Essentials können Sie jetzt [Assets filtern](search.md#refine-search-results) mithilfe der `No Status` Asset-Status.
+* Mit Assets Essentials können Sie jetzt [Assets filtern](search.md#refine-search-results) mithilfe des Asset-Status `No Status`.
 
 <!--
 
@@ -33,7 +33,7 @@ Was diese Version bietet:
 
 -->
 
-**Verbesserungen bei Sammlungen**
+**Verbesserungen von Sammlungen**
 
 <!--
 
@@ -41,9 +41,9 @@ Was diese Version bietet:
 
 -->
 
-* Assets Essentials unterstützt jetzt [Herunterladen einer Sammlung](manage-collections.md).
+* Assets Essentials unterstützt jetzt das [Herunterladen einer Sammlung](manage-collections.md).
 
-* Sie können jetzt das Metadatenfeld Beschreibung für eine Sammlung bearbeiten.
+* Sie können jetzt das Bedienfeld „Beschreibungs-Metadaten“ für eine Sammlung bearbeiten.
 
 **Dokumentationsverbesserungen**
 
@@ -51,7 +51,7 @@ Was diese Version bietet:
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
-* Verbesserungen und Fehlerkorrekturen basierend auf Kunden-Feedback.
+* Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
 
 
 ## Bekannte Probleme {#known-issues}
@@ -101,13 +101,13 @@ Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Pho
 
 ### Version 2022.1.0 {#january-2022}
 
-[!DNL Assets Essentials] wurde am Donnerstag, 3. Februar 2022 veröffentlicht und umfasst folgende Updates:
+[!DNL Assets Essentials] wurde am 3. Februar 2022 veröffentlicht und umfasst folgende Updates:
 
 * Leistungsverbesserungen für den Vorgang [!UICONTROL Ordner erstellen]. <!-- CQ-4338818 -->
 
 ### Version 2021.11.0 {#november-2021}
 
-[!DNL Assets Essentials] wurde am Donnerstag, 16. Dezember 2021 veröffentlicht und umfasst folgende Updates:
+[!DNL Assets Essentials] wurde am 16. Dezember 2021 veröffentlicht und umfasst folgende Updates:
 
 * Adobe stellt Assets Essentials nach Abschluss des Bereitstellungsprozesses automatisch bereit. Die Administratoren müssen keine zusätzlichen Schritte ausführen, um Assets Essentials mithilfe der [!DNL Cloud Manager]-Benutzeroberfläche bereitzustellen. Diese automatische Bereitstellung ist für Umgebungen verfügbar, die nach dem 6. Januar 2022 bereitgestellt werden.
 * Neue Versionen von Creative Cloud-Plug-ins, die mit Assets Essentials funktionieren, sind auf Adobe Exchange verfügbar - [Adobe Asset Link für Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) und [Adobe Asset Link für Photoshop/InDesign/Illustrator 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
