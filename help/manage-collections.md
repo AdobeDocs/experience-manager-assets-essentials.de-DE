@@ -2,10 +2,10 @@
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ Erstellen einer Sammlung
 
 1. Wählen Sie aus, ob Sie eine private Sammlung oder eine öffentliche Sammlung erstellen müssen. Eine öffentliche Sammlung steht allen Benutzern zur Anzeige und Bearbeitung zur Verfügung. Eine private Sammlung ist jedoch für den Ersteller und Benutzer mit Administratorrechten verfügbar.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, um die-Sammlung zu erstellen.
+1. Klicken **[!UICONTROL Erstellen]** , um die Sammlung zu erstellen.
 
 ![Erstellen einer Sammlung](assets/create-collection.png)
 
