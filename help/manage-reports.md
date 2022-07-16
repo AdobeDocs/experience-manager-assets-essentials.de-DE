@@ -1,26 +1,25 @@
 ---
 title: Berichte in Assets Essentials verwalten
-description: Verwenden Sie die Informationen in den Berichten in Assets Essentials, um wichtige Erfolgsmetriken abzuleiten und so die Akzeptanz von Assets innerhalb Ihres Unternehmens und durch Kunden zu messen.
-source-git-commit: 511b7904eca972e76f55e574c7c364dd88fb1721
+description: Greifen Sie auf die Daten im Abschnitt "Berichte"von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Einblicke in wichtige Erfolgsmetriken zu erhalten.
+exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
+source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 10%
+source-wordcount: '491'
+ht-degree: 5%
 
 ---
 
 # Berichte verwalten {#manage-reports}
 
-Mit Asset-Berichten können Administratoren die Nützlichkeit der Adobe Experience Manager Assets Essentials-Implementierung bewerten. Die Berichte enthalten nützliche Informationen dazu, wie Benutzer mit in Ihrer Bereitstellung verfügbaren Assets interagieren.
-
-Verwenden Sie die Informationen aus den Berichten, um wesentliche Erfolgsmetriken abzuleiten, um festzustellen, wie gut  Assets innerhalb Ihrer Organisation und von Ihren Kunden angenommen wird.
+Die Asset-Berichterstellung bietet Administratoren Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten enthalten nützliche Informationen darüber, wie Benutzer mit Inhalten und dem Produkt interagieren.
 
 ## Auf Berichte zugreifen {#access-reports}
 
-Alle Benutzer, die dem [Produktprofil &quot;Assets Essentials-Administratoren&quot;](deploy-administer.md) kann auf Live-Statistiken und -Berichte in Assets Essentials zugreifen.
+Alle Benutzer, die dem [Produktprofil &quot;Assets Essentials-Administratoren&quot;](deploy-administer.md) kann auf das Dashboard &quot;Live-Statistiken&quot;zugreifen und benutzerdefinierte Berichte in Assets Essentials erstellen.
 
 ## Anzeigen von Live-Statistiken {#view-live-statistics}
 
-Mit Assets Essentials können Sie automatisch generierte Download-Daten für Ihre Assets Essentials-Bereitstellung anzeigen. Sie können auswählen, um die Anzahl der Asset-Downloads anzuzeigen, die in den letzten 30 Tagen oder in den letzten 12 Monaten durchgeführt wurden.
+Mit Assets Essentials können Sie Echtzeitdaten für Ihre Assets Essentials-Umgebung mit dem Dashboard Live-Statistiken anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
 ![Symbolleistenoptionen bei der Auswahl eines Medienelements](assets/asset-reports-live-statistics.png)
 
@@ -99,9 +98,9 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie z
     </tbody>
    </table>
 
-## Berichtliste anzeigen {#view-report-list}
+## Vorhandene Berichte anzeigen {#view-report-list}
 
-Nachher [Berichterstellung](#create-report)können Sie die Liste der Berichte anzeigen und auswählen, ob Sie sie im CSV-Format herunterladen oder löschen möchten.
+Nachher [Berichterstellung](#create-report)können Sie die Liste der vorhandenen Berichte anzeigen und auswählen, ob Sie sie im CSV-Format herunterladen oder löschen möchten.
 
 Um die Liste der Berichte anzuzeigen, navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Berichte]**.
 

@@ -2,10 +2,10 @@
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 76%
 
 ---
 
@@ -45,15 +45,15 @@ Erstellen einer Sammlung
 
 1. Geben Sie einen Namen und eine optionale Beschreibung für die Sammlung an.
 
+1. Wählen Sie aus, ob Sie eine private Sammlung oder eine öffentliche Sammlung erstellen müssen. Eine öffentliche Sammlung steht allen Benutzern zur Anzeige und Bearbeitung zur Verfügung. Eine private Sammlung ist jedoch für den Ersteller und Benutzer mit Administratorrechten verfügbar.
+
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die-Sammlung zu erstellen.
 
 ![Erstellen einer Sammlung](assets/create-collection.png)
 
 <!--
-
-1. Select if you need to a create a Private collection or a Public collection.
-
-   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+   
+   for viewing and editing only to users with the appropriate [permissions](#manage-collection-access).
 
 -->
 
@@ -70,6 +70,25 @@ Hinzufügen von Assets zu einer Sammlung
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um das Asset den ausgewählten Sammlungen hinzuzufügen.
 
 Um Assets zu einer Sammlung hinzuzufügen, können Sie auch in der linken Leiste auf **[!UICONTROL Sammlungen]** klicken, die Sammlung wählen, der Sie Assets hinzufügen möchten, auf **[!UICONTROL Zu Sammlung hinzufügen]** klicken, die Assets auswählen und auf **[!UICONTROL Auswählen]** klicken.
+
+## Erstellen einer Smart-Sammlung {#create-smart-collection}
+
+Speichern Sie Ihre Suchergebnisse als Smart-Sammlung, um die Sammlungsinhalte dynamisch zu aktualisieren. Wenn dem Assets Essentials-Repository Assets hinzugefügt werden, die den beim Erstellen der Smart-Sammlung definierten Suchkriterien entsprechen, werden die Inhalte der Smart-Sammlung automatisch aktualisiert.
+
+So erstellen Sie eine Smart-Sammlung:
+
+1. Klicken **[!UICONTROL Filter]** und [Suchkriterien definieren](search.md##refine-search-results).
+
+1. Klicken **[!UICONTROL Speichern unter]** und wählen Sie **[!UICONTROL Smart-Sammlung]**.
+
+1. Im [!UICONTROL Smart-Sammlung erstellen] Geben Sie einen Titel und eine Beschreibung für die Smart-Sammlung an.
+
+1. Auswählen **[!UICONTROL Öffentliche Sammlung]** , wenn alle Benutzer auf die Sammlung zugreifen müssen. Auswählen **[!UICONTROL Private Sammlung]** wenn Sie eine begrenzte Benutzergruppe benötigen, um auf die Sammlung zugreifen zu können.
+
+1. Klicken **[!UICONTROL Erstellen]** , um die Smart-Sammlung zu erstellen.
+
+![Erstellen von Smart-Sammlungen](assets/create-smart-collection.png)
+
 
 ## Entfernen von Assets aus einer Sammlung {#remove-assets-from-collection}
 
