@@ -4,9 +4,9 @@ description: Hochladen von Assets in  [!DNL Assets Essentials], Anzeigen des Upl
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Sobald alle Dateien in die Warteschlange gestellt sind, klicken Sie auf **[!UICO
 
 >[!TIP]
 >
->Wenn Sie eine Ordnerstruktur in Assets Essentials hochladen, ist es nicht erforderlich, eine ZIP-Datei mit der Ordnerstruktur zu erstellen, sondern Sie können Ordnerstrukturen direkt hochladen. Eine ZIP-Datei, die in Assets Essentials hochgeladen wurde, wird als ZIP-Asset gespeichert und nach dem Hochladen nicht automatisch extrahiert.
+>Sie können Ordnerstrukturen in Assets Essentials direkt hochladen und müssen keine ZIP-Datei mit der Ordnerstruktur erstellen. Eine nach Assets Essentials hochgeladene ZIP-Datei wird als ein einzelnes ZIP-Asset gespeichert und nach dem Hochladen nicht automatisch extrahiert.
 
 ## Anzeigen von Upload-Fortschritt und -Status {#upload-progress}
 
