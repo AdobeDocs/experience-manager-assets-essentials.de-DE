@@ -4,10 +4,10 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2b1b6d3503f8c96ac250d4b0ff7dd5b7c2b81d64
+source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird lau
 
 Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
-## Frühere Versionen {#past-release}
+## Frühere Versionen {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
@@ -185,7 +185,7 @@ Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Pho
 
 ### Version 2021.6.0 {#june2021}
 
-Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde, bietet einfache Asset-Management-Funktionen. Sie unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
+Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde, bietet einfache Asset-Management-Funktionen. Es unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
 
 * Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Anzeigen einer Vorschau der Assets und Versionen.
 * Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
