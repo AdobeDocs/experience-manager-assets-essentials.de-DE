@@ -4,32 +4,38 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: ht
-source-wordcount: '1117'
-ht-degree: 100%
+source-git-commit: b44ded8b1678e9b7c1c5eda3f350072e51b52f32
+workflow-type: tm+mt
+source-wordcount: '1269'
+ht-degree: 87%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von [!DNL Assets Essentials] wurde am 14. Juli 2022 veröffentlicht.
+Die aktuelle Version von Assets Essentials wird am 16. August 2022 veröffentlicht.
 
 Was diese Version bietet:
 
-**Smart-Sammlungen**
+**Benachrichtigungen für Sammlungen**
 
-Speichern Sie Ihre Suchergebnisse als Smart-Sammlung, um die Sammlungsinhalte dynamisch zu aktualisieren. Wenn zum Assets Essentials-Repository Assets hinzugefügt wurden, die den beim [Erstellen der Smart-Sammlung](manage-collections.md#create-smart-collection) festgelegten Suchkriterien entsprechen, wird der Inhalt der Smart-Sammlung automatisch aktualisiert.
+Mit Assets Essentials-Benachrichtigungen können Sie jetzt die Vorgänge überwachen, die für die im Repository verfügbaren Sammlungen ausgeführt werden. Sie müssen die Kollektionen auswählen und abonnieren, für die die Benachrichtigungen an Sie gesendet werden. Sie können auch die Vorgänge konfigurieren, für die die Benachrichtigungen gesendet werden, z. B. Vorgänge zum Löschen, Freigeben von Links, Verschieben, Umbenennen und Aktualisieren, die für Sammlungen ausgeführt werden.
 
-**Benachrichtigungen**
+**Bearbeiten von Smart-Sammlungen**
 
-Assets Essentials-Benachrichtigungen ermöglichen es Ihnen, [die Operationen zu überwachen, die mit den im Repository verfügbaren Assets oder Ordnern durchgeführt werden](manage-notifications.md). Sie müssen den Inhalt auswählen und abonnieren, für den die Benachrichtigungen an Sie gesendet werden sollen. Sie können auch die Kategorien konfigurieren, für die die Benachrichtigungen an Sie gesendet werden.
+Assets Essentials bietet jetzt auch die Möglichkeit, die beim Erstellen einer Smart-Sammlung verwendeten Suchkriterien zu bearbeiten.  Speichern Sie die neuen Suchkriterien, um die Sammlungsinhalte dynamisch zu aktualisieren.
 
-**Reporting**
+<!--
 
-Mithilfe des Asset-Reportings können Admins die Benutzeraktivität in Adobe Experience Manager Assets Essentials bewerten. Die Berichte und das Dashboard für Live-Statistiken liefern nützliche Informationen darüber, wie Benutzende mit den in Ihrer Bereitstellung verfügbaren Assets interagieren. [Verwenden Sie die Informationen aus den Berichten](manage-reports.md), um wesentliche Erfolgsmetriken abzuleiten und festzustellen, wie gut Assets innerhalb Ihrer Organisation und von Ihren Kundinnen und Kunden angenommen wird.
+**View live statistics for storage account**
 
-Zeigen Sie das Dashboard-Modul zum Herunterladen von Asset-Berichten und Live-Statistiken an, um zu sehen, welche Assets heruntergeladen werden und wie häufig Downloads stattfinden.
+Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
+
+-->
+
+**Anzeigen von Upload-Berichten**
+
+Die Asset-Berichterstellung bietet Administratoren nun Einblicke in Assets, die in die Adobe Experience Manager Assets Essentials-Bereitstellung hochgeladen wurden. Administratoren haben bereits die Möglichkeit, Berichte für die Assets zu erstellen, die aus der Assets Essentials-Bereitstellung heruntergeladen wurden. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
@@ -47,17 +53,35 @@ Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird lau
 -->
 
 
-* Assets Essentials unterstützt nicht die Bearbeitung von Smart-Sammlungen.
-
 * Private Sammlungen sind für Erstellende und Benutzende mit Administratorrechten verfügbar. Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
 
 Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
 ## Frühere Versionen {#past-release}
 
+### 2022.6.0 {#june-2022}
+
+Die Juni-Version von [!DNL Assets Essentials] wird am 14. Juli 2022 veröffentlicht.
+
+Was diese Version bietet:
+
+**Smart-Sammlungen**
+
+Speichern Sie Ihre Suchergebnisse als Smart-Sammlung, um die Sammlungsinhalte dynamisch zu aktualisieren. Wenn zum Assets Essentials-Repository Assets hinzugefügt wurden, die den beim [Erstellen der Smart-Sammlung](manage-collections.md#create-smart-collection) festgelegten Suchkriterien entsprechen, wird der Inhalt der Smart-Sammlung automatisch aktualisiert.
+
+**Benachrichtigungen**
+
+Assets Essentials-Benachrichtigungen ermöglichen es Ihnen, [die Operationen zu überwachen, die mit den im Repository verfügbaren Assets oder Ordnern durchgeführt werden](manage-notifications.md). Sie müssen den Inhalt auswählen und abonnieren, für den die Benachrichtigungen an Sie gesendet werden sollen. Sie können auch die Kategorien konfigurieren, für die die Benachrichtigungen an Sie gesendet werden.
+
+**Reporting**
+
+Mithilfe des Asset-Reportings können Admins die Benutzeraktivität in Adobe Experience Manager Assets Essentials bewerten. Die Berichte und das Dashboard für Live-Statistiken liefern nützliche Informationen darüber, wie Benutzende mit den in Ihrer Bereitstellung verfügbaren Assets interagieren. [Verwenden Sie die Informationen aus den Berichten](manage-reports.md), um wesentliche Erfolgsmetriken abzuleiten und festzustellen, wie gut Assets innerhalb Ihrer Organisation und von Ihren Kundinnen und Kunden angenommen wird.
+
+Zeigen Sie das Dashboard-Modul zum Herunterladen von Asset-Berichten und Live-Statistiken an, um zu sehen, welche Assets heruntergeladen werden und wie häufig Downloads stattfinden.
+
 ### 2022.5.0 {#may-2022}
 
-Die aktuelle Version von [!DNL Assets Essentials] wurde am 16. Juni 2022 veröffentlicht.
+Die Mai-Version von [!DNL Assets Essentials] wird am 16. Juni 2022 veröffentlicht.
 
 Was diese Version bietet:
 

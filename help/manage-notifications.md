@@ -2,16 +2,16 @@
 title: Verwalten von Benachrichtigungen
 description: Überwachen Sie die Vorgänge, die mit den im Repository verfügbaren Assets oder Ordnern durchgeführt werden, mithilfe der Assets Essentials-Benachrichtigungen.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 5d1e2ddd292f02cd9e2693e644886d2fcd053650
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 77%
 
 ---
 
 # Verwalten von Benachrichtigungen {#manage-notifications}
 
-Assets Essentials-Benachrichtigungen ermöglichen es Ihnen, die Operationen zu überwachen, die mit den im Repository verfügbaren Assets oder Ordnern durchgeführt werden. Sie müssen den Inhalt auswählen und abonnieren, für den die Benachrichtigungen an Sie gesendet werden sollen. Sie können auch die Kategorien konfigurieren, für die die Benachrichtigungen an Sie gesendet werden.
+Mit Assets Essentials-Benachrichtigungen können Sie die Vorgänge überwachen, die für die im Repository verfügbaren Assets, Ordner oder Sammlungen ausgeführt werden. Sie müssen den Inhalt auswählen und abonnieren, für den die Benachrichtigungen an Sie gesendet werden sollen. Sie können auch die Kategorien konfigurieren, für die die Benachrichtigungen an Sie gesendet werden.
 
 ## Abonnieren von Benachrichtigungskategorien {#subscribe-to-notification-categories}
 
@@ -37,11 +37,11 @@ Sie können aus einer Liste von Kategorien auswählen und diese abonnieren, um B
      </tr>
      <tr>
       <td>Löschung abonnierter Inhalte</td>
-      <td>Sie erhalten eine Benachrichtigung, wenn ein Benutzer Ihr abonniertes Asset oder Ihren Ordner löscht.</td>
+      <td>Sie erhalten eine Benachrichtigung, wenn ein Benutzer Ihr abonniertes Asset, Ihren Ordner oder Ihre Sammlung löscht.</td>
      </tr>
      <tr>
       <td>Externe Freigabe abonnierter Inhalte</td>
-      <td>Sie erhalten eine Benachrichtigung, wenn ein Benutzer einen öffentlichen Link für Ihr abonniertes Asset oder Ihren Ordner erstellt.</td>
+      <td>Sie erhalten eine Benachrichtigung, wenn ein Benutzer einen öffentlichen Link für Ihr abonniertes Asset, Ihren abonnierten Ordner oder Ihre abonnierte Sammlung generiert.</td>
      </tr>
      <tr>
       <td>Änderung von abonnierten Inhalten</td>
@@ -53,7 +53,7 @@ Sie können aus einer Liste von Kategorien auswählen und diese abonnieren, um B
      </tr>
      <tr>
       <td>Aktualisierungen von abonnierten Ordnern und Sammlungen</td>
-      <td>Sie erhalten eine Benachrichtigung, wenn ein Benutzer ein Asset zu einem abonnierten Ordner hinzufügt oder aus diesem entfernt.</td>
+      <td>Sie erhalten eine Benachrichtigung, wenn ein Benutzer ein Asset zu einem abonnierten Ordner oder einer abonnierten Sammlung hinzufügt oder daraus entfernt.</td>
      </tr>    
     </tbody>
    </table>
@@ -75,7 +75,7 @@ So abonnieren Sie die Benachrichtigungskategorien:
 
 1. Wählen Sie die Benachrichtigungskategorien aus, für die Sie benachrichtigt werden möchten.
 
-## Ansehen und Nicht mehr ansehen von Ordnern oder Assets {#watch-unwatch-assets}
+## Anzeigen und Aufheben der Überwachung von Ordnern, Assets oder Sammlungen {#watch-unwatch-assets}
 
 Nachdem Sie [die Benachrichtigungskategorien abonniert haben](#subscribe-to-notification-categories), müssen Sie den Inhalt abonnieren, damit Sie Benachrichtigungen erhalten.
 
@@ -83,15 +83,15 @@ Nachdem Sie [die Benachrichtigungskategorien abonniert haben](#subscribe-to-noti
 >
 >Für die Benachrichtigungskategorien **[!UICONTROL Anfragen]** und **[!UICONTROL Mir zugewiesen]** müssen Sie den Inhalt nicht abonnieren, nachdem Sie die Benachrichtigungskategorien abonniert haben. Sie werden automatisch benachrichtigt, wenn Sie eine Anfrage erstellen oder wenn Ihnen eine Aufgabe zugewiesen wird.
 
-Um den Inhalt zu abonnieren, wählen Sie den Ordner oder das Asset, den/das Sie abonnieren möchten, und klicken Sie auf **[!UICONTROL Ansehen]**.
+Um den Inhalt zu abonnieren, wählen Sie den Ordner, das Asset oder die Sammlung aus, für die Sie ein Abonnement benötigen, und klicken Sie auf **[!UICONTROL Watch]**.
 
 Assets Essentials zeigt eine Erfolgsmeldung an. Sie können auf **[!UICONTROL Zu den Benachrichtigungseinstellungen gehen]** klicken, die auf der Erfolgsmeldung verfügbar sind, um Ihr [Abonnement für Benachrichtigungskategorien](#subscribe-to-notification-categories) zu bearbeiten.
 
 ![Benachrichtigungen in Assets Essentials](assets/watch-assets.png)
 
-Assets Essentials sendet jetzt Benachrichtigungen für die abonnierten Kategorien. Sie können auch mehrere Assets oder Ordner auswählen und auf **[!UICONTROL Ansehen]** klicken, um Zeit zu sparen. Wenn Sie jedoch mehrere Entitäten auswählen, von denen einige bereits abonniert wurden, wird die Option **[!UICONTROL Ansehen]** nicht angezeigt.
+Assets Essentials sendet jetzt Benachrichtigungen für die abonnierten Kategorien. Sie können auch mehrere Assets, Ordner oder Sammlungen auswählen und auf **[!UICONTROL Watch]** um Zeit zu sparen. Wenn Sie jedoch mehrere Entitäten auswählen, von denen einige bereits abonniert wurden, wird die Option **[!UICONTROL Ansehen]** nicht angezeigt.
 
-Um ein Abonnement zu kündigen, wählen Sie das Asset oder den Ordner aus, für das/den Sie ein Abonnement abgeschlossen haben, und klicken Sie auf **[!UICONTROL Nicht mehr ansehen]**.
+Um sich abzumelden, wählen Sie das Asset, den Ordner oder die Sammlung aus, für die Sie sich angemeldet haben, und klicken Sie auf **[!UICONTROL Unwatch]**.
 
 ## Anzeigen von Benachrichtigungen {#view-notifications}
 
