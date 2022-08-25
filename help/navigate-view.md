@@ -60,7 +60,7 @@ In [!DNL Assets Essentials] können Sie Assets, Ordner und Suchergebnisse in vie
 * ![list view icon](assets/do-not-localize/list-view.png) [!UICONTROL Listenansicht]
 * ![grid view icon](assets/do-not-localize/grid-view.png) [!UICONTROL Rasteransicht]
 * ![gallery view icon](assets/do-not-localize/gallery-view.png) [!UICONTROL Galerieansicht]
-* ![waterfall view icon](assets/do-not-localize/waterfall-view.png) [!UICONTROL Wasserfallanasicht]
+* ![waterfall view icon](assets/do-not-localize/waterfall-view.png) [!UICONTROL Wasserfallansicht]
 
 Um ein Asset zu finden, können Sie die Assets in auf- oder absteigender Reihenfolge von `Name`, `Relevancy`, `Size`, `Modified` und `Created` sortieren.
 
