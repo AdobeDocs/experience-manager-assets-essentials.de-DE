@@ -24,7 +24,7 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 <!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
 
-Benutzeroberfläche von ![[!DNL Assets Essentials] ](assets/essentials-interface1.png)
+![[!DNL Assets Essentials]-Benutzeroberfläche](assets/essentials-interface1.png)
 
 *Abbildung: Erster Bildschirm nach Anmeldung und Speicherort der wichtigsten Funktionen.*
     *A: Linke Seitenleiste zum Durchsuchen des Repositorys. Bietet Zugriff auf einige andere Optionen.*
