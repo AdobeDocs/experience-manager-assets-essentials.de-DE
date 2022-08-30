@@ -7,19 +7,19 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 22. August 2022 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 22. August 2022 veröffentlicht.
 
 Was diese Version bietet:
 
 **Benachrichtigungen für Sammlungen**
 
-Mit Assets Essentials-Benachrichtigungen können Sie jetzt die Vorgänge überwachen, die für die im Repository verfügbaren Sammlungen ausgeführt werden. Sie müssen die Kollektionen auswählen und abonnieren, für die die Benachrichtigungen an Sie gesendet werden. Sie können auch die Vorgänge konfigurieren, für die die Benachrichtigungen gesendet werden, z. B. Vorgänge zum Löschen, Freigeben von Links, Verschieben, Umbenennen und Aktualisieren, die für Sammlungen ausgeführt werden.
+Assets Essentials-Benachrichtigungen ermöglichen es Ihnen, die Vorgänge zu überwachen, die mit den im Repository verfügbaren Sammlungen durchgeführt werden. Sie müssen die Sammlungen auswählen, für die die Benachrichtigungen an Sie gesendet werden sollen, und diese abonnieren. Sie können auch konfigurieren, für welche Vorgänge die Benachrichtigungen gesendet werden sollen, z. B. Vorgänge zum Löschen, Freigeben von Links, Verschieben, Umbenennen und Aktualisieren, die für Sammlungen ausgeführt werden.
 
 **Bearbeiten von Smart-Sammlungen**
 
@@ -33,9 +33,9 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 -->
 
-**Anzeigen von Upload-Berichten**
+**Anzeigen von Hochladen-Berichten**
 
-Die Asset-Berichterstellung bietet Administratoren nun Einblicke in Assets, die in die Adobe Experience Manager Assets Essentials-Bereitstellung hochgeladen wurden. Administratoren haben bereits die Möglichkeit, Berichte für die Assets zu erstellen, die aus der Assets Essentials-Bereitstellung heruntergeladen wurden. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
+Die Asset-Berichterstellung bietet Admins nun Einblicke in Assets, die in die Adobe Experience Manager Assets Essentials-Implementierung hochgeladen wurden. Admins haben bereits die Möglichkeit, Berichte für die Assets zu erstellen, die aus der Assets Essentials-Implementierung heruntergeladen wurden. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
@@ -61,7 +61,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### 2022.6.0 {#june-2022}
 
-Die Juni-Version von [!DNL Assets Essentials] wird am 14. Juli 2022 veröffentlicht.
+Die Version Juni von [!DNL Assets Essentials] wurde am 14. Juli 2022 veröffentlicht.
 
 Was diese Version bietet:
 
@@ -81,7 +81,7 @@ Zeigen Sie das Dashboard-Modul zum Herunterladen von Asset-Berichten und Live-St
 
 ### 2022.5.0 {#may-2022}
 
-Die Mai-Version von [!DNL Assets Essentials] wird am 16. Juni 2022 veröffentlicht.
+Die Version Mai von [!DNL Assets Essentials] wurde am 16. Juni 2022 veröffentlicht.
 
 Was diese Version bietet:
 
