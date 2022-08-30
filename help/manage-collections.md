@@ -3,9 +3,9 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Sie können die folgenden Aufgaben ausführen, um Sammlungen zu verwalten und zu
 
 * [Hinzufügen von Assets zu einer Sammlung](#add-assets-to-collection)
 
-* [Erstellen von Smart-Sammlungen](#create-smart-collection)
+* [Erstellen einer Smart-Sammlung](#create-smart-collection)
 
 * [Bearbeiten einer Smart-Sammlung](#edit-smart-collection)
 
 * [Entfernen von Assets aus einer Sammlung](#remove-assets-from-collection)
 
-* [Anzeigen und Bearbeiten von Sammlungsmetadaten](#view-edit-collection-metadata)
+* [Anzeigen und Bearbeiten der Metadaten einer Sammlung](#view-edit-collection-metadata)
 
 * [Freigeben von Links für Sammlungen](#share-collection-links)
 
@@ -81,7 +81,7 @@ Um Assets zu einer Sammlung hinzuzufügen, können Sie auch in der linken Leiste
 
 Speichern Sie Ihre Suchergebnisse als Smart-Sammlung, um die Sammlungsinhalte dynamisch zu aktualisieren. Wenn zum Assets Essentials-Repository Assets hinzugefügt werden, die den beim Erstellen der Smart-Sammlung festgelegten Suchkriterien entsprechen, wird der Inhalt der Smart-Sammlung automatisch aktualisiert.
 
-### Erstellen von Smart-Sammlungen {#create-smart-collection}
+### Erstellen einer Smart-Sammlung {#create-smart-collection}
 
 So erstellen Sie eine Smart-Sammlung:
 
@@ -101,11 +101,11 @@ So erstellen Sie eine Smart-Sammlung:
 
 So bearbeiten Sie eine Smart-Sammlung:
 
-1. Klicken **[!UICONTROL Sammlungen]** in der linken Leiste und doppelklicken Sie dann auf den Namen der Sammlung, die Sie bearbeiten möchten.
+1. Klicken Sie in der Leiste links auf **[!UICONTROL Sammlungen]** und doppelklicken Sie dann auf den Namen der Sammlung, die Sie bearbeiten möchten.
 
 1. Klicken Sie auf **[!UICONTROL Smart-Sammlung bearbeiten]**.
 
-1. Im [!UICONTROL Bearbeiten von Smart-Sammlungsfiltern] Dialogfeld [Suchkriterien aktualisieren](search.md##refine-search-results) für die Smart-Sammlung.
+1. [Aktualisieren Sie die Suchkriterien](search.md##refine-search-results) für die Smart-Sammlung im Dialogfeld [!UICONTROL Smart-Sammlungsfilter bearbeiten].
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
