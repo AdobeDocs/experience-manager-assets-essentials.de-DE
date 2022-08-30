@@ -3,9 +3,9 @@ title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ In Assets Essentials können Sie mit dem Dashboard für Live-Statistiken Echtzei
 
 ![Symbolleistenoptionen bei der Auswahl eines Assets](assets/assets-essentials-live-statistics.png)
 
-Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Live Statistics]** um die folgenden automatisch generierten Diagramme anzuzeigen:
+Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Live-Statistiken]**, um die automatisch generierten Diagramme anzuzeigen:
 
-* **Downloads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten aus der Assets Essentials-Umgebung heruntergeladen wurden und in einem Liniendiagramm dargestellt wurden.
+* **Downloads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten aus der Assets Essentials-Umgebung heruntergeladen wurden, dargestellt als Liniendiagramm.
 
-* **Uploads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten in die Assets Essentials-Umgebung hochgeladen wurden, wird mithilfe eines Liniendiagramms dargestellt.
+* **Uploads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten in die Assets Essentials-Umgebung hochgeladen wurden, dargestellt als Liniendiagramm.
 
 <!--
 
@@ -35,15 +35,15 @@ Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Live Statistics
 
 -->
 
-## Einen Download-Bericht erstellen {#create-download-report}
+## Erstellen eines Herunterladen-Berichts {#create-download-report}
 
-So erstellen Sie einen Download-Bericht:
+So erstellen Sie einen Herunterladen-Bericht:
 
 1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Berichte]** und klicken Sie auf **[!UICONTROL Bericht erstellen]**.
 
-1. Im [!UICONTROL Konfiguration] Registerkarte, geben Sie den Berichtstyp als **[!UICONTROL Download]**.
+1. Gehen Sie zur Registerkarte [!UICONTROL Konfiguration] und spezifizieren Sie den Berichtstyp als **[!UICONTROL Herunterladen]**.
 
-1. Geben Sie einen Titel und eine optionale Beschreibung für den Bericht an.
+1. Geben Sie einen Titel und optional eine Beschreibung für den Bericht an.
 
 1. Wählen Sie über das Feld **[!UICONTROL Ordnerpfad auswählen]** den Ordnerpfad aus, der die Assets enthält, für die der Bericht ausgeführt werden soll.
 
@@ -72,7 +72,7 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie d
       <td>Der Ordnerpfad, in dem das Asset in Assets Essentials verfügbar ist.</td>
      </tr>
      <tr>
-      <td>MIME Type</td>
+      <td>MIME-Typ</td>
       <td>Der MIME-Typ für das Asset.</td>
      </tr>
      <tr>
@@ -84,7 +84,7 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie d
       <td>Die E-Mail-ID des Benutzers, der das Asset heruntergeladen hat.</td>
      </tr>
      <tr>
-      <td>Download-Datum</td>
+      <td>Herunterladen-Datum</td>
       <td>Das Datum, an dem die Aktion zum Herunterladen des Assets durchgeführt wurde.</td>
      </tr>
      <tr>
@@ -110,15 +110,15 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie d
     </tbody>
    </table>
 
-## Erstellen eines Upload-Berichts {#create-upload-report}
+## Erstellen eines Hochladen-Berichts {#create-upload-report}
 
-So erstellen Sie einen Upload-Bericht:
+So erstellen Sie einen Hochladen-Bericht:
 
 1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Berichte]** und klicken Sie auf **[!UICONTROL Bericht erstellen]**.
 
-1. Im [!UICONTROL Konfiguration] Registerkarte, geben Sie den Berichtstyp als **[!UICONTROL Hochladen]**.
+1. Gehen Sie zur Registerkarte [!UICONTROL Konfiguration] und spezifizieren Sie den Berichtstyp als **[!UICONTROL Hochladen]**.
 
-1. Geben Sie einen Titel und eine optionale Beschreibung für den Bericht an.
+1. Geben Sie einen Titel und optional eine Beschreibung für den Bericht an.
 
 1. Wählen Sie über das Feld **[!UICONTROL Ordnerpfad auswählen]** den Ordnerpfad aus, der die Assets enthält, für die der Bericht ausgeführt werden soll.
 
@@ -128,7 +128,7 @@ So erstellen Sie einen Upload-Bericht:
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   ![Bericht hochladen](assets/upload-reports-config.png)
+   ![Hochladen-Bericht](assets/upload-reports-config.png)
 
 In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie dem Bericht hinzufügen können:
 
