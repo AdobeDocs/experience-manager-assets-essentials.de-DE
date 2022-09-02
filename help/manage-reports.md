@@ -2,10 +2,10 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -29,11 +29,7 @@ Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Live-Statistike
 
 * **Uploads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten in die Assets Essentials-Umgebung hochgeladen wurden, dargestellt als Liniendiagramm.
 
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
+* **Speichernutzung**: Die Speichernutzung in Gigabyte (GB) für die Assets Essentials-Umgebung in den letzten 30 Tagen oder 12 Monaten, die mithilfe eines Balkendiagramms dargestellt werden.
 
 ## Erstellen eines Herunterladen-Berichts {#create-download-report}
 

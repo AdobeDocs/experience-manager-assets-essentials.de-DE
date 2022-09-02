@@ -4,10 +4,10 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 98%
+source-wordcount: '1312'
+ht-degree: 95%
 
 ---
 
@@ -25,13 +25,9 @@ Assets Essentials-Benachrichtigungen ermöglichen es Ihnen, die Vorgänge zu üb
 
 Assets Essentials bietet jetzt auch die Möglichkeit, die beim Erstellen einer Smart-Sammlung verwendeten Suchkriterien zu bearbeiten.  Speichern Sie die neuen Suchkriterien, um die Sammlungsinhalte dynamisch zu aktualisieren.
 
-<!--
+**Anzeigen von Live-Statistiken für Speicherkonten**
 
-**View live statistics for storage account**
-
-Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
-
--->
+Mit Assets Essentials können Sie jetzt auch die Echtzeit-Speicherkontodaten für Ihre Assets Essentials-Umgebung mit dem Dashboard Live Statistics anzeigen. Sie können Echtzeit-Ereignismetriken für die letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
 **Anzeigen von Hochladen-Berichten**
 
