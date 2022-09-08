@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -131,7 +131,7 @@ Die aktuelle Version von [!DNL Assets Essentials] wurde am 12. Mai 2022 veröffe
 
 #### Inkognito-Modus in Chrome {#incognito-mode}
 
-Mit dieser Version optimieren wir die Leistung der Benutzeroberfläche. Bestimmte Funktionen in Assets Essentials –- Kommentare zu Assets und zur Bildbearbeitung – hängen davon ab, dass der lokale Speicher des Browsers und Cookies von Drittanbietern aktiviert sind. Der Inkognito-Modus im Chrome-Webbrowser blockiert standardmäßig Cookies von Drittanbietern – die Nutzer haben eine Reihe von Optionen, um weiterhin auf alle Funktionen zugreifen zu können:
+Mit dieser Version optimieren wir die Leistung der Benutzeroberfläche. Bestimmte Funktionen in Assets Essentials – Kommentare zu Assets und zur Bildbearbeitung – hängen davon ab, dass der lokale Speicher des Browsers und Cookies von Drittanbietern aktiviert sind. Der Inkognito-Modus im Chrome-Webbrowser blockiert standardmäßig Cookies von Drittanbietern – die Nutzer haben eine Reihe von Optionen, um weiterhin auf alle Funktionen zugreifen zu können:
 
 * Verwenden Sie Chrome-Profile anstelle des Inkognito-Modus, wenn der Benutzer Browser-Sitzungen trennen muss.
 
@@ -181,7 +181,7 @@ Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Pho
 
 ### Version 2021.6.0 {#june2021}
 
-Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde, bietet einfache Asset-Management-Funktionen. Es unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
+Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfügung gestellt wurde, bietet einfache Asset-Management-Funktionen. Sie unterstützt die folgenden Hauptfunktionen und CRUD-Vorgänge (Erstellen, Lesen, Aktualisieren und Löschen):
 
 * Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Anzeigen einer Vorschau der Assets und Versionen.
 * Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
