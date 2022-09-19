@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Assets Essentials bietet jetzt auch die Möglichkeit, die beim Erstellen einer S
 
 **Anzeigen von Live-Statistiken für Speicherkonten**
 
-Mit Assets Essentials können Sie jetzt auch die Echtzeit-Speicherkontodaten für Ihre Assets Essentials-Umgebung mit dem Dashboard Live Statistics anzeigen. Sie können Echtzeit-Ereignismetriken für die letzten 30 Tage oder für die letzten 12 Monate anzeigen.
+Assets Essentials bietet jetzt auch die Möglichkeit, mit dem Dashboard für Live-Statistiken die Daten des Speicherkontos für die Assets Essentials-Umgebung in Echtzeit anzuzeigen. Es können Echtzeit-Ereignismetriken für die letzten 30 Tage oder die letzten 12 Monate angezeigt werden.
 
 **Anzeigen von Hochladen-Berichten**
 
