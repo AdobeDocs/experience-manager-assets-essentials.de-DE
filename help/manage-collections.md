@@ -2,16 +2,16 @@
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 87%
 
 ---
 
 # Verwalten von Sammlungen {#manage-collections}
 
-Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
+Eine Sammlung ist ein Satz von Assets, Ordnern oder anderen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 
 Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten.
 
@@ -29,11 +29,11 @@ Sie können die folgenden Aufgaben ausführen, um Sammlungen zu verwalten und zu
 
 * [Hinzufügen von Assets zu einer Sammlung](#add-assets-to-collection)
 
+* [Entfernen von Assets aus einer Sammlung](#remove-assets-from-collection)
+
 * [Erstellen einer Smart-Sammlung](#create-smart-collection)
 
 * [Bearbeiten einer Smart-Sammlung](#edit-smart-collection)
-
-* [Entfernen von Assets aus einer Sammlung](#remove-assets-from-collection)
 
 * [Anzeigen und Bearbeiten der Metadaten einer Sammlung](#view-edit-collection-metadata)
 
@@ -67,7 +67,7 @@ Erstellen einer Sammlung
 
 Hinzufügen von Assets zu einer Sammlung
 
-1. Klicken Sie in der linken Leiste auf **[!UICONTROL Assets]** und wählen Sie die gewünschten Assets aus.
+1. Klicken **[!UICONTROL Assets]** in der linken Leiste und wählen Sie die Assets aus, die Sie zu einer Sammlung hinzufügen müssen.
 
 1. Klicken Sie auf **[!UICONTROL Zu Sammlung hinzufügen]**.
 
@@ -77,9 +77,19 @@ Hinzufügen von Assets zu einer Sammlung
 
 Um Assets zu einer Sammlung hinzuzufügen, können Sie auch in der linken Leiste auf **[!UICONTROL Sammlungen]** klicken, die Sammlung wählen, der Sie Assets hinzufügen möchten, auf **[!UICONTROL Zu Sammlung hinzufügen]** klicken, die Assets auswählen und auf **[!UICONTROL Auswählen]** klicken.
 
+## Entfernen von Assets aus einer Sammlung {#remove-assets-from-collection}
+
+Entfernen von Assets aus einer Sammlung
+
+1. Klicken Sie in der linken Leise auf **[!UICONTROL Sammlungen]**, um die Liste der Sammlungen anzuzeigen.
+
+1. Klicken Sie auf die Sammlung und wählen Sie die Elemente aus, die Sie aus der Sammlung entfernen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Entfernen]**.
+
 ## Verwalten einer Smart-Sammlung {#manage-smart-collection}
 
-Speichern Sie Ihre Suchergebnisse als Smart-Sammlung, um die Sammlungsinhalte dynamisch zu aktualisieren. Wenn zum Assets Essentials-Repository Assets hinzugefügt werden, die den beim Erstellen der Smart-Sammlung festgelegten Suchkriterien entsprechen, wird der Inhalt der Smart-Sammlung automatisch aktualisiert.
+Speichern Sie Ihre Suchergebnisse als Smart-Sammlung, um die Sammlungsinhalte dynamisch zu aktualisieren. Wenn dem Assets Essentials-Repository Assets hinzugefügt werden, die den beim Erstellen der Smart-Sammlung definierten Suchkriterien entsprechen, werden die Inhalte der Smart-Sammlung beim Öffnen einer Smart-Sammlung automatisch aktualisiert.
 
 ### Erstellen einer Smart-Sammlung {#create-smart-collection}
 
@@ -108,16 +118,6 @@ So bearbeiten Sie eine Smart-Sammlung:
 1. [Aktualisieren Sie die Suchkriterien](search.md##refine-search-results) für die Smart-Sammlung im Dialogfeld [!UICONTROL Smart-Sammlungsfilter bearbeiten].
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-## Entfernen von Assets aus einer Sammlung {#remove-assets-from-collection}
-
-Entfernen von Assets aus einer Sammlung
-
-1. Klicken Sie in der linken Leise auf **[!UICONTROL Sammlungen]**, um die Liste der Sammlungen anzuzeigen.
-
-1. Klicken Sie auf die Sammlung und wählen Sie die Assets aus, die Sie aus der Sammlung entfernen möchten.
-
-1. Klicken Sie auf **[!UICONTROL Entfernen]**.
 
 <!--
 
@@ -149,7 +149,7 @@ Anzeigen und Bearbeiten von Sammlungsmetadaten
 
 1. Klicken Sie in der linken Leiste auf **[!UICONTROL Sammlungen]**, wählen Sie eine Sammlung aus und klicken Sie auf **[!UICONTROL Details]**.
 1. Zeigen Sie die Metadaten der Sammlung auf der Registerkarte **[!UICONTROL Allgemein]** an.
-1. Ändern Sie die Metadatenfelder nach Bedarf. Sie können die Felder [!UICONTROL Titel], [!UICONTROL Beschreibung] und [!UICONTROL Autor] ändern.
+1. Ändern Sie die Metadatenfelder nach Bedarf. Sie können die [!UICONTROL Titel] und [!UICONTROL Beschreibung] -Felder.
 
 ![Sammlungs-Metadaten](assets/collection-metadata.png)
 

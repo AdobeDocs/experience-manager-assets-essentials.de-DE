@@ -2,10 +2,10 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experien
 
 ## Zugreifen auf Berichte {#access-reports}
 
-Alle Benutzenden, die dem Produktprofil [Assets Essentials-Admins](deploy-administer.md) zugeordnet sind, können in Assets Essentials auf das Dashboard für Live-Statistiken zugreifen und benutzerdefinierte Berichte erstellen.
+Alle Benutzer, die dem [Produktprofil &quot;Assets Essentials-Administratoren&quot;](deploy-administer.md) kann auf das Dashboard &quot;Live-Statistiken&quot;zugreifen oder benutzerdefinierte Berichte in Assets Essentials erstellen.
 
 ## Anzeigen von Live-Statistiken {#view-live-statistics}
 
@@ -44,6 +44,9 @@ So erstellen Sie einen Herunterladen-Bericht:
 1. Wählen Sie über das Feld **[!UICONTROL Ordnerpfad auswählen]** den Ordnerpfad aus, der die Assets enthält, für die der Bericht ausgeführt werden soll.
 
 1. Wählen Sie das Datumsintervall für den Bericht.
+   >[!NOTE]
+   >
+   > Assets Essentials konvertiert alle lokalen Zeitzonen in koordinierte Weltzeit (UTC).
 
 1. Wählen Sie auf der Registerkarte [!UICONTROL Spalten] die Spaltennamen aus, die Sie im Bericht anzeigen möchten.
 
@@ -73,7 +76,7 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie d
      </tr>
      <tr>
       <td>Größe</td>
-      <td>Die Größe des Assets.</td>
+      <td>Die Größe des Assets in Byte.</td>
      </tr>
      <tr>
       <td>Heruntergeladen von</td>
@@ -171,7 +174,7 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie d
 
 ## Anzeigen vorhandener Berichte {#view-report-list}
 
-Nach der [Erstellung des Berichts](#create-report) können Sie die Liste der Berichte einsehen und auswählen, ob Sie sie im CSV-Format herunterladen oder löschen möchten.
+Nach der [Erstellung des Berichts](#create-download-report) können Sie die Liste der Berichte einsehen und auswählen, ob Sie sie im CSV-Format herunterladen oder löschen möchten.
 
 Um die Liste der Berichte anzuzeigen, navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Berichte]**.
 
@@ -190,7 +193,7 @@ So laden Sie einen Bericht im CSV-Format herunter:
 
 1. Wählen Sie einen Bericht aus und klicken Sie auf **[!UICONTROL CSV herunterladen]**.
 
-Der ausgewählte Bericht wird im CSV-Format heruntergeladen. Welche Spalten im CSV-Bericht angezeigt werden, hängt von den Spalten ab, die Sie beim [Erstellen des Berichts](#create-report) auswählen.
+Der ausgewählte Bericht wird im CSV-Format heruntergeladen. Welche Spalten im CSV-Bericht angezeigt werden, hängt von den Spalten ab, die Sie beim [Erstellen des Berichts](#create-download-report) auswählen.
 
 ## Löschen eines Berichts {#delete-report}
 
@@ -199,3 +202,5 @@ So löschen Sie einen Bericht:
 1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Berichte]**.
 
 1. Wählen Sie einen Bericht aus und klicken Sie auf **[!UICONTROL Löschen]**.
+
+1. Klicken **[!UICONTROL Löschen]** erneut zu bestätigen.
