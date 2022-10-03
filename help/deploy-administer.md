@@ -4,9 +4,9 @@ description: Anwendungsfälle für Administratoren, wie z. B. Implementieren un
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 9818d06d8da806190c61aadeecd50a7c65b31cbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 Das folgende Datenflussdiagramm zeigt die Aufgabensequenz, die ein Administrator zur Konfiguration und Verwaltung von Assets Essentials durchführen muss:
 
-![Assets Essentials bereitstellen](assets/deploy-assets-essentials.svg)
+![Bereitstellen von Assets Essentials](assets/deploy-assets-essentials.svg)
 
 ## Zugang zur Admin Console {#access-admin-console}
 
@@ -25,9 +25,9 @@ Nachdem die Assets Essentials-Lösung bereitgestellt wurde, erhält der Administ
 
 Greifen Sie über den Link in der E-Mail auf die [Admin Console](https://adminconsole.adobe.com) zu und melden Sie sich an. Wenn Sie Administratorzugriff auf mehr als ein Konto einer Organisation haben, wählen Sie die entsprechende Organisation aus oder wechseln Sie mithilfe des [Organisationsselektors](https://helpx.adobe.com/de/enterprise/using/admin-console.html) zu ihr. Sobald der automatische Implementierungsprozess abgeschlossen ist, wird die Produktkarte für [!DNL AEM Assets Essentials] in [!DNL Admin Console] angezeigt.
 
-Führen Sie mithilfe von Admin Console die folgenden Benutzerberechtigungsaufgaben aus:
+Führen Sie mithilfe von Admin Console die folgenden Aufgaben zur Benutzerberechtigung aus:
 
-* [Assets Essentials-Anwendungsadministrator erstellen](#create-assets-essentials-administrator)
+* [Erstellen eines Assets Essentials-Anwendungsadministrators](#create-assets-essentials-administrator)
 
 * [Hinzufügen von Benutzergruppen](#add-user-groups)
 
@@ -35,9 +35,9 @@ Führen Sie mithilfe von Admin Console die folgenden Benutzerberechtigungsaufgab
 
 ![Implementierung von Assets Essentials](assets/admin-console-cards.png)
 
-### Assets Essentials-Anwendungsadministrator erstellen {#create-assets-essentials-administrator}
+### Erstellen eines Assets Essentials-Anwendungsadministrators {#create-assets-essentials-administrator}
 
-Ein Admin Console-Administrator muss einen Assets Essentials-Anwendungsadministrator hinzufügen, um Aufgaben wie das Erstellen einer Ordnerstruktur, das Hochladen von Assets, das Einrichten von Berechtigungen, das Einrichten von Metadatenformularen und das Erstellen öffentlicher Sammlungen zu verwalten. Informationen zum Zuweisen eines Benutzers oder einer Benutzergruppe zu einem Administrator-Profil der Assets Essentials-Anwendung finden Sie unter [Benutzer zu Produktprofilen hinzufügen](#add-users-to-product-profiles).
+Ein Administrator von Admin Console muss einen Assets Essentials-Anwendungsadministrator hinzufügen, um Aufgaben wie das Erstellen einer Ordnerstruktur, das Hochladen von Assets, das Einrichten von Berechtigungen, das Einrichten von Metadatenformularen und das Erstellen öffentlicher Sammlungen zu verwalten. Informationen zum Zuweisen von Benutzenden oder einer Benutzergruppe zu einem Administrator-Profil des Asset Essentials-Programms finden Sie unter [Hinzufügen von Benutzenden zu Produktprofilen](#add-users-to-product-profiles).
 
 ### Hinzufügen von Benutzergruppen {#add-user-groups}
 
@@ -49,22 +49,22 @@ Informationen zum Verwalten von Benutzergruppen finden Sie unter `Create user gr
 >
 >Wenn Ihre Admin Console so eingerichtet ist, dass sie ein externes System zur Verwaltung von Benutzer-/Gruppenzuweisungen wie Azure- oder Google-Connectoren, ein Benutzersynchronisierungs-Tool oder die User Management-Rest-API nutzt, werden Ihre Gruppen und Benutzerzuweisungen automatisch konfiguriert. Weitere Informationen finden Sie unter [Adobe Admin Console-Benutzer](https://helpx.adobe.com/de/enterprise/using/users.html).
 
-Informationen zum Verwalten hinzugefügter Benutzer zu Benutzergruppen finden Sie unter `Add users to groups`, verfügbar unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html#add-users-to-groups).
+Informationen zum Verwalten hinzugefügter Benutzender zu Benutzergruppen finden Sie unter `Add users to groups`, verfügbar unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html#add-users-to-groups).
 
 ### Hinzufügen von Benutzergruppen zu Produktprofilen {#add-users-to-product-profiles}
 
-Fügen Sie Produktprofilen Benutzergruppen hinzu, damit sie Zugriff auf die Assets Essentials-Anwendung haben.
+Fügen Sie Benutzergruppen zu Produktprofilen hinzu, damit diese Zugriff auf das Asset Essentials-Programm haben.
 
-So fügen Sie Produktprofilen Benutzergruppen hinzu:
+So fügen Sie Benutzergruppen zu Produktprofilen hinzu:
 
 1. Rufen Sie die [Admin Console](https://adminconsole.adobe.com) für Ihre Organisation auf, klicken Sie in der oberen Leiste auf **[!UICONTROL Produkte]**, dann auf **[!UICONTROL AEM Assets Essentials]** und anschließend auf die Instanz für [!DNL Assets Essentials]. Der Name der Instanz kann sich von dem im folgenden Screenshot unterscheiden.
    >[!NOTE]
    >
-   >Die [!DNL Cloud Manager]-Instanz ist nur für spezielle Admin-Zwecke wie die Überprüfung des Service-Status und den Zugriff auf Service-Protokolle vorgesehen und kann nicht zum Hinzufügen von Benutzern zum Produkt verwendet werden. 
+   >Die [!DNL Cloud Manager]-Instanz ist nur für spezielle Admin-Zwecke wie die Überprüfung des Service-Status und den Zugriff auf Service-Protokolle vorgesehen und kann nicht zum Hinzufügen von Benutzenden zum Produkt verwendet werden. 
 
    ![Admin-Profil der Admin Console](assets/assets-essentials-instance.png)
 
-   [!DNL Assets Essentials] verfügt über drei Produktprofile, die den Zugriff für Administratoren, Standardbenutzer und Privatkunden darstellen.
+   [!DNL Assets Essentials] verfügt über drei Produktprofile, die den Zugriff für Admins, Standardbenutzer und Privatkunden darstellen.
 
    * **[!DNL Assets Essentials]-Administratoren** verfügen über administrativen Zugriff auf das Programm. Zusätzlich zu allen Endbenutzer-Funktionen können Programmadministratoren in dieser Gruppe auch die Berechtigungen aller Ordner und Gruppen/Benutzer im gesamten Programm-Repository verwalten.
 
@@ -74,7 +74,7 @@ So fügen Sie Produktprofilen Benutzergruppen hinzu:
 
    ![Admin-Profil der Admin Console](assets/admin-console-admin-profile.png)
 
-1. Um eine Benutzergruppe zum Produkt hinzuzufügen, klicken Sie auf eines der drei Assets Essentials-Produktprofile und wählen Sie **[!UICONTROL Benutzer hinzufügen]**, geben Sie die Details der Benutzergruppe an und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Um eine Benutzergruppe zum Produkt hinzuzufügen, klicken Sie auf eines der drei Assets Essentials-Produktprofile, wählen Sie **[!UICONTROL Benutzer hinzufügen]**, geben Sie die Details der Benutzergruppe ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![Hinzufügen des Administratorprofils für Benutzer](assets/add-users-admin-profile.png)
 
@@ -84,9 +84,9 @@ So fügen Sie Produktprofilen Benutzergruppen hinzu:
    >
    >Sie müssen einen Benutzer zum Produktprofil eines Assets Essentials-Administrators in der Admin Console hinzufügen, damit er in Assets Essentials Verwaltungsaufgaben ausführen kann. Diese Aufgaben umfassen das [Erstellen einer Ordnerstruktur](#create-folder-structure), [Verwalten von Berechtigungen für Ordner](#manage-permissions-for-folders) und [Einrichten von Metadatenformularen](#metadata-forms).
 
-## Zugriff auf Assets Essentials-Anwendungen {#access-assets-essentials-application}
+## Zugriff auf das Assets Essentials-Programm {#access-assets-essentials-application}
 
-Nachdem Sie Benutzerberechtigungen in Admin Console ausgeführt haben, können Sie auf die Assets Essentials-Anwendung zugreifen, um die folgenden Aufgaben auszuführen:
+Nachdem Sie Benutzerberechtigungen in Admin Console vergeben haben, können Sie auf das Assets Essentials-Programm zugreifen, um die folgenden Aufgaben auszuführen:
 
 * [Erstellen einer Ordnerstruktur](#create-folder-structure)
 
@@ -96,7 +96,7 @@ Nachdem Sie Benutzerberechtigungen in Admin Console ausgeführt haben, können S
 
 * [Einrichten von Metadatenformularen](#metadata-forms)
 
-* [Öffentliche Sammlungen erstellen](#create-public-collections)
+* [Erstellen öffentlicher Sammlungen](#create-public-collections)
 
 ### Erstellen einer Ordnerstruktur {#create-folder-structure}
 
@@ -106,7 +106,7 @@ Sie können die folgenden Methoden verwenden, um eine Ordnerstruktur im Assets E
 
 * Klicken Sie auf die Option **[!UICONTROL Assets hinzufügen]** in der Symbolleiste, um [eine auf Ihrem lokalen Computer vorhandene Ordnerstruktur hochzuladen](add-delete.md).
 
-Erstellen Sie eine Ordnerstruktur entsprechend Ihren betrieblichen Anforderungen. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die Ordnerstruktur zur effektiven Berechtigungsverwaltung](permission-management-best-practices.md##folder-structure-assets-essentials).
+Erstellen Sie eine Ordnerstruktur entsprechend Ihren betrieblichen Anforderungen. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md##folder-structure-assets-essentials).
 
 Es gibt verschiedene mögliche Ordnerstrukturtypen, die Sie für Ihr Unternehmen verwenden können. Im Folgenden finden Sie einige Beispiele für typische Ordnerstrukturen:
 
@@ -114,11 +114,11 @@ Es gibt verschiedene mögliche Ordnerstrukturtypen, die Sie für Ihr Unternehmen
 
 >[!NOTE]
 >
->Um diese Aufgaben, insbesondere die Verwaltung von Berechtigungen, durchführen zu können, muss Ihr Benutzer über Administratorrechte für Programme verfügen und dazu dem [Produktprofil eines Assets Essentials-Administrators](#add-users-to-product-profiles) hinzugefügt werden.
+>Um diese Aufgaben, insbesondere die Verwaltung von Berechtigungen, durchführen zu können, müssen Ihr Benutzenden über Administratorrechte für Programme verfügen und dazu dem [Produktprofil eines Assets Essentials-Administrators](#add-users-to-product-profiles) hinzugefügt werden.
 
 ### Hochladen von Assets {#upload-assets}
 
-Um neue Assets hinzuzufügen, mit denen Sie arbeiten können, laden Sie einige Assets aus Ihrem lokalen Dateisystem hoch. Sie können entweder Assets oder Ordner auf die Benutzeroberfläche ziehen und den Anweisungen auf dem Bildschirm folgen oder auf **[!UICONTROL Hinzufügen von Assets]** in der Symbolleiste und fügen Sie einige Dateien zum Upload-Dialogfeld hinzu. [!DNL Assets Essentials] bietet eine leistungsstarke Volltext-Suchfunktion, Sie können aber auch Ordner verwenden, um Ihre Assets besser zu organisieren. Weitere Informationen finden Sie unter [Hochladen von Assets](add-delete.md).
+Um neue Assets hinzuzufügen, mit denen Sie arbeiten können, laden Sie einige Assets aus Ihrem lokalen Dateisystem hoch. Sie können entweder Assets oder Ordner auf die Benutzeroberfläche ziehen und den Anweisungen auf dem Bildschirm folgen, oder Sie klicken auf die Option **[!UICONTROL Hinzufügen von Assets]** in der Symbolleiste und fügen einige Dateien zum Upload-Dialog hinzu. [!DNL Assets Essentials] bietet eine leistungsstarke Volltext-Suchfunktion, Sie können aber auch Ordner verwenden, um Ihre Assets besser zu organisieren. Weitere Informationen hierzu finden Sie unter [Hochladen von Assets](add-delete.md).
 
 ![Hochladen von Dateien und Ordnern](assets/upload-assets.png)
 
@@ -166,7 +166,7 @@ Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorte
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Admin Console] -Hilfe](https://helpx.adobe.com/enterprise/using/admin-console.html)
+>* [[!DNL Admin Console] -Hilfe](https://helpx.adobe.com/de/enterprise/using/admin-console.html)
 >* [[!DNL Cloud Manager] -Hilfe](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=de)
 >* [Dokumentation zu Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
 >* [Versionshinweise](release-notes.md)
