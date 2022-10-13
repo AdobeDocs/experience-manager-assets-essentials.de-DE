@@ -3,9 +3,9 @@ title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experien
 
 ## Zugreifen auf Berichte {#access-reports}
 
-Alle Benutzer, die dem [Produktprofil &quot;Assets Essentials-Administratoren&quot;](deploy-administer.md) kann auf das Dashboard &quot;Live-Statistiken&quot;zugreifen oder benutzerdefinierte Berichte in Assets Essentials erstellen.
+Alle Benutzenden, die dem [Produktprofil Assets Essentials-Administratoren](deploy-administer.md) zugeordnet sind, können in Assets Essentials auf das Dashboard für Live-Statistiken zugreifen oder benutzerdefinierte Berichte erstellen.
 
 ## Anzeigen von Live-Statistiken {#view-live-statistics}
 
@@ -46,7 +46,7 @@ So erstellen Sie einen Herunterladen-Bericht:
 1. Wählen Sie das Datumsintervall für den Bericht.
    >[!NOTE]
    >
-   > Assets Essentials konvertiert alle lokalen Zeitzonen in koordinierte Weltzeit (UTC).
+   > Assets Essentials konvertiert alle lokalen Zeitzonen in die koordinierte Weltzeit (UTC).
 
 1. Wählen Sie auf der Registerkarte [!UICONTROL Spalten] die Spaltennamen aus, die Sie im Bericht anzeigen möchten.
 
@@ -76,7 +76,7 @@ In der folgenden Tabelle wird die Verwendung aller Spalten erläutert, die Sie d
      </tr>
      <tr>
       <td>Größe</td>
-      <td>Die Größe des Assets in Byte.</td>
+      <td>Die Größe des Assets in Bytes.</td>
      </tr>
      <tr>
       <td>Heruntergeladen von</td>
@@ -203,4 +203,4 @@ So löschen Sie einen Bericht:
 
 1. Wählen Sie einen Bericht aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
-1. Klicken **[!UICONTROL Löschen]** erneut zu bestätigen.
+1. Zum Bestätigen erneut auf **[!UICONTROL Löschen]** klicken.
