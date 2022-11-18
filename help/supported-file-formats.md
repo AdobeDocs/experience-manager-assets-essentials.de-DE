@@ -4,9 +4,9 @@ description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle 
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '355'
+source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
@@ -40,13 +40,13 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 
 | Asset-Typ | [Durchsuchen](/help/navigate-view.md) | Kopieren | [Hochladen](/help/add-delete.md) | Erstellen | [Löschen](/help/add-delete.md#delete-assets) | Details | Bild-Zoom | [Kürzlich angesehen](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| Rasterbilder | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| RAW Dateien | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| Ordner | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| MP4-Videos | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
-| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD, AI und INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
-| Andere Binärdateien | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| Rasterbilder | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| RAW Dateien | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Ordner | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
+| MP4-Videos | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PSD, AI und INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| Andere Binärdateien | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -57,13 +57,13 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 | Asset-Typ | [Download](/help/manage-organize.md#download) | Drag-and-Drop | [Bildeditor](/help/edit-images.md) | [Suchen](/help/search.md) | [Smart-Tags](/help/metadata.md#tags) | [Umbenennen](/help/manage-organize.md) | [Versionen](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAW Dateien | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Ordner | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
-| Videos | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| CC-Bibliotheken | − | − | − | − | − | ✓ | ✓ |
-| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD, AI und INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| Andere Binärdateien | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| RAW Dateien | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Ordner | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
+| Videos | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| CC-Bibliotheken | - | - | - | - | - | ✓ | ✓ |
+| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| PSD, AI und INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Andere Binärdateien | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
 
 
 ## Überprüfen von Assets und Zusammenarbeit {#support-to-review-collaborate}
@@ -72,12 +72,20 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 |---------------|----------|----------|-------------------------|
 | Rasterbilder | ✓ | ✓ | ✓ |
 | RAW Dateien | ✓ | ✓ | ✓ |
-| Ordner | − | − | − |
-| Videos | − | ✓ | ✓ |
-| CC-Bibliotheken | − | − | − |
-| PDF | − | ✓ | ✓ |
-| PSD, AI und INDD | − | ✓ | ✓ |
-| Andere Binärdateien | − | ✓ | ✓ |
+| Ordner | - | - | - |
+| Videos | - | ✓ | ✓ |
+| CC-Bibliotheken | - | - | - |
+| PDF | - | ✓ | ✓ |
+| PSD, AI und INDD | - | ✓ | ✓ |
+| Andere Binärdateien | - | ✓ | ✓ |
+| DOC | - | ✓ | ✓ |
+| DOCX | - | ✓ | ✓ |
+| PPT | - | ✓ | ✓ |
+| PPTX | - | ✓ | ✓ |
+| XLS | - | ✓ | ✓ |
+| XLSX | - | ✓ | ✓ |
+| TXT | - | ✓ | ✓ |
+| RTF | - | ✓ | ✓ |
 
 ## Sonstige Asset-Management-Aufgaben {#support-to-manage-assets}
 
@@ -85,12 +93,12 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 |---------------|-------------------|------------|----------|----------|----------|
 | Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ |
 | RAW Dateien | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Ordner | ✓ | − | ✓ | ✓ | ✓ |
-| Videos | ✓ | − | ✓ | ✓ | ✓ |
-| CC-Bibliotheken | ✓ | − | − | − | − |
-| PDF | ✓ | − | ✓ | ✓ | ✓ |
-| PSD, AI und INDD | ✓ | − | ✓ | ✓ | ✓ |
-| Andere Binärdateien | ✓ | − | ✓ | ✓ | ✓ |
+| Ordner | ✓ | - | ✓ | ✓ | ✓ |
+| Videos | ✓ | - | ✓ | ✓ | ✓ |
+| CC-Bibliotheken | ✓ | - | - | - | - |
+| PDF | ✓ | - | ✓ | ✓ | ✓ |
+| PSD, AI und INDD | ✓ | - | ✓ | ✓ | ✓ |
+| Andere Binärdateien | ✓ | - | ✓ | ✓ | ✓ |
 
 Benutzer von [!DNL Adobe Asset Link] können Dateien aus den unterstützten Desktop-Programmen von [!DNL Adobe Creative Cloud] in das [!DNL Assets Essentials]-Repository hochladen und einchecken (eine neue Version hochladen).
 
