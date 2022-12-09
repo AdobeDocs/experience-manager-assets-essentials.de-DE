@@ -2,10 +2,10 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ In Assets Essentials können Sie mit dem Dashboard für Live-Statistiken Echtzei
 
 ![Symbolleistenoptionen bei der Auswahl eines Assets](assets/assets-essentials-live-statistics.png)
 
-Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Live-Statistiken]**, um die automatisch generierten Diagramme anzuzeigen:
+Klicken **[!UICONTROL Live Statistics]** im linken Navigationsbereich verfügbar, um die folgenden automatisch generierten Diagramme anzuzeigen:
 
 * **Downloads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten aus der Assets Essentials-Umgebung heruntergeladen wurden, dargestellt als Liniendiagramm.
 

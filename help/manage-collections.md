@@ -2,9 +2,9 @@
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '769'
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '737'
 ht-degree: 100%
 
 ---
@@ -74,8 +74,6 @@ Hinzufügen von Assets zu einer Sammlung
 1. Wählen Sie im Dialogfeld [!UICONTROL Sammlungen] die Sammlungen aus, denen die ausgewählten Assets hinzugefügt werden sollen.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um das Asset den ausgewählten Sammlungen hinzuzufügen.
-
-Um Assets zu einer Sammlung hinzuzufügen, können Sie auch in der linken Leiste auf **[!UICONTROL Sammlungen]** klicken, die Sammlung wählen, der Sie Assets hinzufügen möchten, auf **[!UICONTROL Zu Sammlung hinzufügen]** klicken, die Assets auswählen und auf **[!UICONTROL Auswählen]** klicken.
 
 ## Entfernen von Assets aus einer Sammlung {#remove-assets-from-collection}
 
