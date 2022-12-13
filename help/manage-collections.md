@@ -3,7 +3,7 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
 ht-degree: 100%
 
