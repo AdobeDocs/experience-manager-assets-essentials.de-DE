@@ -5,21 +5,21 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 17. November 2022 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 17. November 2022 veröffentlicht.
 
 Was diese Version bietet:
 
-**Vorschau von Dokumenten mit dem Document Cloud-Viewer**
+**Vorschau von Dokumenten mit dem Document Cloud Viewer**
 
-Assets Essentials ermöglicht es Ihnen jetzt, Dokumente in anderen unterstützten Formattypen hochzuladen und sie mit dem integrierten Document Cloud-Viewer in der Vorschau anzuzeigen. Zu den unterstützten Formattypen gehören TXT, RTF, DOC, DOCX, PPT, PPTX, XLS und XLSX.
+Mit Assets Essentials können Sie jetzt Dokumente in anderen unterstützten Formattypen hochladen und sie mit dem integrierten Document Cloud Viewer in der Vorschau anzeigen. Zu den unterstützten Formattypen gehören TXT, RTF, DOC, DOCX, PPT, PPTX, XLS und XLSX.
 
 <!--
 
@@ -40,7 +40,7 @@ You can easily synchronize the user groups available on the external identity ma
 
 **Neue Option zum Speichern von Metadaten**
 
-Auf der Benutzeroberfläche von Assets Essentials ist jetzt eine neue Option Metadaten speichern verfügbar, um die Metadatenverwaltung zu verbessern.
+In der Benutzeroberfläche von Assets Essentials ist jetzt eine neue Option zum Speichern von Metadaten verfügbar, um die Kontrolle von Metadaten zu verbessern.
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
@@ -65,7 +65,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### 2022.8.0 {#august-2022}
 
-Die August-Version von [!DNL Assets Essentials] wird am 22. August 2022 veröffentlicht.
+Die August-Version von [!DNL Assets Essentials] wurde am 22. August 2022 veröffentlicht.
 
 Was diese Version bietet:
 
