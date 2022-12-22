@@ -3,9 +3,9 @@ title: Einrichten von Assets Essentials für Creative Cloud Pro mit Work-Managem
 description: In diesem Tutorial erfahren Administratoren, wie sie die Integration von Assets Essentials mit Creative Cloud-Client-Programmen und Adobe Workfront aktivieren. Zu den Creative Cloud-Desktop-Programmen gehören Adobe Photoshop, Adobe Illustrator, Adobe InDesign und Adobe XD.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Wie im Diagramm dargestellt, werden die Creative Cloud-Benutzer automatisch in d
 
 Eine Dokumentations-Tour verbindet viele verschiedene und möglicherweise komplizierte Themen und Funktionen, indem sie dem Leser, der mit Assets Essentials noch nicht vertraut ist, hilft, ein geschäftliches Problem von Anfang bis Ende zu verstehen und zu lösen, wobei nur minimale Vorkenntnisse zum Thema oder zu Assets Essentials vorausgesetzt werden.
 
-Dokumentations-Touren werden auf der Grundlage von Best-Practice-Prinzipien entwickelt, die auf Informationen aus den neuesten Forschungsergebnissen von Adobe, bewährten Implementierungserfahrungen der Adobe-Berater und dem Feedback aus Kundenprojekten basieren.
+Dokumentations-Touren werden auf der Grundlage von Best-Practice-Prinzipien entwickelt, die auf Informationen aus den neuesten Forschungsergebnissen von Adobe, bewährten Implementierungserfahrungen der Adobe-Berater und dem Feedback aus Kundenprojekten beruhen.
 
 ## Voraussetzungen
 
-* [Zugriff auf die Adobe Admin Console for Experience Cloud-Lösungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
+* [Zugriff auf die Adobe Admin Console for Experience Cloud-Lösungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=de)
 
 * [Zugriff auf die Adobe Admin Console für die Implementierung von Creative Cloud für Unternehmen](https://helpx.adobe.com/de/enterprise/admin-guide.html)
 
@@ -59,7 +59,7 @@ Dokumentations-Touren werden auf der Grundlage von Best-Practice-Prinzipien entw
 
 Adobe Experience Manager Assets Essentials ist eine neue, schlanke Edition von Adobe Experience Manager Assets. Assets Essentials bietet ein einheitliches Asset-Management und Zusammenarbeit mit einer vereinfachten und konsistenten Benutzeroberfläche. Durch die Benutzerfreundlichkeit können mehr Kreativ- und Marketing-Teams digitale Assets speichern, finden und verteilen.
 
-Adobe Experience Manager Assets Essentials wird von Adobe für seine Kunden bereitgestellt. Im Rahmen der Bereitstellung wird Assets Essentials zur Organisation eines Kunden in der Adobe Admin Console hinzugefügt.
+Adobe Experience Manager Assets Essentials wird von Adobe für seine Kunden bereitgestellt. Im Rahmen der Bereitstellung wird Assets Essentials der Organisation eines Kunden in der Adobe Admin Console hinzugefügt.
 
 Administratoren verwenden die Admin Console, um Benutzerberechtigungen für Assets Essentials-Produkte zu verwalten:
 
