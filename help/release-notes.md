@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
 
 **Adobe Asset Link, Version 3.3**
 
-[Adobe Asset Link](https://helpx.adobe.com/de/enterprise/using/adobe-asset-link.html) Version 3.3 wird am 13. Dezember 2022 veröffentlicht und weist die folgenden Funktionen auf:
+[Adobe Asset Link](https://helpx.adobe.com/de/enterprise/using/adobe-asset-link.html) Version 3.3 wird am 13. Dezember 2022 veröffentlicht und verfügt über die folgenden Funktionen:
 
-* Unterstützung für [Creative Cloud für Teams](https://www.adobe.com/creativecloud/business/teams.html) zusätzlich zur Unterstützung [Creative Cloud für Unternehmen](https://www.adobe.com/creativecloud/business/enterprise.html) vor.
+* Support für [Creative Cloud für Teams](https://www.adobe.com/de/creativecloud/business/teams.html) zusätzlich zur bisherigen Unterstützung von [Creative Cloud für Unternehmen](https://www.adobe.com/de/creativecloud/business/enterprise.html).
 
-* Unterstützung der neuesten Adobe InDesign-, Photoshop- und Illustrator 2023-Anwendungen.
+* Support für die neuesten Anwendungen von Adobe InDesign, Photoshop und Illustrator 2023.
 
-* Unterstützung für die Verwendung des Adobe Asset Link CEP Plugins in Umgebungen mit Proxyservern.
+* Support für die Verwendung des Adobe Asset Link CEP Plugin in Umgebungen mit Proxy-Servern.
 
 ## Bekannte Probleme {#known-issues}
 
