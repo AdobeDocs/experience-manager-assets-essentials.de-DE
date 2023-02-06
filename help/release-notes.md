@@ -4,16 +4,62 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: ht
-source-wordcount: '1471'
-ht-degree: 100%
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+workflow-type: tm+mt
+source-wordcount: '1690'
+ht-degree: 87%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am 17. November 2022 veröffentlicht.
+Die aktuelle Version von Assets Essentials wird am 27. Januar 2023 veröffentlicht.
+
+Was diese Version bietet:
+
+**Mein Arbeitsbereich mit konfigurierbaren Widgets**
+
+Assets bietet Ihnen jetzt einen benutzerdefinierten Arbeitsbereich, der als zentrale Lösung dient und Ihnen einfachen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bietet, die für Sie am relevantesten sind. Schnellerer Zugriff auf diese Optionen erhöht die Geschwindigkeit und Effizienz Ihrer Projekte.
+
+Mein Arbeitsbereich enthält Widgets für bevorstehende neue Funktionen, Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+
+**Benutzeroberfläche für dedizierte Aufgabenverwaltung**
+
+Mit Assets Essentials können Sie jetzt die Liste der Aufgaben verwalten, die Ihnen derzeit zugewiesen, von Ihnen erstellt und bereits an einem zentralen Ort von Ihnen abgeschlossen wurden. Dazu wird die neue **[!UICONTROL Aufgaben]** im linken Navigationsbereich verfügbar. Sie können auch geeignete Aktionen durchführen, indem Sie eine Aufgabe auswählen, um sie zu genehmigen oder abzulehnen, oder die Aufgabendetails öffnen, um sie zu genehmigen, abzulehnen, zu bearbeiten oder zu löschen.
+
+![Aufgaben in Workspace](assets/tasks-workspace.png)
+
+**Automatisch generierte Links zum Freigeben von Assets**
+
+Assets Essentials generiert jetzt automatisch einen Link, sobald Sie ein Asset über die Assets Essentials-Benutzeroberfläche freigeben. Der generierte Link bleibt auch dann gültig, wenn Sie das Ablaufdatum ändern.
+
+![Aufgaben in Workspace](assets/share-asset.png)
+
+
+**Verbesserungen auf der Basis von Kunden-Feedback**
+
+Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
+
+## Bekannte Probleme {#known-issues}
+
+Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Private Sammlungen sind für Erstellende und Benutzende mit Administratorrechten verfügbar. Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
+
+Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
+
+## Frühere Versionen {#past-releases}
+
+### 2022.11.0 {#november-2022}
+
+Die November-Version von [!DNL Assets Essentials] wird am 17. November 2022 veröffentlicht.
 
 Was diese Version bietet:
 
@@ -55,23 +101,6 @@ Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
 * Support für die neuesten Anwendungen von Adobe InDesign, Photoshop und Illustrator 2023.
 
 * Support für die Verwendung des Adobe Asset Link CEP Plugin in Umgebungen mit Proxy-Servern.
-
-## Bekannte Probleme {#known-issues}
-
-Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Private Sammlungen sind für Erstellende und Benutzende mit Administratorrechten verfügbar. Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
-
-Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
-
-## Frühere Versionen {#past-releases}
 
 ### 2022.8.0 {#august-2022}
 

@@ -2,10 +2,10 @@
 title: Wie können Sie Links zu Medienelementen freigeben?
 description: Erstellen Sie einen Link und geben Sie Medienelemente für andere frei, die keinen Zugriff auf das Programm  [!DNL Assets Essentials]  haben.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 98%
 
 ---
 
@@ -21,9 +21,7 @@ So generieren Sie einen Link für ein Medienelement oder einen Ordner mit Medien
 
 1. Sie können den Link anpassen, indem Sie auf das Kalendersymbol klicken, um im Feld **[!UICONTROL Ablaufdatum]** ein Ablaufdatum für den Link festzulegen. Sie können auch ein Datum direkt im `yyyy-mm-dd`-Format angeben. Standardmäßig ist das Ablaufdatum für einen Link auf 2 Wochen ab dem Datum der Freigabe festgelegt.
 
-1. Klicken Sie auf **[!UICONTROL Link erstellen]**.
-
-1. Klicken sie auf **[!UICONTROL Link kopieren]**, um den Link zu kopieren. Sie können den Link auch aus dem Feld **[!UICONTROL Freigabe-Link]** kopieren.
+1. Kopieren Sie den Link aus der **[!UICONTROL Link freigeben]** -Feld.
 
    ![Option für das Zuschneiden und Ausrichten](assets/share-asset-link.png)
 
