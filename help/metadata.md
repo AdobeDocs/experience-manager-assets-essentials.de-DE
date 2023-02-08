@@ -4,9 +4,9 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
+source-git-commit: 260eb904240652d174cc29bacfe92b03699305d0
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1252'
 ht-degree: 95%
 
 ---
@@ -57,7 +57,7 @@ Zusätzlich zu den Smart-Tags, die automatisch mit dem intelligenten Service [!D
 
 Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die automatisch von [!DNL Assets Essentials] zu allen hochgeladenen Assets hinzugefügt werden.
 
-## Metadaten-Forms {#metadata-forms}
+## Einrichten von Metadatenformularen {#metadata-forms}
 
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
