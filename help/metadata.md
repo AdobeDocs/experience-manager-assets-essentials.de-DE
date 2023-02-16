@@ -6,8 +6,8 @@ contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: fecbd1b05cc91148f41c576f4569f1799df6095e
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um ein Metadatenformular zu erstellen:
 1. Optional können Sie auf jeder Registerkarte weitere Register und die erforderlichen Komponenten hinzufügen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn das Formular vollständig ist.
 
-Sehen Sie sich dieses Video an, um die Schrittfolge anzuzeigen:
+In diesem Video finden Sie die Reihenfolge der Schritte:
 
 >[!VIDEO](https://video.tv.adobe.com/v/341275)
 
