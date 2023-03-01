@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1690'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 27. Januar 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 27. Januar 2023 veröffentlicht.
 
 Was diese Version bietet:
 
 **Mein Arbeitsbereich mit konfigurierbaren Widgets**
 
-Assets bietet Ihnen jetzt einen benutzerdefinierten Arbeitsbereich, der als zentrale Lösung dient und Ihnen einfachen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bietet, die für Sie am relevantesten sind. Schnellerer Zugriff auf diese Optionen erhöht die Geschwindigkeit und Effizienz Ihrer Projekte.
+Assets bietet Ihnen jetzt einen benutzerdefinierten Arbeitsbereich, der als zentrale Lösung dient und Ihnen einfachen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bietet, die für Sie am relevantesten sind. Der schnellere Zugriff auf diese Optionen erhöht die inhaltliche Geschwindigkeit und Effizienz Ihrer Projekte.
 
 Mein Arbeitsbereich enthält Widgets für bevorstehende neue Funktionen, Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 **Benutzeroberfläche für dedizierte Aufgabenverwaltung**
 
-Mit Assets Essentials können Sie jetzt die Liste der Aufgaben verwalten, die Ihnen derzeit zugewiesen, von Ihnen erstellt und bereits an einem zentralen Ort von Ihnen abgeschlossen wurden. Dazu wird die neue **[!UICONTROL Aufgaben]** im linken Navigationsbereich verfügbar. Sie können auch geeignete Aktionen durchführen, indem Sie eine Aufgabe auswählen, um sie zu genehmigen oder abzulehnen, oder die Aufgabendetails öffnen, um sie zu genehmigen, abzulehnen, zu bearbeiten oder zu löschen.
+Mit Assets Essentials können Sie jetzt die Liste der Aufgaben verwalten, die Ihnen derzeit zugewiesen sind, von Ihnen erstellt wurden und bereits an einem zentralen Ort von Ihnen abgeschlossen wurden. Verwenden Sie dazu die neue Option **[!UICONTROL Aufgaben]**, die im linken Navigationsbereich verfügbar ist. Sie können auch geeignete Aktionen durchführen, indem Sie eine Aufgabe auswählen, um sie zu genehmigen oder abzulehnen, oder die Aufgabendetails öffnen, um sie zu genehmigen, abzulehnen, zu bearbeiten oder zu löschen.
 
 ![Aufgaben in Workspace](assets/tasks-workspace.png)
 
@@ -59,7 +59,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### 2022.11.0 {#november-2022}
 
-Die November-Version von [!DNL Assets Essentials] wird am 17. November 2022 veröffentlicht.
+Die November-Version von [!DNL Assets Essentials] wurde am 17. November 2022 veröffentlicht.
 
 Was diese Version bietet:
 
