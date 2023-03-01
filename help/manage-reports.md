@@ -3,9 +3,9 @@ title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experien
 
 ## Zugreifen auf Berichte {#access-reports}
 
-Alle Benutzer, die dem [Produktprofil &quot;Assets Essentials-Administratoren&quot;](deploy-administer.md) kann auf das Insights-Dashboard zugreifen oder benutzerdefinierte Berichte in Assets Essentials erstellen.
+Alle Benutzenden, die dem [Produktprofil Assets Essentials-Administrierende](deploy-administer.md) zugeordnet sind, können in Assets Essentials auf das Insights-Dashboard zugreifen oder benutzerdefinierte Berichte erstellen.
 
 ## Anzeigen von Insights {#view-live-statistics}
 
-Mit Assets Essentials können Sie Echtzeitdaten für Ihre Assets Essentials-Umgebung mit dem Insights-Dashboard anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
+In Assets Essentials können Sie mit dem Insights-Dashboard Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
 ![Symbolleistenoptionen bei der Auswahl eines Assets](assets/assets-essentials-live-statistics.png)
 
-Klicken **[!UICONTROL Insights]** im linken Navigationsbereich verfügbar, um die folgenden automatisch generierten Diagramme anzuzeigen:
+Klicken Sie auf **[!UICONTROL Insights]** im linken Navigationsbereich, um die folgenden automatisch generierten Diagramme anzuzeigen:
 
 * **Downloads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten aus der Assets Essentials-Umgebung heruntergeladen wurden, dargestellt als Liniendiagramm.
 
