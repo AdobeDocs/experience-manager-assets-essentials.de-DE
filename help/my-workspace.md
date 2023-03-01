@@ -1,44 +1,44 @@
 ---
 title: Mein Arbeitsbereich für Assets
-description: My Workspace ist eine Seite, die anpassbare visuelle Module bietet, mit denen Sie bequem auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen zugreifen können, die für den Benutzer am relevantesten sind.
+description: Mein Arbeitsbereich ist eine Seite, die anpassbare visuelle Module bietet, mit denen Sie bequem auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen zugreifen können, die für den Benutzenden am relevantesten sind.
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Mein Arbeitsbereich für Assets {#my-workspace}
 
-Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und Content Velocity.
+Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
 
-Sie können auf den Arbeitsbereich zugreifen, indem Sie auf **[!UICONTROL Mein Arbeitsbereich]** aus den im linken Navigationsbereich verfügbaren Elementen. Mein Arbeitsbereich umfasst eine Vielzahl von Widgets, die neue Funktionen zeigen, Einblicke, Aufgaben und Content-Widgets. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+Sie können auf Mein Arbeitsbereich zugreifen, indem Sie auf **[!UICONTROL Mein Arbeitsbereich]** in den Elementen klicken, die im linken Navigationsbereich verfügbar sind. Mein Arbeitsbereich umfasst eine Vielzahl von Widgets, die bevorstehende neue Funktionen, Einblicke, Aufgaben und Inhalts-Widgets zeigen. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 >[!NOTE]
 >
->Das Insights-Widget ist nur für Administratoren sichtbar.
+>Das Insights-Widget ist nur für Administrierende sichtbar.
 
-**Neue Funktionen in Kürze**
+**Bald erscheinende neue Funktionen**
 
-Hervorhebung bevorstehender Funktionen für Assets.
+Höhepunkte bald erscheinender Funktionen für Assets.
 
-![Neue Funktionen in Workspace in Kürze](assets/new-features.png)
+![Bald erscheinende neue Funktionen in Workspace](assets/new-features.png)
 
 **Insights**
 
-Administratoren können eine Zusammenfassung der Anzahl der Downloads und Uploads anzeigen, die in den letzten 30 Tagen in der Assets-Umgebung durchgeführt wurden. Sie können auf **[!UICONTROL Alle anzeigen]** um schnell zur Seite Insights zu navigieren, um detailliertere Dashboards zu erhalten.
+Administrierende können eine Zusammenfassung der Anzahl der Downloads und Uploads anzeigen, die in den letzten 30 Tagen in der Assets-Umgebung durchgeführt wurden. Sie können auf **[!UICONTROL Alle anzeigen]** klicken, um schnell zur Insights-Seite zu navigieren, um detailliertere Dashboards zu erhalten.
 
-![Einblicke in Workspace](assets/insights.png)
+![Insights in Workspace](assets/insights.png)
 
 **Aufgaben**
 
-Zeigt die Liste der Aufgaben an, die Ihnen derzeit im **[!UICONTROL Meine Aufgaben]** von Ihnen im **[!UICONTROL Zugewiesene Aufgaben]** und die Aufgaben, die Sie bereits im **[!UICONTROL Abgeschlossen]** Registerkarte. Sie können eine Aufgabe auswählen und auf **[!UICONTROL Aufgabe abschließen]** , um eine Aufgabe zu genehmigen oder abzulehnen. Sie können auch eine Aufgabe auswählen und auf **[!UICONTROL Aufgabendetails öffnen]** , um die Aufgabe anzuzeigen und zu genehmigen, abzulehnen, zu bearbeiten oder zu löschen.
+Zeigt auf der Registerkarte **[!UICONTROL Meine Aufgaben]** die Liste der Ihnen derzeit zugewiesenen Aufgaben, auf der Registerkarte **[!UICONTROL Zugewiesene Aufgaben]** die von Ihnen erstellten Aufgaben und auf der Registerkarte **[!UICONTROL Abgeschlossen]** die von Ihnen bereits erledigten Aufgaben. Sie können eine Aufgabe auswählen und auf **[!UICONTROL Aufgabe abschließen]** klicken, um eine Aufgabe zu genehmigen oder abzulehnen. Sie können auch eine Aufgabe auswählen und auf **[!UICONTROL Aufgabendetails öffnen]** klicken, um die Aufgabe anzuzeigen und zu genehmigen, abzulehnen, zu bearbeiten oder zu löschen.
 
 ![Aufgaben in Workspace](assets/tasks-workspace.png)
 
 >[!NOTE]
 >
-> Die **[!UICONTROL Aufgaben zuweisen]** Die Option zum Zuweisen einer Aufgabe für ein Asset zu einem anderen Benutzer ist verfügbar, wenn Sie ein Asset auswählen oder die Ansicht mit den Asset-Informationen öffnen.
+> Die Option **[!UICONTROL Aufgaben zuweisen]**, mit der Sie eine Aufgabe für ein Asset einem anderen Benutzenden zuweisen können, ist verfügbar, wenn Sie ein Asset auswählen oder die Asset-Informationsansicht öffnen.
 
 **Inhalt**
 
@@ -46,13 +46,13 @@ Zeigt Asset-Ansichten an, einschließlich der Liste der Assets, die Sie kürzlic
 
 ![Inhalts-Widget in Workspace](assets/workspace-content.png)
 
-## Arbeitsbereich anpassen {#configure-widgets}
+## Mein Arbeitsbereich anpassen {#configure-widgets}
 
-Alle Widgets werden standardmäßig angezeigt, Sie können jedoch die in My Workspace angezeigten Widgets aktivieren oder deaktivieren. Die Voreinstellungen sind für jeden Benutzer spezifisch.
+Alle Widgets werden standardmäßig angezeigt, Sie können jedoch die in Mein Arbeitsbereich angezeigten Widgets aktivieren oder deaktivieren. Die Voreinstellungen sind für jeden Benutzer spezifisch.
 
-1. Klicken **[!UICONTROL Mein Arbeitsbereich]** im linken Navigationsbereich verfügbar und klicken Sie auf **[!UICONTROL Anpassen]**.
+1. Klicken Sie auf **[!UICONTROL Mein Arbeitsbereich]** im linken Navigationsbereich und klicken Sie auf **[!UICONTROL Anpassen]**.
 
-1. Deaktivieren Sie den Umschalter für das Widget, das nicht in Workspace angezeigt werden muss. Sie können ein Widget auch an die gewünschte Position ziehen, um seine Anzeigereihenfolge in Workspace zu aktualisieren.
+1. Deaktivieren Sie den Umschalter für das Widget, das Sie nicht im Arbeitsbereich anzeigen lassen wollen. Sie können ein Widget auch an die gewünschte Position ziehen, um seine Anzeigereihenfolge im Arbeitsbereich zu aktualisieren.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**, um die Änderungen zu speichern.
 
