@@ -2,14 +2,19 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
-workflow-type: ht
-source-wordcount: '731'
-ht-degree: 100%
+source-git-commit: b222e03a8eca0837ca647740baed7d77afe96ed3
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 97%
 
 ---
 
 # Verwalten von Berichten {#manage-reports}
+
+>[!CONTEXTUALHELP]
+>id="assets_reports"
+>title="Berichte"
+>abstract="Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren. Alle Benutzer, die dem Produktprofil Administratoren zugewiesen sind, können auf das Insights-Dashboard zugreifen oder benutzerdefinierte Berichte erstellen."
 
 Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
 
