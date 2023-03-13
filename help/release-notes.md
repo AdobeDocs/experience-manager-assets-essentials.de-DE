@@ -4,16 +4,16 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9192ca1e72c79ef0f2c6d2b4d1e5a71e991abafb
+source-git-commit: f06e3a5db2c91e6778ea196fdc69293d1b2732e5
 workflow-type: tm+mt
 source-wordcount: '1695'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 27. Januar 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 27. Januar 2023 veröffentlicht.
 
 Die Liste der Funktionen in der Version umfasst:
 
