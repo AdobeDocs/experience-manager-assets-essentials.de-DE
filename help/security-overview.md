@@ -2,10 +2,10 @@
 title: "Sicherheitsübersicht für Assets Essentials"
 description: Sicherheitsübersicht für Assets Essentials
 mini-toc-levels: 1
-source-git-commit: 55f24357266d2f063d1aaf92777fae32c7b127bd
+source-git-commit: 895f178384f653729a5625db4782d3c134cf3309
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 26%
+source-wordcount: '129'
+ht-degree: 53%
 
 ---
 
@@ -14,3 +14,11 @@ ht-degree: 26%
 Assets Essential&#39;s proaktiver Sicherheitsansatz und strenge Verfahren tragen dazu bei, die Sicherheit der Assets Essentials-Lösung und vertraulicher Kundendaten zu schützen. Die Sicherheit digitaler Erlebnisse wird kontinuierlich überwacht, um bösartige Aktivitäten zu unterbinden und den Schutz von Kundendaten zu gewährleisten.
 
 Siehe [Assets Essentials-Sicherheit](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-experience-manager-assets-essentials-security-overview.pdf) Whitepaper für eine ausführliche Sicherheitsübersicht.
+
+## Nächste Schritte {#next-steps}
+
+* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
+
+* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
+
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
