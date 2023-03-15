@@ -3,10 +3,10 @@ title: Verwalten von Benutzern
 description: Anwendungsfälle für Administratoren, wie z. B. Implementieren und Verwalten von Benutzern in  [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 07537aea39140f649d17353430a505c36e971aea
-workflow-type: ht
-source-wordcount: '1329'
-ht-degree: 100%
+source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,8 @@ So fügen Sie Benutzergruppen Produktprofile hinzu:
 
    * Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf die gesamte Benutzeroberfläche. Diese Benutzer können digitale Assets hochladen, organisieren, taggen und suchen.
 
-   * Endverbraucher-Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf das eingebettete Asset-Auswahlerlebnis im E-Mail-Vorlageneditor von [!DNL Adobe Journey Optimizer]. Weitere Informationen finden Sie unter [Verwenden von  [!DNL Assets Essentials]  in  [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de).
+   * **[!DNL Assets Essentials]Verbraucherbenutzer** Sie können Suchvorgänge sowie Vorschau- und Download-Vorgänge in Assets Essentials durchführen. Sie können auch Assets in Adobe Journey Optimizer suchen und auswählen sowie Assets zur Verwendung in Workfront suchen und auswählen.
+Weitere Informationen finden Sie unter [Integration mit anderen Lösungen](integration.md).
 
    ![Admin-Profil der Admin Console](assets/admin-console-admin-profile.png)
 
