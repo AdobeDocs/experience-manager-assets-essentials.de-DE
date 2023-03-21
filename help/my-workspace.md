@@ -1,10 +1,10 @@
 ---
 title: Mein Arbeitsbereich für Assets
 description: Mein Arbeitsbereich ist eine Seite, die anpassbare visuelle Module bietet, mit denen Sie bequem auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen zugreifen können, die für den Benutzenden am relevantesten sind.
-source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: 184e80c88fb8e13ca24049d95146b5305b2008dc
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
 
@@ -12,17 +12,21 @@ ht-degree: 100%
 
 Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
 
-Sie können auf Mein Arbeitsbereich zugreifen, indem Sie auf **[!UICONTROL Mein Arbeitsbereich]** in den Elementen klicken, die im linken Navigationsbereich verfügbar sind. Mein Arbeitsbereich umfasst eine Vielzahl von Widgets, die bevorstehende neue Funktionen, Einblicke, Aufgaben und Inhalts-Widgets zeigen. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+Sie können auf Mein Arbeitsbereich zugreifen, indem Sie auf **[!UICONTROL Mein Arbeitsbereich]** in den Elementen klicken, die im linken Navigationsbereich verfügbar sind. Mein Arbeitsbereich umfasst eine Vielzahl von Widgets, die Insights-, Aufgaben- und Content-Widgets anzeigen. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 >[!NOTE]
 >
 >Das Insights-Widget ist nur für Administrierende sichtbar.
 
-**Bald erscheinende neue Funktionen**
+<!--
 
-Höhepunkte bald erscheinender Funktionen für Assets.
+**New features coming soon**
 
-![Bald erscheinende neue Funktionen in Workspace](assets/new-features.png)
+Highlights upcoming features for Assets.
+
+![New features coming soon in Workspace](assets/new-features.png)
+
+-->
 
 **Insights**
 

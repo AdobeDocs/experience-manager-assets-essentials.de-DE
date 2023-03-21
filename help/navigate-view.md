@@ -3,10 +3,10 @@ title: „Benutzeroberfläche von [!DNL Assets Essentials]“
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenl
 
 * **Assets**: Liste aller Ordner in einer Baumstrukturansicht, auf die Sie Zugriff haben.
 * **Kürzlich angesehen**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Hier werden die Assets, an denen Sie beim Durchsuchen der Repository-Dateien oder -Ordner vorbeiscrollen, nicht angezeigt.
-* **Papierkorb**:
+* **Papierkorb**: Auflisten der aus dem Stammverzeichnis gelöschten Assets **[!UICONTROL Assets]** Ordner. Sie können ein Asset im Ordner &quot;Papierkorb&quot;auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
