@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="Berichte"
->abstract="Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren. Alle Benutzerinnen und Benutzer, die dem Produktprofil der Administrierenden zugewiesen sind, können auf das Insights-Dashboard zugreifen oder benutzerdefinierte Berichte erstellen."
+>abstract="Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren. Alle Benutzenden, die dem Administrierenden-Produktprofil zugeordnet sind, können auf das Insights-Dashboard zugreifen oder benutzerdefinierte Berichte erstellen."
 
 Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
 
