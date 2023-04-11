@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: f63cbffbbc6acc37a1a08f28cbdc4cee7f66d883
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ In [!DNL Assets Essentials] ist die Suchfunktion recht einfach zu verwenden. Üb
 
 Sie können die Suchergebnisse auch nach bestimmten Kriterien rund um Metadaten und Art der Assets filtern. Mit [!DNL Assets Essentials] können Sie bei häufig verwendeten Filtern die Suchparameter speichern, um das Sucherlebnis zu verbessern. Um zu suchen und den Filter mit nur einem Klick anzuwenden, können Sie auch die gespeicherte Suche auswählen.
 
-Um eine gespeicherte Suche zu erstellen, suchen Sie nach einem Asset, wenden Sie einen oder mehrere Filter an und klicken Sie auf **[!UICONTROL Speichern unter]** > **[!UICONTROL Gespeicherte Suche]** im [!UICONTROL Filter] Bereich. Sie können auch auf **[!UICONTROL Speichern unter]** und wählen Sie **[!UICONTROL Smart-Sammlung]** , um die Ergebnisse als Smart-Sammlung zu speichern. Siehe [Erstellen einer Smart-Sammlung](manage-collections.md#create-a-smart-collection) für weitere Details.
+Um eine gespeicherte Suche zu erstellen, suchen Sie nach einem Asset, wenden Sie einen oder mehrere Filter an und klicken Sie im Bedienfeld [!UICONTROL Filter] auf **[!UICONTROL Speichern unter]** > **[!UICONTROL Gespeicherte Suche]**. Sie können auch auf **[!UICONTROL Speichern unter]** klicken und **[!UICONTROL Smart-Sammlung]** wählen, um die Ergebnisse als Smart-Sammlung zu speichern. Siehe [Erstellen einer Smart-Sammlung](manage-collections.md#create-a-smart-collection) für weitere Details.
 
 ![Erstellen einer Smart-Sammlung](assets/create-smart-collection.png)
 
