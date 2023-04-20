@@ -4,10 +4,10 @@ description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle 
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
-workflow-type: ht
+source-git-commit: 93c6c273e2ad82237b29f93bc42d090f219e6c79
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,8 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 | Videos | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC-Bibliotheken | − | − | − | − | − | ✓ | ✓ |
 | PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD, AI und INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| AI und INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | Andere Binärdateien | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
