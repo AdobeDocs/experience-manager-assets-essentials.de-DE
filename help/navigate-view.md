@@ -3,10 +3,10 @@ title: „Benutzeroberfläche von [!DNL Assets Essentials]“
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 63%
 
 ---
 
@@ -22,19 +22,17 @@ ht-degree: 100%
 
 Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Oberfläche.
 
-<!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
+![[!DNL Assets Essentials]-Benutzeroberfläche](assets/essentials-interface.png)
 
-![[!DNL Assets Essentials]-Benutzeroberfläche](assets/essentials-interface1.png)
-
-*Abbildung: Erster Bildschirm nach Anmeldung und Speicherort der wichtigsten Funktionen.*
-    *A: Linke Seitenleiste zum Durchsuchen des Repositorys. Bietet Zugriff auf einige andere Optionen.*
-    *B: Linke Seitenleiste minimieren oder erweitern, um den Asset-Ansichtsbereich zu vergrößern.*
-    *C: Suchergebnisse filtern.*
-    *D: Suchfeld.*
-    *E: Optionen zum Sortieren von Assets.*
-    *F: Produkt-Feedback geben.*
-    *G: Bearbeiten Ihrer Benutzereinstellungen oder Abmelden.*
-    *H: Wechseln zwischen verschiedenen Ansichten.*
+    *A: Linke Seitenleiste zum Durchsuchen des Repositorys und bietet Zugriff auf einige andere Optionen*
+    *B: Anzeigen oder Reduzieren der linken Seitenleiste, um den Asset-Anzeigebereich zu vergrößern*
+    *C: Suchergebnisse filtern*
+    *D: Wählen Sie den gesamten Inhalt des ausgewählten Ordners aus*
+    *E: Optionen zum Sortieren von Assets*
+    *F: Suchfeld*
+    *G: Hochladen oder Ziehen und Ablegen von Dateien mithilfe von `Add Assets` button*
+    *H: Neuen Ordner erstellen*
+    *I: Zwischen Ansichten wechseln*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -42,9 +40,15 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste durchsuchen. Um das gewünschte Asset schnell zu finden, können Sie zum visuellen Durchsuchen des Repositorys die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen oder um Asset-Details anzuzeigen. Die in der linken Seitenleiste verfügbaren Optionen sind:
 
-* **Assets**: Liste aller Ordner in einer Baumstrukturansicht, auf die Sie Zugriff haben.
+* [Mein Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
+* [Aufgaben](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Sie können die Aufgaben anzeigen, die Ihnen unter **Meine Aufgaben** Registerkarte. Die Aufgaben, die von Ihnen erstellt wurden, können hingegen unter **Zugewiesene Aufgaben** Registerkarte. Darüber hinaus finden Sie die Aufgaben, die Sie abschließen, unter **Abgeschlossene Aufgaben** Registerkarte.
+* [Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): Liste aller Ordner in einer Baumstrukturansicht, auf die Sie Zugriff haben.
 * **Kürzlich angesehen**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Hier werden die Assets, an denen Sie beim Durchsuchen der Repository-Dateien oder -Ordner vorbeiscrollen, nicht angezeigt.
-* **Papierkorb**: Listen Sie die Assets auf, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Papierkorb-Ordner auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen.
+* [Sammlungen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de): Eine Sammlung ist ein Satz von Assets, Ordnern oder anderen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten.
+
+* [Insights](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): In [!DNL Assets Essentials]können Sie Echtzeiteinblicke in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Insights-Dashboard Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
+* **Papierkorb**: Auflisten der aus dem Stammverzeichnis gelöschten Assets **[!UICONTROL Assets]** Ordner. Sie können ein Asset im Papierkorb-Ordner auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen.
+* **Einstellungen**: Sie können verschiedene Optionen von Assets Essentials mithilfe von **Einstellungen**, wie Metadatenformulare, Berichte und Taxonomieverwaltung.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -76,20 +80,25 @@ Bevor Sie ein Asset verwenden, freigeben oder herunterladen, können Sie es sich
 
 Um ein Asset in der Vorschau anzuzeigen, wählen Sie es aus und klicken Sie oben in der Symbolleiste auf [!UICONTROL Details] ![details icon](assets/do-not-localize/edit-in-icon.png). Sie können nicht nur das Asset, sondern auch seine detaillierten Metadaten anzeigen und andere Aktionen durchführen.
 
-![Anzeigen einer Vorschau für ein Asset](assets/preview-asset.png)
+![Anzeigen einer Vorschau für ein Asset](assets/preview-asset-2.png)
 
-*A: Zurück zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository.*
-*B: Name und Format der Datei, die Sie in der Vorschau anzeigen.*
-*C: Grundlegende Metadaten.*
-*D: Erweiterte Metadaten.*
-*E: Keywords und Smart-Tags.*
-*F: Vorschau des Assets und Anzeige der Metadaten-Informationen.*
-*G: Kommentare und Anmerkungen.*
-*H: Anzeigen und Verwalten von Versionen.*
-*I: Anzeigen von Ausgabedarstellungen des Bildes.*
-*J: Bild bearbeiten.*
-*K: Genauere Vorschau anzeigen. Zoom, Vollbild und andere Optionen.*
-*L: Fortfahren mit dem vorherigen oder nächsten Asset im aktuellen Ordner, ohne zum Ordner zurückzugehen.*
+*A: Kehren Sie zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository zurück.*
+*B: Name und Format der Datei, die Sie in der Vorschau anzeigen*
+*C: Aufgaben zuweisen*
+*D: Asset herunterladen*
+*E: Asset-Vorschau anzeigen und Metadateninformationen anzeigen*
+*D: Erweiterte Metadaten*
+*E: Keywords und Smart-Tags*
+*F: Kommentare und Anmerkungen*
+*G: Anzeigen von Aufgaben im Zusammenhang mit dem ausgewählten Asset*
+*H: Anzeigen und Verwalten von Versionen*
+*I: Anzeigen von Bilddarstellungen*
+*J: Bild bearbeiten*
+*K: Grundlegende Metadaten*
+*L: Erweiterte Metadaten*
+*M: Keywords und Smart-Tags*
+*N: Vorschau genauer anzeigen. Zoom, Vollbild und andere Optionen*
+*O: Fahren Sie mit dem vorherigen oder nächsten Asset im aktuellen Ordner fort, ohne zum Ordner zurückzukehren*
 
 Sie können auch eine Vorschau der Videos anzeigen.
 
