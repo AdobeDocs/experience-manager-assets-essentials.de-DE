@@ -1,14 +1,20 @@
 ---
 title: Mein Arbeitsbereich für Assets
 description: Mein Arbeitsbereich ist eine Seite, die anpassbare visuelle Module bietet, mit denen Sie bequem auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen zugreifen können, die für den Benutzenden am relevantesten sind.
-source-git-commit: 184e80c88fb8e13ca24049d95146b5305b2008dc
-workflow-type: ht
-source-wordcount: '458'
+exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
+source-git-commit: 7234af017de7e5d5ebf31e8855a322d846c3a389
+workflow-type: tm+mt
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
 
 # Mein Arbeitsbereich für Assets {#my-workspace}
+
+>[!CONTEXTUALHELP]
+>id="assets_my_workspace"
+>title="Mein Arbeitsbereich"
+>abstract="Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen."
 
 Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
 
