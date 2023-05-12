@@ -4,9 +4,9 @@ description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL A
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 ![[!DNL Assets Essentials]-Benutzeroberfläche](assets/essentials-interface.png)
 
-    *A: Linke Seitenleiste zum Durchsuchen des Repositorys und bietet Zugriff auf einige andere Optionen*
-    *B: Anzeigen oder Reduzieren der linken Seitenleiste, um den Asset-Anzeigebereich zu vergrößern*
+    *A: Linke Seitenleiste zum Durchsuchen des Repositorys, bietet auch Zugriff auf einige andere Optionen*
+    *B: Linke Seitenleiste anzeigen oder reduzieren, um den Asset-Anzeigebereich zu vergrößern*
     *C: Suchergebnisse filtern*
-    *D: Wählen Sie den gesamten Inhalt des ausgewählten Ordners aus*
+    *D: Gesamten Inhalt des ausgewählten Ordners auswählen*
     *E: Optionen zum Sortieren von Assets*
     *F: Suchfeld*
-    *G: Hochladen oder Ziehen und Ablegen von Dateien mithilfe von `Add Assets` button*
+    *G: Dateien mithilfe der Schaltfläche hochladen oder ziehen und ablegen `Add Assets`*
     *H: Neuen Ordner erstellen*
     *I: Zwischen Ansichten wechseln*
 
@@ -40,15 +40,15 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste durchsuchen. Um das gewünschte Asset schnell zu finden, können Sie zum visuellen Durchsuchen des Repositorys die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen oder um Asset-Details anzuzeigen. Die in der linken Seitenleiste verfügbaren Optionen sind:
 
-* [Mein Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
-* [Aufgaben](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Sie können die Aufgaben anzeigen, die Ihnen unter **Meine Aufgaben** Registerkarte. Die Aufgaben, die von Ihnen erstellt wurden, können hingegen unter **Zugewiesene Aufgaben** Registerkarte. Darüber hinaus finden Sie die Aufgaben, die Sie abschließen, unter **Abgeschlossene Aufgaben** Registerkarte.
-* [Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): Liste aller Ordner in einer Baumstrukturansicht, auf die Sie Zugriff haben.
+* [Mein Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=de): Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
+* [Aufgaben](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=de): Sie können die Aufgaben, die Ihnen zugewiesen wurden, auf der Registerkarte **Meine Aufgaben** ansehen. Die Aufgaben, die von Ihnen erstellt wurden, können hingegen auf der Registerkarte **Zugewiesene Aufgaben** angesehen werden. Darüber hinaus finden Sie die Aufgaben, die Sie abgeschlossen haben, auf der Registerkarte **Abgeschlossene Aufgaben**.
+* [Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=de): Liste aller Ordner in einer Baumstrukturansicht, auf die Sie Zugriff haben.
 * **Kürzlich angesehen**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Hier werden die Assets, an denen Sie beim Durchsuchen der Repository-Dateien oder -Ordner vorbeiscrollen, nicht angezeigt.
-* [Sammlungen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de): Eine Sammlung ist ein Satz von Assets, Ordnern oder anderen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten.
+* [Sammlungen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de): Eine Sammlung ist ein Satz von Assets, Ordnern oder sonstigen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten.
 
-* [Insights](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): In [!DNL Assets Essentials]können Sie Echtzeiteinblicke in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Insights-Dashboard Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
-* **Papierkorb**: Auflisten der aus dem Stammverzeichnis gelöschten Assets **[!UICONTROL Assets]** Ordner. Sie können ein Asset im Papierkorb-Ordner auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen.
-* **Einstellungen**: Sie können verschiedene Optionen von Assets Essentials mithilfe von **Einstellungen**, wie Metadatenformulare, Berichte und Taxonomieverwaltung.
+* [Insights](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=de#view-live-statistics): In [!DNL Assets Essentials] können Sie Echtzeiteinblicke in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Insights-Dashboard Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
+* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Papierkorb-Ordner auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen.
+* **Einstellungen**: Sie können verschiedene Optionen von Assets Essentials mithilfe von **Einstellungen** konfigurieren, wie etwa Metadatenformulare, Berichte und Taxonomieverwaltung.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -82,7 +82,7 @@ Um ein Asset in der Vorschau anzuzeigen, wählen Sie es aus und klicken Sie oben
 
 ![Anzeigen einer Vorschau für ein Asset](assets/preview-asset-2.png)
 
-*A: Kehren Sie zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository zurück.*
+*A: Zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository zurückkehren*
 *B: Name und Format der Datei, die Sie in der Vorschau anzeigen*
 *C: Aufgaben zuweisen*
 *D: Asset herunterladen*
@@ -90,15 +90,15 @@ Um ein Asset in der Vorschau anzuzeigen, wählen Sie es aus und klicken Sie oben
 *D: Erweiterte Metadaten*
 *E: Keywords und Smart-Tags*
 *F: Kommentare und Anmerkungen*
-*G: Anzeigen von Aufgaben im Zusammenhang mit dem ausgewählten Asset*
-*H: Anzeigen und Verwalten von Versionen*
-*I: Anzeigen von Bilddarstellungen*
+*G: Aufgaben im Zusammenhang mit dem ausgewählten Asset anzeigen*
+*H: Versionen anzeigen und verwalten*
+*I: Ausgabedarstellungen anzeigen*
 *J: Bild bearbeiten*
 *K: Grundlegende Metadaten*
 *L: Erweiterte Metadaten*
 *M: Keywords und Smart-Tags*
-*N: Vorschau genauer anzeigen. Zoom, Vollbild und andere Optionen*
-*O: Fahren Sie mit dem vorherigen oder nächsten Asset im aktuellen Ordner fort, ohne zum Ordner zurückzukehren*
+*N: Präzisere Vorschau anzeigen. Zoom, Vollbild und andere Optionen*
+*O: Mit dem vorherigen oder nächsten Asset im aktuellen Ordner fortfahren, ohne zum Ordner zurückzukehren*
 
 Sie können auch eine Vorschau der Videos anzeigen.
 
