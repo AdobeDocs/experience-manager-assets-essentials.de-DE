@@ -3,9 +3,9 @@ title: Verwalten von Benachrichtigungen
 description: Überwachen Sie die Vorgänge, die mit den im Repository verfügbaren Assets oder Ordnern durchgeführt werden, mithilfe der Assets Essentials-Benachrichtigungen.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: c48ec7f5bfa1e449f461e73c5f3b725d52d9b1d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -85,13 +85,13 @@ Nachdem Sie [die Benachrichtigungskategorien abonniert haben](#subscribe-to-noti
 >* Assets Essentials sendet nur Benachrichtigungen, wenn sonstige Benutzende Aktionen für abonnierte Inhalte ausführen. Sie erhalten keine Benachrichtigungen über die Aktionen, die Sie für den abonnierte Inhalte ausführen.
 
 
-Um den Inhalt zu abonnieren, wählen Sie den zu abonnierenden Ordner, das zu abonnierende Asset oder die zu abonnierende Kollektion und klicken Sie auf **[!UICONTROL Beobachten]**.
+Um den Inhalt zu abonnieren, wählen Sie den zu abonnierenden Ordner, das zu abonnierende Asset oder die zu abonnierende Kollektion und klicken Sie auf **[!UICONTROL Ansehen]**.
 
 Assets Essentials zeigt eine Erfolgsmeldung an. Sie können auf **[!UICONTROL Zu den Benachrichtigungseinstellungen gehen]** klicken, die auf der Erfolgsmeldung verfügbar sind, um Ihr [Abonnement für Benachrichtigungskategorien](#subscribe-to-notification-categories) zu bearbeiten.
 
 ![Benachrichtigungen in Assets Essentials](assets/watch-assets.png)
 
-Assets Essentials sendet jetzt Benachrichtigungen für die abonnierten Kategorien. Sie können auch mehrere Assets, Ordner oder Kollektionen auswählen und auf **[!UICONTROL Beobachten]** klicken, um Zeit zu sparen. Wenn Sie jedoch mehrere Entitäten auswählen, von denen einige bereits abonniert wurden, wird die Option **[!UICONTROL Beobachten]** nicht angezeigt.
+Assets Essentials sendet jetzt Benachrichtigungen für die abonnierten Kategorien. Sie können auch mehrere Assets, Ordner oder Kollektionen auswählen und auf **[!UICONTROL Ansehen]** klicken, um Zeit zu sparen. Wenn Sie jedoch mehrere Entitäten auswählen, von denen einige bereits abonniert wurden, wird die Option **[!UICONTROL Ansehen]** nicht angezeigt.
 
 Um ein Abonnement zu kündigen, wählen Sie das abonnierte Asset, den abonnierten Ordner oder die abonnierte Kollektion aus und klicken Sie auf **[!UICONTROL Nicht mehr beobachten]**.
 
