@@ -13,8 +13,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="assets_collections"
->title="Sammlungen verwalten"
->abstract="Eine Sammlung ist ein Set von Assets, Ordnern oder sonstigen Sammlungen in Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten."
+>title="Verwalten von Sammlungen"
+>abstract="Eine Sammlung ist ein Set von Assets, Ordnern oder sonstigen Sammlungen in Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten."
 
 Eine Sammlung ist ein Set von Assets, Ordnern oder sonstigen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 
