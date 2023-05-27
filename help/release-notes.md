@@ -4,28 +4,32 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: aefa3e0c76a4b92b00ff069655297387cfe733b0
-workflow-type: ht
-source-wordcount: '1734'
-ht-degree: 100%
+source-git-commit: de0a8e4f31a378f79c5b94414886c8ec9d3d7891
+workflow-type: tm+mt
+source-wordcount: '1783'
+ht-degree: 95%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am 30. März 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wird am 24. Mai 2023 veröffentlicht.
 
 Die Liste der kürzlich hinzugefügten Funktionen umfasst:
 
+**Die heruntergeladenen Assets**
+
+In My Workspace werden jetzt die zehn am häufigsten heruntergeladenen Assets für Ihre Assets Essentials-Umgebung in angezeigt. [!UICONTROL Inhalt] Abschnitt. Sie können auch den Formattyp und die Anzahl der Downloads für jedes aufgelistete Asset anzeigen.
+
 **Massenaktualisierungen von Asset-Metadaten**
 
-Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktualisierungen für mehrere Assets gleichzeitig durchzuführen. Sie müssen keine Datensätze einzeln aktualisieren und können Eigenschaften schnell auf Assets anwenden, auf die über Suchen, Ordner und Sammlungen zugegriffen wird.
+Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktualisierungen für mehrere Assets gleichzeitig durchzuführen. Sie müssen Datensätze nicht einzeln aktualisieren und können Eigenschaften schnell auf Assets oder Ordner anwenden, auf die über die Suche zugegriffen wird.
 
 **Mein Arbeitsbereich mit konfigurierbaren Widgets**
 
 Assets bietet Ihnen jetzt einen benutzerdefinierten Arbeitsbereich, der als zentrale Lösung dient und Ihnen einfachen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bietet, die für Sie am relevantesten sind. Der schnellere Zugriff auf diese Optionen erhöht die inhaltliche Geschwindigkeit und Effizienz Ihrer Projekte.
 
-Mein Arbeitsbereich enthält Widgets für bevorstehende neue Funktionen, Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+Mein Arbeitsbereich umfasst Widgets für Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 **Benutzeroberfläche für dedizierte Aufgabenverwaltung**
 
@@ -56,6 +60,8 @@ Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird lau
 
 
 * Private Sammlungen sind für Erstellende und Benutzende mit Administratorrechten verfügbar. Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
+
+* Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
 
 Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
@@ -126,7 +132,7 @@ Assets Essentials bietet jetzt auch die Möglichkeit, mit dem Dashboard für Liv
 
 **Anzeigen von Hochladen-Berichten**
 
-Die Asset-Berichterstellung bietet Admins nun Einblicke in Assets, die in die Adobe Experience Manager Assets Essentials-Implementierung hochgeladen wurden. Admins haben bereits die Möglichkeit, Berichte für die Assets zu erstellen, die aus der Assets Essentials-Implementierung heruntergeladen wurden. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
+Die Asset-Berichterstellung bietet Admins nun Einblicke in Assets, die in die Adobe Experience Manager Assets Essentials-Bereitstellung hochgeladen wurden. Admins haben bereits die Möglichkeit, Berichte für die Assets zu erstellen, die aus der Assets Essentials-Bereitstellung heruntergeladen wurden. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren.
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
