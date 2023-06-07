@@ -7,29 +7,29 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: de0a8e4f31a378f79c5b94414886c8ec9d3d7891
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 24. Mai 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 24. Mai 2023 veröffentlicht.
 
 Die Liste der kürzlich hinzugefügten Funktionen umfasst:
 
-**Die heruntergeladenen Assets**
+**Die am häufigsten heruntergeladenen Assets**
 
-In My Workspace werden jetzt die zehn am häufigsten heruntergeladenen Assets für Ihre Assets Essentials-Umgebung in angezeigt. [!UICONTROL Inhalt] Abschnitt. Sie können auch den Formattyp und die Anzahl der Downloads für jedes aufgelistete Asset anzeigen.
+Im Abschnitt [!UICONTROL Inhalt] von „Mein Arbeitsbereich“ werden jetzt die zehn am häufigsten heruntergeladenen Assets für Ihre Assets Essentials-Umgebung angezeigt. Sie können für jedes aufgelistete Asset auch den Formattyp und die Anzahl der Downloads anzeigen.
 
 **Massenaktualisierungen von Asset-Metadaten**
 
-Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktualisierungen für mehrere Assets gleichzeitig durchzuführen. Sie müssen Datensätze nicht einzeln aktualisieren und können Eigenschaften schnell auf Assets oder Ordner anwenden, auf die über die Suche zugegriffen wird.
+Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktualisierungen für mehrere Assets gleichzeitig durchzuführen. Sie müssen Datensätze nicht einzeln aktualisieren und können Eigenschaften schnell auf Assets oder Ordner anwenden, auf die über eine Suche zugegriffen wird.
 
 **Mein Arbeitsbereich mit konfigurierbaren Widgets**
 
 Assets bietet Ihnen jetzt einen benutzerdefinierten Arbeitsbereich, der als zentrale Lösung dient und Ihnen einfachen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bietet, die für Sie am relevantesten sind. Der schnellere Zugriff auf diese Optionen erhöht die inhaltliche Geschwindigkeit und Effizienz Ihrer Projekte.
 
-Mein Arbeitsbereich umfasst Widgets für Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+„Mein Arbeitsbereich“ enthält Widgets für Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 **Benutzeroberfläche für dedizierte Aufgabenverwaltung**
 

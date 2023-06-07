@@ -5,7 +5,7 @@ exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: e6c6a7ee20fca5e87f521708fb7ddec453131e40
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Zeigt auf der Registerkarte **[!UICONTROL Meine Aufgaben]** die Liste der Ihnen 
 
 Zeigt Asset-Ansichten an, einschließlich der Liste der Assets, die Sie kürzlich angezeigt haben. Sie können auswählen, ob Assets im Widget in einer Listenansicht, Rasteransicht, Galerie- oder Wasserfallansicht angezeigt werden sollen, und die Assets nach Name, Größe und Änderungsdatum sortieren. Sie können auch ein Asset auswählen, um die Asset-Details anzuzeigen oder es aus der Liste der zuletzt angezeigten Assets zu entfernen.
 
-Die **[!UICONTROL Top-Downloads]** -Registerkarte zeigt die zehn am häufigsten heruntergeladenen Assets an, die in Ihrer Assets Essentials-Umgebung verfügbar sind. Sie können festlegen, dass Assets in der Listen- oder Rasteransicht angezeigt werden sollen. Beide Ansichten zeigen den Formattyp und die Anzahl der Downloads für jedes Asset an. Sie können auch ein Asset auswählen und auf **[!UICONTROL Details]** , um seine Eigenschaften anzuzeigen.
+Die Registerkarte **[!UICONTROL Top-Downloads]** zeigt die zehn am häufigsten heruntergeladenen Assets, die in Ihrer Assets Essentials-Umgebung verfügbar sind. Sie können wählen, ob die Assets in der Listen- oder Rasteransicht angezeigt werden sollen. Beide Ansichten zeigen für jedes Asset den Formattyp und die Anzahl der Downloads an. Sie können auch ein Asset auswählen und auf **[!UICONTROL Details]** klicken, um seine Eigenschaften anzuzeigen.
 
 ![Inhalts-Widget in Workspace](assets/workspace-content.png)
 
