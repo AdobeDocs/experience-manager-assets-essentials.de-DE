@@ -3,7 +3,7 @@ title: Integrieren von Assets Essentials mit Creative Cloud-Programmen
 description: Integrieren Sie Assets Essentials in Creative Cloud-Programmen, damit Sie innerhalb der unterstützten Desktop-Programme von  [!DNL Adobe Creative Cloud]  über das Bedienfeld „Adobe Asset Link“ direkt im Programm eine Verbindung zum  [!DNL Assets Essentials] -Repository herstellen können.
 exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 100%
 

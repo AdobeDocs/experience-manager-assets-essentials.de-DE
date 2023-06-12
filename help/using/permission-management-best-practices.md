@@ -3,7 +3,7 @@ title: Wie können Ordnerberechtigungen effektiv verwaltet werden?
 description: Best Practices für die effektive Verwaltung von Zugriffsberechtigungen
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 

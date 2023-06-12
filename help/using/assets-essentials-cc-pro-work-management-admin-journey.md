@@ -3,7 +3,7 @@ title: Einrichten von Assets Essentials für Creative Cloud Pro mit Work-Managem
 description: In diesem Tutorial erfahren Administratoren, wie sie die Integration von Assets Essentials mit Creative Cloud-Client-Programmen und Adobe Workfront aktivieren. Zu den Creative Cloud-Desktop-Programmen gehören Adobe Photoshop, Adobe Illustrator, Adobe InDesign und Adobe XD.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
 
