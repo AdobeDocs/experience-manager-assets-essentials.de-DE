@@ -9,9 +9,9 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 100%
 + [Verwalten von Sammlungen](manage-collections.md)
 + [Überwachen von Assets, Ordnern und Sammlungen](manage-notifications.md)
 + [Verwalten von Berichten](manage-reports.md)
++ [Verwalten von Tags](tagging-management.md)
 + Integration mit anderen Lösungen {#integration-with-other-solutions}
    + [Übersicht](integration.md)
    + [Integration mit Creative Cloud für Unternehmen](integrate-with-creative-cloud.md)
