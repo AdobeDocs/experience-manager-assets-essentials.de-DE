@@ -4,14 +4,14 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: d22d6690196b330e7893b062fee103ffac1d6c78
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 100%
+source-wordcount: '1536'
+ht-degree: 73%
 
 ---
 
-# Metadaten in [!DNL Assets Essentials] {#metadata}
+# Metadaten in der Asset-Ansicht {#metadata}
 
 Metadaten sind Daten oder Beschreibungen zu den Daten. Beispielsweise können Ihre Bilder als Asset Informationen über die Kamera, mit der sie aufgenommen wurden, oder Copyright-Informationen enthalten. Diese Informationen sind Metadaten des Bildes. Metadaten sind für ein effizientes Asset-Management von entscheidender Bedeutung. Metadaten stellen die Sammlung aller für ein Asset verfügbaren Daten dar, sind aber nicht unbedingt im Bild selbst enthalten.
 
@@ -31,31 +31,35 @@ Um die Metadaten eines Assets anzuzeigen, navigieren Sie zum Asset oder suchen S
 
 ![Anzeigen von Metadaten eines Assets](assets/metadata-view1.png)
 
-*Abbildung: Um ein Asset und seine Metadaten anzuzeigen, klicken Sie in der Symbolleiste auf **[!UICONTROL Details]** oder doppelklicken Sie auf das Asset.*
+*Abbildung: Um ein Asset und seine Metadaten anzuzeigen, klicken Sie auf **[!UICONTROL Details]**über die Symbolleiste oder doppelklicken Sie auf das Asset.*
 
 Die grundlegenden Metadaten wie Titel, Beschreibung und Upload-Datum sind auf der Registerkarte [!UICONTROL Standard] verfügbar. Die Registerkarte [!UICONTROL Erweitert] enthält erweiterte Metadaten wie Kameramodell, Informationen zum Objektiv und Geotags. Die Registerkarte [!UICONTROL Tags] enthält automatisch vergebene Tags, die auf dem Inhalt des Bildes basieren.
 
 ## Aktualisieren von Metadaten {#update-metadata}
 
-Einige Metadatenfelder können Sie manuell aktualisieren. Diese Felder sind unter anderem [!UICONTROL Titel], [!UICONTROL Beschreibung], [!UICONTROL Autor] und [!UICONTROL Schlüsselwörter].
+Sobald der Administrator das Metadatenformular konfiguriert hat, können andere Felder manuell aktualisiert werden. Sie können dies ändern, da es nur auf Grundlage des vordefinierten Metadatenformulars gelesen wird.
 
-## Tags {#tags}
+## Smart-Tags {#smart-tags}
 
-[!DNL Assets Essentials] verwendet künstliche Intelligenz, die von [Adobe Sensei](https://www.adobe.com/de/sensei.html) bereitgestellt wird, um automatisch relevante Tags zu allen hochgeladenen Assets hinzuzufügen. Diese Tags, auch Smart-Tags genannt, erhöhen die Geschwindigkeit der Inhaltserstellung Ihrer Projekte, da Sie relevante Assets schnell finden können. Die Smart-Tags sind ein Beispiel für Metadaten, die nicht im Bild enthalten sind.
+[!DNL Experience Manager Assets] verwendet künstliche Intelligenz, die von [Adobe Sensei](https://www.adobe.com/de/sensei.html) bereitgestellt wird, um automatisch relevante Tags zu allen hochgeladenen Assets hinzuzufügen. Diese Tags, auch Smart-Tags genannt, erhöhen die Geschwindigkeit der Inhaltserstellung Ihrer Projekte, da Sie relevante Assets schnell finden können. Die Smart-Tags sind ein Beispiel für Metadaten, die nicht im Bild enthalten sind.
 
 Die Smart-Tags werden nahezu in Echtzeit hinzugefügt und basierend auf dem Inhalt des Bildes generiert. Wenn Sie ein Asset hochladen, zeigt die Benutzeroberfläche für einige Zeit [!UICONTROL Wird verarbeitet] auf der Asset-Miniaturansicht an. Sobald die Verarbeitung abgeschlossen ist, können Sie [die Metadaten und die Smart-Tags anzeigen](#view-metadata).
 
 ![Anzeigen von Smart-Tags eines Assets](assets/metadata-view-tags.png)
 
-*Abbildung: Um die Smart-Tags eines Assets anzuzeigen, klicken Sie in der Symbolleiste auf **[!UICONTROL Details]** oder doppelklicken Sie auf das Asset.*
+*Abbildung: Um die Smart-Tags eines Assets anzuzeigen, klicken Sie auf **[!UICONTROL Details]**über die Symbolleiste oder doppelklicken Sie auf das Asset.*
 
 Smart-Tags enthalten auch einen Konfidenzwert in Prozent. Er zeigt die Konfidenz an, die mit dem angebrachten Tag verbunden ist. Sie können die automatisch angebrachten Smart-Tags moderieren.
 
-## Hinzufügen oder Aktualisieren von Tags {#manually-tag}
+## Hinzufügen oder Aktualisieren von Suchbegriffen {#manually-tag}
 
 Zusätzlich zu den Smart-Tags, die automatisch mit dem intelligenten Service [!DNL Adobe Sensei] hinzugefügt werden, können Sie Ihren Assets weitere Tags hinzufügen. Öffnen Sie ein Asset für die Vorschau, klicken Sie auf [!UICONTROL Tags] und geben Sie die gewünschten Keywords in das Feld [!UICONTROL Keywords] ein. Um das Tag hinzuzufügen, drücken Sie die Eingabetaste. [!DNL Assets Essentials] indiziert das Keyword nahezu in Echtzeit und Ihr Team kann die aktualisierten Assets bald mit den neuen Keywords durchsuchen.
 
 Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die automatisch von [!DNL Assets Essentials] zu allen hochgeladenen Assets hinzugefügt werden.
+
+## Taxonomie-Management {#taxonomy-management}
+
+Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie Kategorie und Unterkategorie zu unterstützen. Wenn Sie hierarchische Tags einfügen müssen, können Sie diese einfach vom Administrator im [!UICONTROL Taxonomie-Management] Abschnitt [!UICONTROL Einstellungen]. Sie können einen verwalteten Satz von Namespaces und Tags erstellen, auf die alle Benutzer bei der Beschreibung von Inhalten zugreifen können. Nur die Administratoren können Tag-Hierarchien in [!UICONTROL Taxonomie-Manager] Sicherstellung, dass die Werte konsistent kontrolliert und verwendet werden.
 
 ## Einrichten von Metadatenformularen {#metadata-forms}
 
@@ -66,7 +70,7 @@ Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die a
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
-Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Assets Essentials gleicht den MIME-Typ der hochgeladenen Assets automatisch mit dem Namen des Formulars ab und aktualisiert die Metadaten für die hochgeladenen Assets auf der Grundlage der Formularfelder.
+Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Assets Essentials ordnet den MIME-Typ der hochgeladenen Assets automatisch dem Namen des Formulars zu und aktualisiert die Metadaten für die hochgeladenen Assets basierend auf den Formularfeldern.
 
 Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden.
 
@@ -74,7 +78,7 @@ Assets Essentials verwendet die folgende Sequenz, um nach Namen vorhandener Meta
 
 „MIME-Untertyp“ > „MIME-Typ“ > `default` „Formular“ > „Vorkonfiguriertes Formular“
 
-Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden. Wenn ein Metadatenformular nach dem Namen `PDF` oder `pdf` nicht vorhanden ist, sucht Assets Essentials nach einem Metadatenformular mit dem Namen `application`. Wenn ein Metadatenformular mit dem Namen `application` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie im Formular definiert. Wenn Assets Essentials immer noch kein übereinstimmendes Metadatenformular findet, sucht es nach dem `default`-Metadatenformular, um die im Formular definierten Metadatenfelder auf die hochgeladenen PDF-Dokumente anzuwenden. Wenn keiner dieser Schritte funktioniert, wendet Assets Essentials die im vorkonfigurierten Formular definierten Metadatenfelder auf alle hochgeladenen PDF-Dokumente an.
+Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden. Wenn ein Metadatenformular nach dem Namen `PDF` oder `pdf` nicht vorhanden ist, stimmt Assets Essentials überein, wenn ein Metadatenformular vom Namen vorhanden ist `application`. Wenn ein Metadatenformular mit dem Namen vorhanden ist `application`, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie im Formular definiert. Wenn Assets Essentials immer noch kein übereinstimmendes Metadatenformular findet, sucht es nach dem `default`-Metadatenformular, um die im Formular definierten Metadatenfelder auf die hochgeladenen PDF-Dokumente anzuwenden. Wenn keiner dieser Schritte funktioniert, wendet Assets Essentials die im vorkonfigurierten Formular definierten Metadatenfelder auf alle hochgeladenen PDF-Dokumente an.
 
 >[!IMPORTANT]
 >
@@ -95,7 +99,7 @@ Gehen Sie wie folgt vor, um ein Metadatenformular zu erstellen:
 
    *Abbildung: Benutzeroberfläche zur Erstellung von Metadatenformularen mit Optionen zum Hinzufügen von Komponenten und der Option zum Anzeigen einer Vorschau des Formulars.*
 
-1. Geben Sie in der rechten Leiste in den **[!UICONTROL Einstellungen]** für jede Komponente einen Namen für die Zuordnung mit den unterstützten Eigenschaften ein.
+1. Geben Sie für jede Komponente einen Namen im **[!UICONTROL Einstellungen]** Stellen Sie in der rechten Leiste eine Zuordnung mit den unterstützten Eigenschaften bereit.
 1. Optional können Sie für eine Komponente **[!UICONTROL Erforderlich]** auswählen, damit das Metadatenfeld ein Pflichtfeld wird, und Sie können **[!UICONTROL Schreibgeschützt]** auswählen, damit das Feld auf der Seite [!UICONTROL Details] nicht bearbeitbar ist.
 1. Klicken Sie optional auf **[!UICONTROL Vorschau]**, um eine Vorschau des erstellten Formulars anzuzeigen.
 1. Optional können Sie auf jeder Registerkarte weitere Register und die erforderlichen Komponenten hinzufügen.
@@ -108,6 +112,27 @@ In diesem Video finden Sie die Reihenfolge der Schritte:
 Nachdem ein Formular erstellt wurde, wird es automatisch angewendet, wenn Benutzer ein Asset des entsprechenden MIME-Typs hochladen.
 
 Wenn Sie ein vorhandenes Formular wiederzuverwenden wollen, um ein neues Formular zu erstellen, wählen Sie ein Metadatenformular aus, klicken Sie in der Symbolleiste auf **[!UICONTROL Kopieren]**, geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Bestätigen]**. Sie können ein Metadatenformular bearbeiten, um es zu ändern. Wenn Sie ein Formular ändern, wird es für Assets verwendet, die nach der Änderung hochgeladen wurden. Die vorhandenen Assets werden nicht geändert.
+
+## Eigenschaftenkomponenten {#property-components}
+
+Sie können Ihr Metadatenformular mit einer der folgenden Eigenschaftskomponenten anpassen. Ziehen Sie einfach den Komponententyp auf das Formular an die gewünschte Position und ändern Sie die Komponenteneinstellungen.
+Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und ihre Speicherung.
+
+| Komponentenname | Beschreibung |
+|---|---|
+| Akkordeon-Container | Fügen Sie eine ausblendbare Überschrift für eine Liste allgemeiner Komponenten und Eigenschaften hinzu. Er kann standardmäßig ein- oder ausgeblendet werden. |
+| Einzelzeilentext | Fügen Sie eine einzeilige Texteigenschaft hinzu. |
+| Mehrzeiliger Text | Fügen Sie mehrere Textzeilen oder einen Absatz hinzu. Er wird als Benutzertyp erweitert und enthält alle Inhalte. |
+| Mehrwerttext | Fügen Sie eine Texteigenschaft mit mehreren Werten hinzu. |
+| Zahl | Fügen Sie eine Zahlenkomponente hinzu. |
+| Kontrollkästchen | Fügen Sie einen booleschen Wert hinzu. Wird als TRUE oder FALSE gespeichert, sobald ein Wert gespeichert wurde. |
+| Datum | Fügen Sie eine Datumskomponente hinzu. |
+| Dropdown | Fügen Sie eine Dropdown-Liste hinzu. |
+| Bundesland | Fügen Sie die Repository-Statuseigenschaft hinzu (repo:state zugeordnet) |
+| Asset-Status | Fügen Sie die standardmäßige Eigenschaft Asset Status hinzu (zugeordnet zu dam:assetStatus) |
+| Tags | Fügen Sie ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (die xcm:tags zugeordnet sind). |
+| Suchbegriffe | Fügen Sie freie Suchbegriffe hinzu (zugeordnet zu dc:subject). |
+| Smart-Tags | Fügen Sie automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
 
 ## Nächste Schritte {#next-steps}
 
