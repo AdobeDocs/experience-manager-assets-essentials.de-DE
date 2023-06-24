@@ -1,10 +1,10 @@
 ---
 title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
-source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
+source-git-commit: 839c85efa1ba91db5644c7463ff269b6b06f69a1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 9%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -46,5 +46,10 @@ Grüßen Sie eine Digital Asset Management-Lösung, die die unterschiedlichen An
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
+## Suchansatz zur Steigerung der Effizienz
+
+Ermöglichen Sie das Potenzial der digitalen Asset-Bibliothek Ihres Unternehmens mit der Leistung der Suche mit modernsten Funktionen. Sie können sich von der Mühe verabschieden, manuell durch unzählige Dateien und Ordner zu blättern. Jeder Benutzer kann sofort das perfekte Bild, Video oder Dokument finden, das Sie zum Erstellen beeindruckender Marketing-Kampagnen, faszinierender Präsentationen und ansprechender Inhalte benötigen. Mit unserer Suchmaschine können Sie mühelos durch Asset-Typen, Metadaten, Smart-Tags und sogar den Inhalt selbst navigieren, ohne das genaue Keyword zu kennen. Nutzen Sie die Zukunft des DAM mit unserer Suchmaschine und entfesseln Sie das volle Potenzial Ihrer digitalen Asset-Bibliothek.
+
+![Bereitstellen von Assets Essentials](assets/search-first.gif)
 
 
