@@ -1,14 +1,17 @@
 ---
 title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
-source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
+source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 8%
+source-wordcount: '305'
+ht-degree: 9%
 
 ---
 
+
 # Neu: Asset-Ansicht {#assets-view}
+
+![Bereitstellen von Assets Essentials](assets/banner-image.jpg)
 
 In der modernen, schnelllebigen Digital-First-Umgebung, in der die Erstellung und Bereitstellung von Echtzeit-Inhalten unerlässlich sind, ist ein DAM-Erlebnis (Digital Asset Management), das für nachgelagerte Marketinggeschwindigkeiten entwickelt wurde, von größter Bedeutung. Adobe nutzt sein Know-how zur Stärkung von Marketing- und Kreativprofis und bietet damit ein völlig neues Asset View-Anwendererlebnis. Dieser Workflow-First-Ansatz revolutioniert, wie Unternehmen mit ihren dynamischen digitalen Assets umgehen, und ermöglicht es Marketing-Experten, die Effizienz bei der Suche, Zusammenarbeit, Personalisierung und Bereitstellung von Assets zu maximieren. Diese optimierten Workflows beschleunigen die Inhaltsgeschwindigkeit und fördern Ihre Marketing-Bemühungen auf neue Höhen.
 
