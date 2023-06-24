@@ -1,7 +1,7 @@
 ---
 title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
-source-git-commit: 9d14827d10d2bae34b19a318aac1cc0820e81f35
+source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 8%
@@ -39,7 +39,7 @@ Wiederholen Sie diese Schritte, um zur Admin-Ansicht zurückzukehren.
 
 Grüßen Sie eine Digital Asset Management-Lösung, die die unterschiedlichen Anforderungen verschiedener Organisationsrollen versteht. Die schlanke neue Asset-Ansicht priorisiert Benutzerfreundlichkeit und Schnelligkeit und berücksichtigt dabei die Vorlieben der Marketing-Experten hinsichtlich visueller Attraktivität und übersichtlicher Arbeitsbereiche. Mit einem benutzerspezifischen Dashboard für den Arbeitsbereich können Marketer Assets schnell finden, in der Vorschau anzeigen, bearbeiten, verwalten und bereitstellen - mit bemerkenswerter Effizienz. Bieten Sie Abschied zu unzähligen Stunden bei der Suche nach bestimmten Assets und freuen Sie sich auf ein optimiertes Erlebnis, mit dem Sie alles, was Sie benötigen, sofort finden.
 
-![Bereitstellen von Assets Essentials](assets/workspace.gif)
+![Bereitstellen von Assets Essentials](assets/experiment.gif)
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
