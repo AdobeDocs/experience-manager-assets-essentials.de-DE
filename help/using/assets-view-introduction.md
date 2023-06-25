@@ -3,7 +3,7 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: 836f4524bde739614cca0595e7aace5f7674a954
+source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 9%
@@ -65,6 +65,8 @@ Um mit der Inhaltsgeschwindigkeit Schritt zu halten, sind umsetzbare Einblicke u
 ## Beschleunigen der Zusammenarbeit {#accelerate-collaboration}
 
 Das neue Erlebnis bietet eine Reihe robuster Funktionen für die Zusammenarbeit, einschließlich Echtzeit-Bearbeitung mit integrierten Adobe Photoshop-Funktionen, Versionskontrollen und Anmerkungs-Tools. Dies ermöglicht eine nahtlose Zusammenarbeit zwischen Design-, Kreativ-, Branding- und Marketing-Teams, sodass diese Engpässe überwinden und den Marketing-Prozess beschleunigen können. Marketingexperten verfügen nun über leistungsstarke Tools, mit denen sie die Projektbereitstellung beschleunigen und ihre Gesamtproduktivität steigern können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
 
 
