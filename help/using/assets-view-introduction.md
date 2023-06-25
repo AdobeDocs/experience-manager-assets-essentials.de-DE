@@ -3,10 +3,10 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: b26a7698152998cc6353924eb7d2698315c9da16
+source-git-commit: 2378e09a21dfa3c87964058bca38a3d6d2ead98f
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '505'
+ht-degree: 10%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 7%
 # Neu: Asset-Ansicht {#assets-view}
 
 ![Bereitstellen von Assets Essentials](assets/banner-image.jpg)
+
+![Bereitstellen von Assets Essentials](assets/banner-image1.png)
 
 In der modernen, schnelllebigen Digital-First-Umgebung, in der die Erstellung und Bereitstellung von Echtzeit-Inhalten unerlässlich sind, ist ein DAM-Erlebnis (Digital Asset Management), das für nachgelagerte Marketinggeschwindigkeiten entwickelt wurde, von größter Bedeutung. Adobe nutzt sein Know-how zur Stärkung von Marketing- und Kreativprofis und bietet damit ein völlig neues Asset View-Anwendererlebnis. Dieser Workflow-First-Ansatz revolutioniert, wie Unternehmen mit ihren dynamischen digitalen Assets umgehen, und ermöglicht es Marketing-Experten, die Effizienz bei der Suche, Zusammenarbeit, Personalisierung und Bereitstellung von Assets zu maximieren. Diese optimierten Workflows beschleunigen die Inhaltsgeschwindigkeit und fördern Ihre Marketing-Bemühungen auf neue Höhen.
 
@@ -53,5 +55,13 @@ Grüßen Sie eine Digital Asset Management-Lösung, die die unterschiedlichen An
 Ermöglichen Sie das Potenzial der digitalen Asset-Bibliothek Ihres Unternehmens mit der Leistung der Suche mit modernsten Funktionen. Sie können sich von der Mühe verabschieden, manuell durch unzählige Dateien und Ordner zu blättern. Jeder Benutzer kann sofort das perfekte Bild, Video oder Dokument finden, das Sie zum Erstellen beeindruckender Marketing-Kampagnen, faszinierender Präsentationen und ansprechender Inhalte benötigen. Mit unserer Suchmaschine können Sie mühelos durch Asset-Typen, Metadaten, Smart-Tags und sogar den Inhalt selbst navigieren, ohne das genaue Keyword zu kennen. Nutzen Sie die Zukunft des DAM mit unserer Suchmaschine und entfesseln Sie das volle Potenzial Ihrer digitalen Asset-Bibliothek.
 
 ![Bereitstellen von Assets Essentials](assets/search-first.gif)
+
+## Einblicke in datengesteuerte Entscheidungen {#insights-data}
+
+Um mit der Inhaltsgeschwindigkeit Schritt zu halten, sind umsetzbare Einblicke unerlässlich. Das neue Asset-Ansichtserlebnis bietet erweiterte Einblicke in My Workspace und liefert wertvolle Daten zur Asset-Leistung, zur Zielgruppennutzung und zu Interaktionen. Marketingexperten können datenbasierte Entscheidungen treffen, Inhaltsstrategien optimieren und ihre nachgelagerte Bereitstellung verfeinern, um optimale Ergebnisse zu erzielen. Durch den Zugriff auf aussagekräftige Einblicke können Unternehmen dem Wettbewerb voraus bleiben und außergewöhnliche Ergebnisse erzielen.
+
+![Bereitstellen von Assets Essentials](assets/insights-overview.gif)
+
+[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
 
