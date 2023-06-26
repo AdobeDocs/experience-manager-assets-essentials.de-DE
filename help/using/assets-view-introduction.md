@@ -3,10 +3,10 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
+source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 15%
+source-wordcount: '1022'
+ht-degree: 13%
 
 ---
 
@@ -93,6 +93,16 @@ Im Ordner Papierkorb , der in der Ansicht &quot;Assets&quot;verfügbar ist, werd
 ![Soft Delete](assets/soft-delete.gif)
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
+
+Zusätzlich zu diesen Funktionen können Sie mit der Asset-Ansicht auch die folgenden Funktionen ausführen, die in der Admin-Ansicht nicht verfügbar sind:
+
+* Laden Sie eine neue Version eines Assets mit einem anderen Namen aus Ihrem lokalen Dateisystem in das Asset-Repository hoch. Das hochgeladene Asset ist als neue Version mit demselben Namen wie das ursprüngliche Asset verfügbar.
+
+* Benennen Sie die im Repository verfügbaren Assets und Ordner um.
+
+## Zusammenfassung {#conclusion}
+
+Die Ära des digitalen Erlebnisses ist eingetreten, und es ist an der Zeit, unsere Marketing-Tools zu verändern, um die sich entwickelnde Geschäftswelt zu unterstützen. Die neue Adobe Experience Manager Assets-Asset-Ansicht ist darauf zugeschnitten, Workflows zu optimieren, die Zusammenarbeit zu fördern und die Asset-Bereitstellung zu beschleunigen. Durch die schnelle Bereitstellung von Inhalten können Marketingexperten das gesamte Potenzial ihrer digitalen Assets ausschöpfen und Kreativität wie nie zuvor freisetzen. Bereiten Sie sich darauf vor, die Leistungsfähigkeit des neuen Assets View-Erlebnisses der Adobe zu nutzen und außergewöhnliche Ergebnisse in Ihren Marketingkampagnen zu erzielen. Es ist an der Zeit, die Zukunft von DAM in Angriff zu nehmen und Ihr Geschäft voranzutreiben.
 
 
 
