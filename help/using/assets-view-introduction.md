@@ -3,10 +3,10 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
+source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 13%
+source-wordcount: '773'
+ht-degree: 15%
 
 ---
 
@@ -62,7 +62,7 @@ Um mit der Inhaltsgeschwindigkeit Schritt zu halten, sind umsetzbare Einblicke u
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Beschleunigen der Zusammenarbeit mit Adobe Photoshop Express {#accelerate-collaboration}
+## Adobe Photoshop Express-Integration zur Beschleunigung der Zusammenarbeit {#accelerate-collaboration}
 
 Das neue Erlebnis bietet eine Reihe robuster Funktionen für die Zusammenarbeit, einschließlich Echtzeit-Bearbeitung mit integrierten Adobe Photoshop-Funktionen, Versionskontrollen und Anmerkungs-Tools. Dies ermöglicht eine nahtlose Zusammenarbeit zwischen Design-, Kreativ-, Branding- und Marketing-Teams, sodass diese Engpässe überwinden und den Marketing-Prozess beschleunigen können. Marketingexperten verfügen nun über leistungsstarke Tools, mit denen sie die Projektbereitstellung beschleunigen und ihre Gesamtproduktivität steigern können.
 
@@ -70,13 +70,21 @@ Das neue Erlebnis bietet eine Reihe robuster Funktionen für die Zusammenarbeit,
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## Schnelles Einrichten hierarchischer Strukturen mithilfe von Ordner-Uploads {#folder-uploads}
+## Ordner-Uploads zum Einrichten einer hierarchischen Struktur für Ihr Unternehmen {#folder-uploads}
 
 Richten Sie mithilfe der Asset-Ansicht schnell eine Ordnerstruktur für Ihr Unternehmen ein, indem Sie Ordner hochladen, die in Ihrem lokalen Dateisystem vorhanden sind. Sie müssen keine Ordner im Stammordner erstellen und dann Assets manuell in diese Ordner hochladen, um die logische hierarchische Struktur beizubehalten. Alle Ordner und Assets im Stammordner werden automatisch in Experience Manager Assets hochgeladen.
 
-![Bereitstellen von Assets Essentials](assets/folder-uploads.gif)
+![Ordner hochladen](assets/folder-uploads.gif)
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
+
+## Abonnieren von Inhalten für Benachrichtigungen
+
+Die Asset-Ansicht bietet die Möglichkeit, die Vorgänge zu überwachen, die für die im Repository verfügbaren Assets, Ordner oder Sammlungen ausgeführt werden. Sie müssen den Inhalt auswählen und abonnieren, für den die Benachrichtigungen an Sie gesendet werden sollen. Sie können auch die Ereignistypen konfigurieren, z. B. das Löschen von abonnierten Inhalten, Änderungen an abonnierten Inhalten usw. Die Benachrichtigungen werden dann nur für diese Ereignistypen an Sie gesendet.
+
+![Benachrichtigungen empfangen](assets/notifications.gif)
+
+[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
 
 
