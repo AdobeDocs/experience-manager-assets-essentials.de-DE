@@ -3,10 +3,10 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
+source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 10%
+source-wordcount: '677'
+ht-degree: 13%
 
 ---
 
@@ -73,6 +73,10 @@ Das neue Erlebnis bietet eine Reihe robuster Funktionen für die Zusammenarbeit,
 ## Schnelles Einrichten hierarchischer Strukturen mithilfe von Ordner-Uploads {#folder-uploads}
 
 Richten Sie mithilfe der Asset-Ansicht schnell eine Ordnerstruktur für Ihr Unternehmen ein, indem Sie Ordner hochladen, die in Ihrem lokalen Dateisystem vorhanden sind. Sie müssen keine Ordner im Stammordner erstellen und dann Assets manuell in diese Ordner hochladen, um die logische hierarchische Struktur beizubehalten. Alle Ordner und Assets im Stammordner werden automatisch in Experience Manager Assets hochgeladen.
+
+![Bereitstellen von Assets Essentials](assets/folder-uploads.gif)
+
+[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
 
 
