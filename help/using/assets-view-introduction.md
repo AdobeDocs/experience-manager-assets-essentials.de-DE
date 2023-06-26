@@ -3,10 +3,10 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
+source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 9%
+source-wordcount: '657'
+ht-degree: 10%
 
 ---
 
@@ -62,11 +62,17 @@ Um mit der Inhaltsgeschwindigkeit Schritt zu halten, sind umsetzbare Einblicke u
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Beschleunigen der Zusammenarbeit {#accelerate-collaboration}
+## Beschleunigen der Zusammenarbeit mit Adobe Photoshop Express {#accelerate-collaboration}
 
 Das neue Erlebnis bietet eine Reihe robuster Funktionen für die Zusammenarbeit, einschließlich Echtzeit-Bearbeitung mit integrierten Adobe Photoshop-Funktionen, Versionskontrollen und Anmerkungs-Tools. Dies ermöglicht eine nahtlose Zusammenarbeit zwischen Design-, Kreativ-, Branding- und Marketing-Teams, sodass diese Engpässe überwinden und den Marketing-Prozess beschleunigen können. Marketingexperten verfügen nun über leistungsstarke Tools, mit denen sie die Projektbereitstellung beschleunigen und ihre Gesamtproduktivität steigern können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
+
+[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
+
+## Schnelles Einrichten hierarchischer Strukturen mithilfe von Ordner-Uploads {#folder-uploads}
+
+Richten Sie mithilfe der Asset-Ansicht schnell eine Ordnerstruktur für Ihr Unternehmen ein, indem Sie Ordner hochladen, die in Ihrem lokalen Dateisystem vorhanden sind. Sie müssen keine Ordner im Stammordner erstellen und dann Assets manuell in diese Ordner hochladen, um die logische hierarchische Struktur beizubehalten. Alle Ordner und Assets im Stammordner werden automatisch in Experience Manager Assets hochgeladen.
 
 
 
