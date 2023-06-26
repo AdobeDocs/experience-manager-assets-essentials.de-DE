@@ -3,9 +3,9 @@ title: Einführung in die Asset-Ansicht
 description: Neue Funktionen in der Assets-Ansicht
 hidefromtoc: true
 hide: true
-source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
+source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '861'
 ht-degree: 15%
 
 ---
@@ -78,13 +78,21 @@ Richten Sie mithilfe der Asset-Ansicht schnell eine Ordnerstruktur für Ihr Unte
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## Abonnieren von Inhalten für Benachrichtigungen
+## Abonnieren von Repository-Inhalten für eine effiziente Asset-Verwaltung
 
 Die Asset-Ansicht bietet die Möglichkeit, die Vorgänge zu überwachen, die für die im Repository verfügbaren Assets, Ordner oder Sammlungen ausgeführt werden. Sie müssen den Inhalt auswählen und abonnieren, für den die Benachrichtigungen an Sie gesendet werden sollen. Sie können auch die Ereignistypen konfigurieren, z. B. das Löschen von abonnierten Inhalten, Änderungen an abonnierten Inhalten usw. Die Benachrichtigungen werden dann nur für diese Ereignistypen an Sie gesendet.
 
 ![Benachrichtigungen empfangen](assets/notifications.gif)
 
 [![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
+
+## Sofortiges Löschen von Assets zur besseren Kontrolle von Administratoren {#soft-delete-assets}
+
+Im Ordner Papierkorb , der in der Ansicht &quot;Assets&quot;verfügbar ist, werden die aus dem Stammordner Assets gelöschten Assets aufgelistet. Sie können ein Asset aus dem Ordner &quot;Papierkorb&quot;auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können auch ein Keyword angeben oder standardmäßige oder benutzerdefinierte Filter anwenden, um geeignete Assets im Ordner &quot;Papierkorb&quot;zu suchen.
+
+![Soft Delete](assets/soft-delete.gif)
+
+[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
 
 
 
