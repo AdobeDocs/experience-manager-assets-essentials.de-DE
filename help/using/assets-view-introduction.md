@@ -4,9 +4,9 @@ description: Neue Funktionen in der Assets-Ansicht
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 256d42b06e66e9f152823f507412de360474b3b7
+source-git-commit: 2ef7fb0d0671a9dfe054608f068c64623f6b488a
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 ![Bereitstellen von Assets Essentials](assets/banner-image.jpg)
 
-In der modernen, schnelllebigen Digital-First-Umgebung, in der die Erstellung und Bereitstellung von Echtzeit-Inhalten unerlässlich sind, ist ein DAM-Erlebnis (Digital Asset Management), das für nachgelagerte Marketinggeschwindigkeiten entwickelt wurde, von größter Bedeutung. Adobe nutzt sein Know-how zur Stärkung von Marketing- und Kreativprofis und bietet damit ein völlig neues Asset View-Anwendererlebnis. Dieser Workflow-First-Ansatz revolutioniert, wie Unternehmen mit ihren dynamischen digitalen Assets umgehen, und ermöglicht es Marketing-Experten, die Effizienz bei der Suche, Zusammenarbeit, Personalisierung und Bereitstellung von Assets zu maximieren. Diese optimierten Workflows beschleunigen die Inhaltsgeschwindigkeit und fördern Ihre Marketing-Bemühungen auf neue Höhen.
+In der modernen, schnelllebigen Digital-First-Umgebung, in der die Erstellung und Bereitstellung von Echtzeit-Inhalten unerlässlich sind, ist ein DAM-Erlebnis (Digital Asset Management), das für nachgelagerte Marketinggeschwindigkeiten entwickelt wurde, von größter Bedeutung. Adobe nutzt sein Know-how in der Stärkung von Marketing- und Kreativprofis und bietet damit ein völlig neues Anwendererlebnis. Dieser Workflow-First-Ansatz revolutioniert, wie Unternehmen mit ihren dynamischen digitalen Assets umgehen, und ermöglicht es Marketing-Experten, die Effizienz bei der Suche, Zusammenarbeit, Personalisierung und Bereitstellung von Assets zu maximieren. Diese optimierten Workflows beschleunigen die Inhaltsgeschwindigkeit und fördern Ihre Marketing-Bemühungen auf neue Höhen.
 
 ## Wie greifen Sie auf die Asset-Ansicht zu? {#access-assets-view}
 
@@ -123,7 +123,7 @@ Zusätzlich zu diesen Funktionen können Sie mit der Asset-Ansicht auch die folg
 
 ## Zusammenfassung {#conclusion}
 
-Die Ära des digitalen Erlebnisses ist eingetreten, und es ist an der Zeit, unsere Marketing-Tools zu verändern, um die sich entwickelnde Geschäftswelt zu unterstützen. Die neue Adobe Experience Manager Assets-Asset-Ansicht ist darauf zugeschnitten, Workflows zu optimieren, die Zusammenarbeit zu fördern und die Asset-Bereitstellung zu beschleunigen. Durch die schnelle Bereitstellung von Inhalten können Marketingexperten das gesamte Potenzial ihrer digitalen Assets ausschöpfen und Kreativität wie nie zuvor freisetzen. Bereiten Sie sich darauf vor, die Leistungsfähigkeit des neuen Assets View-Erlebnisses der Adobe zu nutzen und außergewöhnliche Ergebnisse in Ihren Marketingkampagnen zu erzielen. Es ist an der Zeit, die Zukunft von DAM in Angriff zu nehmen und Ihr Geschäft voranzutreiben.
+Die Ära des digitalen Erlebnisses ist eingetreten, und es ist an der Zeit, unsere Marketing-Tools zu verändern, um die sich entwickelnde Geschäftswelt zu unterstützen. Die neue Adobe Experience Manager Assets-Ansicht ist darauf zugeschnitten, Workflows zu optimieren, die Zusammenarbeit zu fördern und die Asset-Bereitstellung zu beschleunigen. Durch die schnelle Bereitstellung von Inhalten können Marketingexperten das gesamte Potenzial ihrer digitalen Assets ausschöpfen und Kreativität wie nie zuvor freisetzen. Machen Sie sich bereit, die Leistungsfähigkeit der neuen Assets-Ansicht der Adobe zu nutzen und außergewöhnliche Ergebnisse in Ihren Marketingkampagnen zu erzielen. Es ist an der Zeit, die Zukunft von DAM in Angriff zu nehmen und Ihr Geschäft voranzutreiben.
 
 
 
