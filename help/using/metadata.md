@@ -4,9 +4,9 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: d22d6690196b330e7893b062fee103ffac1d6c78
+source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1544'
 ht-degree: 73%
 
 ---
@@ -67,6 +67,7 @@ Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie K
 >id="assets_metadata_forms"
 >title="Metadatenformulare"
 >abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite „Details“ eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets."
+>additional-url="https://video.tv.adobe.com/v/3420922?captions=ger" text="Funktion in Aktion ansehen"
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
