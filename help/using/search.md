@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 86%
 
 ---
 
@@ -141,6 +141,34 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## Arbeiten mit Suchergebnissen {#work-with-search-results}
+
+Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, und die folgenden Aktionen ausführen:
+
+* **Details**: Asset-Eigenschaften anzeigen und bearbeiten.
+
+* **Zu Sammlung hinzufügen**: Fügen Sie das ausgewählte Asset zu einer Sammlung hinzu.
+
+* **Download**: Herunterladen eines Assets.
+
+* **Löschen**: Löschen Sie ein Asset.
+
+* **Kopieren**: Kopieren Sie ein Asset an einen anderen Ordnerspeicherort.
+
+* **Verschieben**: Verschieben Sie ein Asset an einen anderen Ordnerspeicherort.
+
+* **Umbenennen**: Umbenennen eines Assets.
+
+* **Aufgaben zuweisen**: Weisen Sie Benutzern Aufgaben für ein Asset zu.
+
+* **Link freigeben**: [Links freigeben](share-links-for-assets.md) für ein Asset mit anderen Benutzern, damit sie darauf zugreifen und es herunterladen können.
+
+* **Watch**: [Vorgänge überwachen](manage-notifications.md) an einem Asset ausgeführt werden.
+
+* **Speicherort der Datei anzeigen**: Navigieren Sie zum Speicherort des Asset-Ordners.
+
+* **An Schnellzugriff anheften**: [Veröffentlichen eines Assets](my-workspace.md) für einen schnelleren Zugriff, wenn Sie ihn später benötigen. Alle fixierten Elemente werden im **Schnellzugriff** Abschnitt &quot;Mein Arbeitsbereich&quot;.
 
 ## Nächste Schritte {#next-steps}
 
