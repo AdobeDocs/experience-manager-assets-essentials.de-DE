@@ -4,19 +4,68 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
+source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
 workflow-type: tm+mt
-source-wordcount: '2044'
-ht-degree: 86%
+source-wordcount: '2154'
+ht-degree: 84%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 22. Juni 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wird am 27. Juli 2023 veröffentlicht.
 
 Die in der Version enthaltenen Funktionen sind:
 
+<!--
+
+**Assign metadata form to a folder**
+
+You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
+
+![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
+
+**Verbessertes KI-Framework für Smart-Tags für Bilder**
+
+Experience Manager Assets verwendet jetzt ein verbessertes Framework mit künstlicher Intelligenz für Smart-Tags für Bilder. Diese inhaltsbezogene Intelligenz führt zu einer besseren Relevanz und Genauigkeit von Smart-Tags, die für alle Bild-Assets bei der Benutzende verfügbar sind.
+
+**Anzeige von Spalten für die Asset-Listenansicht konfigurieren**
+
+Assets Essentials bietet jetzt die Möglichkeit, die Spalten auszuwählen, die in der Asset-Listenansicht angezeigt werden, z. B. Status, Format, Dimensionen, Größe usw.
+
+![Konfigurieren der Spalten](/help/using/assets/configure-columns.png)
+
+**Sortieren von Suchergebnissen nach Relevanz**
+
+Assets Essentials sortiert die Suchergebnisse nun standardmäßig nach Relevanz. Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge nach `Name`, `Relevance`, `Size`, `Modified` und `Created` sortieren.
+
+**Verbesserungen auf der Basis von Kunden-Feedback**
+
+Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
+
+
+## Bekannte Probleme {#known-issues}
+
+Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Private Sammlungen sind für Erstellende und Benutzende mit Administratorrechten verfügbar. Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
+
+* Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
+
+Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
+
+## Frühere Versionen {#past-releases}
+
+### Version vom Juni  {#june2023-release}
 
 **Hierarchisches Tagging von Assets für schnelleres Sucherlebnis**
 
@@ -49,30 +98,6 @@ Assets Essentials unterstützt jetzt das Anzeigen der am häufigsten gesuchten B
 **Verbesserungen bei Metadatenformularen**
 
 Assets Essentials ermöglicht es Ihnen jetzt, den Metadatenformularen Eigenschaften für Mehrwert-Text und Dropdown-Listen hinzuzufügen.
-
-
-**Verbesserungen auf der Basis von Kunden-Feedback**
-
-Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
-
-## Bekannte Probleme {#known-issues}
-
-Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Private Sammlungen sind für Erstellende und Benutzende mit Administratorrechten verfügbar. Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
-
-* Als Admin können Sie die Berechtigungen für den Zugriff auf die Sammlung nicht an andere Benutzende delegieren.
-
-Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
-
-## Frühere Versionen {#past-releases}
 
 ### Mehrere Versionen 2023 {#multiple-releases-2023}
 

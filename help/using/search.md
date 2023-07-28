@@ -3,9 +3,9 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1042'
 ht-degree: 86%
 
 ---
@@ -50,7 +50,7 @@ Sie können die Suchergebnisse anhand der folgenden Parameter filtern.
 
 * Benutzerdefinierte Filter: [Hinzufügen benutzerdefinierter Filter](#custom-filters) zur Assets Essentials-Benutzeroberfläche. Sie können diese benutzerdefinierten Filter dann zusätzlich zu den Standardfiltern anwenden, um Ihre Suchergebnisse zu verfeinern.
 
-Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge nach `Name`, `Relevancy`, `Size`, `Modified` und `Created` sortieren.
+Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge nach `Name`, `Relevance`, `Size`, `Modified` und `Created` sortieren. Die gesuchten Assets werden basierend auf `Relevance`, standardmäßig.
 
 ## Verwalten von benutzerdefinierten Filtern {#custom-filters}
 
@@ -150,7 +150,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * **Zu Sammlung hinzufügen**: Fügen Sie das ausgewählte Asset zu einer Sammlung hinzu.
 
-* **Download**: Herunterladen eines Assets.
+* **Herunterladen**: Laden Sie ein Asset herunter.
 
 * **Löschen**: Löschen Sie ein Asset.
 
@@ -158,7 +158,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * **Verschieben**: Verschieben Sie ein Asset an einen anderen Ordnerspeicherort.
 
-* **Umbenennen**: Umbenennen eines Assets.
+* **Umbenennen**: Benennen Sie ein Asset um.
 
 * **Aufgaben zuweisen**: Weisen Sie Benutzern Aufgaben für ein Asset zu.
 

@@ -3,10 +3,10 @@ title: „Benutzeroberfläche von [!DNL Assets Essentials]“
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
+source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 96%
+source-wordcount: '1000'
+ht-degree: 90%
 
 ---
 
@@ -111,6 +111,16 @@ Wenn Sie ein Asset explizit in der Vorschau anzeigen, wird es in [!DNL Assets Es
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## Anzeige von Spalten für die Asset-Listenansicht konfigurieren {#configure-columns-list-view}
+
+Sie können die Spalten auswählen, die in der Asset-Listenansicht angezeigt werden, z. B. Status, Format, Dimensionen, Größe usw.:
+
+1. Auswählen **[!UICONTROL Assets]** Wechseln Sie im linken Navigationsbereich zur Ansicht &quot;Assets List&quot;und klicken Sie auf ![Einstellungssymbol](assets/settings-icon.svg).
+
+1. Wählen Sie die Spalten aus, die in der Listenansicht angezeigt werden sollen, und klicken Sie auf **[!UICONTROL Bestätigen]**.
+
+   ![Konfigurieren der Spalten](/help/using/assets/configure-columns.png)
 
 ## Nächste Schritte {#next-steps}
 

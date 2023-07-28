@@ -4,10 +4,10 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5b9e3297c37bca0e5badc2073f8c6467e012ccde
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -47,7 +47,7 @@ Die Smart-Tags werden nahezu in Echtzeit hinzugefügt und basierend auf dem Inha
 
 ![Anzeigen von Smart-Tags eines Assets](assets/metadata-view-tags.png)
 
-*Abbildung: Um die Smart-Tags eines Assets anzuzeigen, klicken Sie auf **[!UICONTROL Details]**über die Symbolleiste oder doppelklicken Sie auf das Asset.*
+*Abbildung: Klicken Sie zum Anzeigen der Smart-Tags eines Assets auf **[!UICONTROL Details]**über die Symbolleiste oder doppelklicken Sie auf das Asset.*
 
 Smart-Tags enthalten auch einen Konfidenzwert in Prozent. Er zeigt die Konfidenz an, die mit dem angebrachten Tag verbunden ist. Sie können die automatisch angebrachten Smart-Tags moderieren.
 
@@ -114,7 +114,7 @@ Nachdem ein Formular erstellt wurde, wird es automatisch angewendet, wenn Benutz
 
 Wenn Sie ein vorhandenes Formular wiederzuverwenden wollen, um ein neues Formular zu erstellen, wählen Sie ein Metadatenformular aus, klicken Sie in der Symbolleiste auf **[!UICONTROL Kopieren]**, geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Bestätigen]**. Sie können ein Metadatenformular bearbeiten, um es zu ändern. Wenn Sie ein Formular ändern, wird es für Assets verwendet, die nach der Änderung hochgeladen wurden. Die vorhandenen Assets werden nicht geändert.
 
-## Eigenschaftenkomponenten {#property-components}
+### Eigenschaftenkomponenten {#property-components}
 
 Sie können Ihr Metadatenformular mit einer der folgenden Eigenschaftskomponenten anpassen. Ziehen Sie einfach den Komponententyp auf das Formular an die gewünschte Position und ändern Sie die Komponenteneinstellungen.
 Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und ihre Speicherung.
@@ -130,10 +130,28 @@ Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und
 | Datum | Fügen Sie eine Datumskomponente hinzu. |
 | Dropdown | Fügen Sie eine Dropdown-Liste hinzu. |
 | Bundesland | Fügen Sie die Repository-Statuseigenschaft hinzu (repo:state zugeordnet) |
-| Asset-Status | Fügen Sie die standardmäßige Eigenschaft Asset Status hinzu (zugeordnet zu dam:assetStatus) |
+| Asset-Status | Fügen Sie die standardmäßige Eigenschaft Asset Status hinzu (zugeordnet zu dam:assetStatus). |
 | Tags | Fügen Sie ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (die xcm:tags zugeordnet sind). |
 | Suchbegriffe | Fügen Sie freie Suchbegriffe hinzu (zugeordnet zu dc:subject). |
 | Smart-Tags | Fügen Sie automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
+
+<!--
+
+### Assign metadata form to a folder {#assign-metadata-form-folder}
+
+You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+
+To assign a metadata form to a folder:
+
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+
+2. Click **[!UICONTROL Assign to Folder]**.
+
+3. Select the folder and click **[!UICONTROL Assign]**.
+
+   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
 
 ## Nächste Schritte {#next-steps}
 
