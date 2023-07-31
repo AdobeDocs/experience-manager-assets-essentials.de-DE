@@ -5,13 +5,13 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1558'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Metadaten in der Asset-Ansicht {#metadata}
+# Metadaten in der Assets-Ansicht {#metadata}
 
 Metadaten sind Daten oder Beschreibungen zu den Daten. Beispielsweise können Ihre Bilder als Asset Informationen über die Kamera, mit der sie aufgenommen wurden, oder Copyright-Informationen enthalten. Diese Informationen sind Metadaten des Bildes. Metadaten sind für ein effizientes Asset-Management von entscheidender Bedeutung. Metadaten stellen die Sammlung aller für ein Asset verfügbaren Daten dar, sind aber nicht unbedingt im Bild selbst enthalten.
 
@@ -31,13 +31,13 @@ Um die Metadaten eines Assets anzuzeigen, navigieren Sie zum Asset oder suchen S
 
 ![Anzeigen von Metadaten eines Assets](assets/metadata-view1.png)
 
-*Abbildung: Um ein Asset und seine Metadaten anzuzeigen, klicken Sie auf **[!UICONTROL Details]**über die Symbolleiste oder doppelklicken Sie auf das Asset.*
+*Abbildung: Um ein Asset und seine Metadaten anzuzeigen, klicken Sie in der Symbolleiste auf **[!UICONTROL Details]** oder doppelklicken Sie auf das Asset.*
 
 Die grundlegenden Metadaten wie Titel, Beschreibung und Upload-Datum sind auf der Registerkarte [!UICONTROL Standard] verfügbar. Die Registerkarte [!UICONTROL Erweitert] enthält erweiterte Metadaten wie Kameramodell, Informationen zum Objektiv und Geotags. Die Registerkarte [!UICONTROL Tags] enthält automatisch vergebene Tags, die auf dem Inhalt des Bildes basieren.
 
 ## Aktualisieren von Metadaten {#update-metadata}
 
-Sobald der Administrator das Metadatenformular konfiguriert hat, können andere Felder manuell aktualisiert werden. Sie können dies ändern, da es nur auf Grundlage des vordefinierten Metadatenformulars gelesen wird.
+Sobald das Metadatenformular Admin-seitig konfiguriert wurde, können andere Felder manuell aktualisiert werden. Sie sollten dies ändern, da Lesevorgänge sonst nur auf Grundlage des vorkonfigurierten Metadatenformulars möglich sind.
 
 ## Smart-Tags {#smart-tags}
 
@@ -47,11 +47,11 @@ Die Smart-Tags werden nahezu in Echtzeit hinzugefügt und basierend auf dem Inha
 
 ![Anzeigen von Smart-Tags eines Assets](assets/metadata-view-tags.png)
 
-*Abbildung: Klicken Sie zum Anzeigen der Smart-Tags eines Assets auf **[!UICONTROL Details]**über die Symbolleiste oder doppelklicken Sie auf das Asset.*
+*Abbildung: Um die Smarttags eines Assets anzuzeigen, klicken Sie in der Symbolleiste auf **[!UICONTROL Details]** oder doppelklicken Sie auf das Asset.*
 
 Smart-Tags enthalten auch einen Konfidenzwert in Prozent. Er zeigt die Konfidenz an, die mit dem angebrachten Tag verbunden ist. Sie können die automatisch angebrachten Smart-Tags moderieren.
 
-## Hinzufügen oder Aktualisieren von Suchbegriffen {#manually-tag}
+## Hinzufügen oder Aktualisieren von Keywords {#manually-tag}
 
 Zusätzlich zu den Smart-Tags, die automatisch mit dem intelligenten Service [!DNL Adobe Sensei] hinzugefügt werden, können Sie Ihren Assets weitere Tags hinzufügen. Öffnen Sie ein Asset für die Vorschau, klicken Sie auf [!UICONTROL Tags] und geben Sie die gewünschten Keywords in das Feld [!UICONTROL Keywords] ein. Um das Tag hinzuzufügen, drücken Sie die Eingabetaste. [!DNL Assets Essentials] indiziert das Keyword nahezu in Echtzeit und Ihr Team kann die aktualisierten Assets bald mit den neuen Keywords durchsuchen.
 
@@ -59,7 +59,7 @@ Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die a
 
 ## Taxonomie-Management {#taxonomy-management}
 
-Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie Kategorie und Unterkategorie zu unterstützen. Wenn Sie hierarchische Tags einfügen müssen, können Sie diese einfach vom Administrator im [!UICONTROL Taxonomie-Management] Abschnitt [!UICONTROL Einstellungen]. Sie können einen verwalteten Satz von Namespaces und Tags erstellen, auf die alle Benutzer bei der Beschreibung von Inhalten zugreifen können. Nur die Administratoren können Tag-Hierarchien in [!UICONTROL Taxonomie-Manager] Sicherstellung, dass die Werte konsistent kontrolliert und verwendet werden.
+Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie Kategorie und Unterkategorie zu unterstützen. Wenn Sie hierarchische Tags einfügen müssen, können diese Admin-seitig einfach im Abschnitt [!UICONTROL Taxonomie-Management] unter [!UICONTROL Einstellungen] verwaltet werden. Sie können einen verwalteten Satz von Namespaces und Tags erstellen, auf die alle Benutzenden bei der Beschreibung von Inhalten zugreifen können. Nur Admins können Tag-Hierarchien in der [!UICONTROL Taxonomie-Verwaltung] einrichten und so sicherstellen, dass die Werte konsistent kontrolliert und verwendet werden.
 
 ## Einrichten von Metadatenformularen {#metadata-forms}
 
@@ -67,11 +67,11 @@ Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie K
 >id="assets_metadata_forms"
 >title="Metadatenformulare"
 >abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite „Details“ eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets."
->additional-url="https://images-tv.adobe.com/mpcv3/4477/ac1b52fa-823e-447f-8e96-e880b33fe12e_1687708758.854x480at800_h264.mp4" text="Funktion in Aktion erleben"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/ac1b52fa-823e-447f-8e96-e880b33fe12e_1687708758.854x480at800_h264.mp4" text="Erleben Sie die Funktion in Aktion"
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
-Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Assets Essentials ordnet den MIME-Typ der hochgeladenen Assets automatisch dem Namen des Formulars zu und aktualisiert die Metadaten für die hochgeladenen Assets basierend auf den Formularfeldern.
+Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Assets Essentials gleicht den MIME-Typ der hochgeladenen Assets automatisch mit dem Namen des Formulars ab und aktualisiert die Metadaten für die hochgeladenen Assets auf Basis der Formularfelder.
 
 Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden.
 
@@ -79,7 +79,7 @@ Assets Essentials verwendet die folgende Sequenz, um nach Namen vorhandener Meta
 
 „MIME-Untertyp“ > „MIME-Typ“ > `default` „Formular“ > „Vorkonfiguriertes Formular“
 
-Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden. Wenn ein Metadatenformular nach dem Namen `PDF` oder `pdf` nicht vorhanden ist, stimmt Assets Essentials überein, wenn ein Metadatenformular vom Namen vorhanden ist `application`. Wenn ein Metadatenformular mit dem Namen vorhanden ist `application`, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie im Formular definiert. Wenn Assets Essentials immer noch kein übereinstimmendes Metadatenformular findet, sucht es nach dem `default`-Metadatenformular, um die im Formular definierten Metadatenfelder auf die hochgeladenen PDF-Dokumente anzuwenden. Wenn keiner dieser Schritte funktioniert, wendet Assets Essentials die im vorkonfigurierten Formular definierten Metadatenfelder auf alle hochgeladenen PDF-Dokumente an.
+Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden. Wenn ein Metadatenformular mit dem Namen `PDF` oder `pdf` nicht vorhanden ist, sucht Assets Essentials nach einem Metadatenformular mit dem Namen `application`. Wenn ein Metadatenformular mit dem Namen `application` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, so wie im Formular definiert. Wenn Assets Essentials immer noch kein übereinstimmendes Metadatenformular findet, sucht es nach dem `default`-Metadatenformular, um die im Formular definierten Metadatenfelder auf die hochgeladenen PDF-Dokumente anzuwenden. Wenn keiner dieser Schritte funktioniert, wendet Assets Essentials die im vorkonfigurierten Formular definierten Metadatenfelder auf alle hochgeladenen PDF-Dokumente an.
 
 >[!IMPORTANT]
 >
@@ -93,14 +93,14 @@ Gehen Sie wie folgt vor, um ein Metadatenformular zu erstellen:
 
 1. Klicken Sie oben rechts in der Benutzeroberfläche auf **[!UICONTROL Erstellen]**.
 1. Geben Sie einen Namen für das Formular an und klicken Sie auf **[!UICONTROL Erstellen]**.
-1. Geben Sie in **[!UICONTROL Einstellungen]** in der rechten Leiste einen Namen für die Registerkarte ein.
+1. Geben Sie unter **[!UICONTROL Einstellungen]** in der rechten Leiste einen Namen für die Registerkarte ein.
 1. Ziehen Sie die erforderlichen Komponenten aus den in der linken Leiste verfügbaren **[!UICONTROL Komponenten]** auf eine Registerkarte im Formular. Ziehen Sie die Komponenten in die gewünschte Sequenz.
 
    ![Option für Metadatenformulare in der linken Seitenleiste](assets/metadata-form-new.png)
 
    *Abbildung: Benutzeroberfläche zur Erstellung von Metadatenformularen mit Optionen zum Hinzufügen von Komponenten und der Option zum Anzeigen einer Vorschau des Formulars.*
 
-1. Geben Sie für jede Komponente einen Namen im **[!UICONTROL Einstellungen]** Stellen Sie in der rechten Leiste eine Zuordnung mit den unterstützten Eigenschaften bereit.
+1. Geben Sie in der rechten Leiste unter **[!UICONTROL Einstellungen]** für jede Komponente einen Namen für die Zuordnung mit den unterstützten Eigenschaften ein.
 1. Optional können Sie für eine Komponente **[!UICONTROL Erforderlich]** auswählen, damit das Metadatenfeld ein Pflichtfeld wird, und Sie können **[!UICONTROL Schreibgeschützt]** auswählen, damit das Feld auf der Seite [!UICONTROL Details] nicht bearbeitbar ist.
 1. Klicken Sie optional auf **[!UICONTROL Vorschau]**, um eine Vorschau des erstellten Formulars anzuzeigen.
 1. Optional können Sie auf jeder Registerkarte weitere Register und die erforderlichen Komponenten hinzufügen.
@@ -114,25 +114,25 @@ Nachdem ein Formular erstellt wurde, wird es automatisch angewendet, wenn Benutz
 
 Wenn Sie ein vorhandenes Formular wiederzuverwenden wollen, um ein neues Formular zu erstellen, wählen Sie ein Metadatenformular aus, klicken Sie in der Symbolleiste auf **[!UICONTROL Kopieren]**, geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Bestätigen]**. Sie können ein Metadatenformular bearbeiten, um es zu ändern. Wenn Sie ein Formular ändern, wird es für Assets verwendet, die nach der Änderung hochgeladen wurden. Die vorhandenen Assets werden nicht geändert.
 
-### Eigenschaftenkomponenten {#property-components}
+### Eigenschaftskomponenten {#property-components}
 
-Sie können Ihr Metadatenformular mit einer der folgenden Eigenschaftskomponenten anpassen. Ziehen Sie einfach den Komponententyp auf das Formular an die gewünschte Position und ändern Sie die Komponenteneinstellungen.
-Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und ihre Speicherung.
+Sie können Ihr Metadatenformular mit einer der folgenden Eigenschaftskomponenten anpassen. Ziehen Sie einfach den Komponententyp an die gewünschte Position im Formular und ändern Sie die Komponenteneinstellungen.
+Im Folgenden finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und ihre Speicherung.
 
 | Komponentenname | Beschreibung |
 |---|---|
-| Akkordeon-Container | Fügen Sie eine ausblendbare Überschrift für eine Liste allgemeiner Komponenten und Eigenschaften hinzu. Er kann standardmäßig ein- oder ausgeblendet werden. |
-| Einzelzeilentext | Fügen Sie eine einzeilige Texteigenschaft hinzu. |
-| Mehrzeiliger Text | Fügen Sie mehrere Textzeilen oder einen Absatz hinzu. Er wird als Benutzertyp erweitert und enthält alle Inhalte. |
-| Mehrwerttext | Fügen Sie eine Texteigenschaft mit mehreren Werten hinzu. |
+| Akkordeon-Container | Fügen Sie eine reduzierbare Überschrift für eine Liste allgemeiner Komponenten und Eigenschaften hinzu. Kann standardmäßig erweitert oder reduziert werden. |
+| Einzeiliger Text | Fügen Sie eine einzeilige Texteigenschaft hinzu. |
+| Mehrzeiliger Text | Fügen Sie mehrere Textzeilen oder einen Absatz hinzu. Wird während der Eingabe entsprechend erweitert, um alle Inhalte einzuschließen. |
+| Mehrfachwerttext | Fügen Sie eine Texteigenschaft mit mehreren Werten hinzu. |
 | Zahl | Fügen Sie eine Zahlenkomponente hinzu. |
-| Kontrollkästchen | Fügen Sie einen booleschen Wert hinzu. Wird als TRUE oder FALSE gespeichert, sobald ein Wert gespeichert wurde. |
+| Kontrollkästchen | Fügen Sie einen booleschen Wert hinzu. Wird mit einem Wert als TRUE oder FALSE gespeichert. |
 | Datum | Fügen Sie eine Datumskomponente hinzu. |
-| Dropdown | Fügen Sie eine Dropdown-Liste hinzu. |
-| Bundesland | Fügen Sie die Repository-Statuseigenschaft hinzu (repo:state zugeordnet) |
-| Asset-Status | Fügen Sie die standardmäßige Eigenschaft Asset Status hinzu (zugeordnet zu dam:assetStatus). |
-| Tags | Fügen Sie ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (die xcm:tags zugeordnet sind). |
-| Suchbegriffe | Fügen Sie freie Suchbegriffe hinzu (zugeordnet zu dc:subject). |
+| Dropdown-Liste | Fügen Sie eine Dropdown-Liste hinzu. |
+| Status | Fügen Sie die Statuseigenschaft des Repositorys hinzu (zugeordnet zu „repo:state“). |
+| Asset-Status | Fügen Sie die standardmäßige Asset-Status-Eigenschaft hinzu (zugeordnet zu „dam:assetStatus“). |
+| Tags | Fügen Sie ein Tag aus Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (zugeordnet zu „xcm:tags“). |
+| Keywords | Fügen Sie freie Keywords hinzu (zugeordnet zu „dc:subject“). |
 | Smart-Tags | Fügen Sie automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
 
 <!--
