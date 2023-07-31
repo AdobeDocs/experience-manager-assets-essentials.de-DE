@@ -6,7 +6,7 @@ exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
 workflow-type: tm+mt
 source-wordcount: '1000'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -46,8 +46,8 @@ Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenl
 * **Kürzlich angesehen**: Liste der Assets, die Sie kürzlich in der Vorschau betrachtet haben. [!DNL Assets Essentials] zeigt nur die Assets an, die Sie in der Vorschau anzeigen. Hier werden die Assets, an denen Sie beim Durchsuchen der Repository-Dateien oder -Ordner vorbeiscrollen, nicht angezeigt.
 * [Sammlungen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de): Eine Sammlung ist ein Satz von Assets, Ordnern oder sonstigen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten.
 
-* [Insights](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=de#view-live-statistics): In [!DNL Assets Essentials] können Sie Echtzeiteinblicke in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Insights-Dashboard Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
-* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Papierkorb-Ordner auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können auch ein Keyword angeben oder standardmäßige oder benutzerdefinierte Filter anwenden, um geeignete Assets im Ordner &quot;Papierkorb&quot;zu suchen. Weitere Informationen zur Verwendung von standardmäßigen und benutzerdefinierten Filtern finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
+* [Erkenntnisse](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=de#view-live-statistics): In [!DNL Assets Essentials] können Sie Echtzeiterkenntnisse in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Dashboard „Erkenntnisse“ Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
+* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Papierkorb-Ordner auswählen, um es entweder am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können auch ein Keyword angeben oder standardmäßige bzw. benutzerdefinierte Filter anwenden, um nach geeigneten Assets im Papierkorb-Ordner zu suchen. Weitere Informationen zum Verwenden standardmäßiger und benutzerdefinierter Filter finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
 * **Einstellungen**: Sie können verschiedene Optionen von Assets Essentials mithilfe von **Einstellungen** konfigurieren, wie etwa Metadatenformulare, Berichte und Taxonomieverwaltung.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.

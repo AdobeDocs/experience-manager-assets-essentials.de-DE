@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
 workflow-type: tm+mt
 source-wordcount: '2154'
-ht-degree: 84%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 Die aktuelle Version von Assets Essentials wird am 27. Juli 2023 veröffentlicht.
 
-Die in der Version enthaltenen Funktionen sind:
+Die Version umfasst die folgenden Funktionen:
 
 <!--
 
@@ -67,39 +67,39 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### Version vom Juni  {#june2023-release}
 
-**Hierarchisches Tagging von Assets für schnelleres Sucherlebnis**
+**Hierarchisches Tagging von Assets für ein schnelleres Sucherlebnis**
 
-Einfache Listen kontrollierter Vokabeln werden im Laufe der Zeit nicht mehr zu handhaben. Assets Essentials unterstützt jetzt die hierarchische Tagging-Struktur, die die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung von Suchen, die Wiederverwendung von Tags, die Verbesserung der Auffindbarkeit usw. erleichtert.
+Flache Listen mit kontrolliertem Vokabular werden im Laufe der Zeit immer unübersichtlicher. Assets Essentials unterstützt nun die hierarchische Tagging-Struktur, die etwa die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung von Suchvorgängen, die Wiederverwendung von Tags und eine bessere Auffindbarkeit ermöglicht.
 
 ![Tagging-Verwaltung](assets/tags-hierarchy.png)
 
-**Dateien, Ordner und Sammlungen für den schnellen Zugriff fixieren**
+**Anheften von Dateien, Ordnern und Sammlungen zwecks Schnellzugriffs**
 
-Sie können jetzt Dateien, Ordner und Sammlungen anheften, um schneller auf diese Elemente zugreifen zu können, wenn Sie sie später benötigen. Die fixierten Elemente werden im **Schnellzugriff** Abschnitt &quot;Mein Arbeitsbereich&quot;. Sie können über den Arbeitsbereich darauf zugreifen, anstatt zu dem Speicherort zu navigieren, an dem sie im Repository gespeichert sind.
+Sie können nun Dateien, Ordner und Sammlungen anheften, um schneller auf diese Elemente zugreifen zu können, wenn Sie sie zu einem späteren Zeitpunkt benötigen. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt. Sie können auf diese Elemente über das Dashboard „Mein Arbeitsbereich“ zugreifen, anstatt zu ihrem Speicherort im Repository zu navigieren.
 
 ![Aufgaben in Workspace](assets/quick-access.png)
 
-**Filtern von Assets im Ordner &quot;Papierkorb&quot;**
+**Filtern von Assets im Papierkorb-Ordner**
 
-Mit Assets Essentials können Sie jetzt die im Ordner &quot;Papierkorb&quot;verfügbaren Assets filtern. Sie können standardmäßige oder benutzerdefinierte Filter anwenden, um geeignete Assets im Ordner &quot;Papierkorb&quot;zu suchen, um sie wiederherzustellen oder dauerhaft zu löschen.
+Mit Assets Essentials können Sie nun im Papierkorb-Ordner verfügbare Assets filtern. Sie können standardmäßige oder benutzerdefinierte Filter anwenden, um im Papierkorb-Ordner nach geeigneten Assets zum Wiederherstellen oder dauerhaften Löschen zu suchen.
 
-**Miniaturansichten für 3D-Assets**
+**Miniaturansichtsvorschau für 3D-Assets**
 
-Assets Essentials generiert jetzt Miniaturansichten für gängige 3D-Dateiformate wie gLB, USDz, FBX, 3DS, OBJ und SBSAR. Wenn diese Dateien in Assets Essentials hochgeladen werden, werden vom System standardmäßig automatisch Miniaturansichten generiert.
+Assets Essentials generiert nun Miniaturansichtsvorschauen für gängige 3D-Dateiformate wie gLB, USDz, FBX, 3DS, OBJ und SBSAR. Wenn diese Dateien in Assets Essentials hochgeladen werden, werden vom System standardmäßig und automatisch Miniaturansichten generiert.
 
 ![Aufgaben in Workspace](assets/3d-preview.png)
 
 **Anzeigen der am häufigsten gesuchten Begriffe**
 
-Assets Essentials unterstützt jetzt das Anzeigen der am häufigsten gesuchten Begriffe in Ihrer Assets Essentials-Implementierung mithilfe der **Insights** Abschnitt &quot;Mein Arbeitsbereich&quot;. Sie können auch zu detaillierten Insights navigieren, um die wichtigsten Suchvorgänge der letzten 30 Tage oder 12 Monate anzuzeigen.
+Assets Essentials unterstützt nun das Anzeigen der am häufigsten gesuchten Begriffe in Ihrer Assets Essentials-Bereitstellung, und zwar mithilfe des Abschnitts **Erkenntnisse** im Dashboard „Mein Arbeitsbereich“. Sie können zudem zu detaillierten Erkenntnissen navigieren, um die häufigsten Suchanfragen der letzten 30 Tage oder 12 Monate anzuzeigen.
 
 ![Aufgaben in Workspace](assets/insights-top-searches.png)
 
 **Verbesserungen bei Metadatenformularen**
 
-Assets Essentials ermöglicht es Ihnen jetzt, den Metadatenformularen Eigenschaften für Mehrwert-Text und Dropdown-Listen hinzuzufügen.
+Assets Essentials ermöglicht es Ihnen nun, Metadatenformularen Eigenschaftskomponenten für Mehrfachwerttext und Dropdown-Listen hinzuzufügen.
 
-### Mehrere Versionen 2023 {#multiple-releases-2023}
+### Mehrere Versionen im Jahr 2023 {#multiple-releases-2023}
 
 Die Liste der kürzlich hinzugefügten Funktionen umfasst:
 
@@ -115,7 +115,7 @@ Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktual
 
 Assets bietet Ihnen jetzt einen benutzerdefinierten Arbeitsbereich, der als zentrale Lösung dient und Ihnen einfachen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bietet, die für Sie am relevantesten sind. Der schnellere Zugriff auf diese Optionen erhöht die inhaltliche Geschwindigkeit und Effizienz Ihrer Projekte.
 
-„Mein Arbeitsbereich“ enthält Widgets für Einblicke, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+„Mein Arbeitsbereich“ enthält Widgets für Erkenntnisse, Aufgaben und Inhalte. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 **Benutzeroberfläche für dedizierte Aufgabenverwaltung**
 
@@ -320,7 +320,7 @@ Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Pho
 
 [!DNL Assets Essentials] 2021.8.0 wurde am 30. Juli 2021 veröffentlicht und umfasst folgende Updates:
 
-* Integrationen mit [!DNL Adobe Workfront], mit denen [!DNL Workfront]-Benutzer ihre digitalen Assets im Rahmen der Verwaltung ihrer Arbeit organisieren können.
+* Integrationen mit [!DNL Adobe Workfront], mit denen [!DNL Workfront]-Benutzerinnen und -Benutzer ihre digitalen Assets im Rahmen der Verwaltung ihrer Arbeit organisieren können.
 
 ### Version 2021.7.0 {#july2021}
 
@@ -336,4 +336,4 @@ Die erste Version von [!DNL Assets Essentials], die am 21. Juni 2021 zur Verfüg
 * Hochladen und Hinzufügen von Assets, einschließlich verschachtelter Ordner. Anzeigen einer Vorschau der Assets und Versionen.
 * Volltextsuche, erweiterte Suchfilter und gespeicherte Suchen für schnelles Finden von Assets.
 * Grundlegende Asset-Management-Vorgänge wie Aktualisierung, Löschen, Download und Verwalten von Metadaten.
-* [!DNL Assets Essentials] steht [!DNL Adobe Journey Optimizer]-Benutzern zur Verwaltung der Assets beim Erstellen von Nachrichten zur Verfügung.
+* [!DNL Assets Essentials] steht [!DNL Adobe Journey Optimizer]-Benutzerinnen und -Benutzern zur Verwaltung der Assets beim Erstellen von Nachrichten zur Verfügung.

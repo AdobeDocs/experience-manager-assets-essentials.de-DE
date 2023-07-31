@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -146,29 +146,29 @@ When userA is searching and userB add an asset that matches search results, will
 
 Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, und die folgenden Aktionen ausführen:
 
-* **Details**: Asset-Eigenschaften anzeigen und bearbeiten.
+* **Details**: Zeigen Sie Asset-Eigenschaften an und bearbeiten Sie diese.
 
-* **Zu Sammlung hinzufügen**: Fügen Sie das ausgewählte Asset zu einer Sammlung hinzu.
+* **Zur Sammlung hinzufügen**: Fügen Sie das ausgewählte Asset zu einer Sammlung hinzu.
 
 * **Herunterladen**: Laden Sie ein Asset herunter.
 
 * **Löschen**: Löschen Sie ein Asset.
 
-* **Kopieren**: Kopieren Sie ein Asset an einen anderen Ordnerspeicherort.
+* **Kopieren**: Kopieren Sie ein Asset in einen anderen Ordner.
 
-* **Verschieben**: Verschieben Sie ein Asset an einen anderen Ordnerspeicherort.
+* **Verschieben**: Verschieben Sie ein Asset in einen anderen Ordner.
 
 * **Umbenennen**: Benennen Sie ein Asset um.
 
-* **Aufgaben zuweisen**: Weisen Sie Benutzern Aufgaben für ein Asset zu.
+* **Aufgaben zuweisen**: Weisen Sie Benutzenden Aufgaben für ein Asset zu.
 
-* **Link freigeben**: [Links freigeben](share-links-for-assets.md) für ein Asset mit anderen Benutzern, damit sie darauf zugreifen und es herunterladen können.
+* **Link freigeben**: [Teilen Sie Links](share-links-for-assets.md) für ein Asset mit anderen Benutzenden, damit sie darauf zugreifen und es herunterladen können.
 
-* **Watch**: [Vorgänge überwachen](manage-notifications.md) an einem Asset ausgeführt werden.
+* **Beobachten**: [Überwachen Sie Vorgänge](manage-notifications.md), die für ein Asset durchgeführt werden.
 
-* **Speicherort der Datei anzeigen**: Navigieren Sie zum Speicherort des Asset-Ordners.
+* **Dateispeicherort anzeigen**: Navigieren Sie zum Speicherort des Asset-Ordners.
 
-* **An Schnellzugriff anheften**: [Veröffentlichen eines Assets](my-workspace.md) für einen schnelleren Zugriff, wenn Sie ihn später benötigen. Alle fixierten Elemente werden im **Schnellzugriff** Abschnitt &quot;Mein Arbeitsbereich&quot;.
+* **An Schnellzugriff anheften**: [Heften Sie ein Asset an](my-workspace.md), um später im Bedarfsfall schneller darauf zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
 
 ## Nächste Schritte {#next-steps}
 
