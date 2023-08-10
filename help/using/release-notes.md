@@ -5,15 +5,15 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wird am 27. Juli 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 27. Juli 2023 veröffentlicht.
 
 Die Version umfasst die folgenden Funktionen:
 
@@ -29,11 +29,11 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 **Verbessertes KI-Framework für Smart-Tags für Bilder**
 
-Experience Manager Assets verwendet jetzt ein verbessertes Framework mit künstlicher Intelligenz für Smart-Tags für Bilder. Diese inhaltsbezogene Intelligenz führt zu einer besseren Relevanz und Genauigkeit von Smart-Tags, die für alle Bild-Assets bei der Benutzende verfügbar sind.
+Experience Manager Assets verwendet jetzt ein verbessertes Framework mit künstlicher Intelligenz für Smart-Tags für Bilder. Diese inhaltsbezogene Intelligenz führt zu einer besseren Relevanz und Genauigkeit von Smart-Tags, die für alle Bild-Assets bei der Aufnahme verfügbar sind.
 
-**Anzeige von Spalten für die Asset-Listenansicht konfigurieren**
+**Konfigurieren der Spaltenanzeige für die Assets-Listenansicht**
 
-Assets Essentials bietet jetzt die Möglichkeit, die Spalten auszuwählen, die in der Asset-Listenansicht angezeigt werden, z. B. Status, Format, Dimensionen, Größe usw.
+Assets Essentials bietet jetzt die Möglichkeit, die Spalten auszuwählen, die in der Assets-Listenansicht angezeigt werden, z. B. Status, Format, Dimensionen, Größe usw.
 
 ![Konfigurieren der Spalten](/help/using/assets/configure-columns.png)
 
@@ -65,7 +65,7 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ## Frühere Versionen {#past-releases}
 
-### Version vom Juni  {#june2023-release}
+### Version Juni  {#june2023-release}
 
 **Hierarchisches Tagging von Assets für ein schnelleres Sucherlebnis**
 
