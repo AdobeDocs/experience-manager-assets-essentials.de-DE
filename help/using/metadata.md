@@ -4,10 +4,10 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
+source-git-commit: 6a9bc34907f9eb8c7d18a8fbb139e27244538256
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 100%
+source-wordcount: '1606'
+ht-degree: 99%
 
 ---
 
@@ -58,6 +58,11 @@ Zusätzlich zu den Smart-Tags, die automatisch mit dem intelligenten Service [!D
 Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die automatisch von [!DNL Assets Essentials] zu allen hochgeladenen Assets hinzugefügt werden.
 
 ## Taxonomie-Management {#taxonomy-management}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Adobe Expreß-Integration"
+>abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite „Details“ eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets."
 
 Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie Kategorie und Unterkategorie zu unterstützen. Wenn Sie hierarchische Tags einfügen müssen, können diese Admin-seitig einfach im Abschnitt [!UICONTROL Taxonomie-Management] unter [!UICONTROL Einstellungen] verwaltet werden. Sie können einen verwalteten Satz von Namespaces und Tags erstellen, auf die alle Benutzenden bei der Beschreibung von Inhalten zugreifen können. Nur Admins können Tag-Hierarchien in der [!UICONTROL Taxonomie-Verwaltung] einrichten und so sicherstellen, dass die Werte konsistent kontrolliert und verwendet werden.
 
