@@ -5,7 +5,7 @@ exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Um ein Abonnement zu kündigen, wählen Sie das abonnierte Asset, den abonnierte
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Adobe Expreß-Integration"
+>title="Integration mit Adobe Express"
 >abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite „Details“ eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets."
 
 Die Benachrichtigungen werden in der Benutzeroberfläche von Assets Essentials am rechten Ende der Menüleiste angezeigt.
