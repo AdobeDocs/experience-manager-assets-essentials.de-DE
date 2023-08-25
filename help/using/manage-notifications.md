@@ -2,9 +2,9 @@
 title: Verwalten von Benachrichtigungen
 description: Überwachen Sie die Vorgänge, die mit den im Repository verfügbaren Assets oder Ordnern durchgeführt werden, mithilfe der Assets Essentials-Benachrichtigungen.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '617'
 ht-degree: 100%
 
 ---
@@ -95,11 +95,6 @@ Assets Essentials sendet jetzt Benachrichtigungen für die abonnierten Kategorie
 Um ein Abonnement zu kündigen, wählen Sie das abonnierte Asset, den abonnierten Ordner oder die abonnierte Kollektion aus und klicken Sie auf **[!UICONTROL Nicht mehr beobachten]**.
 
 ## Anzeigen von Benachrichtigungen {#view-notifications}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Integration mit Adobe Express"
->abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite „Details“ eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets."
 
 Die Benachrichtigungen werden in der Benutzeroberfläche von Assets Essentials am rechten Ende der Menüleiste angezeigt.
 
