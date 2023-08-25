@@ -4,16 +4,16 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+workflow-type: tm+mt
+source-wordcount: '2298'
+ht-degree: 93%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am 27. Juli 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 24. August 2023 veröffentlicht.
 
 Die Version umfasst die folgenden Funktionen:
 
@@ -27,19 +27,23 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**Verbessertes KI-Framework für Smart-Tags für Bilder**
+**Massenimport von Assets aus Datenquellen**
 
-Experience Manager Assets verwendet jetzt ein verbessertes Framework mit künstlicher Intelligenz für Smart-Tags für Bilder. Diese inhaltsbezogene Intelligenz führt zu einer besseren Relevanz und Genauigkeit von Smart-Tags, die für alle Bild-Assets bei der Aufnahme verfügbar sind.
+Administratoren können jetzt eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen. Zu den unterstützten Datenquellen für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox.
 
-**Konfigurieren der Spaltenanzeige für die Assets-Listenansicht**
+![Massenimport von Assets aus einer Datenquelle](/help/using/assets/bulk-import.png)
 
-Assets Essentials bietet jetzt die Möglichkeit, die Spalten auszuwählen, die in der Assets-Listenansicht angezeigt werden, z. B. Status, Format, Dimensionen, Größe usw.
+**Bildbearbeitungswerkzeuge auf Basis von Adobe Expreß**
 
-![Konfigurieren der Spalten](/help/using/assets/configure-columns.png)
+Einfache und intuitive Bildbearbeitungswerkzeuge mit Adobe Expreß, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen.
 
-**Sortieren von Suchergebnissen nach Relevanz**
+![Bildbearbeitung mit Adobe Expreß](/help/using/assets/edit-adobe-express.png)
 
-Assets Essentials sortiert die Suchergebnisse nun standardmäßig nach Relevanz. Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge nach `Name`, `Relevance`, `Size`, `Modified` und `Created` sortieren.
+**Flexibilität beim Einfügen von Elementen für meinen Workspace-Schnellzugriff**
+
+Möglichkeit, Elemente für Sie, für Ihre gesamte Organisation oder für eine Liste von Gruppen auszuwählen und anzuheften, damit sie je nach Ihrer Auswahl im Bereich Schnellzugriff in My Workspace angezeigt werden.
+
+![Elemente für Gruppen fixieren](assets/pin-items-for-groups.png)
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
@@ -65,7 +69,23 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ## Frühere Versionen {#past-releases}
 
-### Version Juni  {#june2023-release}
+### Version vom Juli 2023 {#july2023-release}
+
+**Verbessertes KI-Framework für Smart-Tags für Bilder**
+
+Experience Manager Assets verwendet jetzt ein verbessertes Framework mit künstlicher Intelligenz für Smart-Tags für Bilder. Diese inhaltsbezogene Intelligenz führt zu einer besseren Relevanz und Genauigkeit von Smart-Tags, die für alle Bild-Assets bei der Aufnahme verfügbar sind.
+
+**Konfigurieren der Spaltenanzeige für die Assets-Listenansicht**
+
+Assets Essentials bietet jetzt die Möglichkeit, die Spalten auszuwählen, die in der Assets-Listenansicht angezeigt werden, z. B. Status, Format, Dimensionen, Größe usw.
+
+![Konfigurieren der Spalten](/help/using/assets/configure-columns.png)
+
+**Sortieren von Suchergebnissen nach Relevanz**
+
+Assets Essentials sortiert die Suchergebnisse nun standardmäßig nach Relevanz. Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge nach `Name`, `Relevance`, `Size`, `Modified` und `Created` sortieren.
+
+### Version vom Juni 2023 {#june2023-release}
 
 **Hierarchisches Tagging von Assets für ein schnelleres Sucherlebnis**
 
