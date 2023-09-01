@@ -3,10 +3,10 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Photoshop Express]  unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 52%
+source-wordcount: '908'
+ht-degree: 51%
 
 ---
 
@@ -34,10 +34,10 @@ Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Versio
 Ein beliebtes Anwendungsbeispiel ist die Größenanpassung eines Bildes auf eine bestimmte Größe. [!DNL Assets Essentials] ermöglicht es Ihnen, die Größe des Bildes schnell an die gängigen Bildgrößen anzupassen, indem es vorab berechnete neue Auflösungen für bestimmte Bildgrößen bereitstellt. So ändern Sie die Bildgröße mithilfe von [!DNL Assets Essentials]führen Sie die folgenden Schritte aus:
 
 1. Bild auswählen und auf **Bearbeiten**.
-2. Klicks **[!DNL Resize Image]** über die im linken Bereich verfügbaren Schnellaktionen.
+2. Klicks **[!UICONTROL Bild vergrößern]** über die im linken Bereich verfügbaren Schnellaktionen.
 3. Wählen Sie die entsprechende Social-Media-Plattform aus dem **[!UICONTROL Größe ändern für]** und wählen Sie die Bildgröße aus den angezeigten Optionen aus.
 4. Falls erforderlich, skalieren Sie das Bild mithilfe der **[!UICONTROL Bildskala]** -Feld.
-5. Klicks **[!DNL Apply]** , um Ihre Änderungen anzuwenden.
+5. Klicks **[!UICONTROL Anwenden]** , um Ihre Änderungen anzuwenden.
    ![Bildbearbeitung mit Adobe Expreß](/help/using/assets/adobe-express-resize-image.png)
 
    Ihr bearbeitetes Bild kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets speichern oder als neues Asset speichern.
@@ -48,8 +48,8 @@ Ein beliebtes Anwendungsbeispiel ist die Größenanpassung eines Bildes auf eine
 Sie können den Hintergrund aus einem Bild in einigen einfachen Schritten entfernen, wie unten beschrieben:
 
 1. Bild auswählen und auf **Bearbeiten**.
-2. Klicks **[!DNL Remove Background]** über die im linken Bereich verfügbaren Schnellaktionen. Experience Manager Assets zeigt das Bild ohne Hintergrund an.
-3. Klicks **[!DNL Apply]** , um Ihre Änderungen anzuwenden.
+2. Klicks **[!UICONTROL Hintergrund entfernen]** über die im linken Bereich verfügbaren Schnellaktionen. Experience Manager Assets zeigt das Bild ohne Hintergrund an.
+3. Klicks **[!UICONTROL Anwenden]** , um Ihre Änderungen anzuwenden.
    ![Bild mit Adobe Expreß speichern](/help/using/assets/adobe-express-remove-background.png)
 
    Ihr bearbeitetes Bild kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets speichern oder als neues Asset speichern.
@@ -59,9 +59,9 @@ Sie können den Hintergrund aus einem Bild in einigen einfachen Schritten entfer
 Das Umwandeln eines Bildes in eine perfekte Größe ist einfach durch Einbetten [!DNL Adobe Express] Schnellaktionen.
 
 1. Bild auswählen und auf **Bearbeiten**.
-2. Klicks **[!DNL Crop Image]** über die im linken Bereich verfügbaren Schnellaktionen.
+2. Klicks **[!UICONTROL Bild beschneiden]** über die im linken Bereich verfügbaren Schnellaktionen.
 3. Ziehen Sie die Griffe an die Ecken des Bildes, um den gewünschten Zuschnitt zu erstellen.
-4. Klicken Sie auf **[!DNL Apply]**.
+4. Klicken Sie auf **[!UICONTROL Übernehmen]**.
    ![Bild mit Adobe Expreß speichern](/help/using/assets/adobe-express-crop-image.png)
 Das zugeschnittene Bild kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets speichern oder als neues Asset speichern.
 
@@ -70,7 +70,7 @@ Das zugeschnittene Bild kann heruntergeladen werden. Sie können das bearbeitete
 Mithilfe von Adobe Expreß können Sie schnell ein JPEG-Bild in ein PNG-Format konvertieren. Führen Sie die folgenden Schritte aus:
 
 1. Bild auswählen und auf **Bearbeiten**.
-2. Klicks **[!DNL JPEG to PNG]** über die im linken Bereich verfügbaren Schnellaktionen.
+2. Klicks **[!UICONTROL JPEG in PNG]** über die im linken Bereich verfügbaren Schnellaktionen.
    ![Konvertieren in PNG mit Adobe Expreß](/help/using/assets/adobe-express-convert-image.png)
 3. Klicken Sie auf **[!UICONTROL Download]**.
 
