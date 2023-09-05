@@ -1,16 +1,25 @@
 ---
 title: Massenimport von Assets mithilfe der Asset-Ansicht
 description: Erfahren Sie, wie Sie Assets mit der neuen Assets-Benutzeroberfläche (Asset-Ansicht) stapelweise importieren. Administratoren können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
-source-git-commit: ceadd99c1d846a97752ed13097bafd0d10bb2a35
+source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 13%
+source-wordcount: '1244'
+ht-degree: 21%
 
 ---
 
 # Massenimport von Assets mithilfe der Asset-Ansicht  {#bulk-import-assets-view}
 
+>[!CONTEXTUALHELP]
+>id="assets_bulk_import"
+>title="Massenimport von Assets"
+>abstract="Administratoren können jetzt mithilfe der Asset-Ansicht eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicher-Anbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
+
 Der Massenimport in die AEM Assets-Ansicht bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
+
+>[!NOTE]
+>
+>Das Bulk Importer für die Asset-Ansicht verwendet dasselbe Backend wie das Bulk Importer für die Admin-Ansicht. Es bietet jedoch mehr Datenquellen, aus denen importiert werden kann, und eine optimierte Benutzererfahrung.
 
 Sie können Assets aus den folgenden Datenquellen importieren:
 
@@ -58,6 +67,14 @@ Führen Sie die folgenden Schritte aus, um eine Konfiguration für den Massenimp
    ![Massenimport ausführen](assets/bulk-import-run.png)
 
 1. Klicks **[!UICONTROL Speichern]** , um die ausgewählte Option auszuführen.
+
+### Umgang mit Dateinamen beim Massenimport {#filename-handling-bulkimport-assets-view}
+
+Wenn Sie Assets oder Ordner massenhaft importieren, importiert [!DNL Experience Manager Assets] die gesamte Struktur dessen, was in der Importquelle vorhanden ist. [!DNL Experience Manager] befolgt die integrierten Regeln für Sonderzeichen in den Asset- und Ordnernamen. Daher müssen diese Dateinamen bereinigt werden. Sowohl für den Ordnernamen als auch für den Asset-Namen bleibt der von den Benutzerinnen oder Benutzern definierte Titel unverändert und wird in `jcr:title` gespeichert.
+
+Während des Massenimports sucht [!DNL Experience Manager] nach den vorhandenen Ordnern, um das erneute Importieren der Assets und Ordner zu vermeiden, und überprüft auch die Bereinigungsregeln, die im übergeordneten Ordner angewendet werden, in dem der Import stattfindet. Wenn die Bereinigungsregeln im übergeordneten Ordner angewendet werden, werden dieselben Regeln auf die Importquelle angewendet. Für neue Importe werden die folgenden Bereinigungsregeln angewendet, um die Dateinamen von Assets und Ordnern zu verwalten.
+
+Weitere Informationen zu unzulässigen Namen, zum Umgang mit Asset-Namen und zum Umgang mit Ordnernamen beim Massenimport finden Sie unter [Umgang mit Dateinamen beim Massenimport in der Admin-Ansicht](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## Vorhandene Massenimportkonfigurationen anzeigen {#view-import-configuration}
 
