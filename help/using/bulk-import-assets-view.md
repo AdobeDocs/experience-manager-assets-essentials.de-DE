@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Assets mit der neuen Assets-Benutzeroberfläc
 source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massenimport von Assets"
->abstract="Administratoren können jetzt mithilfe der Asset-Ansicht eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicher-Anbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
+>abstract="Admins können jetzt mithilfe der Ansicht „Assets“ eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
 
 Der Massenimport in die AEM Assets-Ansicht bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
 
