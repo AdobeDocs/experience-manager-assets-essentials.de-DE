@@ -4,28 +4,24 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 93%
+source-wordcount: '2342'
+ht-degree: 92%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am 24. August 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials ist am 21. September 2023 veröffentlicht.
 
-Die Version umfasst die folgenden Funktionen:
+Die Liste der kürzlich hinzugefügten Funktionen umfasst:
 
-<!--
+**Zuweisen eines Metadatenformulars zu einem Ordner**
 
-**Assign metadata form to a folder**
+Sie können jetzt ein Metadatenformular einem bestimmten Ordner in Ihrer Assets Essentials-Bereitstellung zuweisen. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann Eigenschaften an, die im zugewiesenen Metadatenformular definiert sind.
 
-You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
-
-![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
--->
+![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
 
 **Massenimport von Assets aus Datenquellen**
 
@@ -35,7 +31,7 @@ Administratoren können jetzt eine große Anzahl von Assets aus einer Datenquell
 
 **Bildbearbeitungswerkzeuge auf Basis von Adobe Expreß**
 
-Einfache und intuitive Bildbearbeitungswerkzeuge mit Adobe Expreß, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen.
+Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen.
 
 ![Bildbearbeitung mit Adobe Expreß](/help/using/assets/edit-adobe-express.png)
 

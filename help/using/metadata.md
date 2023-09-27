@@ -4,10 +4,10 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+workflow-type: tm+mt
+source-wordcount: '1686'
+ht-degree: 92%
 
 ---
 
@@ -135,25 +135,21 @@ Im Folgenden finden Sie eine Übersicht über die einzelnen Eigenschaftstypen un
 | Keywords | Fügen Sie freie Keywords hinzu (zugeordnet zu „dc:subject“). |
 | Smart-Tags | Fügen Sie automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
 
-<!--
+### Zuweisen eines Metadatenformulars zu einem Ordner {#assign-metadata-form-folder}
 
-### Assign metadata form to a folder {#assign-metadata-form-folder}
+Sie können ein Metadatenformular auch einem Ordner in Ihrer Assets Essentials-Bereitstellung zuweisen. Das Metadatenformular, das einem Ordner gemäß dem MIME-Typ zugewiesen wurde, wird überschrieben, wenn Sie ein Metadatenformular manuell auf einen Ordner anwenden. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann im Metadatenformular definierte Eigenschaften an.
 
-You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+So weisen Sie einem Ordner ein Metadatenformular zu:
 
-To assign a metadata form to a folder:
+1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Metadaten-Forms]** und wählen Sie ein Metadatenformular aus.
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+2. Klicks **[!UICONTROL Dem Ordner zuweisen]**.
 
-2. Click **[!UICONTROL Assign to Folder]**.
+3. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
 
-3. Select the folder and click **[!UICONTROL Assign]**.
+   ![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
 
-   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
-   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
-
--->
+   Sie können auch zur Ordnerdetailseite navigieren und ein Metadatenformular aus den im rechten Bereich verfügbaren Ordnereigenschaften auswählen, um das Metadatenformular dem Ordner zuzuweisen.
 
 ## Nächste Schritte {#next-steps}
 
