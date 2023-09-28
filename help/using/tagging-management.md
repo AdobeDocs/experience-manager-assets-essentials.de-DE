@@ -1,20 +1,20 @@
 ---
-title: Verwalten von Tags in der Assets-Ansicht
-description: Erfahren Sie, wie Sie Tags in der Assets-Ansicht verwalten. Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen.
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+title: Wie werden Tags in Assets Essentials verwaltet?
+description: Erfahren Sie, wie Sie Tags in Assets Essentials verwalten. Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 88%
 
 ---
 
-# Verwalten von Tags in der Assets-Ansicht {#view-assets-and-details}
+# Tags in Assets Essentials verwalten {#view-assets-and-details}
 
 
 >[!CONTEXTUALHELP]
 >id="assets_taxonomy_management"
 >title="Verwalten von Tags"
->abstract="Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen. Admins haben die Möglichkeit, die hierarchische Tagging-Struktur zu verwenden, die die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung der Suche, die Wiederverwendung von Tags, die Verbesserung der Auffindbarkeit usw. erleichtert."
+>abstract="Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen. Admins haben die Möglichkeit, die hierarchische Tagging-Struktur zu verwenden, die etwa die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung von Suchvorgängen, die Wiederverwendung von Tags und eine bessere Auffindbarkeit ermöglicht."
 
 Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen. Tagging hilft bei der Verbreitung der entsprechenden Taxonomie an andere Benutzende und Workflows.
 
@@ -32,7 +32,7 @@ Tagging bietet viele Vorteile, z. B.:
 
 * Tags können sich im Laufe der Zeit weiterentwickeln, wenn sich das organisatorische Vokabular ändert.
 
-* In der Admin-Ansicht verwaltete Tags bleiben mit den in der Assets-Ansicht verwalteten Tags synchronisiert. Dadurch werden Metadaten-Governance und -Integrität sichergestellt.
+* Tags, die in Assets as a Cloud Service verwaltet werden, bleiben mit den in Assets Essentials verwalteten Tags synchronisiert, was die Metadatenverwaltung und -integrität gewährleistet.
 
 Um Tags auf Assets anwenden zu können, müssen Sie zunächst einen Namespace erstellen und anschließend Tags erstellen, die Sie zum Namespace hinzufügen. Sie können auch Tags erstellen und diese zu einem vorhandenen Namespace hinzufügen. Alle auf der Stammebene erstellten Tags werden automatisch zum Standard-Tags-Namespace hinzugefügt. Anschließend können Sie das Feld „Tags“ zum Metadatenformular hinzufügen, damit es auf der Seite mit den Asset-Details angezeigt wird. Nach der Konfiguration dieser Einstellungen können Sie damit beginnen, Tags auf Assets anzuwenden.
 
@@ -42,7 +42,7 @@ Um Tags auf Assets anwenden zu können, müssen Sie zunächst einen Namespace er
 
 ![Tagging-Verwaltung](assets/tagging-taxonomy-management.png)
 
-In der Admin-Ansicht stehen zusätzliche Funktionen zur Verfügung, die über die in diesem Artikel genannten hinausgehen. Dazu gehören das Zusammenführen, Umbenennen, Lokalisieren und Veröffentlichen von Tags.
+Zusätzliche Funktionen, die über das in diesem Artikel erwähnte hinausgehen, einschließlich Zusammenführen, Umbenennen, Lokalisieren und Veröffentlichen von Tags, sind in Assets as a Cloud Service verfügbar.
 
 ## Erstellen eines Namespace {#creating-a-namespace}
 
@@ -92,7 +92,7 @@ Um ein Standard-Tag zu erstellen, klicken Sie auf der Stammebene auf `Create Tag
 
 >[!NOTE]
 >
->Wenn Sie den Namespace `Standard Tags` mithilfe der Admin-Ansicht löschen, werden die auf Stammebene erstellten Tags nicht in der Liste der verfügbaren Tags angezeigt.
+>Wenn Sie `Standard Tags` -Namespace, der Assets as a Cloud Service verwendet, werden die auf der Stammebene erstellten Tags nicht in der Liste der verfügbaren Tags angezeigt.
 
 ## Verschieben von Tags {#moving-tags}
 
@@ -115,7 +115,7 @@ Um den Titel eines Tags zu bearbeiten, wählen Sie das Tag aus und klicken Sie a
 >[!NOTE]
 >
 >* Der `Name` eines Tags kann nicht aktualisiert werden. Der Stammpfad für ein Tag basiert ebenfalls auf dem Namen des Tags. Der Pfad bleibt auch dann unverändert, wenn Sie das Feld `Title` aktualisieren.
->* In der Admin-Ansicht sind zusätzliche Vorgänge wie Zusammenführen, Lokalisieren und Veröffentlichen verfügbar.
+>* Weitere Vorgänge wie Zusammenführen, Lokalisieren und Veröffentlichen sind in Assets as a Cloud Service verfügbar.
 
 ## Löschen von Tags {#deleting-tags}
 
@@ -134,7 +134,7 @@ Führen Sie die folgenden Schritte aus, um Tags zu löschen:
 
 ## Hinzufügen der Tag-Komponente zum Metadatenformular {#adding-tags-to-metadata-form}
 
-Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann derzeit nicht geändert werden. Benutzende in der Admin-Ansicht können die Zuordnung so aktualisieren, dass Tag-Werte mithilfe benutzerdefinierter Namespaces gespeichert und nur Untergruppen von Hierarchien über Stammpfade angezeigt werden.
+Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann derzeit nicht geändert werden. Assets as a Cloud Service Benutzer können die Zuordnung aktualisieren, um Tag-Werte mithilfe benutzerdefinierter Namespaces zu speichern und nur Untergruppen von Hierarchien mithilfe von Stammpfaden verfügbar zu machen.
 
 Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponente zu Ihrem Metadatenformular hinzufügen:
 
@@ -149,17 +149,7 @@ Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponent
    ![Tagging von Assets](assets/adding-tags-to-assets.png)
 
 1. Wählen Sie mindestens ein Tag aus. Das untergeordnete Tag wird automatisch zusammen mit dem übergeordneten Tag oder Namespace ausgewählt.
-In der Assets-Ansicht geänderte Tags werden auch in der Admin-Ansicht angewendet.
-
-## Einschränkungen {#limitations}
-
-Die folgenden erweiterten Taxonomiefunktionen sind derzeit in der Assets-Ansicht nicht verfügbar, sondern nur über die Admin-Ansicht:
-
-* **Lokalisierung:** Jede Lokalisierung muss in der Admin-Ansicht erfolgen.
-* **Stammpfad:** Stammpfade können nicht konfiguriert werden. Alle in der Taxonomie-Verwaltung gespeicherten Namespaces werden in der Assets-Ansicht über die Tag-Eigenschaft angezeigt.
-* **Standard-Tags:** Die in der Admin-Ansicht angewendeten Standard-Tags sind in der Assets-Ansicht sichtbar. Neue Standard-Tags können nicht über die Assets-Ansicht auf der Seite mit den Asset-Details hinzugefügt werden. Die vorhandenen Werte, die in Standard-Tags gespeichert sind, werden auf die Seite mit den Asset-Details angewendet.
-* **Benutzerdefinierte Namespaces:** Tags können benutzerdefinierten Namespaces nicht zugeordnet werden.
-* **Anzeigen von Verweisen:** Admins können die Tag-Nutzung in der Assets-Ansicht sehen. Dies bezieht sich auf alle Assets, die aktiv ein Tag verwenden. Admins können jedoch nicht einzelne Assets sehen, die das Tag in Verweisen nutzen.
+In den Assets Essentials geänderte Tags werden auch in as a Cloud Service Assets angewendet.
 
 <!--
 *   Overview
