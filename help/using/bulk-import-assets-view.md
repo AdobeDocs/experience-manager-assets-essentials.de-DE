@@ -1,25 +1,25 @@
 ---
-title: Massenimport von Assets mithilfe der Asset-Ansicht
-description: Erfahren Sie, wie Sie Assets mit der neuen Assets-Benutzeroberfläche (Asset-Ansicht) stapelweise importieren. Administratoren können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
-source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
+title: Massenimport von Assets mit Assets Essentials
+description: Erfahren Sie, wie Sie mit der neuen Assets-Benutzeroberfläche (Assets Essentials) Assets stapelweise importieren. Administratoren können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 25%
+source-wordcount: '1245'
+ht-degree: 24%
 
 ---
 
-# Massenimport von Assets mithilfe der Asset-Ansicht  {#bulk-import-assets-view}
+# Massenimport von Assets mit Assets Essentials  {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massenimport von Assets"
->abstract="Admins können jetzt mithilfe der Ansicht „Assets“ eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
+>abstract="Administratoren haben jetzt die Möglichkeit, mit Assets Essentials eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets zu importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
 
-Der Massenimport in die AEM Assets-Ansicht bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
+Der Massenimport in AEM Assets Essentials bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
 
 >[!NOTE]
 >
->Das Bulk Importer für die Asset-Ansicht verwendet dasselbe Backend wie das Bulk Importer für die Admin-Ansicht. Es bietet jedoch mehr Datenquellen, aus denen importiert werden kann, und eine optimierte Benutzererfahrung.
+>Das Massen-Importtool für Assets Essentials verwendet dasselbe Backend wie das des as a Cloud Service Massen-Importers für Assets. Assets Essentials bietet jedoch mehr Datenquellen, aus denen importiert werden kann, und eine optimierte Benutzererfahrung.
 
 Sie können Assets aus den folgenden Datenquellen importieren:
 
@@ -74,7 +74,7 @@ Wenn Sie Assets oder Ordner massenhaft importieren, importiert [!DNL Experience 
 
 Während des Massenimports sucht [!DNL Experience Manager] nach den vorhandenen Ordnern, um das erneute Importieren der Assets und Ordner zu vermeiden, und überprüft auch die Bereinigungsregeln, die im übergeordneten Ordner angewendet werden, in dem der Import stattfindet. Wenn die Bereinigungsregeln im übergeordneten Ordner angewendet werden, werden dieselben Regeln auf die Importquelle angewendet. Für neue Importe werden die folgenden Bereinigungsregeln angewendet, um die Dateinamen von Assets und Ordnern zu verwalten.
 
-Weitere Informationen zu unzulässigen Namen, zum Umgang mit Asset-Namen und zum Umgang mit Ordnernamen beim Massenimport finden Sie unter [Umgang mit Dateinamen beim Massenimport in der Admin-Ansicht](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+Weitere Informationen zu unzulässigen Namen, zum Umgang mit Asset-Namen und zum Umgang mit Ordnernamen beim Massenimport finden Sie unter [Umgang mit Dateinamen beim Massenimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## Vorhandene Massenimportkonfigurationen anzeigen {#view-import-configuration}
 
