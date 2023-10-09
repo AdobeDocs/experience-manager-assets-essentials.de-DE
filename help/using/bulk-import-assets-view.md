@@ -1,10 +1,11 @@
 ---
 title: Massenimport von Assets mit Assets Essentials
 description: Erfahren Sie, wie Sie mit der neuen Assets-Benutzeroberfläche (Assets Essentials) Assets stapelweise importieren. Administratoren können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
+source-git-commit: 77accbc70d973a9b4afddde1c8bcd60c37ff636d
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massenimport von Assets"
->abstract="Administratoren haben jetzt die Möglichkeit, mit Assets Essentials eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets zu importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
+>abstract="Admins können jetzt mithilfe von Assets Essentials eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
 
 Der Massenimport in AEM Assets Essentials bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
 
@@ -138,4 +139,3 @@ Klicken Sie auf ... , der dem in vorhandenen Konfigurationsnamen entspricht. **[
 ## Navigieren zu Assets nach einem Massenimport {#view-assets-after-bulk-import}
 
 Um den Zielspeicherort für Assets anzuzeigen, in den die Assets importiert werden, nachdem der Massenimportauftrag ausgeführt wurde, klicken Sie auf ..., der dem Konfigurationsnamen entspricht, und klicken Sie dann auf . **[!UICONTROL Anzeigen von Assets]**.
-
