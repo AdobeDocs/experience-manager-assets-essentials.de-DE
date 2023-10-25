@@ -5,7 +5,7 @@ exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 1db631a927e806d4b8ed83b1e0fc4a1e4f5bef71
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 
 Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
 
-Sie können auf Mein Arbeitsbereich zugreifen, indem Sie auf **[!UICONTROL Mein Arbeitsbereich]** in den Elementen klicken, die im linken Navigationsbereich verfügbar sind. Mein Arbeitsbereich umfasst eine Vielzahl von Widgets, die Schnellzugriff-, Einblicke-, Aufgaben- und Content-Widgets anzeigen. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
+Sie können auf Mein Arbeitsbereich zugreifen, indem Sie auf **[!UICONTROL Mein Arbeitsbereich]** in den Elementen klicken, die im linken Navigationsbereich verfügbar sind. Das Dashboard „Mein Arbeitsbereich“ umfasst eine Vielzahl von Widgets, über die Schnellzugriff, Einblicke, Aufgaben und Inhalte verfügbar sind. Sie können je nach Ihren Voreinstellungen konfigurieren, wie diese Widgets in Ihrem Arbeitsbereich angezeigt werden.
 
 >[!NOTE]
 >
@@ -38,18 +38,18 @@ Highlights upcoming features for Assets.
 
 **Schnellzugriff**
 
-Heften Sie Dateien, Ordner und Sammlungen an, um im Bedarfsfall schneller auf diese Elemente zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt. Sie können auf diese Elemente über das Dashboard „Mein Arbeitsbereich“ zugreifen, anstatt zu ihrem Speicherort im Repository zu navigieren.
+Heften Sie Dateien, Ordner und Sammlungen an, um im Bedarfsfall schneller auf diese Elemente zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt. Sie können über „Mein Arbeitsbereich“ darauf zugreifen, anstatt zu dem Speicherort zu navigieren, an dem sie im Repository gespeichert sind.
 
 So veröffentlichen Sie ein Asset, einen Ordner oder eine Sammlung:
 
 1. Wählen Sie das Element aus und klicken Sie auf **[!UICONTROL An Schnellzugriff anheften]**.
 
-1. Wählen Sie aus, ob das Element nur für Sie, für die gesamte Organisation oder für ausgewählte Gruppen veröffentlicht werden soll. Wenn Sie **[!UICONTROL Für Gruppen]**, definieren Sie die Gruppennamen in der **[!UICONTROL Pin für Gruppen]** -Feld.
+1. Wählen Sie aus, ob das Element nur für Sie, für die gesamte Organisation oder für ausgewählte Gruppen veröffentlicht werden soll. Wenn Sie **[!UICONTROL Für Gruppen]** auswählen, definieren Sie die Gruppennamen im Feld **[!UICONTROL Für Gruppen anheften]**.
 
-   ![Elemente für Gruppen fixieren](assets/pin-items-for-groups.png)
-1. Klicks **[!UICONTROL Pin]**.
+   ![Anheften von Elementen für Gruppen](assets/pin-items-for-groups.png)
+1. Klicken Sie auf **[!UICONTROL Anheften]**.
 
-   Das ausgewählte Element wird im **[!UICONTROL Schnellzugriff]** Abschnitt &quot;Mein Arbeitsbereich&quot;.
+   Das ausgewählte Element wird in „Mein Arbeitsbereich“ im Abschnitt **[!UICONTROL Schnellzugriff]** angezeigt.
    ![Aufgaben in Workspace](assets/quick-access.png)
 
 **Erkenntnisse**

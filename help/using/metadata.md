@@ -37,7 +37,7 @@ Die grundlegenden Metadaten wie Titel, Beschreibung und Upload-Datum sind auf de
 
 ## Aktualisieren von Metadaten {#update-metadata}
 
-Sobald das Metadatenformular Admin-seitig konfiguriert wurde, können andere Felder manuell aktualisiert werden. Sie sollten dies ändern, da Lesevorgänge sonst nur auf Grundlage des vorkonfigurierten Metadatenformulars möglich sind.
+Sobald Admins das Metadatenformular konfiguriert haben, können andere Felder manuell aktualisiert werden. Sie sollten dies ändern, da Lesevorgänge sonst nur auf Grundlage des vorkonfigurierten Metadatenformulars möglich sind.
 
 ## Smart-Tags {#smart-tags}
 
@@ -47,7 +47,7 @@ Die Smart-Tags werden nahezu in Echtzeit hinzugefügt und basierend auf dem Inha
 
 ![Anzeigen von Smart-Tags eines Assets](assets/metadata-view-tags.png)
 
-*Abbildung: Um die Smarttags eines Assets anzuzeigen, klicken Sie in der Symbolleiste auf **[!UICONTROL Details]** oder doppelklicken Sie auf das Asset.*
+*Abbildung: Um die Smart-Tags eines Assets anzuzeigen, klicken Sie in der Symbolleiste auf **[!UICONTROL Details]** oder doppelklicken Sie auf das Asset.*
 
 Smart-Tags enthalten auch einen Konfidenzwert in Prozent. Er zeigt die Konfidenz an, die mit dem angebrachten Tag verbunden ist. Sie können die automatisch angebrachten Smart-Tags moderieren.
 
@@ -59,7 +59,7 @@ Sie können Tags auch aus dem Abschnitt [!UICONTROL Smart-Tags] entfernen, die a
 
 ## Taxonomie-Management {#taxonomy-management}
 
-Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie Kategorie und Unterkategorie zu unterstützen. Wenn Sie hierarchische Tags einfügen müssen, können diese Admin-seitig einfach im Abschnitt [!UICONTROL Taxonomie-Management] unter [!UICONTROL Einstellungen] verwaltet werden. Sie können einen verwalteten Satz von Namespaces und Tags erstellen, auf die alle Benutzenden bei der Beschreibung von Inhalten zugreifen können. Nur Admins können Tag-Hierarchien in der [!UICONTROL Taxonomie-Verwaltung] einrichten und so sicherstellen, dass die Werte konsistent kontrolliert und verwendet werden.
+Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie Kategorie und Unterkategorie zu unterstützen. Wenn Sie hierarchische Tags einfügen müssen, kann dies durch Admins im Abschnitt [!UICONTROL Taxonomie-Management] von [!UICONTROL Einstellungen] getan werden. Sie können einen verwalteten Satz von Namespaces und Tags erstellen, auf die alle Benutzerinnen und Benutzer bei der Beschreibung von Inhalten zugreifen können. Nur die Admins können Tag-Hierarchien in [!UICONTROL Taxonomie-Manager] einrichten und so sicherstellen, dass die Werte konsistent kontrolliert und verwendet werden.
 
 ## Einrichten von Metadatenformularen {#metadata-forms}
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um ein Metadatenformular zu erstellen:
 
    *Abbildung: Benutzeroberfläche zur Erstellung von Metadatenformularen mit Optionen zum Hinzufügen von Komponenten und der Option zum Anzeigen einer Vorschau des Formulars.*
 
-1. Geben Sie in der rechten Leiste unter **[!UICONTROL Einstellungen]** für jede Komponente einen Namen für die Zuordnung mit den unterstützten Eigenschaften ein.
+1. Geben Sie in der rechten Leiste in den **[!UICONTROL Einstellungen]** für jede Komponente einen Namen für die Zuordnung mit den unterstützten Eigenschaften ein.
 1. Optional können Sie für eine Komponente **[!UICONTROL Erforderlich]** auswählen, damit das Metadatenfeld ein Pflichtfeld wird, und Sie können **[!UICONTROL Schreibgeschützt]** auswählen, damit das Feld auf der Seite [!UICONTROL Details] nicht bearbeitbar ist.
 1. Klicken Sie optional auf **[!UICONTROL Vorschau]**, um eine Vorschau des erstellten Formulars anzuzeigen.
 1. Optional können Sie auf jeder Registerkarte weitere Register und die erforderlichen Komponenten hinzufügen.
@@ -116,23 +116,23 @@ Wenn Sie ein vorhandenes Formular wiederzuverwenden wollen, um ein neues Formula
 ### Eigenschaftskomponenten {#property-components}
 
 Sie können Ihr Metadatenformular mit einer der folgenden Eigenschaftskomponenten anpassen. Ziehen Sie einfach den Komponententyp an die gewünschte Position im Formular und ändern Sie die Komponenteneinstellungen.
-Im Folgenden finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und ihre Speicherung.
+Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und wie sie gespeichert werden.
 
 | Komponentenname | Beschreibung |
 |---|---|
-| Akkordeon-Container | Fügen Sie eine reduzierbare Überschrift für eine Liste allgemeiner Komponenten und Eigenschaften hinzu. Kann standardmäßig erweitert oder reduziert werden. |
-| Einzeiliger Text | Fügen Sie eine einzeilige Texteigenschaft hinzu. |
-| Mehrzeiliger Text | Fügen Sie mehrere Textzeilen oder einen Absatz hinzu. Wird während der Eingabe entsprechend erweitert, um alle Inhalte einzuschließen. |
-| Mehrfachwerttext | Fügen Sie eine Texteigenschaft mit mehreren Werten hinzu. |
+| Akkordeon-Container | Fügt eine einklappbare Überschrift für eine Liste gängiger Komponenten und Eigenschaften hinzu. Sie kann standardmäßig ein- oder ausgeklappt sein. |
+| Einzeiliger Text | Fügt eine einzeilige Texteigenschaft hinzu. |
+| Mehrzeiliger Text | Fügt mehrere Textzeilen oder einen Absatz hinzu. Wird während der Eingabe von Text entsprechend erweitert, um alle Inhalte zu enthalten. |
+| Mehrfachwerttext | Fügt eine Texteigenschaft mit mehreren Werten hinzu. |
 | Zahl | Fügen Sie eine Zahlenkomponente hinzu. |
-| Kontrollkästchen | Fügen Sie einen booleschen Wert hinzu. Wird mit einem Wert als TRUE oder FALSE gespeichert. |
+| Kontrollkästchen | Fügt einen booleschen Wert hinzu. Wird als TRUE oder FALSE gespeichert, sobald ein Wert gespeichert wird. |
 | Datum | Fügen Sie eine Datumskomponente hinzu. |
-| Dropdown-Liste | Fügen Sie eine Dropdown-Liste hinzu. |
-| Status | Fügen Sie die Statuseigenschaft des Repositorys hinzu (zugeordnet zu „repo:state“). |
-| Asset-Status | Fügen Sie die standardmäßige Asset-Status-Eigenschaft hinzu (zugeordnet zu „dam:assetStatus“). |
-| Tags | Fügen Sie ein Tag aus Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (zugeordnet zu „xcm:tags“). |
-| Keywords | Fügen Sie freie Keywords hinzu (zugeordnet zu „dc:subject“). |
-| Smart-Tags | Fügen Sie automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
+| Dropdown | Fügt eine Dropdown-Liste hinzu. |
+| Status | Fügt die Repository-Statuseigenschaft hinzu (zugeordnet zu repo:state) |
+| Asset-Status | Fügt die standardmäßige Asset-Status-Eigenschaft hinzu (zugeordnet zu „dam:assetStatus“). |
+| Tags | Fügt ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (zugeordnet zu „xcm:tags“). |
+| Keywords | Fügt freie Keywords hinzu (zugeordnet zu „dc:subject“). |
+| Smart-Tags | Fügt automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
 
 ### Zuweisen eines Metadatenformulars zu einem Ordner {#assign-metadata-form-folder}
 
