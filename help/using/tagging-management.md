@@ -1,7 +1,8 @@
 ---
 title: Wie werden Tags in Assets Essentials verwaltet?
-description: Erfahren Sie, wie Sie Tags in Assets Essentials verwalten. Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+description: Erfahren Sie, wie Sie Tags in Assets Essentials verwalten. Mit Tags können Sie Assets kategorisieren, damit sie sich leichter durchsuchen und suchen lassen.
+exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
+source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 88%
@@ -13,18 +14,18 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="assets_taxonomy_management"
->title="Verwalten von Tags"
->abstract="Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen. Admins haben die Möglichkeit, die hierarchische Tagging-Struktur zu verwenden, die etwa die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung von Suchvorgängen, die Wiederverwendung von Tags und eine bessere Auffindbarkeit ermöglicht."
+>title="Tags verwalten"
+>abstract="Mit Tags können Sie Assets kategorisieren, damit sie sich leichter durchsuchen und suchen lassen. Admins haben die Möglichkeit, die hierarchische Tagging-Struktur zu verwenden, die die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung der Suche, die Wiederverwendung von Tags, die Verbesserung der Auffindbarkeit usw. erleichtert."
 
-Mit Tags können Sie Assets kategorisieren, damit sie sich leichter suchen und durchsuchen lassen. Tagging hilft bei der Verbreitung der entsprechenden Taxonomie an andere Benutzende und Workflows.
+Mit Tags können Sie Assets kategorisieren, damit sie sich leichter durchsuchen und suchen lassen. Tagging hilft bei der Verbreitung der entsprechenden Taxonomie an andere Benutzende und Workflows.
 
-Flache Listen mit kontrolliertem Vokabular können im Laufe der Zeit unüberschaubar werden. Admins haben die Möglichkeit, die hierarchische Tagging-Struktur zu verwenden, die etwa die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung von Suchvorgängen, die Wiederverwendung von Tags und eine bessere Auffindbarkeit ermöglicht.
+Flache Listen mit kontrolliertem Vokabular können im Laufe der Zeit unüberschaubar werden. Admins haben die Möglichkeit, die hierarchische Tagging-Struktur zu verwenden, die die Anwendung relevanter Metadaten, die Kategorisierung von Assets, die Unterstützung der Suche, die Wiederverwendung von Tags, die Verbesserung der Auffindbarkeit usw. erleichtert.
 
 Sie können einen Namespace auf Stammebene sowie eine hierarchische Struktur untergeordneter Tags innerhalb des Namespace erstellen. Beispielsweise können Sie den Namespace `Activities` auf Stammebene mit den Tags `Cycling`, `Hiking` und `Running` innerhalb des Namespace erstellen. Weitere untergeordnete Tags wie `Clothing` und `Shoes` sind unter `Running` möglich.
 
 ![Tagging-Verwaltung](assets/tags-hierarchy.png)
 
-Tagging bietet viele Vorteile, z. B.:
+Das Tagging bietet viele Vorteile, z. B.:
 
 * Mit Tagging können Autorinnen und Autoren verschiedene Assets einfach über eine gemeinsame Taxonomie organisieren. Autorinnen und Autoren können Assets anhand gemeinsamer Tags schnell suchen und organisieren.
 
@@ -34,7 +35,7 @@ Tagging bietet viele Vorteile, z. B.:
 
 * Tags, die in Assets as a Cloud Service verwaltet werden, bleiben mit den in Assets Essentials verwalteten Tags synchronisiert, was die Metadatenverwaltung und -integrität gewährleistet.
 
-Um Tags auf Assets anwenden zu können, müssen Sie zunächst einen Namespace erstellen und anschließend Tags erstellen, die Sie zum Namespace hinzufügen. Sie können auch Tags erstellen und diese zu einem vorhandenen Namespace hinzufügen. Alle auf der Stammebene erstellten Tags werden automatisch zum Standard-Tags-Namespace hinzugefügt. Anschließend können Sie das Feld „Tags“ zum Metadatenformular hinzufügen, damit es auf der Seite mit den Asset-Details angezeigt wird. Nach der Konfiguration dieser Einstellungen können Sie damit beginnen, Tags auf Assets anzuwenden.
+Um Tags auf Assets anwenden zu können, müssen Sie zunächst einen Namespace erstellen und anschließend Tags erstellen, die Sie zum Namespace hinzufügen. Sie können auch Tags erstellen und diese zu einem vorhandenen Namespace hinzufügen. Alle auf der Stammebene erstellten Tags werden automatisch zum Standard-Tags-Namespace hinzugefügt. Anschließend können Sie das Feld „Tags“ zum Metadatenformular hinzufügen, damit es auf der Seite mit den Asset-Details angezeigt wird. Nachdem Sie diese Einstellungen konfiguriert haben, können Sie damit beginnen, Tags auf Assets anzuwenden.
 
 >[!NOTE]
 >
@@ -46,13 +47,13 @@ Zusätzliche Funktionen, die über das in diesem Artikel erwähnte hinausgehen, 
 
 ## Erstellen eines Namespace {#creating-a-namespace}
 
-Ein Namespace ist ein Container für Tags, die nur auf Stammebene vorhanden sein können. Um mit der Einrichtung der hierarchischen Tag-Struktur zu beginnen, definieren Sie zunächst einen logischen Namen für den Namespace. Wenn Sie keinem der vorhandenen Namespaces ein Tag hinzufügen, wird das Tag automatisch in die Standard-Tags verschoben.
+Ein Namespace ist ein Container für Tags, die nur auf Stammebene vorhanden sein können. Um mit der Einrichtung der hierarchischen Tag-Struktur zu beginnen, definieren Sie zunächst einen logischen Namen für den Namespace. Wenn Sie ein Tag zu keinem der vorhandenen Namespaces hinzufügen, wird das Tag automatisch in die Standard-Tags verschoben.
 
 Führen Sie die folgenden Schritte aus, um einen Namespace zu erstellen:
 
-1. Gehen Sie unter `Settings` zu `Taxonomy Management`, um die Liste der vorhandenen Namespaces anzuzeigen. Sie können auch das Datum der letzten Änderung, die Person, die den Namespace oder die Tags darunter geändert hat, und die Häufigkeit der Verwendung des Tags in einem Asset anzeigen.
+1. Navigieren Sie unter `Settings` zu `Taxonomy Management`, um die Liste der vorhandenen Namespaces anzuzeigen. Sie können auch das Datum der letzten Änderung, die Person, die den Namespace oder die Tags darunter geändert hat, und die Häufigkeit der Verwendung des Tags in einem Asset anzeigen.
 1. Klicken Sie auf `Create Namespace`.
-1. Fügen Sie `Title`, `Name` und `Description` für den Namespace hinzu. Ihre Eingabe im Feld `Title` wird oben in der Hierarchie angezeigt. In der folgenden Abbildung bezieht sich **Activities** etwa auf den Namespace-Titel.
+1. Fügen Sie `Title`, `Name` und `Description` für den Namespace hinzu. Ihre Eingabe im Feld `Title` wird oben in der Hierarchie angezeigt. In der folgenden Abbildung bezieht sich **Aktivitäten** etwa auf den Namespace-Titel.
 
    ![Tagging-Verwaltung](assets/tags-hierarchy.png)
 
@@ -86,7 +87,7 @@ Führen Sie die folgenden Schritte aus, um Tags zu einem Namespace hinzuzufügen
 
 Unstrukturierte Tags oder Tags, die keine Hierarchie aufweisen, werden unter dem Namespace `Standard Tags` gespeichert. Wenn Sie zusätzliche beschreibende Begriffe hinzufügen möchten, ohne dass sich dies auf die verwaltete Taxonomie auswirkt, können Sie diesen Wert außerdem unter `Standard Tags` speichern. Sie können diese Werte im Laufe der Zeit unter strukturierte Namespaces verschieben. Darüber hinaus können Sie den Namespace `Standard Tags` als freien Eintrag für Keywords verwenden.
 
-Um ein Standard-Tag zu erstellen, klicken Sie auf der Stammebene auf `Create Tag`. Geben Sie Titel, Namen und Beschreibung an und klicken Sie dann auf `Save`.
+Um ein Standard-Tag zu erstellen, klicken Sie auf der Stammebene auf `Create Tag`. Geben Sie Titel, Name und Beschreibung an und klicken Sie dann auf `Save`.
 
 ![Hinzufügen von Tags zu Standard-Tags](assets/adding-tags-to-standard-tags.png)
 
@@ -134,7 +135,7 @@ Führen Sie die folgenden Schritte aus, um Tags zu löschen:
 
 ## Hinzufügen der Tag-Komponente zum Metadatenformular {#adding-tags-to-metadata-form}
 
-Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann derzeit nicht geändert werden. Assets as a Cloud Service Benutzer können die Zuordnung aktualisieren, um Tag-Werte mithilfe benutzerdefinierter Namespaces zu speichern und nur Untergruppen von Hierarchien mithilfe von Stammpfaden verfügbar zu machen.
+Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann zurzeit nicht geändert werden. Assets as a Cloud Service Benutzer können die Zuordnung aktualisieren, um Tag-Werte mithilfe benutzerdefinierter Namespaces zu speichern und nur Untergruppen von Hierarchien mithilfe von Stammpfaden verfügbar zu machen.
 
 Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponente zu Ihrem Metadatenformular hinzufügen:
 
@@ -150,21 +151,3 @@ Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponent
 
 1. Wählen Sie mindestens ein Tag aus. Das untergeordnete Tag wird automatisch zusammen mit dem übergeordneten Tag oder Namespace ausgewählt.
 In den Assets Essentials geänderte Tags werden auch in as a Cloud Service Assets angewendet.
-
-<!--
-*   Overview
-*   Benefits
-*   Prerequisites and Permissions
-*   Configuration
-*   Managing Tags
-    *   Creating a Namespace
-    *   Adding Tags to a Namespace
-    *   Adding Tags to Standard Tags
-    *   Moving Tags
-    *   Editing Tags
-    *   Deleting Tags
-*   Applying Tags
-    *   Adding Tags to the Metadata form
-    *   Adding Tags to Assets
-*   Limitations
--->
