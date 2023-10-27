@@ -4,42 +4,28 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 92%
+source-wordcount: '2435'
+ht-degree: 93%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials ist am 21. September 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials ist am 26. Oktober 2023 veröffentlicht.
 
-Die Liste der kürzlich hinzugefügten Funktionen umfasst:
+Die neuen Funktionen umfassen:
 
-**Zuweisen eines Metadatenformulars zu einem Ordner**
+**Massenimport von Assets aus der OneDrive-Datenquelle**
 
-Sie können jetzt ein Metadatenformular einem bestimmten Ordner in Ihrer Assets Essentials-Bereitstellung zuweisen. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann Eigenschaften an, die im zugewiesenen Metadatenformular definiert sind.
+Administratoren haben jetzt die Möglichkeit, [eine große Anzahl von Assets von OneDrive in AEM Assets importieren](/help/using/bulk-import-assets-view.md). Die aktualisierte Liste der unterstützten Datenquellen für den Massenimport enthält Azure, AWS, Google Cloud, Dropbox und OneDrive.
 
-![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
+![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/bulk-import-source-details.png)
 
-**Massenimport von Assets aus Datenquellen**
+**Unterstützung von Cross-Org-Berechtigungen für Bibliotheken**
 
-Administratoren können jetzt eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren. Administratoren müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen. Zu den unterstützten Datenquellen für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox.
-
-![Massenimport von Assets aus einer Datenquelle](/help/using/assets/bulk-import.png)
-
-**Bildbearbeitungswerkzeuge auf Basis von Adobe Expreß**
-
-Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen.
-
-![Bildbearbeitung mit Adobe Expreß](/help/using/assets/edit-adobe-express.png)
-
-**Flexibilität beim Einfügen von Elementen für meinen Workspace-Schnellzugriff**
-
-Möglichkeit, Elemente für Sie, für Ihre gesamte Organisation oder für eine Liste von Gruppen auszuwählen und anzuheften, damit sie je nach Ihrer Auswahl im Bereich Schnellzugriff in My Workspace angezeigt werden.
-
-![Elemente für Gruppen fixieren](assets/pin-items-for-groups.png)
+Mit Experience Manager Assets können Sie jetzt den Zugriff auf Creative Cloud-Bibliotheken in einer anderen IMS-Organisation konfigurieren. Dies ermöglicht einen einfacheren Zugriff auf die neuesten produktübergreifenden Workflows zwischen Creative Cloud und Experience Manager und reduziert Zeit und Aufwand für kreative Inhalte.
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
@@ -65,7 +51,34 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ## Frühere Versionen {#past-releases}
 
-### Version vom Juli 2023 {#july2023-release}
+### Version September 2023 {#september2023-release}
+
+**Zuweisen eines Metadatenformulars zu einem Ordner**
+
+Sie können jetzt ein Metadatenformular einem bestimmten Ordner in Ihrer Assets Essentials-Bereitstellung zuweisen. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann Eigenschaften an, die im zugewiesenen Metadatenformular definiert sind.
+
+![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
+
+**Massenimport von Assets aus Datenquellen**
+
+Admins können jetzt eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen. Zu den unterstützten Datenquellen für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox.
+
+![Massenimport von Assets aus einer Datenquelle](/help/using/assets/bulk-import.png)
+
+**Bildbearbeitungswerkzeuge basierend auf Adobe Express**
+
+Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen.
+
+![Bildbearbeitung mit Adobe Express](/help/using/assets/edit-adobe-express.png)
+
+**Flexibilität beim Anheften von Elementen für den Schnellzugriff „Mein Arbeitsbereich“**
+
+Möglichkeit, Elemente für Sie, für Ihre gesamtes Unternehmen oder für eine Liste von Gruppen auszuwählen und anzuheften, damit sie je nach Ihrer Auswahl im Abschnitt „Schnellzugriff“ in „Mein Arbeitsbereich“ angezeigt werden.
+
+![Anheften von Elementen für Gruppen](assets/pin-items-for-groups.png)
+
+
+### Version Juli 2023 {#july2023-release}
 
 **Verbessertes KI-Framework für Smart-Tags für Bilder**
 
@@ -81,7 +94,7 @@ Assets Essentials bietet jetzt die Möglichkeit, die Spalten auszuwählen, die i
 
 Assets Essentials sortiert die Suchergebnisse nun standardmäßig nach Relevanz. Sie können die gesuchten Assets in aufsteigender oder absteigender Reihenfolge nach `Name`, `Relevance`, `Size`, `Modified` und `Created` sortieren.
 
-### Version vom Juni 2023 {#june2023-release}
+### Version Juni 2023 {#june2023-release}
 
 **Hierarchisches Tagging von Assets für ein schnelleres Sucherlebnis**
 
@@ -91,7 +104,7 @@ Flache Listen mit kontrolliertem Vokabular werden im Laufe der Zeit immer unübe
 
 **Anheften von Dateien, Ordnern und Sammlungen zwecks Schnellzugriffs**
 
-Sie können nun Dateien, Ordner und Sammlungen anheften, um schneller auf diese Elemente zugreifen zu können, wenn Sie sie zu einem späteren Zeitpunkt benötigen. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt. Sie können auf diese Elemente über das Dashboard „Mein Arbeitsbereich“ zugreifen, anstatt zu ihrem Speicherort im Repository zu navigieren.
+Sie können nun Dateien, Ordner und Sammlungen anheften, um schneller auf diese Elemente zugreifen zu können, wenn Sie sie zu einem späteren Zeitpunkt benötigen. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt. Sie können über „Mein Arbeitsbereich“ darauf zugreifen, anstatt zu dem Speicherort zu navigieren, an dem sie im Repository gespeichert sind.
 
 ![Aufgaben in Workspace](assets/quick-access.png)
 
