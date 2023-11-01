@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
+source-git-commit: 078f6b63720b669c773b869f993174c0377343e3
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1047'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="assets_search"
 >title="Assets durchsuchen"
 >abstract="Sie können nach Assets suchen, indem Sie ein Keyword in der Suchleiste eingeben oder Assets nach ihrem Status, Dateityp, MIME-Typ, Erstellungs-, Änderungs- und Ablaufdatum oder ihrer Größe filtern. Zusätzlich zu den Standardfiltern können Sie auch benutzerdefinierte Filter anwenden. Sie können die gefilterten Ergebnisse als gespeicherte Suche oder Smart-Sammlung speichern."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de#manage-smart-collection" text="Erstellung von Smart-Sammlungen"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Video ansehen"
 
 [!DNL Assets Essentials] bietet eine effektive Suche, die einfach standardmäßig funktioniert. Die Suche ist umfassend, da es sich um eine Volltextsuche handelt. Mit der leistungsstarken Suchfunktion können Sie schnell das passende Asset ermitteln und die Geschwindigkeit Ihrer Inhaltserstellung steigern. [!DNL Assets Essentials] bietet Volltextsuche und Suchvorgänge durch die Metadaten wie Smart-Tags, Titel, Erstellungsdatum und Copyright.
 
