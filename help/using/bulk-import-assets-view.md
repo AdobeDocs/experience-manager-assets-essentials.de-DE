@@ -5,7 +5,7 @@ exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
 workflow-type: tm+mt
 source-wordcount: '1809'
-ht-degree: 62%
+ht-degree: 64%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massenimport von Assets"
->abstract="Administratoren können mit Assets Essentials eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
+>abstract="Admins können mithilfe von Assets Essentials eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Video ansehen"
 
 Der Massenimport in AEM Assets Essentials bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.

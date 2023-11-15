@@ -5,7 +5,7 @@ exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="assets_my_workspace"
 >title="Mein Arbeitsbereich"
->abstract="Assets enthält einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite ist eine zentrale Anlaufstelle, die einen Überblick über Ihre Arbeitselemente und schnellen Zugriff auf wichtige Workflows bietet."
+>abstract="Assets enthält einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche sowie Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite ist eine zentrale Anlaufstelle, die einen Überblick über Ihre Arbeitselemente und schnellen Zugriff auf wichtige Workflows bietet."
 
 Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
 

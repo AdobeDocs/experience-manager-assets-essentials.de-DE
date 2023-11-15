@@ -5,7 +5,7 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Alle Benutzenden, die dem [Produktprofil Assets Essentials-Administrierende](dep
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="Berichte"
->abstract="Im Insights-Dashboard können Sie Echtzeit-Ereignismetriken für Ihre Experience Manager Assets-Umgebung während der letzten 30 Tage oder der letzten 12 Monate anzeigen. Die Ereignisliste enthält die Anzahl der Downloads, Uploads, Top-Suchvorgänge usw."
+>abstract="Im Insights-Dashboard können Sie Echtzeit-Ereignismetriken für Ihre Experience Manager Assets-Umgebung während der letzten 30 Tage oder der letzten 12 Monate anzeigen. Die Ereignisliste enthält die Anzahl der Downloads, Uploads, Top-Suchbegriffe usw."
 
 In Assets Essentials können Sie mit dem Dashboard „Erkenntnisse“ Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
