@@ -2,10 +2,10 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
+source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,21 @@ Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experien
 
 Alle Benutzenden, die dem [Produktprofil Assets Essentials-Administrierende](deploy-administer.md) zugeordnet sind, können in Assets Essentials auf das Dashboard „Erkenntnisse“ zugreifen oder benutzerdefinierte Berichte erstellen.
 
-## Anzeigen von Erkenntnissen {#view-live-statistics}
+Navigieren Sie zum Zugriff auf Berichte zu **[!UICONTROL Berichte]** under **[!UICONTROL Einstellungen]**.
+
+![Berichte](assets/reports.png)
+<!--
+In the **[!UICONTROL Reports]** screen, various components are shown in the tabular format which includes the following:
+
+* **Title**: Title of the report
+* **Type**: Determines whether the report is uploaded or downloaded to the repository
+* **Description**: Provide details of the report that was given during uploading/downloading the report
+* **Status**: Determines whether the report is completed, under progress, or deleted.
+* **Author**: Provides email of the author who has uploaded/downloaded the report.
+* **Created**: Gives information of the date when the report was generated.
+-->
+
+## Anzeigen von Insights {#view-live-statistics}
 
 >[!CONTEXTUALHELP]
 >id="assets_reports"
@@ -34,13 +48,18 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
 
 * **Uploads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten in die Assets Essentials-Umgebung hochgeladen wurden, dargestellt als Liniendiagramm.
 
+* **Asset-Anzahl nach Größe**: Die Division der Anzahl der Assets basierend auf ihrem Bereich von 0 MB bis 100 GB.
+
+* **Speichernutzung**: Die Speichernutzung der Assets Essentials-Umgebung in Byte, die je nach Benutzerfreundlichkeit mithilfe eines Balkendiagramms dargestellt wird.
+
+  ![Speicher](assets/storage.png)
+
+
+* **Versand**: Das Diagramm zeigt die Anzahl der Assets als Versanddatum an.
+
+* **Asset-Anzahl nach Asset-Typ**: Stellt die Anzahl der verschiedenen MIME-Typen der verfügbaren Assets dar. Beispiel: application/zip, image/png, video/mp4, application/postscripte.
+
 * **Häufigste Suchanfragen**: Die am häufigsten gesuchten Begriffe und die Suchhäufigkeit dieser Begriffe in den letzten 30 Tagen oder 12 Monaten in Ihrer Assets Essentials-Umgebung, dargestellt in Tabellenform.
-
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
 
 ## Erstellen eines Herunterladen-Berichts {#create-download-report}
 
