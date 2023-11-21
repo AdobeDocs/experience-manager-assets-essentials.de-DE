@@ -2,9 +2,9 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
+source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '910'
 ht-degree: 90%
 
 ---
@@ -40,7 +40,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 In Assets Essentials können Sie mit dem Dashboard „Erkenntnisse“ Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
-![Symbolleistenoptionen bei der Auswahl eines Assets](assets/assets-essentials-live-statistics.png)
+<!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um die folgenden automatisch generierten Diagramme anzuzeigen:
 
@@ -52,7 +52,7 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
 
 * **Speichernutzung**: Die Speichernutzung der Assets Essentials-Umgebung in Byte, die je nach Benutzerfreundlichkeit mithilfe eines Balkendiagramms dargestellt wird.
 
-  ![Speicher](assets/storage.png)
+  <!--![Storage](assets/storage.png)-->
 
 
 * **Versand**: Das Diagramm zeigt die Anzahl der Assets als Versanddatum an.
@@ -60,6 +60,9 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
 * **Asset-Anzahl nach Asset-Typ**: Stellt die Anzahl der verschiedenen MIME-Typen der verfügbaren Assets dar. Beispiel: application/zip, image/png, video/mp4, application/postscripte.
 
 * **Häufigste Suchanfragen**: Die am häufigsten gesuchten Begriffe und die Suchhäufigkeit dieser Begriffe in den letzten 30 Tagen oder 12 Monaten in Ihrer Assets Essentials-Umgebung, dargestellt in Tabellenform.
+
+  ![Erkenntnisse](assets/insights1.png)
+  ![Erkenntnisse](assets/insights2.png)
 
 ## Erstellen eines Herunterladen-Berichts {#create-download-report}
 
