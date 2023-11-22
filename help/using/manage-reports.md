@@ -2,10 +2,10 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
+source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 90%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -48,21 +48,23 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
 
 * **Uploads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten in die Assets Essentials-Umgebung hochgeladen wurden, dargestellt als Liniendiagramm.
 
-* **Asset-Anzahl nach Größe**: Die Division der Anzahl der Assets basierend auf ihrem Bereich von 0 MB bis 100 GB.
+<!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Speichernutzung**: Die Speichernutzung der Assets Essentials-Umgebung in Byte, die je nach Benutzerfreundlichkeit mithilfe eines Balkendiagramms dargestellt wird.
 
   <!--![Storage](assets/storage.png)-->
 
 
-* **Versand**: Das Diagramm zeigt die Anzahl der Assets als Versanddatum an.
+<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
-* **Asset-Anzahl nach Asset-Typ**: Stellt die Anzahl der verschiedenen MIME-Typen der verfügbaren Assets dar. Beispiel: application/zip, image/png, video/mp4, application/postscripte.
+<!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Häufigste Suchanfragen**: Die am häufigsten gesuchten Begriffe und die Suchhäufigkeit dieser Begriffe in den letzten 30 Tagen oder 12 Monaten in Ihrer Assets Essentials-Umgebung, dargestellt in Tabellenform.
 
-  ![Erkenntnisse](assets/insights1.png)
-  ![Erkenntnisse](assets/insights2.png)
+  <!--
+   ![Insights](assets/insights1.png)
+   ![Insights](assets/insights2.png)
+   -->
 
 ## Erstellen eines Herunterladen-Berichts {#create-download-report}
 
