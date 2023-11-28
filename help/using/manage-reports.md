@@ -2,9 +2,9 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
+source-git-commit: cf5cba28d20d1633566881a7f651da6bcaa48c7b
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '851'
 ht-degree: 96%
 
 ---
@@ -52,16 +52,15 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
 
 * **Speichernutzung**: Die Speichernutzung der Assets Essentials-Umgebung in Byte, die je nach Benutzerfreundlichkeit mithilfe eines Balkendiagramms dargestellt wird.
 
-  <!--![Storage](assets/storage.png)-->
-
-
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Häufigste Suchanfragen**: Die am häufigsten gesuchten Begriffe und die Suchhäufigkeit dieser Begriffe in den letzten 30 Tagen oder 12 Monaten in Ihrer Assets Essentials-Umgebung, dargestellt in Tabellenform.
 
-  <!--
+![Erkenntnisse](assets/insights.png)
+
+<!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
