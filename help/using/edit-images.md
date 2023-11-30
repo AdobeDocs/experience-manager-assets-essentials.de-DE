@@ -3,10 +3,10 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Photoshop Express]  unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
+source-git-commit: 57968009bc23c2c7a57fd0faf643055832707618
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Versio
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Integration mit Adobe Express"
->abstract="Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen."
+>abstract="Einfache und intuitive Bildbearbeitungswerkzeuge mit Adobe Expreß, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen."
 
 ### Ändern der Bildgröße {#resize-image-using-express}
 
@@ -79,6 +79,36 @@ Mithilfe von Adobe Express können Sie schnell ein JPEG-Bild in ein PNG-Format k
 * Unterstützte Bildauflösung: Minimum – 50 Pixel, Maximum – 6000 Pixel pro Dimension
 
 * Maximale Dateigröße: 17 MB
+
+## Bilder mit dem eingebetteten Adobe Expreß-Editor bearbeiten {#edit-using-embedded-editor}
+
+[!DNL Assets Essentials] bietet eine umfassende Bearbeitung der Bilder direkt aus Ihrem Assets-Repository. Der eingebettete Editor ermöglicht die einfache und intuitive Bearbeitung eines Bildes mithilfe von [!DNL Adobe Express]. Sie beschleunigt die Wiederverwendbarkeit der Assets, indem Vorlagen verwendet oder die vorhandenen Assets geändert werden. Sie können vordefinierte Elemente verwenden, um Ihr Asset atemberaubend aussehen zu lassen oder durch schnelle Aktionen Ihr Bild mit nur wenigen Klicks zu bearbeiten.
+
+So bearbeiten Sie Bilder mit [!DNL Adobe Express] Führen Sie die folgenden Schritte aus:
+
+1. Wählen Sie ein Bild aus Ihrem [!DNL Experience Manager] Assets-Repository.
+1. Klicks **[!UICONTROL In Adobe Expreß öffnen]**. [!DNL Adobe Express] angezeigt.
+
+   ![eingebetteter Adobe Expreß-Editor](assets/embedded-editor.png)
+
+   Sie können die Funktionen von [!DNL Adobe Express] zum Ausführen aller Bildbearbeitungsaktionen, z. B. [Größenanpassung des Bildes](https://helpx.adobe.com/in/express/using/resize-image.html), [Hintergrundfarbe entfernen oder ändern](https://helpx.adobe.com/in/express/using/remove-background.html), [Zuschneiden des Bildes](https://helpx.adobe.com/in/express/using/crop-image.html)und vieles mehr.
+
+1. Nachdem Sie die Bildbearbeitung abgeschlossen haben, können Sie ein Asset als neues Asset herunterladen oder es als neue Version speichern.
+
+## Erstellen eines neuen Assets mit Adobe Expreß {#create-new-embedded-editor}
+
+[!DNL Assets Essentials] bietet Funktionen zum Erstellen einer neuen Vorlage mit [!DNL Adobe Express] eingebetteter Editor. So erstellen Sie ein neues Asset mit [!DNL Adobe Expresss]führen Sie die folgenden Schritte aus:
+
+1. Navigieren Sie zu **[!UICONTROL Mein Arbeitsbereich]** und klicken **[!UICONTROL Erstellen]**. [!DNL Adobe Express] leere Arbeitsfläche wird in der [!DNL Assets Essentials] -Benutzeroberfläche.
+1. Erstellen Sie Inhalt mit [Vorlagen](https://helpx.adobe.com/in/express/using/work-with-templates.html). Navigieren Sie andernfalls zu **[!UICONTROL Ihr Stuff]** , um vorhandenen Inhalt zu ändern.
+1. Klicken Sie nach Abschluss der Bearbeitung auf **[!UICONTROL Als neues Asset speichern]**.
+1. Geben Sie den Zielpfad für das erstellte Asset an.
+
+>[!NOTE]
+>
+>* Sie können `JPEG` und `PNG` -Formaten.
+>* Die Asset-Größe sollte kleiner als 14 MB sein.
+>* Sie können ein Bild als `PDF`, `JPEG`oder `PNG` -Formaten.
 
 ## Bearbeiten von Bildern mit [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
 
