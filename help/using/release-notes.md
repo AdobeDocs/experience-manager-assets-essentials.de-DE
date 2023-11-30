@@ -4,28 +4,48 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
+source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 93%
+source-wordcount: '2548'
+ht-degree: 89%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials ist am 26. Oktober 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 30. November 2023 veröffentlicht.
 
 Die neuen Funktionen umfassen:
 
-**Massenimport von Assets aus der OneDrive-Datenquelle**
+**Eingebetteter Adobe Expreß-Editor in AEM Assets**
 
-Administratoren haben jetzt die Möglichkeit, [eine große Anzahl von Assets von OneDrive in AEM Assets importieren](/help/using/bulk-import-assets-view.md). Die aktualisierte Liste der unterstützten Datenquellen für den Massenimport enthält Azure, AWS, Google Cloud, Dropbox und OneDrive.
+Benutzer mit Zugriff auf Express verfügen jetzt über integrierte Bildbearbeitungs- und -erstellungs-Tools von Adobe Expreß und Adobe Firefly, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu verbessern und die Content-Geschwindigkeit zu beschleunigen.
 
-![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/bulk-import-source-details.png)
+![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/adobe-express-aem-assets.png)
 
-**Unterstützung von Cross-Org-Berechtigungen für Bibliotheken**
+<!--
 
-Mit Experience Manager Assets können Sie jetzt den Zugriff auf Creative Cloud-Bibliotheken in einer anderen IMS-Organisation konfigurieren. Dies ermöglicht einen einfacheren Zugriff auf die neuesten produktübergreifenden Workflows zwischen Creative Cloud und Experience Manager und reduziert Zeit und Aufwand für kreative Inhalte.
+**Smart tags blocklist** 
+
+Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
+
+  ![storage usage insights](/help/using/assets/block-tags.png)
+
+-->
+
+**Verwendungsberichte in Insights**:
+
+Administratoren haben jetzt die Möglichkeit, die im Rahmen von Insights verfügbaren Speicherverwendungsberichte anzuzeigen.
+
+![Einblicke zur Speicherverwendung](/help/using/assets/storage-usage-insights.png)
+
+**Erste Homepage-Konfiguration durchsuchen**
+
+Mit Assets Essentials können Sie jetzt das Starterlebnis für Ihre Organisation konfigurieren. Wenn Sie zuerst als Startseite die Suche auswählen, können Sie die Ausrichtung der Suchleiste, das Hintergrundbild und das Logo für Ihre Organisation konfigurieren.
+
+![Erste Konfiguration durchsuchen](/help/using/assets/search-first-configuration.png)
+
+
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
 
@@ -50,6 +70,18 @@ Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird lau
 Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem Team [Feedback senden](#provide-feedback).
 
 ## Frühere Versionen {#past-releases}
+
+### Version Oktober 2023 {#october2023-release}
+
+**Massenimport von Assets aus der OneDrive-Datenquelle**
+
+Administratoren haben jetzt die Möglichkeit, [eine große Anzahl von Assets von OneDrive in AEM Assets importieren](/help/using/bulk-import-assets-view.md). Die aktualisierte Liste der unterstützten Datenquellen für den Massenimport enthält Azure, AWS, Google Cloud, Dropbox und OneDrive.
+
+![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/bulk-import-source-details.png)
+
+**Unterstützung von Cross-Org-Berechtigungen für Bibliotheken**
+
+Mit Experience Manager Assets können Sie jetzt den Zugriff auf Creative Cloud-Bibliotheken in einer anderen IMS-Organisation konfigurieren. Dies ermöglicht einen einfacheren Zugriff auf die neuesten produktübergreifenden Workflows zwischen Creative Cloud und Experience Manager und reduziert Zeit und Aufwand für kreative Inhalte.
 
 ### Version September 2023 {#september2023-release}
 
