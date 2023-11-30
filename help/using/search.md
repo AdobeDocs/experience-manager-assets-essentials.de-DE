@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
+source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1303'
+ht-degree: 76%
 
 ---
 
@@ -123,7 +123,7 @@ Entfernen benutzerdefinierter Filter
 
 ## Gespeicherte Suchvorgänge {#saved-search}
 
-In [!DNL Assets Essentials] ist die Suchfunktion recht einfach zu verwenden. Über das Suchfeld können Sie nicht nur ein Keyword eingeben und die Eingabetaste drücken, um die Ergebnisse zu sehen, sondern auch schnell mit einem einzigen Klick erneut nach Ihren kürzlich gesuchten Keywords suchen.
+In [!DNL Assets Essentials] ist die Suchfunktion recht einfach zu verwenden. Über das Suchfeld können Sie nicht nur einen Suchbegriff eingeben und die Eingabetaste drücken, um die Ergebnisse anzuzeigen, sondern auch schnell nach Ihren kürzlich gesuchten Suchbegriffen suchen, indem Sie mit einem Klick erneut nach ihnen suchen.
 
 Sie können die Suchergebnisse auch nach bestimmten Kriterien rund um Metadaten und Art der Assets filtern. Mit [!DNL Assets Essentials] können Sie bei häufig verwendeten Filtern die Suchparameter speichern, um das Sucherlebnis zu verbessern. Um zu suchen und den Filter mit nur einem Klick anzuwenden, können Sie auch die gespeicherte Suche auswählen.
 
@@ -169,6 +169,39 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 * **Dateispeicherort anzeigen**: Navigieren Sie zum Speicherort des Asset-Ordners.
 
 * **An Schnellzugriff anheften**: [Heften Sie ein Asset an](my-workspace.md), um später im Bedarfsfall schneller darauf zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
+
+## Konfigurieren der ersten Homepage für die Suche {#configuring-search-first-homepage}
+
+Auf der ersten Homepage suchen können Sie sofort durch verschiedene Dateien und Ordner navigieren. Damit können Sie mühelos durch Asset-Typen, Metadaten, Smart-Tags und sogar den Inhalt selbst navigieren, ohne das genaue Keyword zu kennen. [!DNL Assets Essentials] ermöglicht es Ihnen, Ihre Startseite zu konfigurieren, indem Sie steuern, was angezeigt werden soll, wenn Sie sich bei [!DNL Assets Essentials].
+
+Um die erste Startseite der Suche zu konfigurieren, führen Sie die folgenden Schritte aus:
+
+1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
+1. Auswählen **[!UICONTROL Suche zuerst]**. Es öffnet außerdem die Konfiguration der ersten Suchfunktion. Sie können [Ausrichtung](#setting-alignment-search-bar) oder [Festlegen von Hintergrund- und Logo-Bildern](#setting-background-image-and-logo) auf Ihrer Homepage.
+
+### Festlegen der Ausrichtung der Suchleiste {#setting-alignment-search-bar}
+
+[!DNL Assets Essentials] ermöglicht es Ihnen, die Ausrichtung der Suchleiste zu ändern. Sie können die Suchleiste entweder in der Mitte oder oben anzeigen lassen. Wählen Sie die gewünschte Ausrichtung aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+![Suchen Sie die erste Startseitenausrichtung](assets/search-first-alignment.png)
+
+### Festlegen von Hintergrund- und Logo-Bildern für die Homepage {#setting-background-image-and-logo}
+
+Sie können Ihrer ersten Suchhomepage ein Markenlogo und ein Hintergrundbild hinzufügen. Führen Sie die folgenden Schritte aus:
+
+1. Navigieren Sie zu **[!UICONTROL Hintergrund und Logo-Bild]** Abschnitt unter **[!UICONTROL Homepage]**.
+1. Klicks **[!UICONTROL Ersetzen]** , um Bilder aus einem vorhandenen Asset-Repository zu durchsuchen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. [Vorschau](#preview-configured-homepage) die Änderungen, die über die Änderungen hinweg vorgenommen werden sollen.
+
+### Vorschau der konfigurierten Homepage {#preview-configured-homepage}
+
+Sie können eine Vorschau anzeigen, um das Layout und die Formatierung der ersten Suchhomepage zu überprüfen. Verwenden **[!UICONTROL Vorschau]** können Sie das Layout korrigieren oder Änderungen entsprechend den Anforderungen vornehmen. Führen Sie die folgenden Schritte aus, um eine Vorschau der konfigurierten Homepage anzuzeigen:
+
+1. Klicks **[!UICONTROL Allgemeine Einstellungen]** und wählen **[!UICONTROL Suche zuerst]**.
+1. Navigieren Sie zu **[!UICONTROL Anpassen der ersten Startseite der Suche]** und klicken **[!UICONTROL Vorschau]**. Umschalten **[!UICONTROL Dunkles Thema]** -Schaltfläche, um die Startseite im dunklen oder hellen Design als Vorschau anzuzeigen.
+1. Klicks **[!UICONTROL Schließen]** um den Vorschaubildschirm zu schließen.
+
+   ![Erste Homepage-Vorschau durchsuchen](assets/search-first-preview.gif)
 
 ## Nächste Schritte {#next-steps}
 
