@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
+source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 76%
+source-wordcount: '1295'
+ht-degree: 77%
 
 ---
 
@@ -172,7 +172,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 ## Konfigurieren der ersten Homepage für die Suche {#configuring-search-first-homepage}
 
-Auf der ersten Homepage suchen können Sie sofort durch verschiedene Dateien und Ordner navigieren. Damit können Sie mühelos durch Asset-Typen, Metadaten, Smart-Tags und sogar den Inhalt selbst navigieren, ohne das genaue Keyword zu kennen. [!DNL Assets Essentials] ermöglicht es Ihnen, Ihre Startseite zu konfigurieren, indem Sie steuern, was angezeigt werden soll, wenn Sie sich bei [!DNL Assets Essentials].
+Mit Assets Essentials können Sie die Standard-Landingpage für Ihre Organisation auswählen. Bei der Verwendung von Search First als Startseite haben Sie auch Optionen, das Branding der Seite anzupassen, indem Sie den Hintergrund und die Logo-Bilder so konfigurieren, dass sie Ihrer Marke entsprechen.
 
 Um die erste Startseite der Suche zu konfigurieren, führen Sie die folgenden Schritte aus:
 
@@ -191,7 +191,7 @@ Sie können Ihrer ersten Suchhomepage ein Markenlogo und ein Hintergrundbild hin
 
 1. Navigieren Sie zu **[!UICONTROL Hintergrund und Logo-Bild]** Abschnitt unter **[!UICONTROL Homepage]**.
 1. Klicks **[!UICONTROL Ersetzen]** , um Bilder aus einem vorhandenen Asset-Repository zu durchsuchen.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. [Vorschau](#preview-configured-homepage) die Änderungen, die über die Änderungen hinweg vorgenommen werden sollen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. [Vorschau](#preview-configured-homepage) die Änderungen, um die Änderungen zu überprüfen.
 
 ### Vorschau der konfigurierten Homepage {#preview-configured-homepage}
 
