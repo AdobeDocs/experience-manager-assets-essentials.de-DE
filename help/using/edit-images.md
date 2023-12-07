@@ -5,8 +5,8 @@ role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 74%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Versio
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Integration mit Adobe Express"
->abstract="Einfache und intuitive Bildbearbeitungswerkzeuge mit Adobe Expreß, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen."
+>abstract="Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen."
 
 ### Ändern der Bildgröße {#resize-image-using-express}
 
