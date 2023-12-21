@@ -4,18 +4,28 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
+source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
 workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 89%
+source-wordcount: '2617'
+ht-degree: 88%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am 30. November 2023 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am Mittwoch, 19. Dezember 2023 veröffentlicht.
 
-Die neuen Funktionen umfassen:
+Zu den kürzlich hinzugefügten Funktionen gehören:
+
+**GenAI-Bilder mit Adobe Firefly erstellen**
+
+Erstellen Sie neue Bilder auf der Basis von Suchabfragen mit einer Adobe Firefly-Text-zu-Bild-Funktion (Adobe Firefly-Lizenz erforderlich).
+
+![Firefly-Integration für Assets](/help/using/assets/assets-firefly-integration.png)
+
+**Ähnliche Bilder suchen**
+
+Sie können jetzt Inhalte einfach finden, indem Sie ein Bild auswählen und ähnliche Bilder im Experience Manager Assets-Repository anzeigen.
 
 **Eingebetteter Adobe Expreß-Editor in AEM Assets**
 
