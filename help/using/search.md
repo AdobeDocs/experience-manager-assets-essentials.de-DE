@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 69%
+source-wordcount: '1442'
+ht-degree: 67%
 
 ---
 
@@ -32,11 +32,16 @@ Um nach Assets zu suchen,
 
 ## Suchen von Assets mithilfe von Adobe Firefly
 
-Mit der Integration von [!UICONTROL Adobe Firefly] und [!UICONTROL Adobe Experience Manager Assets]können Sie effizient nach Assets suchen, die in keinem der Asset-Ordner verfügbar sind. <br> Sie können beispielsweise ein Asset mit dem Keyword `Bugatti Type 57`. Bei der Suche nach `Bugatti Type 57`, werden keine Ergebnisse gefunden.
+Wenn Sie nach einem Asset suchen, das in keinem der Ordner &quot;Assets&quot;verfügbar ist, verwenden Sie die [!UICONTROL Adobe Firefly] Asset-Suchfunktion in [!UICONTROL Adobe Experience Manager Assets]. Mit dieser Funktion können Sie effizient nach Assets suchen, die möglicherweise nicht in den angegebenen Ordnern gespeichert sind.  <br> Sie können beispielsweise ein Asset mit dem Keyword `Bugatti Type 57`. Bei der Suche nach `Bugatti Type 57`, werden keine Ergebnisse gefunden. <br>
+Geben Sie in der Suchleiste den Asset-Namen ein und klicken Sie auf **[!UICONTROL Erzeugen]**.
 
-Geben Sie in der Suchleiste den Asset-Namen ein und klicken Sie auf **[!UICONTROL Erzeugen]**. Die Beispiel-Assets werden auf dem Bildschirm angezeigt. Sie können diese Assets für den einfachen Zugriff in Ihren gewünschten Ordner hochladen.
+![Firefly-Integration](firefly-integration.jpg)
+*Abbildung: Keine Ergebnisse für Bugatti Typ 57 im Asset-Ordner gefunden.*
+
+Die Beispiel-Assets werden auf dem Bildschirm angezeigt. Sie können diese Assets für den einfachen Zugriff in Ihren gewünschten Ordner hochladen.
 
 ![Firefly-Integration](assets/bugatti-type-57.jpg)
+*Abbildung: Referenzieren von Assets, die mit der Adobe Firefly-Asset-Suchfunktion durchsucht wurden.*
 
 ## Filtern von Suchergebnissen {#refine-search-results}
 

@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e13e204482e480b3a66b48263e965787bd980842
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1152'
+ht-degree: 90%
 
 ---
 
@@ -17,19 +17,43 @@ Mithilfe der benutzerfreundlichen Oberfläche von [!DNL Assets Essentials] könn
 
 Verwenden Sie [!DNL Assets Essentials], um die folgenden Asset-Management-Aufgaben auszuführen. Wenn Sie ein Asset auswählen, werden die folgenden Optionen in der Symbolleiste oben angezeigt.
 
-![Symbolleistenoptionen bei der Auswahl eines Assets](assets/toolbar-image-selected.png)
+![Symbolleistenoptionen bei der Auswahl eines Assets](assets/asset-options.png)
 
 *Abbildung: In der Symbolleiste verfügbare Optionen für ein ausgewähltes Bild.*
 
+Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, und die folgenden Aktionen ausführen:
+
 * ![deselect icon](assets/do-not-localize/close-icon.png) Deaktivieren der Auswahl.
+
+* ![Ähnliches Symbol suchen](assets/do-not-localize/find-similar.svg) Suchen Sie ähnliche Bild-Assets in der Assets-Benutzeroberfläche basierend auf den Metadaten und Smart-Tags.
+
 * ![details icon](assets/do-not-localize/edit-in-icon.png) Anklicken, um ein Asset in der Vorschau anzuzeigen und die detaillierten Metadaten anzuzeigen. Aus der Vorschau heraus können Sie die Versionen anzeigen und ein Bild bearbeiten.
+
 * ![download icon](assets/do-not-localize/download-icon.png) Lädt das ausgewählte Asset in Ihr lokales Dateisystem herunter.
+
+* ![Sammlungssymbol](assets/do-not-localize/add-collection.svg) Fügen Sie das ausgewählte Asset zu einer Sammlung hinzu.
+
+* ![Symbol &quot;Assets veröffentlichen&quot;](assets/do-not-localize/pin-quick-access.svg) Ein Asset für einen schnelleren Zugriff veröffentlichen, wenn Sie es später benötigen. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
+
+* ![Bearbeiten im Express-Symbol](assets/do-not-localize/edit-e.svg) Bearbeiten Sie ein Bild im integrierten Adobe Expreß in Adobe Experience Manager Assets.
+
+* ![Symbol &quot;Asset bearbeiten&quot;](assets/do-not-localize/edit-e.svg) Bearbeiten Sie das Bild mit Adobe Expreß.
+
+* ![Symbol &quot;Asset-Link freigeben&quot;](assets/do-not-localize/share-link.svg) für ein Asset mit anderen Benutzern, damit sie darauf zugreifen und es herunterladen können.
+
 * ![delete icon](assets/do-not-localize/delete-icon.png) Löscht das ausgewählte Asset oder den ausgewählten Ordner.
-* ![checkout icon](assets/do-not-localize/checkout-icon.png) Checkt das ausgewählte Asset aus.
+
 * ![copy icon](assets/do-not-localize/copy-icon.png) Kopiert die ausgewählte Datei oder den ausgewählten Ordner.
+
 * ![move icon](assets/do-not-localize/move-icon.png) Verschiebt das ausgewählte Asset oder den ausgewählten Ordner an einen anderen Speicherort in der Repository-Hierarchie.
+
 * ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
+
+* ![Symbol Bibliothek kopieren](assets/do-not-localize/copy-icon.png) Asset zur Bibliothek hinzufügen.
+
 * ![assign task icon](assets/do-not-localize/review-delegate-icon.png) Weist anderen Benutzern Aufgaben zu, damit sie an einem Asset zusammenarbeiten können.
+
+* ![Symbol &quot;Aufgabe zuweisen&quot;](assets/do-not-localize/watch-asset.svg) Überwachen Sie die Vorgänge, die für ein Asset ausgeführt werden.
 
 Sie können die gleichen Optionen bei den Miniaturansichten der Assets anzeigen.
 
@@ -148,9 +172,3 @@ Um das Metadatenfeld „Ablaufdatum“ zum Formular hinzuzufügen, ziehen Sie di
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
 * Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
-
-
-
-<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
-* ![Add to Collection]() Add the selected asset to a collection.
-* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->
