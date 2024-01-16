@@ -4,9 +4,9 @@ description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Photoshop Express]  unte
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -80,35 +80,35 @@ Mithilfe von Adobe Express können Sie schnell ein JPEG-Bild in ein PNG-Format k
 
 * Maximale Dateigröße: 17 MB
 
-## Bilder mit dem eingebetteten Adobe Expreß-Editor bearbeiten {#edit-using-embedded-editor}
+## Bildbearbeitung mit dem integrierten Adobe Express-Editor {#edit-using-embedded-editor}
 
-Anwender mit Zugriff auf Express verfügen nun über integrierte Bildbearbeitungs- und -erstellungs-Tools von Adobe Expreß und Adobe Firefly, die direkt in den Assets Essentials verfügbar sind, um die Wiederverwendung von Inhalten zu verbessern und die Content-Geschwindigkeit zu beschleunigen. Sie können auch vordefinierte Elemente verwenden, um Ihr Asset atemberaubend aussehen zu lassen oder durch schnelle Aktionen Ihr Bild mit nur wenigen Klicks zu bearbeiten.
+Benutzende mit Zugriff auf Express verfügen jetzt über integrierte Tools von Adobe Express und Adobe Firefly zur Bildbearbeitung und -erstellung, die direkt in Assets Essentials verfügbar sind, um die Wiederverwendung von Inhalten zu verbessern und die Geschwindigkeit von Inhalten zu beschleunigen. Sie können auch vordefinierte Elemente verwenden, um Ihr Asset atemberaubend aussehen zu lassen oder Ihr Bild mit nur wenigen Klicks schnell und bequem zu bearbeiten.
 
-So bearbeiten Sie Bilder mit [!DNL Adobe Express] Führen Sie die folgenden Schritte aus:
+Gehen Sie wie folgt vor, um Bilder mit dem in [!DNL Adobe Express] integrierten Editor zu bearbeiten:
 
-1. Wählen Sie ein Bild aus Ihrem [!DNL Experience Manager] Assets-Repository.
-1. Klicks **[!UICONTROL In Adobe Expreß öffnen]**.
+1. Wählen Sie ein Bild aus Ihrem [!DNL Experience Manager]-Assets-Repository.
+1. Klicken Sie auf **[!UICONTROL In Adobe Express öffnen]**.
 
-   ![eingebetteter Adobe Expreß-Editor](assets/embedded-editor.png)
+   ![Integrierter Adobe Express-Editor](assets/embedded-editor.png)
 
-   Sie können die Funktionen von [!DNL Adobe Express] zum Ausführen aller Bildbearbeitungsaktionen, z. B. [Größenanpassung des Bildes](https://helpx.adobe.com/in/express/using/resize-image.html), [Hintergrundfarbe entfernen oder ändern](https://helpx.adobe.com/in/express/using/remove-background.html), [Zuschneiden des Bildes](https://helpx.adobe.com/in/express/using/crop-image.html)und vieles mehr.
+   Sie können die Funktionen von [!DNL Adobe Express] zum Ausführen aller Bildbearbeitungsaktionen nutzen, z. B. [Bildgröße ändern](https://helpx.adobe.com/de/express/using/resize-image.html), [Hintergrundfarbe entfernen oder ändern](https://helpx.adobe.com/de/express/using/remove-background.html), [Bild beschneiden](https://helpx.adobe.com/de/express/using/crop-image.html) und vieles mehr.
 
 1. Nachdem Sie die Bildbearbeitung abgeschlossen haben, können Sie ein Asset als neues Asset herunterladen oder es als neue Version speichern.
 
-## Erstellen neuer Assets mit Adobe Expreß {#create-new-embedded-editor}
+## Erstellen neuer Assets in Adobe Express {#create-new-embedded-editor}
 
-[!DNL Assets Essentials] ermöglicht Ihnen die Erstellung einer neuen Vorlage mit [!DNL Adobe Express] eingebetteter Editor. So erstellen Sie ein neues Asset mit [!DNL Adobe Express]führen Sie die folgenden Schritte aus:
+In [!DNL Assets Essentials] können Sie mithilfe des in [!DNL Adobe Express] integrierten Editors eine komplett neue Vorlage erstellen. Gehen Sie wie folgt vor, um in [!DNL Adobe Express] ein neues Asset zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Mein Arbeitsbereich]** und klicken **[!UICONTROL Erstellen]** im Adobe Expreß-Banner, das über dem [!UICONTROL Schnellzugriff] Abschnitt. [!DNL Adobe Express] leere Arbeitsfläche wird in der [!DNL Assets Essentials] -Benutzeroberfläche.
-1. Erstellen Sie Inhalt mit [Vorlagen](https://helpx.adobe.com/in/express/using/work-with-templates.html). Navigieren Sie andernfalls zu **[!UICONTROL Ihr Stuff]** , um vorhandenen Inhalt zu ändern.
+1. Navigieren Sie zu **[!UICONTROL Mein Arbeitsbereich]** und klicken Sie auf **[!UICONTROL Erstellen]** im Adobe Express-Banner über dem Abschnitt [!UICONTROL Schnellzugriff]. [!DNL Adobe Express] leere Arbeitsfläche wird in der [!DNL Assets Essentials]-Benutzeroberfläche angezeigt.
+1. Erstellen Sie Inhalte mithilfe von [Vorlagen](https://helpx.adobe.com/de/express/using/work-with-templates.html). Navigieren Sie andernfalls zu **[!UICONTROL Ihr Inhalt]**, um vorhandene Inhalte zu ändern.
 1. Klicken Sie nach Abschluss der Bearbeitung auf **[!UICONTROL Als neues Asset speichern]**.
-1. Geben Sie den Zielpfad für das erstellte Asset an und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie einen Zielpfad für das erstellte Asset ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
->* Sie können nur Bilder von `JPEG` und `PNG` Formattypen.
->* Die Größe des Assets muss kleiner als 14 MB sein.
->* Sie können ein Bild in `PDF`, `JPEG`oder `PNG` -Formaten.
+>* Sie können nur Bilder mit den Formattypen `JPEG` und `PNG` ändern.
+>* Das Asset muss kleiner als 14 MB sein.
+>* Sie können ein Bild im Format `PDF`, `JPEG` oder `PNG` speichern.
 
 ## Bearbeiten von Bildern mit [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
 
