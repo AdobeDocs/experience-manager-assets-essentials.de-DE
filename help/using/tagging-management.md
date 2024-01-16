@@ -1,11 +1,11 @@
 ---
-title: Wie werden Tags in Assets Essentials verwaltet?
+title: Verwalten von Tags in Assets Essentials
 description: Erfahren Sie, wie Sie Tags in Assets Essentials verwalten. Mit Tags können Sie Assets kategorisieren, damit sie sich leichter durchsuchen und suchen lassen.
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
-workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '1284'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Das Tagging bietet viele Vorteile, z. B.:
 
 * Tags können sich im Laufe der Zeit weiterentwickeln, wenn sich das organisatorische Vokabular ändert.
 
-* Tags, die in Assets as a Cloud Service verwaltet werden, bleiben mit den in Assets Essentials verwalteten Tags synchronisiert, was die Metadatenverwaltung und -integrität gewährleistet.
+* Im Assets as a Cloud Service verwaltete Tags bleiben mit den in Assets Essentials verwalteten Tags synchronisiert. Dadurch werden Metadaten-Governance und -Integrität sichergestellt.
 
 Um Tags auf Assets anwenden zu können, müssen Sie zunächst einen Namespace erstellen und anschließend Tags erstellen, die Sie zum Namespace hinzufügen. Sie können auch Tags erstellen und diese zu einem vorhandenen Namespace hinzufügen. Alle auf der Stammebene erstellten Tags werden automatisch zum Standard-Tags-Namespace hinzugefügt. Anschließend können Sie das Feld „Tags“ zum Metadatenformular hinzufügen, damit es auf der Seite mit den Asset-Details angezeigt wird. Nachdem Sie diese Einstellungen konfiguriert haben, können Sie damit beginnen, Tags auf Assets anzuwenden.
 
@@ -43,7 +43,7 @@ Um Tags auf Assets anwenden zu können, müssen Sie zunächst einen Namespace er
 
 ![Tagging-Verwaltung](assets/tagging-taxonomy-management.png)
 
-Zusätzliche Funktionen, die über das in diesem Artikel erwähnte hinausgehen, einschließlich Zusammenführen, Umbenennen, Lokalisieren und Veröffentlichen von Tags, sind in Assets as a Cloud Service verfügbar.
+Zusätzlich zu den in diesem Artikel beschriebenen Funktionen stehen in Assets as a Cloud Service weitere Funktionen zur Verfügung, wie Zusammenführen, Umbenennen, Lokalisieren und Veröffentlichen von Tags.
 
 ## Erstellen eines Namespace {#creating-a-namespace}
 
@@ -93,7 +93,7 @@ Um ein Standard-Tag zu erstellen, klicken Sie auf der Stammebene auf `Create Tag
 
 >[!NOTE]
 >
->Wenn Sie `Standard Tags` -Namespace, der Assets as a Cloud Service verwendet, werden die auf der Stammebene erstellten Tags nicht in der Liste der verfügbaren Tags angezeigt.
+>Wenn Sie den Namespace `Standard Tags` mithilfe des Assets as a Cloud Services löschen, werden die auf Stammebene erstellten Tags nicht in der Liste der verfügbaren Tags angezeigt.
 
 ## Verschieben von Tags {#moving-tags}
 
@@ -116,7 +116,7 @@ Um den Titel eines Tags zu bearbeiten, wählen Sie das Tag aus und klicken Sie a
 >[!NOTE]
 >
 >* Der `Name` eines Tags kann nicht aktualisiert werden. Der Stammpfad für ein Tag basiert ebenfalls auf dem Namen des Tags. Der Pfad bleibt auch dann unverändert, wenn Sie das Feld `Title` aktualisieren.
->* Weitere Vorgänge wie Zusammenführen, Lokalisieren und Veröffentlichen sind in Assets as a Cloud Service verfügbar.
+>* Im Assets as a Cloud Service sind zusätzliche Funktionen wie Zusammenführen, Lokalisieren und Veröffentlichen verfügbar.
 
 ## Löschen von Tags {#deleting-tags}
 
@@ -135,7 +135,7 @@ Führen Sie die folgenden Schritte aus, um Tags zu löschen:
 
 ## Hinzufügen der Tag-Komponente zum Metadatenformular {#adding-tags-to-metadata-form}
 
-Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann zurzeit nicht geändert werden. Assets as a Cloud Service Benutzer können die Zuordnung aktualisieren, um Tag-Werte mithilfe benutzerdefinierter Namespaces zu speichern und nur Untergruppen von Hierarchien mithilfe von Stammpfaden verfügbar zu machen.
+Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann zurzeit nicht geändert werden. Benutzende von Assets as a Cloud Service können die Zuordnung so aktualisieren, dass Tag-Werte mithilfe benutzerdefinierter Namespaces gespeichert und nur Untergruppen von Hierarchien über Stammpfade angezeigt werden.
 
 Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponente zu Ihrem Metadatenformular hinzufügen:
 
@@ -150,4 +150,4 @@ Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponent
    ![Tagging von Assets](assets/adding-tags-to-assets.png)
 
 1. Wählen Sie mindestens ein Tag aus. Das untergeordnete Tag wird automatisch zusammen mit dem übergeordneten Tag oder Namespace ausgewählt.
-In den Assets Essentials geänderte Tags werden auch in as a Cloud Service Assets angewendet.
+In den Assets Essentials geänderte Tags werden auch in Assets as a Cloud Service angewendet.
