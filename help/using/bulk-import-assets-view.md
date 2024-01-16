@@ -1,11 +1,11 @@
 ---
 title: Massenimport von Assets mithilfe von Assets Essentials
-description: Erfahren Sie, wie Sie mit der neuen Assets-Benutzeroberfläche (Assets Essentials) Assets stapelweise importieren. Admins können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
+description: Erfahren Sie, wie Sie Assets über die neue Assets-Benutzeroberfläche (Assets Essentials) per Massenimport importieren. Admins können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1772'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 64%
 >abstract="Admins können mithilfe von Assets Essentials eine große Anzahl von Assets aus einer Datenquelle in Experience Manager Assets importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in Experience Manager Assets hochladen. Zu den unterstützten Cloud-Speicheranbietern für den Massenimport gehören Azure, AWS, Google Cloud und Dropbox."
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Video ansehen"
 
-Der Massenimport in AEM Assets Essentials bietet Administratoren die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
+Der Massenimport in AEM Assets Essentials bietet Admins die Möglichkeit, eine große Anzahl von Assets aus einer Datenquelle in AEM Assets zu importieren. Die Admins müssen keine einzelnen Assets oder Ordner mehr in AEM Assets hochladen.
 
 >[!NOTE]
 >
->Das Massen-Importtool für Assets Essentials verwendet dasselbe Backend wie das des as a Cloud Service Massen-Importers für Assets. Assets Essentials bietet jedoch mehr Datenquellen, aus denen importiert werden kann, und eine optimierte Benutzererfahrung.
+>Die Massenimport-Funktion von Assets Essentials verwendet dasselbe Backend wie die Massenimport-Funktion von Assets as a Cloud Service. Sie bietet jedoch mehr Datenquellen, aus denen importiert werden kann, und ein stärker optimiertes Anwendererlebnis.
 
 Sie können Assets aus den folgenden Datenquellen importieren:
 
@@ -39,37 +39,37 @@ Sie können Assets aus den folgenden Datenquellen importieren:
 | AWS | <ul> <li>AWS-Region </li> <li> AWS-Bucket <li> AWS-Zugriffsschlüssel </li><li> AWS-Zugriffsgeheimnis </li></ul> |
 | Google Cloud | <ul> <li>GCP-Bucket </li> <li> E-Mail für GCP-Service-Konto <li> Privater Schlüssel für GCP-Service-Konto</li></ul> |
 | Dropbox | <ul> <li>Dropbox-Client-ID </li> <li> Dropbox-Client-Geheimnis</li></ul> |
-| OneDrive | <ul> <li>OneDrive-Mandantenkennung  </li> <li> OneDrive-Client-ID</li><li> OneDrive Client Secret</li></ul> |
+| OneDrive | <ul> <li>OneDrive Mandanten-ID  </li> <li> OneDrive Client-ID</li><li> OneDrive Client-Geheimnis</li></ul> |
 
 Zusätzlich zu diesen Voraussetzungen, die auf der Datenquelle basieren, müssen Sie den in Ihrer Datenquelle verfügbaren Namen des Quellordners kennen, der alle Assets enthält, die in AEM Assets importiert werden müssen.
 
 ## Konfigurieren der Dropbox-Entwickleranwendung {#dropbox-developer-application}
 
-Bevor Sie Assets aus Ihrem Dropbox-Konto in AEM Assets importieren, erstellen und konfigurieren Sie die Dropbox-Entwickleranwendung.
+Bevor Sie Assets aus Ihrem Dropbox-Konto in AEM Assets importieren können, müssen Sie die Dropbox-Entwickleranwendung erstellen und konfigurieren.
 
 Führen Sie die folgenden Schritte aus:
 
-1. Melden Sie sich bei Ihrem [Dropbox-Konto](https://www.dropbox.com/developers) und klicken **[!UICONTROL Apps erstellen]**.
+1. Melden Sie sich bei Ihrem [Dropbox-Konto](https://www.dropbox.com/developers) an und klicken Sie auf **[!UICONTROL Apps erstellen]**.
 
-1. Im **[!UICONTROL API auswählen]** wählen Sie das einzige verfügbare Optionsfeld aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL API auswählen]** das einzige verfügbare Optionsfeld aus.
 
-1. Im **[!UICONTROL Wählen Sie den benötigten Zugriffstyp aus.]** eine der folgenden Optionen auswählen:
+1. Wählen Sie im Abschnitt **[!UICONTROL Benötigten Zugriffstyp auswählen]** eine der folgenden Optionen aus:
 
-   * Auswählen **[!UICONTROL App-Ordner]**, wenn Sie Zugriff auf einen einzelnen Ordner benötigen, der in Ihrer Anwendung in Ihrem Dropbox-Konto erstellt wurde.
+   * Wählen Sie **[!UICONTROL App-Ordner]**, wenn Sie Zugriff auf einen einzelnen Ordner benötigen, der in Ihrer Anwendung in Ihrem Dropbox-Konto erstellt wurde.
 
-   * Auswählen **[!UICONTROL Vollständige Dropbox]**, wenn Sie Zugriff auf alle Dateien und Ordner in Ihrem Dropbox-Konto benötigen.
+   * Wählen Sie **[!UICONTROL Vollständige Dropbox]**, wenn Sie Zugriff auf alle Dateien und Ordner in Ihrem Dropbox-Konto benötigen.
 
-1. Geben Sie einen Namen für Ihre Anwendung ein und klicken Sie auf **[!UICONTROL App erstellen]**.
+1. Geben Sie einen Namen für das Formular ein und klicken Sie auf **[!UICONTROL App erstellen]**. 
 
-1. Im **[!UICONTROL Einstellungen]** in der Anwendung Folgendes hinzufügen, **[!UICONTROL Umleitungs-URIs]** Abschnitt:
+1. Fügen Sie in der Registerkarte **[!UICONTROL Einstellungen]** Ihrer Anwendung Folgendes zum Abschnitt **[!UICONTROL Umleitungs-URI]** hinzu:
 
    * https://exc-unifiedcontent.experience.adobe.net
 
    * https://exc-unifiedcontent.experience-stage.adobe.net (nur für Staging-Umgebungen gültig)
 
-1. Kopieren Sie die Werte für die **[!UICONTROL App-Schlüssel]** und **[!UICONTROL App-Geheimnis]** -Felder. Die Werte sind beim Konfigurieren des Tools für den Massenimport in AEM Assets erforderlich.
+1. Kopieren Sie die Werte für die Felder **[!UICONTROL App-Schlüssel]** und **[!UICONTROL App-Geheimnis]**. Die Werte sind erforderlich, um das Tool für den Massenimport in AEM Assets zu konfigurieren.
 
-1. Im **[!UICONTROL Berechtigungen]** Fügen Sie die folgenden Berechtigungen im **[!UICONTROL Individuelle Bereiche]** Abschnitt.
+1. Fügen Sie in der Registerkarte **[!UICONTROL Berechtigungen]** folgende Berechtigungen im Abschnitt **[!UICONTROL Individuelle Bereiche]** hinzu.
 
    * account_info.read
 
@@ -79,40 +79,40 @@ Führen Sie die folgenden Schritte aus:
 
    * files.content.write
 
-1. Klicks **[!UICONTROL Einsenden]** , um die Änderungen zu speichern.
+1. Klicken Sie auf **[!UICONTROL Senden]**, um die Änderungen zu speichern.
 
 ## Konfigurieren der OneDrive-Entwickleranwendung {#onedrive-developer-application}
 
-Bevor Sie Assets aus Ihrem OneDrive-Konto in AEM Assets importieren, erstellen und konfigurieren Sie die OneDrive-Entwickleranwendung.
+Bevor Sie Assets aus Ihrem OneDrive-Konto in AEM Assets importieren können, müssen Sie die OneDrive-Entwickleranwendung erstellen und konfigurieren.
 
 Führen Sie die folgenden Schritte aus:
 
-1. Melden Sie sich bei Ihrem [OneDrive-Konto](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) und klicken **[!UICONTROL Neue Registrierung]**.
+1. Melden Sie sich bei Ihrem [OneDrive-Konto](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) an und klicken Sie auf **[!UICONTROL Neue Registrierung]**.
 
-1. Geben Sie einen Namen für die Anwendung an, wählen Sie **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis (nur Adobe - Einzelmandant)]** von **[!UICONTROL Unterstützte Kontotypen]** und klicken Sie auf **[!UICONTROL registrieren]**. Die Anwendung wurde erfolgreich erstellt.
+1. Geben Sie einen Namen für die Anwendung ein, wählen Sie **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis (nur Adobe – Einzelmandant)]** unter **[!UICONTROL Unterstützte Kontotypen]** und klicken Sie auf **[!UICONTROL Registrieren]**. Die Anwendung wurde erfolgreich erstellt.
 
-1. Kopieren Sie die Werte für die Felder Client-ID der Anwendung und Mandanten-ID . Die Werte sind beim Konfigurieren des Tools für den Massenimport in AEM Assets erforderlich.
+1. Kopieren Sie die Werte für die Felder „Anwendungs-Client-ID“ und „Mandanten-ID“. Die Werte sind erforderlich, um das Tool für den Massenimport in AEM Assets zu konfigurieren.
 
-1. Führen Sie die folgenden Schritte aus, um ein Zertifikat hinzuzufügen:
-   1. Klicken Sie auf der Übersichtsseite der Anwendung auf **[!UICONTROL Zertifikat oder Geheimnis hinzufügen]** und klicken Sie anschließend auf **[!UICONTROL Neues Client-Geheimnis]**.
-   1. Geben Sie die Client-geheime Beschreibung und den Ablauf an und klicken Sie auf **[!UICONTROL Hinzufügen]**.
-   1. Kopieren Sie nach der Erstellung des Client-Geheimnisses die **[!UICONTROL Wert]** (Kopieren Sie nicht das Feld Geheimnis-ID ). Dies ist beim Konfigurieren des Massenimports in AEM Assets erforderlich.
+1. Gehen Sie wie folgt vor, um ein Zertifikat hinzuzufügen:
+   1. Klicken Sie auf der Übersichtsseite der Anwendung auf **[!UICONTROL Zertifikat oder Geheimnis hinzufügen]** und anschließend auf **[!UICONTROL Neues Client-Geheimnis]**.
+   1. Geben Sie die Beschreibung und das Ablaufdatum des Client-Geheimnisses ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+   1. Kopieren Sie nach der Erstellung des Client-Geheimnisses das Feld **[!UICONTROL Wert]** (das Feld „Geheimnis-ID“ nicht kopieren). Dies ist erforderlich, um den Massenimport in AEM Assets zu konfigurieren.
 
-1. Führen Sie die folgenden Schritte aus, um Umleitungs-URIs hinzuzufügen:
-   1. Klicken Sie auf der Übersichtsseite der Anwendung auf **[!UICONTROL Hinzufügen eines Umleitungs-URI]** > **[!UICONTROL Plattform hinzufügen]** > **[!UICONTROL Web]**.
-   1. Fügen Sie Folgendes zum **[!UICONTROL Umleitungs-URIs]** Abschnitt:
+1. Gehen Sie wie folgt vor, um Umleitungs-URIs hinzuzufügen:
+   1. Klicken Sie auf der Übersichtsseite der Anwendung auf **[!UICONTROL Umleitungs-URI hinzufügen]** > **[!UICONTROL Plattform hinzufügen]** > **[!UICONTROL Web]**.
+   1. Fügen Sie Folgendes zum Abschnitt **[!UICONTROL Umleitungs-URI]** hinzu:
 
       * https://exc-unifiedcontent.experience.adobe.net
 
       * https://exc-unifiedcontent.experience-stage.adobe.net (nur für Staging-Umgebungen gültig)
 
-      Fügen Sie den ersten URI hinzu und klicken Sie auf **[!UICONTROL Konfigurieren]** , um es hinzuzufügen. Sie können weitere hinzufügen, indem Sie auf **[!UICONTROL URI hinzufügen]** -Option verfügbar im **[!UICONTROL Web]** im Abschnitt **[!UICONTROL Authentifizierung]** Seite.
+      Fügen Sie den ersten URI hinzu und klicken Sie auf **[!UICONTROL Konfigurieren]**, um sie hinzuzufügen. Sie können weitere hinzufügen, indem Sie auf **[!UICONTROL URI hinzufügen]** im Abschnitt **[!UICONTROL Web]** der Seite **[!UICONTROL Authentifizierung]** klicken.
 
-1. Führen Sie die folgenden Schritte aus, um API-Berechtigungen für die Anwendung hinzuzufügen:
-   1. Klicks **[!UICONTROL API-Genehmigungen]** im linken Bereich auf **[!UICONTROL Berechtigung hinzufügen]**.
-   1. Klicks **[!UICONTROL Microsoft-Diagramm]** > **[!UICONTROL Delegierte Berechtigungen]**. Die **[!UICONTROL Berechtigung auswählen]** -Abschnitt zeigt die verfügbaren Berechtigungen an.
-   1. Auswählen `offline_access` Berechtigung von `OpenId permissions` und `Files.ReadWrite.All` Berechtigung von `Files`.
-   1. Klicks **[!UICONTROL Berechtigungen hinzufügen]** , um die Aktualisierungen zu speichern.
+1. Gehen Sie wie folgt vor, um API-Berechtigungen für die Anwendung hinzuzufügen:
+   1. Klicken Sie auf **[!UICONTROL API-Berechtigungen]** im linken Bereich und dann auf **[!UICONTROL Berechtigung hinzufügen]**.
+   1. Klicken Sie auf **[!UICONTROL Microsoft-Diagramm]** > **[!UICONTROL Delegierte Berechtigungen]**. Im Abschnitt **[!UICONTROL Berechtigung auswählen]** werden die verfügbaren Berechtigungen angezeigt.
+   1. Wählen Sie `offline_access`-Berechtigung von `OpenId permissions` und `Files.ReadWrite.All`-Berechtigung von `Files`.
+   1. Klicken Sie auf **[!UICONTROL Berechtigungen hinzufügen]**, um die Aktualisierungen zu speichern.
 
 ## Erstellen einer Konfiguration für den Massenimport {#create-bulk-import-configuration}
 
@@ -127,8 +127,8 @@ Führen Sie die folgenden Schritte aus, um eine Konfiguration für den Massenimp
    >[!NOTE]
    >
    >Wenn Sie Dropbox als Datenquelle verwenden, geben Sie den Quellordnerpfad anhand der folgenden Regeln an:
-   >* Wenn Sie **Vollständige Dropbox** beim Erstellen der Dropbox-Anwendung und des Ordners, der die Assets enthält, ist vorhanden unter `https://www.dropbox.com/home/bulkimport-assets`, geben Sie `bulkimport-assets` im **[!UICONTROL Quellordner]** -Feld.
-   >* Wenn Sie **App-Ordner** beim Erstellen der Dropbox-Anwendung und des Ordners, der die Assets enthält, ist vorhanden unter `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`, geben Sie `bulkimport-assets` im **[!UICONTROL Quellordner]** Feld, wobei `BulkImportAppFolderScope` bezieht sich auf den Namen der Anwendung. `Apps` wird automatisch hinzugefügt nach `home` in diesem Fall.
+   >* Wenn Sie beim Erstellen der Dropbox-Anwendung die Option **Vollständige Dropbox** wählen und der Ordner mit den Assets in `https://www.dropbox.com/home/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` in das Feld **[!UICONTROL Quellordner]** ein.
+   >* Wenn Sie beim Erstellen der Dropbox-Anwendung die Option **App-Ordner** wählen und der Ordner mit den Assets in `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` in das Feld **[!UICONTROL Quellordner]** ein, wobei sich `BulkImportAppFolderScope` auf den Namen der Anwendung bezieht. `Apps` wird in diesem Fall automatisch hinter `home` eingefügt.
 
 1. (Optional) Wählen Sie die Option **[!UICONTROL Quelldatei nach Import löschen]** aus, um die Originaldateien aus dem Quelldatenspeicher zu löschen, nachdem die Dateien in Experience Manager Assets importiert wurden.
 1. Wählen Sie den **[!UICONTROL Importmodus]**. Wählen Sie **[!UICONTROL Überspringen]**, **[!UICONTROL Ersetzen]** oder **[!UICONTROL Version erstellen]**. Der Modus „Überspringen“ ist der Standardmodus. In diesem Modus überspringt das Aufnahme-Tool den Import eines Assets, wenn es bereits vorhanden ist.
@@ -156,7 +156,7 @@ Wenn Sie Assets oder Ordner massenhaft importieren, importiert [!DNL Experience 
 
 Während des Massenimports sucht [!DNL Experience Manager] nach den vorhandenen Ordnern, um das erneute Importieren der Assets und Ordner zu vermeiden, und überprüft auch die Bereinigungsregeln, die im übergeordneten Ordner angewendet werden, in dem der Import stattfindet. Wenn die Bereinigungsregeln im übergeordneten Ordner angewendet werden, werden dieselben Regeln auf die Importquelle angewendet. Für neue Importe werden die folgenden Bereinigungsregeln angewendet, um die Dateinamen von Assets und Ordnern zu verwalten.
 
-Weitere Informationen zu unzulässigen Namen, zum Umgang mit Asset-Namen und zum Umgang mit Ordnernamen beim Massenimport finden Sie unter [Umgang mit Dateinamen beim Massenimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+Weitere Informationen zu unzulässigen Namen und zum Umgang mit Asset-Namen und Ordnernamen beim Massenimport finden Sie unter [Umgang mit Dateinamen beim Massenimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=de#filename-handling-bulkimport).
 
 ## Anzeigen der vorhandenen Massenimportkonfigurationen {#view-import-configuration}
 
