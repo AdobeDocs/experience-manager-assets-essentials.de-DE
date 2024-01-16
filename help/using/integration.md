@@ -4,9 +4,9 @@ description: „[!DNL Assets Essentials] arbeitet mit anderen Adobe-Lösungen zu
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8
-workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Das eingebettete [!DNL Assets Essentials]-Erlebnis kann in die folgenden Lösung
 
 ## Integration in dokumentbasiertes Authoring für Edge Delivery Services {#integrate-doc-authoring-edge-and-assets}
 
-Mit der Edge-Bereitstellung können Sie schnelle und ansprechende Websites erstellen, auf denen Autoren Inhalte schnell aktualisieren und veröffentlichen können und neue Sites schnell gestartet werden können.
+Mit der Edge-Bereitstellung können Sie schnelle und ansprechende Websites erstellen, auf denen Autorinnen und Autoren Inhalte schnell aktualisieren und veröffentlichen können und neue Sites schnell gestartet werden können.
 
-Integrieren Sie AEM Assets in dokumentbasiertes Authoring für Edge Delivery Services, damit Website-Autoren in AEM Assets-Repositorys verfügbare Bilder beim Erstellen von Dokumenten in Microsoft Word oder Google Docs verwenden können. Weitere Informationen finden Sie unter [Integrieren von AEM Assets mit dokumentbasiertem Authoring](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge).
+Integrieren Sie AEM Assets in dokumentbasiertes Authoring für Edge Delivery Services, damit Website-Autorinnen und -Autoren in AEM Assets-Repositorys verfügbare Bilder beim Erstellen von Dokumenten in Microsoft Word oder Google Docs verwenden können. Weitere Informationen finden Sie unter [Integrieren von AEM Assets mit dokumentbasiertem Authoring](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html?lang=de#integrate-assets-edge).
 
 ## Nächste Schritte {#next-steps}
 
