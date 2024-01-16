@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
-workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '1652'
+ht-degree: 100%
 
 ---
 
@@ -136,19 +136,19 @@ Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und
 
 ### Zuweisen eines Metadatenformulars zu einem Ordner {#assign-metadata-form-folder}
 
-Sie können ein Metadatenformular auch einem Ordner in Ihrer Assets Essentials-Bereitstellung zuweisen. Das Metadatenformular, das einem Ordner gemäß dem MIME-Typ zugewiesen wurde, wird überschrieben, wenn Sie ein Metadatenformular manuell auf einen Ordner anwenden. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann im Metadatenformular definierte Eigenschaften an.
+Sie können in Ihrer Assets Essentials-Bereitstellung auch ein Metadatenformular einem Ordner zuweisen. Das Metadatenformular, das einem Ordner gemäß dem MIME-Typ zugewiesen wurde, wird überschrieben, wenn Sie ein Metadatenformular manuell auf einen Ordner anwenden. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann die im Metadatenformular definierten Eigenschaften an.
 
-So weisen Sie einem Ordner ein Metadatenformular zu:
+So weisen Sie ein Metadatenformular einem Ordner zu:
 
-1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Metadaten-Forms]** und wählen Sie ein Metadatenformular aus.
+1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Metadatenformulare]** und wählen Sie ein Metadatenformular aus.
 
-2. Klicks **[!UICONTROL Dem Ordner zuweisen]**.
+2. Klicken Sie auf **[!UICONTROL Ordner zuweisen]**
 
 3. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
 
    ![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
 
-   Sie können auch zur Ordnerdetailseite navigieren und ein Metadatenformular aus den im rechten Bereich verfügbaren Ordnereigenschaften auswählen, um das Metadatenformular dem Ordner zuzuweisen.
+   Sie können auch zur Seite „Ordnerdetails“ navigieren und ein Metadatenformular aus den im rechten Bereich verfügbaren Ordnereigenschaften auswählen, um das Metadatenformular dem Ordner zuzuweisen.
 
 ## Nächste Schritte {#next-steps}
 
