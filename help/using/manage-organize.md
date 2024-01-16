@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ Verwenden Sie [!DNL Assets Essentials], um die folgenden Asset-Management-Aufgab
 
 Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, und die folgenden Aktionen ausführen:
 
-* ![deselect icon](assets/do-not-localize/close-icon.png) Deaktivieren der Auswahl.
+* ![Symbol zum Aufheben der Auswahl](assets/do-not-localize/close-icon.png) Aufheben der Auswahl.
 
-* ![Ähnliches Symbol suchen](assets/do-not-localize/find-similar.svg) Suchen Sie ähnliche Bild-Assets in der Assets-Benutzeroberfläche basierend auf den Metadaten und Smart-Tags.
+* ![Symbol „Ähnliche suchen“](assets/do-not-localize/find-similar.svg) Suchen Sie anhand der Metadaten und Smart Tags nach ähnlichen Bild-Assets in der Assets-Benutzeroberfläche.
 
 * ![details icon](assets/do-not-localize/edit-in-icon.png) Anklicken, um ein Asset in der Vorschau anzuzeigen und die detaillierten Metadaten anzuzeigen. Aus der Vorschau heraus können Sie die Versionen anzeigen und ein Bild bearbeiten.
 
 * ![download icon](assets/do-not-localize/download-icon.png) Lädt das ausgewählte Asset in Ihr lokales Dateisystem herunter.
 
-* ![Sammlungssymbol](assets/do-not-localize/add-collection.svg) Fügen Sie das ausgewählte Asset zu einer Sammlung hinzu.
+* ![Symbol „Zu Sammlung hinzufügen“](assets/do-not-localize/add-collection.svg) Fügt das ausgewählte Asset zu einer Sammlung hinzu
 
-* ![Symbol &quot;Assets veröffentlichen&quot;](assets/do-not-localize/pin-quick-access.svg) Ein Asset für einen schnelleren Zugriff veröffentlichen, wenn Sie es später benötigen. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
+* ![Symbol „Assets anheften“](assets/do-not-localize/pin-quick-access.svg) Heftet ein Asset an, um bei späterem Bedarf schneller darauf zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
 
-* ![Bearbeiten im Express-Symbol](assets/do-not-localize/edit-e.svg) Bearbeiten Sie ein Bild im integrierten Adobe Expreß in Adobe Experience Manager Assets.
+* ![Symbol „In Express bearbeiten“](assets/do-not-localize/edit-e.svg) Bearbeiten eines Bildes in der integrierten Adobe Express-Anwending in Adobe Experience Manager Assets.
 
-* ![Symbol &quot;Asset bearbeiten&quot;](assets/do-not-localize/edit-e.svg) Bearbeiten Sie das Bild mit Adobe Expreß.
+* ![Symbol „Asset bearbeiten“](assets/do-not-localize/edit-e.svg) Bearbeiten des Bildes mit Adobe Express.
 
-* ![Symbol &quot;Asset-Link freigeben&quot;](assets/do-not-localize/share-link.svg) für ein Asset mit anderen Benutzern, damit sie darauf zugreifen und es herunterladen können.
+* ![Symbol „Asset-Link freigeben“](assets/do-not-localize/share-link.svg) für Assets mit anderen Benutzenden, damit diese darauf zugreifen und die Assets herunterladen können.
 
 * ![delete icon](assets/do-not-localize/delete-icon.png) Löscht das ausgewählte Asset oder den ausgewählten Ordner.
 
@@ -49,11 +49,11 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
 
-* ![Symbol Bibliothek kopieren](assets/do-not-localize/copy-icon.png) Asset zur Bibliothek hinzufügen.
+* ![Symbol „Bibliothek kopieren“](assets/do-not-localize/copy-icon.png) Fügt ein Asset zur Bibliothek hinzu.
 
-* ![assign task icon](assets/do-not-localize/review-delegate-icon.png) Weist anderen Benutzern Aufgaben zu, damit sie an einem Asset zusammenarbeiten können.
+* ![Symbol „Aufgabe zuweisen“](assets/do-not-localize/review-delegate-icon.png) Weist anderen Benutzenden Aufgaben zu, damit sie an einem Asset zusammenarbeiten können.
 
-* ![Symbol &quot;Aufgabe zuweisen&quot;](assets/do-not-localize/watch-asset.svg) Überwachen Sie die Vorgänge, die für ein Asset ausgeführt werden.
+* ![Symbol „Aufgabe zuweisen“](assets/do-not-localize/watch-asset.svg) Überwachen der an einem Asset ausgeführten Vorgänge.
 
 Sie können die gleichen Optionen bei den Miniaturansichten der Assets anzeigen.
 
