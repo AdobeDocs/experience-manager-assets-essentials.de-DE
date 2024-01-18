@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
 workflow-type: tm+mt
 source-wordcount: '2666'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -15,39 +15,39 @@ ht-degree: 86%
 
 Die aktuelle Version von Assets Essentials wurde am Freitag, 11. Januar 2024 veröffentlicht.
 
-Zu den kürzlich hinzugefügten Funktionen gehören:
+Folgende Funktionen wurden kürzlich hinzugefügt:
 
 **Smart-Tags-Blockierungsliste**
 
 Mit Assets Essentials können Sie jetzt eine Blockierungsliste definieren, die Wörter umfasst, die beim Hochladen in das Repository nicht als Smart-Tags zu Assets hinzugefügt werden sollen. Diese Funktion hilft Ihnen, die Markenkonformität zu wahren und reduziert den Aufwand für die Moderation von Smart-Tags.
 
-![Einblicke zur Speicherverwendung](/help/using/assets/block-tags.png)
+![Speichernutzung Insights](/help/using/assets/block-tags.png)
 
 **GenAI-Bilder mit Adobe Firefly erstellen**
 
-Erstellen Sie neue Bilder auf der Basis von Suchabfragen mit einer Adobe Firefly-Text-zu-Bild-Funktion (Adobe Firefly-Lizenz erforderlich).
+Erstellen Sie neue Bilder auf Basis von Suchabfragen mit Integration einer Adobe Firefly Text-zu-Bild-Funktion (Adobe Firefly-Lizenz erforderlich).
 
-![Firefly-Integration für Assets](/help/using/assets/assets-firefly-integration.png)
+![Assets Firefly-Integration](/help/using/assets/assets-firefly-integration.png)
 
-**Ähnliche Bilder suchen**
+**Nach ähnlichen Bildern suchen**
 
 Sie können jetzt Inhalte einfach finden, indem Sie ein Bild auswählen und ähnliche Bilder im Experience Manager Assets-Repository anzeigen.
 
-**Eingebetteter Adobe Expreß-Editor in AEM Assets**
+**Eingebetteter Adobe Express-Editor in AEM Assets**
 
-Benutzer mit Zugriff auf Express verfügen jetzt über integrierte Bildbearbeitungs- und -erstellungs-Tools von Adobe Expreß und Adobe Firefly, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu verbessern und die Content-Geschwindigkeit zu beschleunigen.
+Benutzende mit Zugriff auf Express verfügen jetzt über integrierte Tools von Adobe Express und Adobe Firefly zur Bildbearbeitung und -erstellung, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu verbessern und die Geschwindigkeit von Inhalten zu beschleunigen.
 
-![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/adobe-express-aem-assets.png)
+![Metadatenformular einem Ordner zuweisen](/help/using/assets/adobe-express-aem-assets.png)
 
-**Verwendungsberichte in Insights**:
+**Speichernutzungsberichte in Insights**:
 
-Administratoren haben jetzt die Möglichkeit, die im Rahmen von Insights verfügbaren Speicherverwendungsberichte anzuzeigen.
+Admins haben jetzt die Möglichkeit, die im Rahmen von Insights verfügbaren Speichernutzungsberichte anzuzeigen.
 
-![Einblicke zur Speicherverwendung](/help/using/assets/storage-usage-insights.png)
+![Speichernutzung Insights](/help/using/assets/storage-usage-insights.png)
 
 **Erste Homepage-Konfiguration durchsuchen**
 
-Mit Assets Essentials können Sie jetzt das Starterlebnis für Ihre Organisation konfigurieren. Wenn Sie zuerst als Startseite die Suche auswählen, können Sie die Ausrichtung der Suchleiste, das Hintergrundbild und das Logo für Ihre Organisation konfigurieren.
+Mit Assets Essentials können Sie jetzt das Startseitenerlebnis Ihres Unternehmens konfigurieren. Wenn Sie die Startseite als erste Suche festlegen, können Sie die Ausrichtung des Suchbalkens, das Hintergrundbild und das Logo Ihres Unternehmens konfigurieren.
 
 ![Erste Konfiguration durchsuchen](/help/using/assets/search-first-configuration.png)
 
@@ -79,23 +79,23 @@ Wenn Sie auf Probleme stoßen oder Verbesserungsanfragen haben, können Sie dem 
 
 ### Version Oktober 2023 {#october2023-release}
 
-**Massenimport von Assets aus der OneDrive-Datenquelle**
+**Massenimport von Assets aus einer OneDrive-Datenquelle**
 
-Administratoren haben jetzt die Möglichkeit, [eine große Anzahl von Assets von OneDrive in AEM Assets importieren](/help/using/bulk-import-assets-view.md). Die aktualisierte Liste der unterstützten Datenquellen für den Massenimport enthält Azure, AWS, Google Cloud, Dropbox und OneDrive.
+Admins können jetzt eine [große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren](/help/using/bulk-import-assets-view.md). Die aktualisierte Liste der unterstützten Datenquellen für den Massenimport enthält Azure, AWS, Google Cloud, Dropbox und OneDrive.
 
-![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/bulk-import-source-details.png)
+![Metadatenformular einem Ordner zuweisen](/help/using/assets/bulk-import-source-details.png)
 
 **Unterstützung von Cross-Org-Berechtigungen für Bibliotheken**
 
-Mit Experience Manager Assets können Sie jetzt den Zugriff auf Creative Cloud-Bibliotheken in einer anderen IMS-Organisation konfigurieren. Dies ermöglicht einen einfacheren Zugriff auf die neuesten produktübergreifenden Workflows zwischen Creative Cloud und Experience Manager und reduziert Zeit und Aufwand für kreative Inhalte.
+Mit Experience Manager Assets können Sie jetzt den Zugriff auf Creative Cloud-Bibliotheken in einer anderen IMS-Organisation konfigurieren. Dies ermöglicht einen einfacheren Zugriff auf die neuesten produktübergreifenden Workflows zwischen Creative Cloud und Experience Manager und reduziert Zeit und Aufwand bei der Erstellung kreativer Inhalte.
 
 ### Version September 2023 {#september2023-release}
 
-**Zuweisen eines Metadatenformulars zu einem Ordner**
+**Metadatenformular einem Ordner zuweisen**
 
-Sie können jetzt ein Metadatenformular einem bestimmten Ordner in Ihrer Assets Essentials-Bereitstellung zuweisen. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann Eigenschaften an, die im zugewiesenen Metadatenformular definiert sind.
+Sie können jetzt in Ihrer Assets Essentials-Bereitstellung ein Metadatenformular einem bestimmten Ordner zuweisen. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann die im zugewiesenen Metadatenformular definierten Eigenschaften an.
 
-![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
+![Metadatenformular einem Ordner zuweisen](/help/using/assets/assign-to-folder.png)
 
 **Massenimport von Assets aus Datenquellen**
 
