@@ -4,9 +4,9 @@ description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1524'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -120,28 +120,28 @@ Entfernen benutzerdefinierter Filter
 
 1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um die Filter aus der Benutzeroberfläche zu entfernen.
 
-## Suchen nach Assets mithilfe von [!DNL Adobe Firefly] {#search-firefly}
+## Suchen von Assets mithilfe von [!DNL Adobe Firefly] {#search-firefly}
 
-Sie können nach einem Asset suchen, das in keinem der Asset-Ordner verfügbar ist, indem Sie die [!DNL Adobe Firefly] Asset-Suchfunktion in [!DNL Experience Manager Assets]. Auf diese Weise können Sie effizient Assets in Echtzeit generieren, die nicht in den Asset-Ordnern gespeichert sind.
+Sie können nach einem Asset suchen, das in keinem der Asset-Ordner verfügbar ist, indem Sie die [!DNL Adobe Firefly] Asset-Suchfunktion in [!DNL Experience Manager Assets] verwenden. So können Sie effizient und in Echtzeit Assets generieren, die nicht in den Asset-Ordnern gespeichert sind.
 
 ### Vorbereitung
 
-Sie müssen über eine aktive [!DNL Adobe Express] Abonnement.
+Sie müssen ein aktives Abonnement von [!DNL Adobe Express] haben.
 
 ### Generieren von Assets
 
 So generieren Sie neue Assets mit [!DNL Adobe Firefly]:
 
-1. Navigieren Sie zum [!DNL AEM Assets] Arbeitsbereich.
+1. Navigieren Sie zum [!DNL AEM Assets]-Workspace.
 1. Geben Sie den Asset-Namen in die Suchleiste oben auf der Seite ein.<br>
-Sie können beispielsweise ein Asset mit dem Keyword `Bugatti Type 57`. Bei der Suche nach dem Asset werden keine Ergebnisse gefunden, da das Asset in keinem der Asset-Ordner vorhanden ist.
-1. Geben Sie den Asset-Namen in die Suchleiste in der Mitte der Seite ein und klicken Sie auf **[!UICONTROL Erzeugen]**.
-   ![Firefly-Integration](firefly-integration.jpg)
-   *Abbildung: Keine Ergebnisse für Bugatti Typ 57 im Asset-Ordner gefunden.*<br>
+Sie können beispielsweise ein Asset mit dem Schlüsselwort `Bugatti Type 57` suchen. Bei der Suche nach dem Asset werden keine Ergebnisse gefunden, da das Asset in keinem der Asset-Ordner vorhanden ist.
+1. Geben Sie den Asset-Namen in die Suchleiste in der Mitte der Seite ein und klicken Sie auf **[!UICONTROL Generieren]**.
+   ![Integration mit Firefly](firefly-integration.jpg)
+   *Abbildung: Keine Ergebnisse für „Bugatti Type 57“ im Asset-Ordner gefunden.*<br>
 Die neuen Assets wurden erfolgreich generiert.
-   ![Firefly-Integration](assets/bugatti-type-57.jpg)
-   *Abbildung: Referenzieren von Assets, die mithilfe von [!DNL Adobe Firefly] Asset-Suchfunktion.* <br>
-Sie können diese Assets für den einfachen Zugriff in Ihren gewünschten Ordner hochladen.
+   ![Integration mit Firefly](assets/bugatti-type-57.jpg)
+   *Abbildung: Mit der Asset-Suchfunktion in [!DNL Adobe Firefly] gesuchte Referenz-Assets* <br>
+Sie können diese Assets in den von Ihnen bevorzugten Ordner hochladen, um den Zugriff zu erleichtern.
 
 ### Hochladen von Assets
 
@@ -149,8 +149,8 @@ So laden Sie das generierte Asset in das Asset-Repository hoch:
 
 1. Klicken Sie auf **[!UICONTROL Hochladen]**.
 1. Wählen Sie den Asset-Ordner aus, in den Sie das Asset hochladen müssen, und klicken Sie auf **[!UICONTROL Ordner auswählen]**.
-   ![Hochladen des Assets](assets/upload-asset-firefly.jpg)
-   *Abbildung: Wählen Sie den Ordner aus, in den das Asset hochgeladen werden soll.*
+   ![Hochladen eines Assets](assets/upload-asset-firefly.jpg)
+   *Abbildung: Wählen Sie den Ordner zum Hochladen des Assets aus.*
 
 ## Gespeicherte Suchvorgänge {#saved-search}
 
@@ -187,7 +187,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * **An Schnellzugriff anheften**: [Heften Sie ein Asset an](my-workspace.md), um später im Bedarfsfall schneller darauf zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
 
-* **In Adobe Expreß öffnen**: Bearbeiten Sie ein Bild im integrierten Adobe Expreß auf dem Experience Manager Assets-Bildschirm.
+* **In Adobe Express öffnen**: Bearbeiten Sie ein Bild in der integrierten Adobe Express-Anwendung auf dem Experience Manager Assets-Bildschirm.
 
 * **Bearbeiten**: Bearbeiten Sie das Bild mit Adobe Express.
 
