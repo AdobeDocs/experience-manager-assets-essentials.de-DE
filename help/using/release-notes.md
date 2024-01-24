@@ -5,23 +5,23 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2666'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am Freitag, 11. Januar 2024 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 11. Januar 2024 veröffentlicht.
 
 Folgende Funktionen wurden kürzlich hinzugefügt:
 
 **Smart-Tags-Blockierungsliste**
 
-Mit Assets Essentials können Sie jetzt eine Blockierungsliste definieren, die Wörter umfasst, die beim Hochladen in das Repository nicht als Smart-Tags zu Assets hinzugefügt werden sollen. Diese Funktion hilft Ihnen, die Markenkonformität zu wahren und reduziert den Aufwand für die Moderation von Smart-Tags.
+Mit Assets Essentials können Sie jetzt eine Blockierungsliste mit Wörtern festlegen, die beim Hochladen in das Repository nicht als Smart-Tags zu Assets hinzugefügt werden sollen. Diese Funktion hilft Ihnen, die Markenkonformität zu wahren und reduziert den Aufwand für die Moderation von Smart-Tags.
 
-![Speichernutzung Insights](/help/using/assets/block-tags.png)
+![Einblicke in die Speichernutzung](/help/using/assets/block-tags.png)
 
 **GenAI-Bilder mit Adobe Firefly erstellen**
 
