@@ -6,10 +6,11 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.de-DE
 mini-toc-levels: 1
 index: true
-source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
+recommendations: noDisplay
+source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +26,7 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 
 In der Datei TOC.md
 
-| Metadaten | Funktion |
+| metadata | Funktion |
 |--- |--- |
-| user-guide-title | Wird in der Artikelkopfzeile als Link verwendet. |
+| user-guide-title | Wird in der Artikelüberschrift als Link verwendet. |
 | user-guide-url | Öffnet die Hub-Seite „Lernen und Support“. |
