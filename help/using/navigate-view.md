@@ -3,10 +3,10 @@ title: „Benutzeroberfläche von [!DNL Assets Essentials]“
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 028c9fbe496e2f29f0b1d46cfcc3cdc20c3d5857
+source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 91%
+source-wordcount: '982'
+ht-degree: 74%
 
 ---
 
@@ -24,15 +24,7 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 ![[!DNL Assets Essentials]-Benutzeroberfläche](assets/essentials-interface.png)
 
-    *A: Linke Seitenleiste zum Durchsuchen des Repositorys, bietet auch Zugriff auf einige andere Optionen*
-    *B: Linke Seitenleiste anzeigen oder reduzieren, um den Asset-Anzeigebereich zu vergrößern*
-    *C: Suchergebnisse filtern*
-    *D: Gesamten Inhalt des ausgewählten Ordners auswählen*
-    *E: Optionen zum Sortieren von Assets*
-    *F: Suchfeld*
-    *G: Dateien mithilfe der Schaltfläche hochladen oder ziehen und ablegen `Add Assets`*
-    *H: Neuen Ordner erstellen*
-    *I: Zwischen Ansichten wechseln*
+**A**: Linke Seitenleiste zum Durchsuchen des Repositorys und bietet Zugriff auf einige andere Optionen **B**: Zeigen Sie die linke Seitenleiste an oder reduzieren Sie sie, um den Asset-Anzeigebereich zu vergrößern. **C**: Suchergebnisse filtern **D**: Wählen Sie den gesamten Inhalt des ausgewählten Ordners aus. **E**: Optionen zum Sortieren von Assets **F**: Suchfeld **G**: Hochladen oder Ziehen und Ablegen von Dateien mithilfe von `Add Assets` button **H**: Neuen Ordner erstellen **I**: Zwischen Ansichten wechseln
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -84,23 +76,7 @@ Um ein Asset in der Vorschau anzuzeigen, wählen Sie es aus und klicken Sie oben
 
 ![Anzeigen einer Vorschau für ein Asset](assets/preview-asset-2.png)
 
-*A: Zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository zurückkehren*
-*B: Name und Format der Datei, die Sie in der Vorschau anzeigen*
-*C: Aufgaben zuweisen*
-*D: Asset herunterladen*
-*E: Asset-Vorschau anzeigen und Metadateninformationen anzeigen*
-*D: Erweiterte Metadaten*
-*E: Keywords und Smart-Tags*
-*F: Kommentare und Anmerkungen*
-*G: Aufgaben im Zusammenhang mit dem ausgewählten Asset anzeigen*
-*H: Versionen anzeigen und verwalten*
-*I: Ausgabedarstellungen anzeigen*
-*J: Bild bearbeiten*
-*K: Grundlegende Metadaten*
-*L: Erweiterte Metadaten*
-*M: Keywords und Smart-Tags*
-*N: Präzisere Vorschau anzeigen. Zoom, Vollbild und andere Optionen*
-*O: Mit dem vorherigen oder nächsten Asset im aktuellen Ordner fortfahren, ohne zum Ordner zurückzukehren*
+**A**: Kehren Sie zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository zurück. **B**: Name und Format der in der Vorschau angezeigten Datei **C**: Aufgaben zuweisen **D**: Erweiterte Metadaten **E**: Keywords und Smart-Tags **F**: Kommentar und Anmerkung **G**: Anzeigen von Aufgaben im Zusammenhang mit dem ausgewählten Asset **H**: Anzeigen und Verwalten von Versionen **I**: Anzeigen von Ausgabeformaten des Bildes **J**: Bild bearbeiten **K**: Grundlegende Metadaten **L**: Erweiterte Metadaten **M**: Keywords und Smart-Tags **N**: Eine genauere Vorschau anzeigen. Zoom, Vollbild und andere Optionen **O**: Fahren Sie mit dem vorherigen oder nächsten Asset im aktuellen Ordner fort, ohne zum Ordner zurückzukehren
 
 Sie können auch eine Vorschau der Videos anzeigen.
 
