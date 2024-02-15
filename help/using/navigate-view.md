@@ -6,7 +6,7 @@ exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 74%
+ht-degree: 77%
 
 ---
 
@@ -40,7 +40,7 @@ Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenl
 
 * [Erkenntnisse](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=de#view-live-statistics): In [!DNL Assets Essentials] können Sie Echtzeiterkenntnisse in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Dashboard „Erkenntnisse“ Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
-* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Ordner &quot;Papierkorb&quot;auswählen, um es an seinem ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können ein Keyword angeben oder Filter wie Asset-Status, Dateityp, MIME-Typ, Bildgröße, Asset-Erstellung, Änderung und Ablaufdatum sowie Filterung nach Assets, die vom aktuellen Benutzer verworfen wurden, anwenden. Sie können auch benutzerdefinierte Filter anwenden, um geeignete Assets im Ordner &quot;Papierkorb&quot;zu suchen. Weitere Informationen zur Verwendung von standardmäßigen und benutzerdefinierten Filtern finden Sie unter [Assets in Assets Essentials suchen](search.md).
+* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Ordner &quot;Papierkorb&quot;auswählen, um es an seinem ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können ein Keyword angeben oder Filter wie Asset-Status, Dateityp, MIME-Typ, Bildgröße, Asset-Erstellung, Änderung und Ablaufdatum sowie Filterung nach Assets, die vom aktuellen Benutzer verworfen wurden, anwenden. Sie können auch benutzerdefinierte Filter anwenden, um im Papierkorb-Ordner nach geeigneten Assets zu suchen. Weitere Informationen zum Verwenden standardmäßiger und benutzerdefinierter Filter finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
 
 * **Einstellungen**: Sie können verschiedene Optionen von Assets Essentials mithilfe von **Einstellungen** konfigurieren, wie etwa Metadatenformulare, Berichte und Taxonomieverwaltung.
 
