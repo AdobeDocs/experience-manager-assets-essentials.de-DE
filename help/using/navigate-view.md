@@ -4,9 +4,9 @@ description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL A
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '982'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 ![[!DNL Assets Essentials]-Benutzeroberfläche](assets/essentials-interface.png)
 
-**A**: Linke Seitenleiste zum Durchsuchen des Repositorys und bietet Zugriff auf einige andere Optionen **B**: Zeigen Sie die linke Seitenleiste an oder reduzieren Sie sie, um den Asset-Anzeigebereich zu vergrößern. **C**: Suchergebnisse filtern **D**: Wählen Sie den gesamten Inhalt des ausgewählten Ordners aus. **E**: Optionen zum Sortieren von Assets **F**: Suchfeld **G**: Hochladen oder Ziehen und Ablegen von Dateien mithilfe von `Add Assets` button **H**: Neuen Ordner erstellen **I**: Zwischen Ansichten wechseln
+**A**: Linke Seitenleiste zum Durchsuchen des Repositorys und Aufruf einiger weiterer Optionen **B**: Linke Seitenleiste ein- und ausblenden, um den Asset-Ansichtsbereich zu vergrößern **C**: Suchergebnisse filtern **D**: Den gesamten Inhalt des ausgewählten Ordners auswählen **E**: Optionen zum Sortieren von Assets **F**: Suchfeld **G**: Dateien mithilfe der Schaltfläche `Add Assets` hochladen oder ziehen **H**: Einen neuen Ordner erstellen **I**: Zwischen verschiedenen Ansichten wechseln
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -40,7 +40,7 @@ Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenl
 
 * [Erkenntnisse](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=de#view-live-statistics): In [!DNL Assets Essentials] können Sie Echtzeiterkenntnisse in Ihrem Dashboard anzeigen. In Assets Essentials können Sie mit dem Dashboard „Erkenntnisse“ Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken während der letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
-* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Ordner &quot;Papierkorb&quot;auswählen, um es an seinem ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können ein Keyword angeben oder Filter wie Asset-Status, Dateityp, MIME-Typ, Bildgröße, Asset-Erstellung, Änderung und Ablaufdatum sowie Filterung nach Assets, die vom aktuellen Benutzer verworfen wurden, anwenden. Sie können auch benutzerdefinierte Filter anwenden, um im Papierkorb-Ordner nach geeigneten Assets zu suchen. Weitere Informationen zum Verwenden standardmäßiger und benutzerdefinierter Filter finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
+* **Papierkorb**: Enthält eine Liste der Assets, die aus dem Stammordner **[!UICONTROL Assets]** gelöscht wurden. Sie können ein Asset im Papierkorb-Ordner auswählen, um es am ursprünglichen Speicherort wiederherzustellen oder dauerhaft zu löschen. Sie können ein Keyword angeben oder Filter wie Asset-Status, Dateityp, MIME-Typ, Bildgröße, Asset-Erstellung, Änderung und Ablaufdaten anwenden sowie Filterung nach Assets, die von der aktuellen Benutzerin bzw. dem aktuellen Benutzer verworfen wurden. Sie können auch benutzerdefinierte Filter anwenden, um im Papierkorb-Ordner nach geeigneten Assets zu suchen. Weitere Informationen zum Verwenden standardmäßiger und benutzerdefinierter Filter finden Sie unter [Suchen nach Assets in Assets Essentials](search.md).
 
 * **Einstellungen**: Sie können verschiedene Optionen von Assets Essentials mithilfe von **Einstellungen** konfigurieren, wie etwa Metadatenformulare, Berichte und Taxonomieverwaltung.
 
@@ -76,7 +76,7 @@ Um ein Asset in der Vorschau anzuzeigen, wählen Sie es aus und klicken Sie oben
 
 ![Anzeigen einer Vorschau für ein Asset](assets/preview-asset-2.png)
 
-**A**: Kehren Sie zum aktuellen Ordner oder zum aktuellen Suchergebnis im Repository zurück. **B**: Name und Format der in der Vorschau angezeigten Datei **C**: Aufgaben zuweisen **D**: Erweiterte Metadaten **E**: Keywords und Smart-Tags **F**: Kommentar und Anmerkung **G**: Anzeigen von Aufgaben im Zusammenhang mit dem ausgewählten Asset **H**: Anzeigen und Verwalten von Versionen **I**: Anzeigen von Ausgabeformaten des Bildes **J**: Bild bearbeiten **K**: Grundlegende Metadaten **L**: Erweiterte Metadaten **M**: Keywords und Smart-Tags **N**: Eine genauere Vorschau anzeigen. Zoom, Vollbild und andere Optionen **O**: Fahren Sie mit dem vorherigen oder nächsten Asset im aktuellen Ordner fort, ohne zum Ordner zurückzukehren
+**A**: Zurück zum aktuellen Ordner oder Suchergebnis im Repository **B**: Name und Format der Datei in der Vorschau **C**: Zugewiesene Aufgaben **D**: Erweiterte Metadaten **E**: Schlüsselwörter und Smart-Tags **F**: Kommentare und Anmerkungen **G**: Mit dem ausgewählten Asset verbundene Aufgaben anzeigen **H**: Versionen anzeigen und verwalten **I**: Ausgabedarstellungen des Bildes anzeigen **J**: Bild bearbeiten **K**: Grundlegende Metadaten **L**: Erweiterte Metadaten **M**: Keywords und Smart-Tags **N**: Genauere Vorschau. Zoom, Vollbild und andere Optionen **O**: Mit dem vorherigen oder nächsten Asset im aktuellen Ordner fortfahren, ohne zum Ordner zurückzukehren
 
 Sie können auch eine Vorschau der Videos anzeigen.
 
