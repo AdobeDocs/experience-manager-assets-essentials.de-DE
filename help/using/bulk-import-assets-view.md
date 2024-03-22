@@ -1,15 +1,15 @@
 ---
 title: Massenimport von Assets mithilfe von Assets Essentials
-description: Erfahren Sie, wie Sie Assets über die neue Assets-Benutzeroberfläche (Assets Essentials) per Massenimport importieren. Admins können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
+description: Erfahren Sie, wie Sie Assets über die neue Assets-Benutzeroberfläche (Assets Essentials) per Massenimport importieren. Administratoren können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
-workflow-type: ht
-source-wordcount: '1772'
-ht-degree: 100%
+source-git-commit: 530880cdd7536a4370cc0315f0d485d258d40102
+workflow-type: tm+mt
+source-wordcount: '1812'
+ht-degree: 68%
 
 ---
 
-# Massenimport von Assets mithilfe von Assets Essentials  {#bulk-import-essentials}
+# Massenimport von Assets mithilfe von Assets Essentials   {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
@@ -39,7 +39,7 @@ Sie können Assets aus den folgenden Datenquellen importieren:
 | AWS | <ul> <li>AWS-Region </li> <li> AWS-Bucket <li> AWS-Zugriffsschlüssel </li><li> AWS-Zugriffsgeheimnis </li></ul> |
 | Google Cloud | <ul> <li>GCP-Bucket </li> <li> E-Mail für GCP-Service-Konto <li> Privater Schlüssel für GCP-Service-Konto</li></ul> |
 | Dropbox | <ul> <li>Dropbox-Client-ID </li> <li> Dropbox-Client-Geheimnis</li></ul> |
-| OneDrive | <ul> <li>OneDrive Mandanten-ID  </li> <li> OneDrive Client-ID</li><li> OneDrive Client-Geheimnis</li></ul> |
+| OneDrive | <ul> <li>OneDrive Mandanten-ID </li> <li> OneDrive Client-ID</li><li> OneDrive Client-Geheimnis</li></ul> |
 
 Zusätzlich zu diesen Voraussetzungen, die auf der Datenquelle basieren, müssen Sie den in Ihrer Datenquelle verfügbaren Namen des Quellordners kennen, der alle Assets enthält, die in AEM Assets importiert werden müssen.
 
@@ -49,7 +49,7 @@ Bevor Sie Assets aus Ihrem Dropbox-Konto in AEM Assets importieren können, müs
 
 Führen Sie die folgenden Schritte aus:
 
-1. Melden Sie sich bei Ihrem [Dropbox-Konto](https://www.dropbox.com/developers) an und klicken Sie auf **[!UICONTROL Apps erstellen]**.
+1. Anmelden bei [Dropbox-Konto](https://www.dropbox.com/developers) und klicken **[!UICONTROL Apps erstellen]**. <br>Wenn Sie ein Enterprise Dropbox-Konto verwenden, benötigen Sie Zugriff auf die Inhaltsadministratorrolle.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL API auswählen]** das einzige verfügbare Optionsfeld aus.
 
@@ -61,11 +61,7 @@ Führen Sie die folgenden Schritte aus:
 
 1. Geben Sie einen Namen für das Formular ein und klicken Sie auf **[!UICONTROL App erstellen]**. 
 
-1. Fügen Sie in der Registerkarte **[!UICONTROL Einstellungen]** Ihrer Anwendung Folgendes zum Abschnitt **[!UICONTROL Umleitungs-URI]** hinzu:
-
-   * https://exc-unifiedcontent.experience.adobe.net
-
-   * https://exc-unifiedcontent.experience-stage.adobe.net (nur für Staging-Umgebungen gültig)
+1. Im **[!UICONTROL Einstellungen]** Registerkarte Ihrer Anwendung, fügen Sie https://experience.adobe.com zum **[!UICONTROL Umleitungs-URIs]** Abschnitt.
 
 1. Kopieren Sie die Werte für die Felder **[!UICONTROL App-Schlüssel]** und **[!UICONTROL App-Geheimnis]**. Die Werte sind erforderlich, um das Tool für den Massenimport in AEM Assets zu konfigurieren.
 
@@ -85,44 +81,49 @@ Führen Sie die folgenden Schritte aus:
 
 Bevor Sie Assets aus Ihrem OneDrive-Konto in AEM Assets importieren können, müssen Sie die OneDrive-Entwickleranwendung erstellen und konfigurieren.
 
-Führen Sie die folgenden Schritte aus:
+<!-- Execute the following steps: -->
 
-1. Melden Sie sich bei Ihrem [OneDrive-Konto](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) an und klicken Sie auf **[!UICONTROL Neue Registrierung]**.
+### Erstellen eines Programms
 
-1. Geben Sie einen Namen für die Anwendung ein, wählen Sie **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis (nur Adobe – Einzelmandant)]** unter **[!UICONTROL Unterstützte Kontotypen]** und klicken Sie auf **[!UICONTROL Registrieren]**. Die Anwendung wurde erfolgreich erstellt.
+1. Anmelden bei [OneDrive-Konto](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) und klicken **[!UICONTROL Neue Registrierung]**.
 
-1. Kopieren Sie die Werte für die Felder „Anwendungs-Client-ID“ und „Mandanten-ID“. Die Werte sind erforderlich, um das Tool für den Massenimport in AEM Assets zu konfigurieren.
-
-1. Gehen Sie wie folgt vor, um ein Zertifikat hinzuzufügen:
-   1. Klicken Sie auf der Übersichtsseite der Anwendung auf **[!UICONTROL Zertifikat oder Geheimnis hinzufügen]** und anschließend auf **[!UICONTROL Neues Client-Geheimnis]**.
-   1. Geben Sie die Beschreibung und das Ablaufdatum des Client-Geheimnisses ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
-   1. Kopieren Sie nach der Erstellung des Client-Geheimnisses das Feld **[!UICONTROL Wert]** (das Feld „Geheimnis-ID“ nicht kopieren). Dies ist erforderlich, um den Massenimport in AEM Assets zu konfigurieren.
+1. Geben Sie einen Namen für die Anwendung an, wählen Sie **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis (nur Adobe - Einzelmandant)]** von **[!UICONTROL Unterstützte Kontotypen]**.
 
 1. Gehen Sie wie folgt vor, um Umleitungs-URIs hinzuzufügen:
-   1. Klicken Sie auf der Übersichtsseite der Anwendung auf **[!UICONTROL Umleitungs-URI hinzufügen]** > **[!UICONTROL Plattform hinzufügen]** > **[!UICONTROL Web]**.
-   1. Fügen Sie Folgendes zum Abschnitt **[!UICONTROL Umleitungs-URI]** hinzu:
 
-      * https://exc-unifiedcontent.experience.adobe.net
+   1. Im **[!UICONTROL Plattform auswählen]** Dropdown-Menü auswählen **[!UICONTROL Web]**.
 
-      * https://exc-unifiedcontent.experience-stage.adobe.net (nur für Staging-Umgebungen gültig)
+   1. Fügen Sie https://experience.adobe.com zum **[!UICONTROL Umleitungs-URIs]** Abschnitt.
+   <!-- Add the first URI and click **[!UICONTROL Configure]** to add it. You can add more by clicking **[!UICONTROL Add URI]** option available in the **[!UICONTROL Web]** section on the **[!UICONTROL Authentication]** page. -->
 
-      Fügen Sie den ersten URI hinzu und klicken Sie auf **[!UICONTROL Konfigurieren]**, um sie hinzuzufügen. Sie können weitere hinzufügen, indem Sie auf **[!UICONTROL URI hinzufügen]** im Abschnitt **[!UICONTROL Web]** der Seite **[!UICONTROL Authentifizierung]** klicken.
+1. Klicken Sie auf **[!UICONTROL Registrieren]**. Die Anwendung wurde erfolgreich erstellt.
 
-1. Gehen Sie wie folgt vor, um API-Berechtigungen für die Anwendung hinzuzufügen:
-   1. Klicken Sie auf **[!UICONTROL API-Berechtigungen]** im linken Bereich und dann auf **[!UICONTROL Berechtigung hinzufügen]**.
-   1. Klicken Sie auf **[!UICONTROL Microsoft-Diagramm]** > **[!UICONTROL Delegierte Berechtigungen]**. Im Abschnitt **[!UICONTROL Berechtigung auswählen]** werden die verfügbaren Berechtigungen angezeigt.
-   1. Wählen Sie `offline_access`-Berechtigung von `OpenId permissions` und `Files.ReadWrite.All`-Berechtigung von `Files`.
-   1. Klicken Sie auf **[!UICONTROL Berechtigungen hinzufügen]**, um die Aktualisierungen zu speichern.
+1. Kopieren Sie die Werte für die **[!UICONTROL Anwendungs-ID (client)]** und **[!UICONTROL Verzeichnis-ID (Mandant)]** -Felder. Die Werte sind erforderlich, um das Tool für den Massenimport in AEM Assets zu konfigurieren.
 
-## Erstellen einer Konfiguration für den Massenimport {#create-bulk-import-configuration}
+1. Klicks **[!UICONTROL Zertifikat oder Geheimnis hinzufügen]** entspricht **[!UICONTROL Client-Anmeldeinformationen]** -Option.
 
-Führen Sie die folgenden Schritte aus, um eine Konfiguration für den Massenimport zu erstellen:
+1. Klicks **[!UICONTROL Neues Client-Geheimnis]**, geben Sie eine geheime Beschreibung für den Client an und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Massenimport]** und klicken Sie auf **[!UICONTROL Import erstellen]**.
-1. Wählen Sie die Datenquelle aus. Zu den verfügbaren Optionen gehören Azure, AWS, Google Cloud und Dropbox.
+1. Kopieren Sie nach der Erstellung des Client-Geheimnisses das Feld **[!UICONTROL Wert]** (das Feld „Geheimnis-ID“ nicht kopieren). Dies ist erforderlich, um den Massenimport in AEM Assets zu konfigurieren.
+
+### Hinzufügen von API-Berechtigungen
+
+Gehen Sie wie folgt vor, um API-Berechtigungen für die Anwendung hinzuzufügen:
+
+1. Klicken Sie auf **[!UICONTROL API-Berechtigungen]** im linken Bereich und dann auf **[!UICONTROL Berechtigung hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Microsoft-Diagramm]** > **[!UICONTROL Delegierte Berechtigungen]**. Im Abschnitt **[!UICONTROL Berechtigung auswählen]** werden die verfügbaren Berechtigungen angezeigt.
+1. Wählen Sie `offline_access`-Berechtigung von `OpenId permissions` und `Files.ReadWrite.All`-Berechtigung von `Files`.
+1. Klicken Sie auf **[!UICONTROL Berechtigungen hinzufügen]**, um die Aktualisierungen zu speichern.
+
+## Erstellen einer Konfiguration für den Massenimport{#create-bulk-import-configuration}
+
+Führen Sie die folgenden Schritte aus, um eine Konfiguration für den Massenimport im [!DNL Experience Manager Assets]:
+
+1. Klicks **[!UICONTROL Massenimport]** im linken Bereich auf **[!UICONTROL Import erstellen]**.
+1. Wählen Sie die Datenquelle aus. Zu den verfügbaren Optionen gehören **[!UICONTROL Azure]**, **[!UICONTROL AWS]**, **[!UICONTROL Google Cloud]**, **[!UICONTROL Dropbox]** und **[!UICONTROL OneDrive]**.
 1. Geben Sie im Feld **[!UICONTROL Name]** einen Namen für die Konfiguration des Massenimports an.
 1. Geben Sie die datenquellenspezifischen Anmeldeinformationen an, wie unter [Voraussetzungen](#prerequisites) beschrieben.
-1. Geben Sie im Feld **[!UICONTROL Quellordner]** den Namen des Stammordners an, der Assets in der Datenquelle enthält.
+1. Geben Sie den Namen des Stammordners an, der Assets in der Datenquelle im **[!UICONTROL Quellordner]** -Feld.
 
    >[!NOTE]
    >
@@ -130,11 +131,11 @@ Führen Sie die folgenden Schritte aus, um eine Konfiguration für den Massenimp
    >* Wenn Sie beim Erstellen der Dropbox-Anwendung die Option **Vollständige Dropbox** wählen und der Ordner mit den Assets in `https://www.dropbox.com/home/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` in das Feld **[!UICONTROL Quellordner]** ein.
    >* Wenn Sie beim Erstellen der Dropbox-Anwendung die Option **App-Ordner** wählen und der Ordner mit den Assets in `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` in das Feld **[!UICONTROL Quellordner]** ein, wobei sich `BulkImportAppFolderScope` auf den Namen der Anwendung bezieht. `Apps` wird in diesem Fall automatisch hinter `home` eingefügt.
 
-1. (Optional) Wählen Sie die Option **[!UICONTROL Quelldatei nach Import löschen]** aus, um die Originaldateien aus dem Quelldatenspeicher zu löschen, nachdem die Dateien in Experience Manager Assets importiert wurden.
+1. (Optional) Wählen Sie die **[!UICONTROL Quelldatei nach Import löschen]** Option zum Löschen der Originaldateien aus dem Quelldatenspeicher nach dem Import der Dateien in [!DNL Experience Manager Assets].
 1. Wählen Sie den **[!UICONTROL Importmodus]**. Wählen Sie **[!UICONTROL Überspringen]**, **[!UICONTROL Ersetzen]** oder **[!UICONTROL Version erstellen]**. Der Modus „Überspringen“ ist der Standardmodus. In diesem Modus überspringt das Aufnahme-Tool den Import eines Assets, wenn es bereits vorhanden ist.
    ![Importieren von Quelldetails](assets/bulk-import-source-details.png)
 
-1. (Optional) Geben Sie die zu importierende Metadatendatei im CSV-Format im Feld „Metadatendatei“ an und klicken Sie auf **[!UICONTROL Weiter]**, um zu **[!UICONTROL Speicherort und Filter]** zu navigieren.
+1. (Optional) Geben Sie im Feld **[!UICONTROL Metadatendatei]** die zu importierende Metadatendatei im CSV-Format an. Die Metadaten-Quelldatei muss sich im Quellordner befinden. Klicks **[!UICONTROL Nächste]** , um zu navigieren **[!UICONTROL Standort und Filter]**.
 1. Um einen Speicherort in DAM zu definieren, in den Assets importiert werden sollen, geben Sie im Feld **[!UICONTROL Zielordner für Assets]** einen Pfad an. Zum Beispiel: `/content/dam/imported_assets`.
 1. (Optional) Geben Sie im Abschnitt **[!UICONTROL Filter wählen]** im Feld **[!UICONTROL Filtern nach Mindestgröße]** die minimale Dateigröße der Assets in MB an, die in den Aufnahmeprozess einbezogen werden sollen.
 1. (Optional) Geben Sie im Feld **[!UICONTROL Filtern nach max. Größe]** die maximale Dateigröße der Assets in MB an, die in den Aufnahmeprozess einbezogen werden sollen.
@@ -144,9 +145,13 @@ Führen Sie die folgenden Schritte aus, um eine Konfiguration für den Massenimp
 
    ![Massenimport-Filter](assets/bulk-import-location.png)
 
-1. Klicken Sie auf **[!UICONTROL Weiter]**. Wählen Sie **[!UICONTROL Import speichern und ausführen]** aus, um die Konfiguration zu speichern und den Massenimport auszuführen. Wählen Sie **[!UICONTROL Import speichern]** aus, um die Konfiguration vorerst zu speichern, damit Sie ihn später ausführen können.
+1. Klicken Sie auf **[!UICONTROL Weiter]**. Wählen Sie je nach Voreinstellung eine der folgenden Optionen aus:
 
-   ![Massenimport ausführen](assets/bulk-import-run.png)
+   * **[!UICONTROL Import speichern]** , um die Konfiguration für jetzt zu speichern, damit Sie sie später ausführen können.
+   * **[!UICONTROL Import speichern und ausführen]** , um die Konfiguration zu speichern und den Massenimport auszuführen.
+   * **[!UICONTROL Import speichern und planen]** , um die Konfiguration zu speichern und den Massenimport für einen späteren Zeitpunkt zu planen. Sie können die Häufigkeit des Massenimports festlegen und Datum und Uhrzeit für den Import festlegen. Der Massenimport wird am festgelegten Datum und zur festgelegten Uhrzeit in der ausgewählten Häufigkeit ausgeführt.
+
+   ![Massenimport ausführen](assets/save-run.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die ausgewählte Option auszuführen.
 
@@ -160,27 +165,28 @@ Weitere Informationen zu unzulässigen Namen und zum Umgang mit Asset-Namen und 
 
 ## Anzeigen der vorhandenen Massenimportkonfigurationen {#view-import-configuration}
 
-Wenn Sie die Konfiguration speichern, nachdem Sie sie erstellt haben, wird die Konfiguration auf der Registerkarte **[!UICONTROL Gespeicherte Importe]** angezeigt.
+Um die vorhandenen Massenimporte anzuzeigen, wählen Sie die **[!UICONTROL Massenimporte]** im linken Bereich. Die Seite mit den Massenimporten wird mit der Liste der **[!UICONTROL Ausgeführte Importe]**. <br>
+Sie können auch die **[!UICONTROL Gespeicherte Importe]** und **[!UICONTROL Geplante Importe]** aus der Dropdown-Option aus.
 
-![Speichern der Massenimportkonfiguration](assets/bulk-import-save.png)
+![Speichern der Massenimportkonfiguration](assets/bulk-import-options.png)
 
-Wenn Sie speichern und den Import ausführen, wird die Importkonfiguration auf der Registerkarte **[!UICONTROL Ausgeführte Importe]** angezeigt.
+<!-- If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
 
-![Speichern der Massenimportkonfiguration](assets/bulk-import-executed.png)
+![Save bulk import configuration](assets/bulk-import-executed.png)
 
-Wenn Sie einen Import planen, wird er auf der Registerkarte **[!UICONTROL Geplante Importe]** angezeigt.
+If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  -->
 
 ## Bearbeiten einer Massenimportkonfiguration {#edit-import-configuration}
 
-Um die Konfigurationsdetails zu bearbeiten, klicken Sie auf „…“ neben dem Konfigurationsnamen und klicken Sie auf **[!UICONTROL Bearbeiten]**. Sie können den Titel der Konfiguration und die Importdatenquelle beim Ausführen des Bearbeitungsvorgangs nicht bearbeiten. Sie können die Konfiguration mit den Registerkarten „Ausgeführte Importe“, „Geplante Importe“ oder „Gespeicherte Importe“ bearbeiten.
+Um die Konfigurationsdetails zu bearbeiten, klicken Sie auf ![Weitere Symbole](assets/do-not-localize/more-icon.svg) entspricht dem Konfigurationsnamen und klicken Sie auf **[!UICONTROL Bearbeiten]**. Sie können den Titel der Konfiguration und die Importdatenquelle beim Ausführen des Bearbeitungsvorgangs nicht bearbeiten. Sie können die Konfiguration mit den Registerkarten „Ausgeführte Importe“, „Geplante Importe“ oder „Gespeicherte Importe“ bearbeiten.
 
-![Bearbeiten einer Massenimportkonfiguration](assets/bulk-import-edit.png)
+![Bearbeiten einer Massenimportkonfiguration](assets/edit-bulk-import.png)
 
 ## Planen von einmaligen oder wiederkehrenden Importen {#schedule-imports}
 
 Gehen Sie wie folgt vor, um einen einmaligen oder einen wiederkehrenden Massenimport zu planen:
 
-1. Klicken Sie auf „…“ neben dem Konfigurationsnamen auf der Registerkarte **[!UICONTROL Ausgeführte Importe]** oder **[!UICONTROL Gespeicherte Importe]** und dann auf **[!UICONTROL Planen]**. Sie können auch einen vorhandenen geplanten Import neu planen, indem Sie zur Registerkarte **[!UICONTROL Geplante Importe]** gehen und auf **[!UICONTROL Planen]** klicken.
+1. Klicks ![Weitere Symbole](assets/do-not-localize/more-icon.svg) entspricht dem Konfigurationsnamen, der in der **[!UICONTROL Ausgeführte Importe]** oder **[!UICONTROL Gespeicherte Importe]** Registerkarte und klicken Sie auf **[!UICONTROL Zeitplan]**. Sie können auch einen vorhandenen geplanten Import neu planen, indem Sie zur Registerkarte **[!UICONTROL Geplante Importe]** gehen und auf **[!UICONTROL Planen]** klicken.
 
 1. Legen Sie eine einmalige Aufnahme fest oder erstellen Sie einen stündlichen, täglichen oder wöchentlichen Zeitplan. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -188,21 +194,21 @@ Gehen Sie wie folgt vor, um einen einmaligen oder einen wiederkehrenden Massenim
 
 ## Durchführen einer Konsistenzprüfung für den Import {#import-health-check}
 
-Um die Verbindung mit der Datenquelle zu überprüfen, wählen Sie die Konfiguration aus und klicken Sie auf **[!UICONTROL Überprüfen]**. Wenn die Verbindung erfolgreich hergestellt wurde, zeigt Experience Manager Assets die folgende Meldung an:
+Um die Verbindung zur Datenquelle zu überprüfen, klicken Sie auf ![Weitere Symbole](assets/do-not-localize/more-icon.svg) dem Konfigurationsnamen entspricht, und klicken Sie dann auf **[!UICONTROL Überprüfen]**. Wenn die Verbindung erfolgreich hergestellt wurde, zeigt Experience Manager Assets die folgende Meldung an:
 
 ![Konsistenzprüfung des Massenimports](assets/bulk-import-health-check.png)
 
 ## Führen Sie vor dem Ausführen eines Imports einen Probelauf durch. {#dry-run-bulk-import}
 
-Klicken Sie auf „…“ neben dem Namen der Konfiguration und klicken Sie auf **[!UICONTROL Probelauf]**, um einen Testlauf für den Massenimportvorgang aufzurufen. Experience Manager Assets zeigt die folgenden Details zum Massenimportvorgang an:
+Klicks ![Weitere Symbole](assets/do-not-localize/more-icon.svg) entspricht dem Konfigurationsnamen und klicken Sie auf **[!UICONTROL Trockenlauf]** , um einen Testlauf für den Massenimportauftrag aufzurufen. Experience Manager Assets zeigt die folgenden Details zum Massenimportvorgang an:
 
 ![Konsistenzprüfung des Massenimports](assets/bulk-import-dry-run.png)
 
 ## Ausführen eines Massenimports {#run-bulk-import}
 
-Wenn Sie den Import bei der Erstellung der Konfiguration gespeichert haben, können Sie zur Registerkarte „Gespeicherte Importe“ navigieren, auf „…“ neben der Konfiguration klicken und dann auf **[!UICONTROL Ausführen]** klicken.
+Wenn Sie den Import während der Erstellung der Konfiguration gespeichert haben, können Sie zur Registerkarte Gespeicherte Importe navigieren und auf ![Weitere Symbole](assets/do-not-localize/more-icon.svg) Symbol, das der Konfiguration entspricht, und klicken Sie auf **[!UICONTROL Ausführen]**.
 
-Wenn Sie einen bereits ausgeführten Import ausführen müssen, navigieren Sie zur Registerkarte „Ausgeführte Importe“, klicken Sie auf „…“ neben dem Konfigurationsnamen und klicken Sie auf **[!UICONTROL Ausführen]**.
+Wenn Sie einen bereits ausgeführten Import ausführen müssen, klicken Sie auf die Registerkarte Ausgeführte Importe . ![Weitere Symbole](assets/do-not-localize/more-icon.svg) entspricht dem Konfigurationsnamen und klicken Sie auf **[!UICONTROL Ausführen]**.
 
 ## Stoppen oder Planen eines laufenden Imports {#schedule-stop-ongoing-report}
 
@@ -215,8 +221,12 @@ Sie können auch die im Zielordner importierten Assets anzeigen, indem Sie auf *
 
 ## Löschen einer Konfiguration für den Massenimport {#delete-bulk-import-configuration}
 
-Klicken Sie auf „…“ neben dem Konfigurationsnamen, der auf der Registerkarte **[!UICONTROL Ausgeführte Importe]**, **[!UICONTROL Geplante Importe]** oder **[!UICONTROL Gespeicherte Importe]** vorhanden ist, und klicken Sie auf **[!UICONTROL Löschen]**, um die Massenimportkonfiguration zu löschen.
+Klicks ![Weitere Symbole](assets/do-not-localize/more-icon.svg) entspricht dem in vorhandenen Konfigurationsnamen **[!UICONTROL Ausgeführte Importe]**, **[!UICONTROL Geplante Importe]** oder **[!UICONTROL Gespeicherte Importe]** Registerkarten und klicken Sie **[!UICONTROL Löschen]** , um die Konfiguration Massenimport zu löschen.
 
 ## Navigieren zu Assets nach einem Massenimport {#view-assets-after-bulk-import}
 
-Um den Asset-Zielspeicherort anzuzeigen, in den die Assets importiert werden, nachdem der Massenimportauftrag ausgeführt wurde, wählen Sie die Konfiguration aus und klicken Sie dann auf **[!UICONTROL Assets anzeigen]**.
+Um den Zielspeicherort für Assets anzuzeigen, in den die Assets importiert werden, nachdem der Massenimportauftrag ausgeführt wurde, klicken Sie auf ![Weitere Symbole](assets/do-not-localize/more-icon.svg) dem Konfigurationsnamen entspricht, und klicken Sie dann auf **[!UICONTROL Anzeigen von Assets]**.
+
+## Video: Massen-Import von Assets mit Assets Essentials
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428012)
