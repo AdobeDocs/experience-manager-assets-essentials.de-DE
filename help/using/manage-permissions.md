@@ -2,9 +2,9 @@
 title: Verwalten von Zugriffsberechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
-source-wordcount: '1691'
+source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -211,8 +211,6 @@ Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordn
 ## Nächste Schritte {#next-steps}
 
 * [Video zum Verwalten von Berechtigungen in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=de)
-
-* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
