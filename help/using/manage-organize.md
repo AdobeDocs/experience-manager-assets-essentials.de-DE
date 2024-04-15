@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,10 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * ![move icon](assets/do-not-localize/move-icon.png) Verschiebt das ausgewählte Asset oder den ausgewählten Ordner an einen anderen Speicherort in der Repository-Hierarchie.
 
-* ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
+* ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem neuen Namen erneut versuchen.
+Außerdem können Sie auf den Titel eines Assets oder Ordners klicken, um es umzubenennen. Erwähnen Sie den neuen Text im **Asset umbenennen** Textfeld und klicken Sie auf **Speichern**. Diese Funktion ist in den Ansichten &quot;Raster&quot;, &quot;Galerie&quot;, &quot;Wasserfall&quot;und &quot;Liste&quot;verfügbar.
+
+* ![Symbol für Wasserfallansicht](assets/do-not-localize/waterfall-view.png) [!UICONTROL Wasserfallansicht].
 
 * ![Symbol „Bibliothek kopieren“](assets/do-not-localize/copy-icon.png) Fügt ein Asset zur Bibliothek hinzu.
 
