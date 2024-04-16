@@ -2,10 +2,10 @@
 title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 27ac4035863924dfda1abf2593da9278a57b02a2
+source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 87%
+source-wordcount: '907'
+ht-degree: 86%
 
 ---
 
@@ -191,11 +191,11 @@ Löschen von Sammlungen
 ## Berechtigungen für eine private Sammlung verwalten{#manage-permissions-private-collection}
 
 Sie können Administratoren die Verwaltung von [Zugriffsstufen](/help/using/manage-permissions.md#manage-permissions-on-folders) für private Sammlungen, die im Repository verfügbar sind. Sie können Berechtigungen wie `Can View` und `Can Edit` an die Benutzergruppen oder Benutzer. Sie können auch Benutzergruppen Zugriffsverwaltungsberechtigungen zuweisen. Die Benutzer, die private Sammlungen erstellen, sind Eigentümer dieser Sammlungen. Sie können [!UICONTROL Berechtigungen verwalten] Aktion, um den anderen Benutzern Zugriff zu gewähren. Darüber hinaus können Administratoren die Berechtigungen der privaten Sammlungen im [!DNL Experience Manager] Repository.
-
+<!--
 >[!NOTE]
 >
->Adobe rät davon ab, Benutzern Berechtigungen zuzuweisen.
-
+>Adobe does not recommend to assign permissions to users.
+-->
 Informationen zum Zuweisen der verfügbaren Berechtigungen zu Benutzergruppen finden Sie unter [Berechtigungen zu Benutzergruppen hinzufügen](/help/using/manage-permissions.md#add-permissions).
 
 Weitere Informationen zum End-to-End-Workflow finden Sie unter [Berechtigungen verwalten](/help/using/manage-permissions.md).
