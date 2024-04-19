@@ -1,13 +1,13 @@
 ---
 title: Verwalten digitaler Assets
-description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Versionieren von Assets in  [!DNL Assets Essentials].
+description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Versionieren von Assets in [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * ![download icon](assets/do-not-localize/download-icon.png) Lädt das ausgewählte Asset in Ihr lokales Dateisystem herunter.
 
-* ![Symbol „Zu Sammlung hinzufügen“](assets/do-not-localize/add-collection.svg) Fügt das ausgewählte Asset zu einer Sammlung hinzu
+* ![Symbol „Zu Sammlung hinzufügen“](assets/do-not-localize/add-collection.svg) Fügt das ausgewählte Asset zu einer Sammlung hinzu.
 
 * ![Symbol „Assets anheften“](assets/do-not-localize/pin-quick-access.svg) Heftet ein Asset an, um bei späterem Bedarf schneller darauf zugreifen zu können. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt.
 
@@ -47,10 +47,10 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * ![move icon](assets/do-not-localize/move-icon.png) Verschiebt das ausgewählte Asset oder den ausgewählten Ordner an einen anderen Speicherort in der Repository-Hierarchie.
 
-* ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem neuen Namen erneut versuchen.
-Außerdem können Sie auf den Titel eines Assets oder Ordners klicken, um es umzubenennen. Erwähnen Sie den neuen Text im **Asset umbenennen** Textfeld und klicken Sie auf **Speichern**. Diese Funktion ist in den Ansichten &quot;Raster&quot;, &quot;Galerie&quot;, &quot;Wasserfall&quot;und &quot;Liste&quot;verfügbar.
+* ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
+Außerdem können Sie auf den Titel eines Assets oder eines Ordners klicken, um ihn umzubenennen. Erwähnen Sie den neuen Text im Textfeld **Asset umbenennen** und klicken Sie auf **Speichern**. Diese Funktion ist in den Ansichten „Raster“, „Galerie“, „Wasserfall“ und „Liste“ verfügbar.
 
-* ![Symbol für Wasserfallansicht](assets/do-not-localize/waterfall-view.png) [!UICONTROL Wasserfallansicht].
+* ![Symbol „Wasserfallansicht“](assets/do-not-localize/waterfall-view.png) [!UICONTROL Wasserfallansicht].
 
 * ![Symbol „Bibliothek kopieren“](assets/do-not-localize/copy-icon.png) Fügt ein Asset zur Bibliothek hinzu.
 
@@ -127,7 +127,7 @@ Sie können die folgenden Status für Assets festlegen:
 
 ### Festlegen eines Asset-Status {#set-asset-status}
 
-Festlegen eines Asset-Status
+Um einen Asstet-Status festzulegen:
 
 1. Wählen Sie das Asset aus und klicken Sie in der Symbolleiste auf **[!UICONTROL Details]**.
 
@@ -168,10 +168,10 @@ Um das Metadatenfeld „Ablaufdatum“ zum Formular hinzuzufügen, ziehen Sie di
 
 ## Nächste Schritte {#next-steps}
 
-* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html?lang=de)
+* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets-essentials/basics/managing)
 
-* Geben Sie Produktfeedback über die Option [!UICONTROL Feedback], die auf der Benutzeroberfläche von Assets Essentials verfügbar ist.
+* Geben Sie Feedback zum Produkt über die Option[!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General#support)
