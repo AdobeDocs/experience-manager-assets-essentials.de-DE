@@ -4,10 +4,10 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+workflow-type: tm+mt
+source-wordcount: '1773'
+ht-degree: 92%
 
 ---
 
@@ -109,7 +109,7 @@ In diesem Video finden Sie die Reihenfolge der Schritte:
 
 >[!VIDEO](https://video.tv.adobe.com/v/341275)
 
-Nachdem ein Formular erstellt wurde, wird es automatisch angewendet, wenn Benutzer ein Asset des entsprechenden MIME-Typs hochladen.
+Nachdem ein Formular erstellt wurde, wird es automatisch angewendet, wenn Benutzende ein Asset des entsprechenden MIME-Typs hochladen.
 
 Wenn Sie ein vorhandenes Formular wiederzuverwenden wollen, um ein neues Formular zu erstellen, wählen Sie ein Metadatenformular aus, klicken Sie in der Symbolleiste auf **[!UICONTROL Kopieren]**, geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Bestätigen]**. Sie können ein Metadatenformular bearbeiten, um es zu ändern. Wenn Sie ein Formular ändern, wird es für Assets verwendet, die nach der Änderung hochgeladen wurden. Die vorhandenen Assets werden nicht geändert.
 
@@ -134,7 +134,7 @@ Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und
 | Keywords | Fügt freie Keywords hinzu (zugeordnet zu „dc:subject“). |
 | Smart-Tags | Fügt automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
 
-### Zuweisen eines Metadatenformulars zu einem Ordner {#assign-metadata-form-folder}
+### Zuweisen von Metadatenformularen zu Ordnern {#assign-metadata-form-folder}
 
 Sie können in Ihrer Assets Essentials-Bereitstellung auch ein Metadatenformular einem Ordner zuweisen. Das Metadatenformular, das einem Ordner gemäß dem MIME-Typ zugewiesen wurde, wird überschrieben, wenn Sie ein Metadatenformular manuell auf einen Ordner anwenden. Alle Assets im Ordner, einschließlich Assets in den Unterordnern, zeigen dann die im Metadatenformular definierten Eigenschaften an.
 
@@ -142,13 +142,29 @@ So weisen Sie ein Metadatenformular einem Ordner zu:
 
 1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Metadatenformulare]** und wählen Sie ein Metadatenformular aus.
 
-2. Klicken Sie auf **[!UICONTROL Ordner zuweisen]**
+2. Klicks **[!UICONTROL Zuweisen zu Ordnern]**.
 
-3. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
+3. Wählen Sie die Ordner aus und klicken Sie auf **[!UICONTROL Zuweisen]**. Sie können die Ordner auswählen, indem Sie auf die Ordnernamen klicken.
 
    ![Zuweisen eines Metadatenformulars zu einem Ordner](/help/using/assets/assign-to-folder.png)
 
    Sie können auch zur Seite „Ordnerdetails“ navigieren und ein Metadatenformular aus den im rechten Bereich verfügbaren Ordnereigenschaften auswählen, um das Metadatenformular dem Ordner zuzuweisen.
+
+   ![Eigenschaften von Metadatenformularordnern](/help/using/assets/folder-properties-metadata-forms.png)
+
+### Metadatenformular aus Ordnern entfernen {#remove-metadata-form-folder}
+
+Nachdem Sie ein Metadatenformular einem oder mehreren Ordnern zugewiesen haben, können Sie mit Experience Manager Assets auch das Metadatenformular aus den ausgewählten Ordnern entfernen.
+
+So entfernen Sie ein Metadatenformular aus einem Ordner:
+
+1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Metadatenformulare]** und wählen Sie ein Metadatenformular aus.
+
+1. Klicks **[!UICONTROL Aus Ordner entfernen]**. Die Liste der zugewiesenen Ordner für die Anzeige des Metadatenformulars.
+
+1. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Entfernen]**. Sie können auch mehrere Ordner aus der Liste auswählen.
+
+Sie können auch zur Seite mit den Ordnerdetails navigieren und **[!UICONTROL Systemzugeordnete Metadatenformulare]** aus dem **[!UICONTROL Metadaten-Forms]** -Feld, um das zugewiesene Metadatenformular aus einem Ordner zu entfernen.
 
 ## Nächste Schritte {#next-steps}
 

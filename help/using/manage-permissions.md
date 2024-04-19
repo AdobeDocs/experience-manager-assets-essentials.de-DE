@@ -2,7 +2,7 @@
 title: Verwalten von Zugriffsberechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
@@ -118,7 +118,7 @@ So weisen Sie Gruppenberechtigungen für Ordner zu:
 
 1. Geben Sie im Dialogfeld **[!UICONTROL Berechtigungen verwalten]** im Feld **[!UICONTROL Gruppen und Benutzer]** den Namen der Gruppe oder eines Benutzers ein.
 
-1. Wählen Sie die [Zugriffsebene](#manage-permissions-folders) aus der Dropdown-Liste **[!UICONTROL Zugriff]**.
+1. Wählen Sie die [Zugriffsebene](#manage-permissions-on-folders) aus der Dropdown-Liste **[!UICONTROL Zugriff]**.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um für den Benutzer oder die Benutzergruppe eine sofortige Änderung an den Berechtigungen vorzunehmen.
 
@@ -144,7 +144,7 @@ So bearbeiten Sie Berechtigungen, die Benutzergruppen für Ordner zugewiesen sin
 
 1. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Berechtigungen verwalten]**.
 
-1. Bearbeiten Sie im Dialogfeld **[!UICONTROL Berechtigungen verwalten]** die [Zugriffsebene](#manage-permissions-folders) in der Dropdown-Liste **[!UICONTROL Zugriff]**.
+1. Bearbeiten Sie im Dialogfeld **[!UICONTROL Berechtigungen verwalten]** die [Zugriffsebene](#manage-permissions-on-folders) in der Dropdown-Liste **[!UICONTROL Zugriff]**.
 
 1. [Fügen Sie bei Bedarf weitere Benutzergruppen oder Benutzer](#add-permissions) zu den vorhandenen Berechtigungsregeln hinzu.
 
