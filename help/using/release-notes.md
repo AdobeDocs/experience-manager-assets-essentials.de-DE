@@ -4,9 +4,9 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 8ad7c9e02e94656200b715047bb25ed79bdbf06d
+source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
 workflow-type: tm+mt
-source-wordcount: '2865'
+source-wordcount: '2847'
 ht-degree: 93%
 
 ---
@@ -39,7 +39,7 @@ Experience Manager Assets bietet jetzt eine vereinfachte Benutzererfahrung, inde
 
 **Schnellaktionen für Videos**
 
-Experience Manager Assets enthält jetzt einfache und intuitive Tools zur Videobearbeitung, die von Adobe Expreß unterstützt werden, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen. Für die leichte Bearbeitung von Videos in AEM Assets sind keine umfangreichen Kenntnisse der Videobearbeitungswerkzeuge und -konzepte erforderlich. Zu den Bearbeitungsoptionen gehören das Zuschneiden, Zuschneiden, Ändern der Größe eines Videos und das Konvertieren einer MP4-Datei in eine GIF-Datei.
+Experience Manager Assets enthält jetzt einfache und intuitive Tools zur Videobearbeitung, die von Adobe Expreß unterstützt werden, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen. Zu den Bearbeitungsoptionen gehören das Zuschneiden, Zuschneiden, Ändern der Größe eines Videos und das Konvertieren einer MP4-Datei in eine GIF-Datei.
 
 ![Zuschneiden von Videos mit Adobe Expreß](/help/using/assets/adobe-express-crop-video.png)
 
