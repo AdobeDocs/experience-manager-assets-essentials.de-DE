@@ -5,23 +5,23 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2847'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am Freitag, 18. April 2024 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am 18. April 2024 veröffentlicht.
 
 Folgende Funktionen wurden kürzlich hinzugefügt:
 
 **Kontextsuche**
 
-Sie können jetzt auch im Repository verfügbare Assets durchsuchen, indem Sie Textaufforderungen definieren. Experience Manager Assets wandelt diese Textaufforderungen automatisch in Suchfilter um und zeigt die Suchergebnisse an. Mithilfe des Bedienfelds &quot;Filter&quot;können Sie automatische Filter anzeigen und ändern, um die Suchergebnisse weiter einzugrenzen.
+Sie können jetzt auch im Repository verfügbare Assets durchsuchen, indem Sie Text-Prompts definieren. Experience Manager Assets wandelt diese Text-Prompts automatisch in Suchfilter um und zeigt die Suchergebnisse an. Im Bereich „Filter“ können Sie automatische Filter anzeigen und ändern, um die Suchergebnisse weiter einzugrenzen.
 
-![Einblicke in die Speichernutzung](/help/using/assets/contextual-search-text-prompt1.png)
+![Erkenntnisse zur Speichernutzung](/help/using/assets/contextual-search-text-prompt1.png)
 
 <!--
 
@@ -33,23 +33,23 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 -->
 
-**Ersetzende Umbenennung für Assets und Ordner**
+**Umbenennung für Assets und Ordner im Kontext**
 
-Experience Manager Assets bietet jetzt eine vereinfachte Benutzererfahrung, indem es die Möglichkeit bietet, ein Asset oder einen Ordner per Klick umzubenennen.
+Experience Manager Assets bietet jetzt ein vereinfachtes Benutzererlebnis, indem die Möglichkeit geboten wird, ein Asset oder einen Ordner per Klick umzubenennen.
 
-**Schnellaktionen für Videos**
+**Express-Schnellaktionen für Videos**
 
-Experience Manager Assets enthält jetzt einfache und intuitive Tools zur Videobearbeitung, die von Adobe Expreß unterstützt werden, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen. Zu den Bearbeitungsoptionen gehören das Zuschneiden, Zuschneiden, Ändern der Größe eines Videos und das Konvertieren einer MP4-Datei in eine GIF-Datei.
+Experience Manager Assets enthält jetzt einfache und intuitive Tools zur Videobearbeitung, unterstützt von Adobe Express, um die Wiederverwendung von Inhalten zu verbessern und die Content Velocity zu erhöhen. Zu den Bearbeitungsoptionen gehören das Zuschneiden, das Beschneiden, das Ändern der Größe eines Videos und das Konvertieren einer MP4-Datei in eine GIF-Datei.
 
-![Zuschneiden von Videos mit Adobe Expreß](/help/using/assets/adobe-express-crop-video.png)
+![Beschneiden von Videos mit Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
-**Zuweisen oder Entfernen von Metadatenformularen zu mehreren Ordnern**
+**Zuweisen oder Entfernen von Metadatenformularen zu/aus mehreren Ordnern**
 
 Sie können jetzt Metadatenformulare mehreren Ordnern zuweisen oder daraus entfernen.
 
-**Berechtigungen für private Sammlungen verwalten**
+**Verwalten von Berechtigungen für private Sammlungen**
 
-Sie können Administratoren erlauben, die Zugriffsebene für private Sammlungen zu verwalten, die im Repository verfügbar sind. Sie können den Benutzergruppen oder Benutzenden Berechtigungen zuweisen, beispielsweise `Can View` und `Can Edit`. Sie können auch Benutzergruppen Zugriffsverwaltungsberechtigungen zuweisen.
+Sie können Admins die Verwaltung von Zugriffsstufen für private Sammlungen erlauben, die im Repository verfügbar sind. Sie können den Benutzergruppen oder Benutzenden Berechtigungen zuweisen, beispielsweise `Can View` und `Can Edit`. Außerdem können Sie Berechtigungen zur Berechtigungsverwaltung an Benutzergruppen delegieren. 
 
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
