@@ -3,9 +3,9 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 0da570c129407b6ecaf3e41223f61ce279a308d0
+source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
 workflow-type: ht
-source-wordcount: '1890'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
@@ -311,17 +311,19 @@ Das folgende Video zeigt den gesamten Vorgang vom Zugriff auf die Benutzeroberfl
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-### Deaktivieren der Kontextsuche {#disable-contextual-search}
+<!--
+### Disable Contextual Search {#disable-contextual-search}
 
-Admins haben auch die Möglichkeit, die Kontextsuche für Benutzende in ihrer Organisation zu deaktivieren. Führen Sie dazu die folgenden Schritte aus:
+Administrators also have the option to disable Contextual Search for users in your organization. To do so, execute the following steps:
 
-1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
 
-1. Deaktivieren Sie im Bereich [!UICONTROL Kontextsuche] den Umschalter für **[!UICONTROL Kontextsuche für Ihre Organisation aktivieren]**, um die Kontextsuche für alle Benutzenden in Ihrer Organisation zu deaktivieren.
+1. In the [!UICONTROL Contextual Search] section, turn off the **[!UICONTROL Enable Contextual Search for your organization]** toggle to disable the Contextual Search feature for all users in your organization.  
+-->
 
 ### Feedback zur Kontextsuche {#contextual-search-feedback}
 
-Um Feedback zur Kontextsuche zu geben, klicken Sie auf das Symbol für die ![Kontextsuche](assets/do-not-localize/contextual-search-icon.png) und anschließend auf das Feedback-Symbol. Wählen Sie den Feedback-Typ aus, geben Sie den Betreff und die Beschreibung ein und klicken Sie auf **[!UICONTROL Absenden]**.
+Um Feedback zur Kontextsuche zu geben, klicken Sie auf das Symbol für die ![Kontextsuche](assets/do-not-localize/Smock_Help_18_N.svg) und anschließend auf das Feedback-Symbol. Wählen Sie den Feedback-Typ aus, geben Sie den Betreff und die Beschreibung ein und klicken Sie auf **[!UICONTROL Absenden]**.
 
 ![Feedback zur Kontextsuche](/help/using/assets/contextual-search-feedback.png)
 
