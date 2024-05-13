@@ -2,10 +2,10 @@
 title: Wie können Sie Links zu Medienelementen freigeben?
 description: Erstellen Sie einen Link und geben Sie Medienelemente für andere frei, die keinen Zugriff auf das Programm  [!DNL Assets Essentials]  haben.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 76%
 
 ---
 
@@ -21,6 +21,11 @@ So generieren Sie einen Link für ein Medienelement oder einen Ordner mit Medien
 
 1. Sie können den Link anpassen, indem Sie auf das Kalendersymbol klicken, um im Feld **[!UICONTROL Ablaufdatum]** ein Ablaufdatum für den Link festzulegen. Sie können auch ein Datum direkt im `yyyy-mm-dd`-Format angeben. Standardmäßig ist das Ablaufdatum für einen Link auf 2 Wochen ab dem Datum der Freigabe festgelegt.
 
+>[!NOTE]
+> Das Datumsformat ändert sich je nach ausgewähltem Gebietsschema.
+> Beispiel: die `de-DE` uses `dd-mm-yyyy`, `ja-JA` uses `yyyy-mm-dd`in der Erwägung, dass `en-EN` uses `mm-dd-yyyy`.
+>
+
 1. Kopieren Sie den Link aus dem Feld **[!UICONTROL Freigabe-Link]**.
 
    ![Option für das Zuschneiden und Ausrichten](assets/share-asset-link.png)
@@ -29,7 +34,7 @@ So generieren Sie einen Link für ein Medienelement oder einen Ordner mit Medien
 
 ## Zugreifen auf die freigegebenen Medienelemente {#access-shared-assets}
 
-Nach der Freigabe des öffentlichen Links für Medienelemente können die Empfänger auf den Link klicken, um die freigegebenen Medienelemente in einem Webbrowser als Vorschau anzuzeigen oder herunterzuladen, ohne sich bei [!DNL Assets Essentials] anmelden zu müssen.
+Nach der Freigabe des öffentlichen Links für Assets können die Empfänger auf den Link klicken, um die freigegebenen Assets in einem Webbrowser als Vorschau anzuzeigen oder herunterzuladen, ohne sich bei anmelden zu müssen. [!DNL Assets Essentials].
 
 Klicken Sie auf den Link und dann auf den Ordner, um zum Medienelement zu navigieren, und klicken Sie dann auf das Medienelement, um eine Vorschau anzuzeigen. Sie können auswählen, ob die freigegebenen Medienelemente in einer Listen- oder Kartenansicht angezeigt werden sollen.
 
@@ -43,10 +48,10 @@ Um alle Medienelemente auf einmal herunterzuladen, wechseln Sie zur **[!UICONTRO
 
 ## Nächste Schritte {#next-steps}
 
-* [Video zum Freigeben von Links für Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html?lang=de)
+* [Video zum Freigeben von Links für Assets in Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html?lang=de).
 
-* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
+* Stellen Sie mithilfe der [!UICONTROL Feedback] -Option in der Assets Essentials-Benutzeroberfläche verfügbar.
 
-* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
+* Feedback zur Dokumentation mit [!UICONTROL Diese Seite bearbeiten] ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) oder [!UICONTROL Problem protokollieren] ![Erstellen eines GitHub-Problems](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste verfügbar.
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontakt [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
