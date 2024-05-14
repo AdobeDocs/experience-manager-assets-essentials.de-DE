@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2903'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Experience Manager Assets enthält jetzt einfache und intuitive Tools zur Videob
 ![Beschneiden von Videos mit Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
 >[!NOTE]
-> Zugriffsberechtigungen [!DNL Adobe Express] ist erforderlich und mindestens eine Umgebung in AEM Assets. Die Umgebung kann eines der Repositorys in sein. [!DNL Assets as a Cloud Service] oder [!DNL Assets Essentials].
+> Berechtigungen für den Zugriff auf [!DNL Adobe Express] sind erforderlich und mindestens eine Umgebung in AEM Assets. Bei der Umgebung kann es sich um eines der Repositorys in [!DNL Assets as a Cloud Service] oder [!DNL Assets Essentials] handeln.
 
 **Zuweisen oder Entfernen von Metadatenformularen zu/aus mehreren Ordnern**
 
@@ -52,7 +52,7 @@ Ein Metadatenformular kann jetzt mehreren Ordnern zugewiesen oder aus diesen ent
 
 **Verwalten von Berechtigungen für private Sammlungen**
 
-Sie können Administratoren oder Benutzern ohne Administratorrechte (anderen Benutzern) erlauben, die Zugriffsebenen für private Sammlungen zu verwalten, die im Repository verfügbar sind. Sie können den Benutzergruppen oder Benutzenden Berechtigungen zuweisen, beispielsweise `Can View` und `Can Edit`. Außerdem können Sie Berechtigungen zur Berechtigungsverwaltung an Benutzergruppen delegieren. 
+Sie können Admins oder anderen Benutzenden die Verwaltung von Zugriffsstufen für private Sammlungen erlauben, die im Repository verfügbar sind. Sie können den Benutzergruppen oder Benutzenden Berechtigungen zuweisen, beispielsweise `Can View` und `Can Edit`. Außerdem können Sie Berechtigungen zur Berechtigungsverwaltung an Benutzergruppen delegieren. 
 
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
@@ -62,7 +62,7 @@ Verbesserungen und Fehlerbehebungen basierend auf Kunden-Feedback.
 
 ## Bekannte Probleme {#known-issues}
 
-Die Liste der bekannten Probleme von [!DNL Assets Essentials] Das Angebot wird laufend überarbeitet und aktualisiert.
+Die Liste der bekannten Probleme mit [!DNL Assets Essentials]-Angeboten wird laufend überarbeitet und aktualisiert.
 
 <!--
 
@@ -109,7 +109,7 @@ Admins haben jetzt die Möglichkeit, die im Rahmen von Insights verfügbaren Spe
 
 **Erste Homepage-Konfiguration durchsuchen**
 
-Mit Assets Essentials können Sie jetzt das Startseitenerlebnis Ihres Unternehmens konfigurieren. Wenn Sie zuerst als Startseite die Suche auswählen, können Sie die Ausrichtung der Suchleiste, das Hintergrundbild und das Logo für Ihre Organisation konfigurieren. Auswahl [!UICONTROL Allgemeine Einstellungen] überschreibt die Standard-Landingpage. Die Standard-Landingpage lautet beispielsweise [!UICONTROL Mein Arbeitsbereich] für Administratoren und [!UICONTROL Suche zuerst] Bei Benutzern ohne Administratorrechte gilt die Auswahl einer der Optionen unter Allgemeine Einstellungen für alle Benutzer.
+Mit Assets Essentials können Sie jetzt das Startseitenerlebnis Ihres Unternehmens konfigurieren. Wenn Sie für die Startseite die Option „Zuerst suchen“ festlegen, können Sie die Ausrichtung des Suchbalkens, das Hintergrundbild und das Logo Ihres Unternehmens konfigurieren. Bei Auswahl von [!UICONTROL Allgemeine Einstellungen] wird die Standard-Landingpage überschrieben. Wenn beispielsweise die Standard-Landingpage für Admins [!UICONTROL Mein Arbeitsbereich] und für Benutzende [!UICONTROL Zuerst suchen] ist, gilt die Auswahl einer der Optionen unter „Allgemeine Einstellungen“ für alle Benutzende.
 
 ![Erste Konfiguration durchsuchen](/help/using/assets/search-first-configuration.png)
 
@@ -212,7 +212,7 @@ Im Abschnitt [!UICONTROL Inhalt] von „Mein Arbeitsbereich“ werden jetzt die 
 
 **Massenaktualisierungen von Asset-Metadaten**
 
-Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktualisierungen für mehrere Assets gleichzeitig durchzuführen. Sie müssen Datensätze nicht einzeln aktualisieren und können Eigenschaften schnell auf Assets oder Ordner anwenden, auf die über die Suche zugegriffen wird. Darüber hinaus werden durch Massenaktualisierungen von Metadaten alle vorhandenen Werte überschrieben, was bedeutet, dass vorhandene Suchbegriffe durch das Massen-Metadaten-Update überschrieben werden.
+Massenaktualisierungen von Metadaten ermöglichen es, allgemeine Metadatenaktualisierungen für mehrere Assets gleichzeitig durchzuführen. Sie müssen Einträge nicht einzeln aktualisieren und können Eigenschaften schnell auf Assets oder Ordner anwenden, auf die über eine Suche zugegriffen wird. Darüber hinaus werden durch Massenaktualisierungen von Metadaten alle vorhandenen Werte überschrieben. Das bedeutet, dass vorhandene Keywords bei der Massenaktualisierung von Metadaten überschrieben werden.
 
 **Mein Arbeitsbereich mit konfigurierbaren Widgets**
 
