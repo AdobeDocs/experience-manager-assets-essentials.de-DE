@@ -2,10 +2,11 @@
 title: Bearbeiten von Videos
 description: Bearbeiten von Videos mit [!DNL Adobe Express] Unterstützte Optionen und aktualisierte Videos als Versionen speichern.
 role: User
-source-git-commit: 5bcec500ff6bf67426f532a98eec5d351cc1ad03
+exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
+source-git-commit: 2b27cf67be1cc0466a41b29f04a96adddedd1977
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +20,7 @@ Weitere Informationen zum [Vorschaufunktion](/help/using/navigate-view.md#previe
 
 ## Voraussetzungen {#prerequisites}
 
-Zugriffsberechtigungen [!DNL Adobe Express] und mindestens einer Umgebung in AEM Assets. Die Umgebung kann eines der Repositorys in sein. [!DNL Assets as a Cloud Service] oder [!DNL Assets Essentials].
+Zugriffsberechtigungen [!DNL Adobe Express] und mindestens einer Umgebung in AEM Assets. Bei der Umgebung kann es sich um eines der Repositorys in [!DNL Assets as a Cloud Service] oder [!DNL Assets Essentials] handeln.
 
 ## Bearbeiten von Videos mit Adobe Expreß {#edit-video-using-express}
 
@@ -34,7 +35,7 @@ Sie können unerwünschte Teile aus dem Video mithilfe von eingebetteten [!DNL A
 3. Ziehen Sie die Griffe an die Ecken des Videos, um den gewünschten Zuschnitt zu erstellen, oder wählen Sie eine der vorhandenen Bildschirmgrößen aus.
 4. Sie können das Video stummschalten oder die Stummschaltung aufheben.
 5. Klicken Sie auf **[!UICONTROL Übernehmen]**.
-   ![Zuschneiden von Videos mit Adobe Expreß](/help/using/assets/adobe-express-crop-video.png)
+   ![Beschneiden von Videos mit Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
    Das zugeschnittene Video kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets speichern oder als neues Asset speichern. ![Video mit Adobe Expreß speichern](/help/using/assets/adobe-express-save-video.png)
 
@@ -84,7 +85,7 @@ Ihr Video ist als GIF-Format zum Download verfügbar. Sie können das bearbeitet
 
 * Nur Videos im MP4-Format werden zur Bearbeitung unterstützt.
 
-* Die maximal unterstützte Dateigröße für Quelldateien beträgt 200 MB.
+* Die maximal unterstützte Quelldateigröße beträgt 1 GB
 
 * Die unterstützten Videos sind auf jeder Seite größer als 46 Pixel und kleiner als 3840 Pixel
 
