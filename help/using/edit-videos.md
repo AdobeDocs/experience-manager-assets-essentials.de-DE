@@ -3,7 +3,7 @@ title: Bearbeiten von Videos
 description: Bearbeiten von Videos mit [!DNL Adobe Express] Unterstützte Optionen und aktualisierte Videos als Versionen speichern.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 2b27cf67be1cc0466a41b29f04a96adddedd1977
+source-git-commit: eede4280258595b7c74061786a8c173afaeee058
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -85,7 +85,7 @@ Ihr Video ist als GIF-Format zum Download verfügbar. Sie können das bearbeitet
 
 * Nur Videos im MP4-Format werden zur Bearbeitung unterstützt.
 
-* Die maximal unterstützte Quelldateigröße beträgt 1 GB
+* Die maximal unterstützte Quelldateigröße beträgt 200 MB.
 
 * Die unterstützten Videos sind auf jeder Seite größer als 46 Pixel und kleiner als 3840 Pixel
 
