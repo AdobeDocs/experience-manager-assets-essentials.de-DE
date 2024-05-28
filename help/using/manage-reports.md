@@ -3,9 +3,9 @@ title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Speichernutzung**: Darstellung der Speichernutzung in Byte für die Assets Essentials-Umgebung mithilfe eines Balkendiagramms.
-  ![Speichernutzung](/help/using/assets/insights-storage-usage1.svg)
+  ![Speicherverwendung](/help/using/assets/insights-storage-usage1.svg)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Häufigste Suchanfragen**: Die am häufigsten gesuchten Begriffe und die Suchhäufigkeit dieser Begriffe in den letzten 30 Tagen oder 12 Monaten in Ihrer Assets Essentials-Umgebung, dargestellt in Tabellenform.
-  ![Speichernutzung](/help/using/assets/insights-top-search.svg)
+  ![Speicherverwendung](/help/using/assets/insights-top-search.svg)
 
   <!--
    ![Insights](assets/insights1.png)
