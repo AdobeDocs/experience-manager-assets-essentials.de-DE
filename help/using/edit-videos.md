@@ -3,7 +3,7 @@ title: Bearbeiten von Videos
 description: Bearbeiten von Videos mit [!DNL Adobe Express] Unterstützte Optionen und aktualisierte Videos als Versionen speichern.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 456ffec077617909f98b66bed711921c0b7b3925
+source-git-commit: a9a6c36f655fcc33f3e8ef1b584fa7b4dce869c3
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 Das Erstellen von Varianten von Videoinhalten ist für Assets-Benutzer mit der eingebetteten [!DNL Adobe Express] Schnellaktionen für Videos. Schnellaktionen in [!DNL Assets Essentials] mit Strom [!DNL Adobe Express] bietet benutzerfreundliche Videobearbeitungsoptionen, einschließlich Zuschneiden von Videos, Größenanpassung von Videos, Zuschneiden von Videos und Konvertieren von Videos in GIF.
 
-Um ein Video zu bearbeiten, navigieren Sie zu den Details des Videos und klicken Sie auf [!UICONTROL Video bearbeiten]. Alternativ können Sie das Asset auswählen und auf Details klicken und dann auf ![Schere](assets/do-not-localize/cut.svg) im rechten Bereich. Nach dem Bearbeiten eines Videos können Sie das neue Video als neue Version oder als neues Asset speichern.
+Um ein Video zu bearbeiten, navigieren Sie zu den Details des Videos und klicken Sie auf [!UICONTROL Video bearbeiten]. Alternativ können Sie das Asset auswählen und auf Details klicken und dann auf ![Schere](assets/do-not-localize/cut.svg) im rechten Bereich. Nach der Bearbeitung eines Videos können Sie das neue Video als neue Version oder als neues Asset speichern.
 
 Weitere Informationen zum [Vorschaufunktion](/help/using/navigate-view.md#preview-assets).
 
@@ -85,7 +85,7 @@ Ihr Video ist als GIF-Format zum Download verfügbar. Sie können das bearbeitet
 
 * Nur Videos im MP4-Format werden zur Bearbeitung unterstützt.
 
-* Die maximal unterstützte Quelldateigröße beträgt 200 MB.
+* Die maximal unterstützte Quelldateigröße beträgt 1 GB.
 
 * Die unterstützten Videos sind auf jeder Seite größer als 46 Pixel und kleiner als 3840 Pixel.
 
@@ -97,9 +97,9 @@ Ihr Video ist als GIF-Format zum Download verfügbar. Sie können das bearbeitet
 
 * Geben Sie Feedback zum Produkt über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials.
 
-* Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
+* Geben Sie Feedback zur Dokumentation über die Option zum [!UICONTROL Bearbeiten der Seite] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder zum [!UICONTROL Melden eines Problems] ![GitHub-Ticket erstellen](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste.
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General#support).
 
 >[!MORELIKETHIS]
 >
