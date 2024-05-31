@@ -2,10 +2,10 @@
 title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9cfb01590ae8ce620cc0eed042dcddfbb8b91742
+source-git-commit: 5b5fe779f1dd50470016706a5ba3f6f59ab46793
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 93%
+source-wordcount: '862'
+ht-degree: 100%
 
 ---
 
@@ -65,12 +65,6 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
-
-* **Asset-Anzahl nach Größe:** Segmentiert die Gesamtanzahl der Assets in Ihrer Assets-Basisumgebung in unterschiedliche Größenbereiche, wobei die Anzahl und der Prozentsatz der Assets in jedem Größenbereich durch ein Ringdiagramm dargestellt werden.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
-
-* **Asset-Anzahl nach Asset-Typ:** Segmentiert die Gesamtanzahl der Assets in Ihrer Assets-Basisumgebung und hebt die Anzahl und den Prozentsatz der Assets anhand ihrer Dateitypen hervor, dargestellt durch Ringdiagramm.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## Erstellen eines Herunterladen-Berichts {#create-download-report}
 
