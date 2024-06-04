@@ -3,9 +3,9 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
-workflow-type: tm+mt
-source-wordcount: '1834'
+source-git-commit: 34e710243a77647c50c2057c54f68dbe23d3997a
+workflow-type: ht
+source-wordcount: '1890'
 ht-degree: 100%
 
 ---
@@ -311,15 +311,13 @@ Das folgende Video zeigt den gesamten Vorgang vom Zugriff auf die Benutzeroberfl
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-<!--
-### Disable Contextual Search {#disable-contextual-search}
+### Deaktivieren der Kontextsuche {#disable-contextual-search}
 
-Administrators also have the option to disable Contextual Search for users in your organization. To do so, execute the following steps:
+Admins haben auch die Möglichkeit, die Kontextsuche für Benutzende in ihrer Organisation zu deaktivieren. Führen Sie dazu die folgenden Schritte aus:
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
+1. Navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
 
-1. In the [!UICONTROL Contextual Search] section, turn off the **[!UICONTROL Enable Contextual Search for your organization]** toggle to disable the Contextual Search feature for all users in your organization.  
--->
+1. Deaktivieren Sie im Bereich [!UICONTROL Kontextsuche] den Umschalter für **[!UICONTROL Kontextsuche für Ihre Organisation aktivieren]**, um die Kontextsuche für alle Benutzenden in Ihrer Organisation zu deaktivieren.
 
 ### Feedback zur Kontextsuche {#contextual-search-feedback}
 
