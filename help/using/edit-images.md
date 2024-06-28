@@ -3,16 +3,16 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von  [!DNL Adobe Express]  unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 35f92dfe66fa2cae6a512b6b59bfe2bacc87511c
+source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 30%
 
 ---
 
-# Bearbeiten von Bildern in [!DNL Assets Essentials] {#edit-images-in-asset-essentials}
+# Bearbeiten von Bildern in [!DNL Assets Essentials] {#edit-images-in-assets-essentials}
 
-Die Benutzeroberfläche von Asset Essentials ermöglicht die grundlegende Bildbearbeitung, einschließlich Größenanpassung, Hintergrundentfernt, Zuschneiden und Konvertieren zwischen JPEG- und PNG-Formaten. Darüber hinaus ermöglicht sie die erweiterte Bearbeitung durch die Integration mit Adobe Express. Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Version speichern. Mit der Versionierung können Sie bei Bedarf später zum Original-Asset zurückkehren. Um ein Bild zu bearbeiten, [öffnen Sie seine Vorschau](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) und klicken Sie auf **Bild bearbeiten**.
+Die Assets Essentials-Benutzeroberfläche ermöglicht die grundlegende Bildbearbeitung, einschließlich Größenanpassung, Hintergrundentfernt, Zuschneiden und Konvertieren zwischen JPEG- und PNG-Formaten. Darüber hinaus ermöglicht sie die erweiterte Bearbeitung durch die Integration mit Adobe Express. Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Version speichern. Mit der Versionierung können Sie bei Bedarf später zum Original-Asset zurückkehren. Um ein Bild zu bearbeiten, [öffnen Sie seine Vorschau](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) und klicken Sie auf **Bild bearbeiten**.
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ Die Benutzeroberfläche von Asset Essentials ermöglicht die grundlegende Bildbe
 
 ## Bild bearbeiten {#edit-images}
 
-Landing on Asset Essentials UI mithilfe des Links - [Benutzeroberfläche von Asset Essentials](https://experience.adobe.com/#/assets) und das richtige Repository auswählen. Wenden Sie sich an den Administrator Ihres Unternehmens, um Zugriff zu erhalten.
-Weitere Referenzinformationen finden Sie unter [Erste Schritte mit Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [Grundlegendes zur Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Anwendungsbeispiele zu Asset-Grundlagen](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) und [bekannte Probleme](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+Landing on Assets Essentials UI using the link - [Assets Essentials-Benutzeroberfläche](https://experience.adobe.com/#/assets) und das richtige Repository auswählen. Wenden Sie sich an den Administrator Ihres Unternehmens, um Zugriff zu erhalten.
+Weitere Referenzinformationen finden Sie unter [Erste Schritte mit Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [Grundlegendes zur Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Anwendungsbeispiele für Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) und [bekannte Probleme](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -86,11 +86,11 @@ Benutzer mit Express-Berechtigung können den eingebetteten Express-Editor über
 ![in der grundlegenden Benutzeroberfläche ausdrücken](/help/using/assets/express-in-essentials-ui.jpg)
 Gehen Sie wie folgt vor, um Bilder mit dem eingebetteten Adobe Express-Editor zu bearbeiten:
 
-1. Starten Sie über den Link zur AEM Benutzeroberfläche von Asset Essentials - [Benutzeroberfläche von AEM Asset Essentials](https://experience.adobe.com/#/assets) und wählen Sie das richtige Repository aus.
+1. Starten Sie über den Link zur AEM Assets Essentials-Benutzeroberfläche - [Benutzeroberfläche von AEM Assets Essentials](https://experience.adobe.com/#/assets) und wählen Sie das richtige Repository aus.
 1. Klicks **Assets**, geben Sie einen Ordner ein und wählen Sie ein Bild aus.
 1. Klicks **In Adobe Expreß öffnen**. Das Bild wird auf einer Expressarbeitsfläche geöffnet.
 1. Nehmen Sie die erforderlichen Änderungen am Bild vor.
-1. Wenn Sie für Ihr Projekt weitere Seiten hinzufügen müssen, klicken Sie auf **Hinzufügen**, wählen Sie Assets aus, geben Sie einen Ordner ein, wählen Sie ein Bild aus, das auf die Leinwandseite geladen werden soll, und führen Sie dann die erforderlichen Bildbearbeitungen durch.
+1. Wenn Sie für Ihr Projekt weitere Seiten hinzufügen müssen, klicken Sie auf **Hinzufügen**, wählen Sie Assets aus, geben Sie einen Ordner ein, wählen Sie ein Bild aus, das auf die Leinwandseite geladen werden soll, und nehmen Sie dann die erforderlichen Änderungen am Bild vor.
 1. Klicken Sie zum Speichern der Bilder auf **Speichern**. Das Dialogfeld &quot;Speichern&quot;wird angezeigt.
 
    >[!NOTE]
