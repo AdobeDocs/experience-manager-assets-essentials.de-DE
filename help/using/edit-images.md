@@ -4,9 +4,9 @@ description: Bearbeiten Sie Bilder mit von [!DNL Adobe Express] unterstützten O
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ Die Benutzeroberfläche von Assets Essentials ermöglicht eine grundlegende Bild
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Bilder bearbeiten {#edit-images}
+## Bearbeiten von Bildern {#edit-images}
 
 Öffnen Sie die Benutzeroberfläche von Assets Essentials, indem Sie auf den Link für die [Benutzeroberfläche von Assets Essentials](https://experience.adobe.com/#/assets) klicken und das richtige Repository auswählen. Wenden Sie sich an die Admins Ihrer Organisation, um Zugriff zu erhalten.
 Weitere Informationen finden Sie in folgenden Referenzen: [Erste Schritte mit Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/get-started), [Grundlegendes zur Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/navigate-view), [Assets Essentials-Anwendungsbeispiele](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/get-started#use-cases) und [Bekannte Probleme](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/release-notes).
 
-### Bilder mit Adobe Express bearbeiten {#edit-images-using-adobe-express}
+### Bearbeiten von Bildern mit Adobe Express {#edit-images-using-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
