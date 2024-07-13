@@ -4,7 +4,7 @@ description: Integrieren Sie Assets Essentials in Adobe Workfront, damit Sie in 
 exl-id: 9605fa3a-d454-48b5-9f84-b384eb1ad493
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---

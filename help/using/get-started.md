@@ -5,7 +5,7 @@ role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Die Verwaltung digitaler Assets mit [!DNL Assets Essentials] erfordert nur drei 
 * **Schritt 2**: [Durchsuchen](/help/using/search.md) und [Herunterladen](/help/using/manage-organize.md#download) von Assets.
 * **Schritt 3**: [Verwalten und Organisieren](/help/using/manage-organize.md) der Assets.
 
-Um [!DNL Assets Essentials] zu verwenden, melden Sie sich unter [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) an. Wählen Sie beim Anmelden `Company or School Account` aus. Wenden Sie sich an den Administrator Ihres Unternehmens, um Zugriff zu erhalten.
+Um [!DNL Assets Essentials] zu verwenden, melden Sie sich unter [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) an. Wählen Sie beim Anmelden `Company or School Account` aus. Wenden Sie sich an die Admins Ihrer Organisation, um Zugriff zu erhalten.
 
 Weitere Referenzinformationen, die hilfreich sein können, sind [Verständnis der Benutzeroberfläche](/help/using/navigate-view.md), [Liste der Anwendungsfälle](#use-cases) <!-- TBD: [supported file types](/help/using/supported-file-formats.md), --> und [Bekannte Probleme](/help/using/release-notes.md#known-issues).
 

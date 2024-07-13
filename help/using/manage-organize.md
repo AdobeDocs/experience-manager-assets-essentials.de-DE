@@ -5,7 +5,7 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 * ![move icon](assets/do-not-localize/move-icon.png) Verschiebt das ausgewählte Asset oder den ausgewählten Ordner an einen anderen Speicherort in der Repository-Hierarchie.
 
 * ![rename icon](assets/do-not-localize/rename-icon.png) Benennt das ausgewählte Asset oder den ausgewählten Ordner um. Verwenden Sie einen eindeutigen Namen, sonst schlägt die Umbenennung mit einer Warnung fehl. Sie können es mit einem anderen Namen erneut versuchen.
-Außerdem können Sie auf den Titel eines Assets oder eines Ordners klicken, um ihn umzubenennen. Erwähnen Sie den neuen Text im Textfeld **Asset umbenennen** und klicken Sie auf **Speichern**. Diese Funktion ist in den Ansichten „Raster“, „Galerie“, „Wasserfall“ und „Liste“ verfügbar.
+Außerdem können Sie auf den Titel eines Assets oder eines Ordners klicken, um ihn umzubenennen. Geben Sie den neuen Text in das Textfeld **Asset umbenennen** ein und klicken Sie auf **Speichern**. Diese Funktion ist in den Ansichten „Raster“, „Galerie“, „Wasserfall“ und „Liste“ verfügbar.
 
 * ![Symbol „Wasserfallansicht“](assets/do-not-localize/waterfall-view.png) [!UICONTROL Wasserfallansicht].
 

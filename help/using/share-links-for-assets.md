@@ -3,7 +3,7 @@ title: Wie können Sie Links zu Medienelementen freigeben?
 description: Erstellen Sie einen Link und geben Sie Medienelemente für andere frei, die keinen Zugriff auf das Programm  [!DNL Assets Essentials]  haben.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 

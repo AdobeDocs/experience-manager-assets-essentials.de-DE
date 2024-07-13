@@ -3,7 +3,7 @@ title: Organisationsübergreifende Berechtigungen in AEM Assets für Creative Cl
 description: Erfahren Sie, wie Sie organisationsübergreifende Berechtigungen in AEM Assets für Creative Cloud-Integrationen konfigurieren. Stellen Sie eine Verbindung zu einer Creative Cloud-Berechtigung her, die einer anderen IMS-Organisation zugewiesen wurde, um die neuesten Creative Cloud-Integrationen in AEM Assets, einschließlich Express- und Creative Cloud-Bibliotheken, bequem verwenden zu können.
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
 source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 

@@ -5,8 +5,8 @@ role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1304'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +131,7 @@ Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner ver
 
 Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Ordner](manage-permissions.md).
 
-### Einrichten von Metadatenformularen (Optional) {#metadata-forms}
+### Einrichten von Metadaten-Forms (optional) {#metadata-forms}
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
@@ -147,7 +147,7 @@ Weitere Informationen zu Metadatenformularen finden Sie unter [Metadatenformular
 
 ### Erstellen öffentlicher Sammlungen (optional) {#create-public-collections}
 
-Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
+Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden.
 
 Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten. Weitere Informationen finden Sie unter [Verwalten von Sammlungen](manage-collections.md).
 
