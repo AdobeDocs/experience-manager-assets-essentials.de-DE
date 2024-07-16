@@ -6,7 +6,7 @@ exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
 source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,7 @@ Berechtigungen für den Zugriff auf [!DNL Adobe Express] und mindestens eine Umg
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration_videos"
->title="Adobe Express-Integration für die Videobearbeitung"
+>title="Integration mit Adobe Express für die Videobearbeitung"
 >abstract="Experience Manager Assets enthält jetzt einfache und intuitive Tools zur Videobearbeitung, unterstützt von Adobe Express, um die Wiederverwendung von Inhalten zu verbessern und die Content Velocity zu erhöhen. Zu den Bearbeitungsoptionen gehören das Zuschneiden, das Beschneiden, das Ändern der Größe eines Videos und das Konvertieren einer MP4-Datei in eine GIF-Datei."
 
 Die Umwandlung eines Videos in eine perfekte Größe und Ausrichtung ist mit eingebetteten Schnellaktionen mit [!DNL Adobe Express] einfach.
