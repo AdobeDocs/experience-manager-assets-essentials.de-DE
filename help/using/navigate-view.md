@@ -3,10 +3,10 @@ title: „Benutzeroberfläche von [!DNL Assets Essentials]“
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
+source-git-commit: 8debab75bb335d4a81279c9c0e84229c3b3ca2cd
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ Beim Durchsuchen von Assets in einem Ordner können Sie über die Benutzeroberfl
 
 Sie können die linke Seitenleiste erweitern oder minimieren, um den verfügbaren Asset-Anzeigebereich zu vergrößern.
 
-In [!DNL Assets Essentials] können Sie Assets, Ordner und Suchergebnisse in vier verschiedenen Layout-Typen anzeigen.
+In [!DNL Assets Essentials] können Sie Assets, Ordner und Suchergebnisse in vier verschiedenen Layouttypen anzeigen:
 
 * ![list view icon](assets/do-not-localize/list-view.png) [!UICONTROL Listenansicht]
 * ![grid view icon](assets/do-not-localize/grid-view.png) [!UICONTROL Rasteransicht]
