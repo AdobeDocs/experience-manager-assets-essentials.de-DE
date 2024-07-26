@@ -4,18 +4,28 @@ description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essenti
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
+source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
 workflow-type: tm+mt
-source-wordcount: '2903'
-ht-degree: 100%
+source-wordcount: '2976'
+ht-degree: 97%
 
 ---
 
 # Versionshinweise zu [!DNL Assets Essentials] {#release-notes}
 
-Die aktuelle Version von Assets Essentials wurde am 18. April 2024 veröffentlicht.
+Die aktuelle Version von Assets Essentials wurde am Freitag, 25. Juli 2024 veröffentlicht.
 
 Folgende Funktionen wurden kürzlich hinzugefügt:
+
+**Content credentials-Integration**
+
+Experience Manager Assets unterstützt jetzt content credentials für unterstützte Bildformate. Hier finden Sie Informationen zur Herkunft des Assets und zur Erstellung, einschließlich Informationen dazu, ob es mit GenAI geändert wurde.
+
+![Content credentials](/help/using/assets/content-credentials.png)
+
+**Visuelle Vorschau des Ordnerinhalts**
+
+Experience Manager Assets zeigt jetzt beim Durchsuchen oder Suchen nach Inhalten eine visuelle Vorschau der Ordnerinhalte in der Ordnerminiaturansicht an, was die Auffindbarkeit der im AEM Assets-Repository verfügbaren Assets verbessert.
 
 **Kontextsuche**
 
