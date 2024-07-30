@@ -4,9 +4,9 @@ description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL A
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Wenn Sie sich bei [!DNL Assets Essentials] anmelden, sehen Sie die folgende Ober
 
 ## Durchsuchen und Anzeigen von Assets und Ordnern {#browse-repository}
 
-Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste durchsuchen. Experience Manager Assets zeigt jetzt beim Durchsuchen oder Suchen nach Inhalten eine visuelle Vorschau der Ordnerinhalte in der Ordnerminiaturansicht an, was die Auffindbarkeit der im AEM Assets-Repository verfügbaren Assets verbessert. Mit dieser Ordnerminiaturansicht sparen Sie Zeit, die Sie mit der Suche nach bestimmten Assets in einem Ordner im AEM Assets-Repository verbringen.
-Beim Durchsuchen von Assets in einem Ordner können Sie über die Benutzeroberfläche Asset-Miniaturansichten anzeigen, um das Repository visuell zu durchsuchen oder Asset-Details anzuzeigen, um das gewünschte Asset schnell zu finden. Die in der linken Seitenleiste verfügbaren Optionen sind:
+Sie können die Ordner über die Hauptbenutzeroberfläche oder die linke Seitenleiste durchsuchen. Experience Manager Assets zeigt jetzt beim Durchsuchen oder Suchen nach Inhalten eine visuelle Vorschau der Ordnerinhalte in der Ordnerminiaturansicht an, wodurch es erleichtert wird, die im AEM Assets-Repository verfügbaren Assets zu finden. Mit dieser Ordnerminiaturansicht sparen Sie Zeit bei der Suche nach bestimmten Assets in einem Ordner im AEM Assets-Repository.
+Beim Durchsuchen von Assets in einem Ordner können Sie die Benutzeroberfläche verwenden, um Asset-Miniaturansichten anzuzeigen und auf diese Weise das Repository visuell zu durchsuchen oder um Asset-Details anzuzeigen und so das gewünschte Asset schnell zu finden. Die in der linken Seitenleiste verfügbaren Optionen sind:
 
 * [Mein Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=de): Assets enthält jetzt einen anpassbaren Arbeitsbereich, der Widgets für den bequemen Zugriff auf wichtige Bereiche der Assets-Benutzeroberfläche und Informationen bereitstellt, die für Sie am relevantesten sind. Diese Seite dient als zentrale Anlaufstelle, um einen Überblick über Ihre Arbeitselemente zu erhalten und schnellen Zugriff auf wichtige Workflows zu ermöglichen. Ein bequemerer Zugriff auf diese Optionen erhöht Ihre Effizienz und inhaltliche Geschwindigkeit.
 * [Aufgaben](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=de): Sie können die Aufgaben, die Ihnen zugewiesen wurden, auf der Registerkarte **Meine Aufgaben** ansehen. Die Aufgaben, die von Ihnen erstellt wurden, können hingegen auf der Registerkarte **Zugewiesene Aufgaben** angesehen werden. Darüber hinaus finden Sie die Aufgaben, die Sie abgeschlossen haben, auf der Registerkarte **Abgeschlossene Aufgaben**.
@@ -55,7 +55,7 @@ Beim Durchsuchen von Assets in einem Ordner können Sie über die Benutzeroberfl
 
 Sie können die linke Seitenleiste erweitern oder minimieren, um den verfügbaren Asset-Anzeigebereich zu vergrößern.
 
-In [!DNL Assets Essentials] können Sie Assets, Ordner und Suchergebnisse in vier verschiedenen Layouttypen anzeigen:
+In [!DNL Assets Essentials] können Sie Assets, Ordner und Suchergebnisse in vier verschiedenen Layout-Typen anzeigen:
 
 * ![list view icon](assets/do-not-localize/list-view.png) [!UICONTROL Listenansicht]
 * ![grid view icon](assets/do-not-localize/grid-view.png) [!UICONTROL Rasteransicht]
