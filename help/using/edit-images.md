@@ -3,10 +3,10 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von [!DNL Adobe Express] unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
+source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Weitere Referenzinformationen finden Sie unter - [Erste Schritte mit Adobe Exper
 >title="Integration mit Adobe Express"
 >abstract="Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen."
 
-Nachdem Sie die Benutzeroberfläche von Essentials geöffnet haben, klicken Sie auf **Assets**. Wählen Sie ein Bild aus und klicken Sie in der oberen Leiste auf **Bearbeiten**. Der neue Bildschirm enthält die verfügbaren Bearbeitungsoptionen, die von Adobe Express unterstützt werden. Dazu gehören Größenanpassung, Hintergrundentfernt, Zuschneiden und Konvertieren zwischen JPEG- und PNG-Formaten.
+Klicken Sie nach dem Navigieren zur Benutzeroberfläche &quot;Grundlagen&quot;auf **Assets**, wählen Sie ein Bild aus und klicken Sie dann in der oberen Leiste auf **Bearbeiten** . Der neue Bildschirm enthält die verfügbaren Bearbeitungsoptionen, die von Adobe Express unterstützt werden. Dazu gehören Größenanpassung, Hintergrundentfernt, Zuschneiden und Konvertieren zwischen JPEG- und PNG-Formaten.
 
 #### Ändern der Bildgröße {#resize-image-using-express}
 
