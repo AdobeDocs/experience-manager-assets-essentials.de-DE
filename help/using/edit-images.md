@@ -3,7 +3,7 @@ title: Bearbeiten von Bildern
 description: Bearbeiten Sie Bilder mit von [!DNL Adobe Express] unterstützten Optionen und speichern Sie aktualisierte Bilder als Versionen.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
+source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 63%
@@ -84,7 +84,8 @@ Mithilfe von Adobe Express können Sie schnell zwischen JPEG- und PNG-Bildformat
 
 ### Bearbeiten von Bildern im eingebetteten Adobe Express-Editor {#edit-images-in-adobe-express-embedded-editor}
 
-Benutzer mit Express-Berechtigung können den eingebetteten Express-Editor über die Assets Essentials-Benutzeroberfläche verwenden, um den Inhalt zu bearbeiten und neue Inhalte mit GenAI von Adobe Firefly aus zu erstellen. Diese Funktion verbessert die Wiederverwendung von Inhalten und beschleunigt die Content-Geschwindigkeit. Sie können auch vordefinierte Elemente verwenden, um Ihr Asset atemberaubend zu gestalten, oder Schnellaktionen durchführen, um Ihr Bild mit nur wenigen Klicks schnell und bequem zu bearbeiten.
+Benutzer mit Express-Berechtigung können den eingebetteten Express-Editor über die Assets Essentials-Benutzeroberfläche verwenden, um den Inhalt zu bearbeiten und neue Inhalte mit GenAI von Adobe Firefly aus zu erstellen. Diese Funktion verbessert die Wiederverwendung von Inhalten und beschleunigt die Content-Geschwindigkeit. Sie können auch vordefinierte Elemente verwenden, um Ihr Asset atemberaubend aussehen zu lassen oder Ihr Bild mit nur wenigen Klicks schnell und bequem zu bearbeiten.
+
 ![Express in der grundlegenden Benutzeroberfläche](/help/using/assets/express-in-essentials-ui.jpg)
 Gehen Sie wie folgt vor, um Bilder im eingebetteten Adobe Express-Editor zu bearbeiten:
 
