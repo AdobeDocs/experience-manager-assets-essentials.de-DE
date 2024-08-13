@@ -4,15 +4,15 @@ description: Bearbeiten Sie Bilder mit von [!DNL Adobe Express] unterstützten O
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # Bearbeiten von Bildern in [!DNL Assets Essentials] {#edit-images-in-assets-essentials}
 
-Die Assets Essentials-Benutzeroberfläche ermöglicht die einfache Bildbearbeitung auf Basis von Adobe Expreß, integriert in die Benutzeroberfläche. Diese Bearbeitung umfasst das Ändern der Größe, Entfernen des Hintergrunds, Zuschneiden und Konvertieren zwischen JPEG- und PNG-Formaten. Darüber hinaus ermöglicht es eine erweiterte Bearbeitung über die Adobe Expreß-Benutzeroberfläche Eingebettet in die Essentials-Benutzeroberfläche.
+Die Benutzeroberfläche von Assets Essentials ermöglicht eine einfache Bildbearbeitung auf Basis von Adobe Express, das in die Benutzeroberfläche integriert ist. Diese Bearbeitung umfasst Größenanpassung, Hintergrundentfernung, Zuschneiden und Konvertierung zwischen JPEG- und PNG-Formaten. Darüber hinaus ist eine erweiterte Bearbeitung durch die Adobe Express-Benutzeroberfläche möglich, die in die Essentials-Benutzeroberfläche integriert ist.
 
 Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Version speichern. Mit der Versionierung können Sie bei Bedarf später zum Original-Asset zurückkehren. Um ein Bild zu bearbeiten, [öffnen Sie seine Vorschau](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) und klicken Sie auf **Bild bearbeiten**.
 
@@ -24,8 +24,8 @@ Nachdem Sie ein Bild bearbeitet haben, können Sie das neue Bild als neue Versio
 
 ## Bearbeiten von Bildern {#edit-images}
 
-Wechseln Sie zur Assets Essentials-Benutzeroberfläche, indem Sie den Link - [Assets Essentials UI](https://experience.adobe.com/#/assets) verwenden und das richtige Repository auswählen. Wenden Sie sich an die Admins Ihrer Organisation, um Zugriff zu erhalten.
-Weitere Referenzinformationen finden Sie unter - [Erste Schritte mit Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/get-started), [Verständnis der Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/navigate-view), [Anwendungsfälle für Assets Essentials](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/get-started#use-cases) und [bekannte Probleme](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/release-notes).
+Navigieren Sie zur Benutzeroberfläche von Assets Essentials, indem Sie auf den Link für die [Benutzeroberfläche von Assets Essentials](https://experience.adobe.com/#/assets) klicken und das richtige Repository auswählen. Wenden Sie sich an die Admins Ihrer Organisation, um Zugriff zu erhalten.
+Weitere Informationen finden Sie in folgenden Referenzen: [Erste Schritte mit Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/get-started), [Grundlegendes zur Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/navigate-view), [Assets Essentials-Anwendungsbeispiele](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/get-started#use-cases) und [Bekannte Probleme](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/release-notes).
 
 ### Bearbeiten von Bildern in der Benutzeroberfläche von Essentials mit Adobe Express{#edit-images-using-adobe-express}
 
@@ -34,13 +34,13 @@ Weitere Referenzinformationen finden Sie unter - [Erste Schritte mit Adobe Exper
 >title="Integration mit Adobe Express"
 >abstract="Einfache und intuitive Bildbearbeitungs-Tools von Adobe Express, die direkt in AEM Assets verfügbar sind, um die Wiederverwendung von Inhalten zu steigern und die Geschwindigkeit der Inhaltswiedergabe zu beschleunigen."
 
-Klicken Sie nach dem Navigieren zur Benutzeroberfläche &quot;Grundlagen&quot;auf **Assets**, wählen Sie ein Bild aus und klicken Sie dann in der oberen Leiste auf **Bearbeiten** . Der neue Bildschirm enthält die verfügbaren Bearbeitungsoptionen, die von Adobe Express unterstützt werden. Dazu gehören Größenanpassung, Hintergrundentfernt, Zuschneiden und Konvertieren zwischen JPEG- und PNG-Formaten.
+Nachdem Sie zur Benutzeroberfläche von Essentials navigiert sind, klicken Sie auf **Assets**. Wählen Sie ein Bild aus und klicken Sie dann in der oberen Leiste auf **Bearbeiten**. Im neuen Bildschirm werden die verfügbaren Bearbeitungsoptionen auf Basis von Adobe Express angezeigt, darunter Größenanpassung, Hintergrundentfernung, Zuschneiden und Konvertierung zwischen JPEG- und PNG-Formaten.
 
 #### Ändern der Bildgröße {#resize-image-using-express}
 
-Ein beliebtes Anwendungsbeispiel ist die Größenanpassung eines Bildes auf eine bestimmte Größe. Assets Essentials ermöglicht es Ihnen, die Größe von Bildern schnell an die gängigen Bildgrößen anzupassen, indem vorab berechnete, neue Auflösungen für bestimmte Bildgrößen bereitgestellt werden. Gehen Sie wie folgt vor, um die Bildgröße in der Assets Essentials-Benutzeroberfläche zu ändern:
+Ein beliebtes Anwendungsbeispiel ist die Größenanpassung eines Bildes auf eine bestimmte Größe. Assets Essentials ermöglicht es Ihnen, die Größe von Bildern schnell an die gängigen Bildgrößen anzupassen, indem vorab berechnete, neue Auflösungen für bestimmte Bildgrößen bereitgestellt werden. Gehen Sie wie folgt vor, um in der Benutzeroberfläche von Assets Essentials die Bildgröße zu ändern:
 
-1. Klicken Sie im linken Bereich auf **Bildgröße ändern** . In einem Dialogfeld werden die Größenanpassungsfunktionen für Bilder angezeigt, die von Adobe Expreß unterstützt werden.
+1. Klicken Sie im linken Bereich auf **Bildgröße ändern**. Es wird ein Dialogfeld mit den Größenanpassungsfunktionen für Bilder auf Grundlage von Adobe Express angezeigt.
 2. Wählen Sie in der Dropdown-Liste „Größe ändern“ die entsprechende Social-Media-Plattform aus und wählen Sie in den angezeigten Optionen die Bildgröße aus.
 3. Falls erforderlich, skalieren Sie das Bild mithilfe des Feldes **Bildskala**.
 4. Klicken Sie auf **Anwenden**, um Ihre Änderungen anzuwenden.
@@ -84,30 +84,30 @@ Mithilfe von Adobe Express können Sie schnell zwischen JPEG- und PNG-Bildformat
 
 ### Bearbeiten von Bildern im eingebetteten Adobe Express-Editor {#edit-images-in-adobe-express-embedded-editor}
 
-Benutzer mit Express-Berechtigung können den eingebetteten Express-Editor über die Assets Essentials-Benutzeroberfläche verwenden, um den Inhalt zu bearbeiten und neue Inhalte mit GenAI von Adobe Firefly aus zu erstellen. Diese Funktion verbessert die Wiederverwendung von Inhalten und beschleunigt die Content-Geschwindigkeit. Sie können auch vordefinierte Elemente verwenden, um Ihr Asset atemberaubend aussehen zu lassen oder Ihr Bild mit nur wenigen Klicks schnell und bequem zu bearbeiten.
+Benutzende mit Express-Berechtigung können den eingebetteten Express-Editor über die Assets Essentials-Benutzeroberfläche verwenden, um ganz einfach die Inhalte zu bearbeiten und neue Inhalte mit GenAI von Adobe Firefly zu erstellen. Diese Funktion ermöglicht eine bessere Wiederverwendung von Inhalten und erhöht die Inhaltsgeschwindigkeit. Sie können auch vordefinierte Elemente verwenden, um Ihr Asset beeindruckend aussehen zu lassen, oder schnelle Aktionen durchführen, um Ihr Bild mit nur wenigen Klicks zu bearbeiten.
 
-![Express in der grundlegenden Benutzeroberfläche](/help/using/assets/express-in-essentials-ui.jpg)
+![Express in Essentials-Benutzeroberfläche](/help/using/assets/express-in-essentials-ui.jpg)
 Gehen Sie wie folgt vor, um Bilder im eingebetteten Adobe Express-Editor zu bearbeiten:
 
-1. Wechseln Sie zur Benutzeroberfläche von AEM Assets Essentials über den Link - [Benutzeroberfläche von AEM Assets Essentials](https://experience.adobe.com/#/assets) und wählen Sie das richtige Repository aus.
+1. Navigieren Sie über den Link für die [Benutzeroberfläche von AEM Assets Essentials](https://experience.adobe.com/#/assets) zur AEM Assets Essentials-Benutzeroberfläche und wählen Sie das richtige Repository aus.
 1. Klicken Sie auf **Assets**, geben Sie einen Ordner an und wählen Sie ein Bild aus.
 1. Klicken Sie auf **In Adobe Express öffnen**. Das Bild wird in einer Express-Arbeitsfläche geöffnet.
 1. Nehmen Sie die erforderlichen Änderungen am Bild vor.
 1. Wenn Sie für Ihr Projekt weitere Seiten hinzufügen müssen, klicken Sie auf **Hinzufügen** und wählen Sie „Assets“ aus. Geben Sie einen Ordner an, wählen Sie ein Bild aus, das in die Arbeitsflächenseite geladen werden soll, und nehmen Sie dann die erforderlichen Änderungen am Bild vor.
-1. Um ein oder mehrere Assets zu speichern, klicken Sie auf **Speichern**. Im Dialogfeld &quot;Speichern&quot;werden die Speicheroptionen angezeigt. Um zwischen den Speicheroptionen auszuwählen, folgen Sie einer der folgenden Anweisungen, die Ihren Anforderungen entsprechen:
-   1. Um eine einzelne Seite zu speichern, klicken Sie auf **Als Version speichern** , um das Bild als neue Version zu exportieren (wobei das Originalformat erhalten bleibt), und speichern Sie es im selben Ordner.
+1. Um ein oder mehrere Assets zu speichern, klicken Sie auf **Speichern**. Im Dialogfeld „Speichern“ werden die Speicheroptionen angezeigt. Um zwischen den Speicheroptionen zu wählen, folgen Sie einer der folgenden Anweisungen, die Ihren Anforderungen entspricht:
+   1. Klicken Sie zum Speichern einer einzelnen Seite auf **Als Version speichern**, um das Bild als neue Version zu exportieren (wobei das Originalformat erhalten bleibt) und im selben Ordner zu speichern.
 
-   1. Um eine einzelne Seite zu speichern, klicken Sie auf **Als neues Asset speichern** , um das Asset in ein anderes Format zu exportieren und es als neues Asset in einem beliebigen Ordner zu speichern.
+   1. Klicken Sie zum Speichern einer einzelnen Seite auf **Als neues Asset speichern**, um das Asset in einem anderen Format zu exportieren und als neues Asset in einem beliebigen Ordner zu speichern.
 
-   1. Um eine einzelne Seite von mehreren Seiten zu speichern, klicken Sie auf **Als Version speichern** , um das Asset in seinem ursprünglichen Format und an seinem Speicherort zu speichern.
+   1. Um eine einzelne Seite von mehreren Seiten zu speichern, klicken Sie auf **Als Version speichern**, um das Asset in seinem ursprünglichen Format und an seinem ursprünglichen Speicherort zu speichern.
 
-   1. Um mehrere Seiten oder eine einzelne Seite unter mehreren Seiten zu speichern, klicken Sie auf **Als neues Asset speichern**. Durch diese Aktion werden die einzelnen Assets oder mehrere Assets in einen beliebigen Ordner exportiert und als neue Assets oder Assets im Original oder in einem anderen Format gespeichert.
+   1. Um mehrere Seiten oder eine einzelne Seite von mehreren Seiten zu speichern, klicken Sie auf **Als neues Asset speichern**. Mit dieser Aktion werden ein einzelnes Asset oder mehrere Assets in einen beliebigen Ordner exportiert und als neue Assets in ihrem ursprünglichen oder einem anderen Format gespeichert.
 
 1. Im Dialogfeld „Speichern“:
    1. Geben Sie einen Namen für die Datei in das Feld **Speichern unter** ein.
    1. Wählen Sie einen Zielordner aus.
    1. Optional: Geben Sie Details wie den Projekt- oder Kampagnennamen, Keywords, Kanäle, den Zeitrahmen und die Region an.
-1. Klicken Sie auf **Als Version speichern** oder auf **Als neues Asset speichern** , um ein oder mehrere Assets zu speichern.
+1. Klicken Sie auf **Als Version speichern** oder **Als neues Asset speichern**, um eines oder mehrere Assets zu speichern.
 
 #### Einschränkungen beim Bearbeiten von Bildern im Express-Editor {#limitations-of-editing-images-in-the-express-editor}
 
@@ -118,7 +118,7 @@ Gehen Sie wie folgt vor, um Bilder im eingebetteten Adobe Express-Editor zu bear
 
 ### Erstellen neuer Assets in Adobe Express {#create-new-assets-using-embedded-editor}
 
-Mit Assets Essentials können Sie eine neue Vorlage mit dem eingebetteten Adobe Expreß-Editor von Grund auf neu erstellen. Gehen Sie wie folgt vor, um mit Adobe Express ein neues Asset zu erstellen:
+In Assets Essentials können Sie mithilfe des eingebetteten Adobe Express-Editors eine komplett neue Vorlage erstellen. Gehen Sie wie folgt vor, um mit Adobe Express ein neues Asset zu erstellen:
 
 1. Navigieren Sie zu **Mein Arbeitsbereich** und klicken Sie im Adobe Express-Banner ganz oben in Adobe Express auf **Erstellen**. In der Assets Essentials-Benutzeroberfläche wird eine leere Adobe Express-Arbeitsfläche angezeigt.
 1. Erstellen Sie Inhalte mithilfe von [Vorlagen](https://helpx.adobe.com/de/express/using/work-with-templates.html). Navigieren Sie andernfalls zu Ihrem Inhalt, um vorhandene Inhalte zu ändern.
