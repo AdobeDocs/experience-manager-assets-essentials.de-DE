@@ -3,7 +3,7 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 332a4842f6ae017b802fbd0edd75e74d6f2e8c97
+source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 80%
@@ -146,7 +146,7 @@ So generieren Sie neue Assets mit [!DNL Adobe Firefly]:
 
    * Geben Sie einen Namen für die Datei in das Feld **Speichern unter** ein.
    * Wählen Sie einen Zielordner aus.
-   * Geben Sie Details wie Projekt- oder Kampagnenname, Suchbegriffe, Kanäle, Zeitraum und Region an.
+   * Geben Sie Details wie Projekt- oder Kampagnenname, Suchbegriffe, Kanäle, Zeitraum und Region ein.
 
    ![Integration mit Firefly](assets/save-generated-asset.png)
 
