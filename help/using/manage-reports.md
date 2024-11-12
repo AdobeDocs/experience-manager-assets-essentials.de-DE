@@ -3,9 +3,9 @@ title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 49b650b3efe5740eb1ce39b7dcf6f84e34e0e81a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -33,27 +33,27 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 ## Erstellen eines Berichts {#create-report}
 
-Die AEM Assets Essentials-Umgebung bietet umfassende Berichterstellungsfunktionen über das Berichte-Dashboard. Mit dieser Funktion können Benutzer CSV-Berichte erstellen und herunterladen, die Details zu Asset-Uploads und -Downloads innerhalb eines bestimmten Zeitraums anzeigen, der von ein- bis täglichen, wöchentlichen, monatlichen oder jährlichen Intervallen reicht.
+Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassende Berichtsfunktionen. Mit dieser Funktion können Benutzende CSV-Berichte erstellen und herunterladen, die Details zu Asset-Uploads und -Downloads innerhalb eines bestimmten Zeitraums angeben. Die Intervalle können einmalig, täglich, wöchentlich, monatlich oder jährlich sein.
 
 **So erstellen Sie einen Bericht:**
 
 1. Navigieren Sie zu **Berichte** und klicken Sie auf **Bericht erstellen** (oben rechts). Im Dialogfeld **Bericht erstellen** werden die folgenden Felder angezeigt:
    ![create-report](/help/using/assets/executed-reports1.svg)
 
-   **Auf der Registerkarte &quot;Konfiguration&quot;:**
+   **Auf der Registerkarte „Konfiguration“:**
 
    1. **Berichtstyp:** Wählen Sie zwischen dem Upload- und dem Download-Typ aus.
    1. **Titel:** Fügen Sie dem Bericht einen Titel hinzu.
    1. **Beschreibung:** Fügen Sie dem Bericht eine optionale Beschreibung hinzu.
-   1. **Ordnerpfad auswählen:** Wählen Sie einen Ordnerpfad aus, um den Bericht der hochgeladenen und heruntergeladenen Assets in diesem bestimmten Ordner zu generieren. Wenn Sie beispielsweise den Bericht mit Assets benötigen, die in einen Ordner hochgeladen wurden, geben Sie den Pfad zu diesem Ordner an.
-   1. **Datumsintervall auswählen:** Wählen Sie den Datumsbereich aus, um die Upload- oder Download-Aktivität im Ordner anzuzeigen.
+   1. **Ordnerpfad auswählen:** Wählen Sie einen Ordnerpfad aus, um den Bericht der hochgeladenen und heruntergeladenen Assets in diesem bestimmten Ordner zu generieren. Wenn Sie beispielsweise den Bericht der Assets benötigen, die in einen Ordner hochgeladen wurden, geben Sie den Pfad zu diesem Ordner an.
+   1. **Datumsintervall auswählen:** Wählen Sie den Datumsbereich aus, für den die Upload- oder Download-Aktivität im Ordner angezeigt werden soll.
    <br>
 
    >[!NOTE]
    >
    > Assets Essentials konvertiert alle lokalen Zeitzonen in die koordinierte Weltzeit (UTC).
 
-   **Auf der Registerkarte &quot;Spalten&quot;:** Wählen Sie die Spaltennamen aus, die im Bericht angezeigt werden sollen. In der folgenden Tabelle wird die Verwendung aller Spalten erläutert:
+   **Auf der Registerkarte „Spalten“:** Wählen Sie die Spaltennamen aus, die im Bericht angezeigt werden sollen. In der folgenden Tabelle wird die Verwendung aller Spalten erläutert:
 
    <table>
     <tbody>
@@ -68,7 +68,7 @@ Die AEM Assets Essentials-Umgebung bietet umfassende Berichterstellungsfunktione
       <td>Hochladen und Herunterladen</td>
      </tr>
      <tr>
-      <td>Pfad </td>
+      <td>Pfad</td>
       <td>Der Ordnerpfad, in dem das Asset in Assets Essentials verfügbar ist.</td>
       <td>Hochladen und Herunterladen</td>
      </tr>
@@ -120,53 +120,53 @@ Die AEM Assets Essentials-Umgebung bietet umfassende Berichterstellungsfunktione
     </tbody>
    </table>
 
-## Vorhandenen Bericht anzeigen und herunterladen {#View-and-download-existing-report}
+## Anzeigen und Herunterladen von vorhandenen Berichten {#View-and-download-existing-report}
 
-Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf &quot;**Berichte**&quot;und wählen Sie &quot;**Ausgeführte Berichte**&quot;, um alle erstellten Berichte mit dem Status &quot;**Abgeschlossen**&quot;anzuzeigen und anzugeben, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder zu löschen, wählen Sie die Berichtszeile aus. Wählen Sie dann **CSV herunterladen** oder **Löschen** aus.
-![ Anzeigen und Herunterladen vorhandener Berichte](/help/using/assets/view-download-existing-report.png)
+Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf **Berichte** und wählen Sie **Ausgeführte Berichte** aus, um alle erstellten Berichte mit dem Status **Abgeschlossen** anzuzeigen. Dieser Status bedeutet, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder zu löschen, wählen Sie die Berichtszeile aus. Wählen Sie dann **CSV herunterladen** oder **Löschen** aus.
+![Anzeigen und Herunterladen von vorhandenen Berichten](/help/using/assets/view-download-existing-report.png)
 
 ## Planen eines Berichts {#schedule-report}
 
-In der Benutzeroberfläche AEM Grundlagen richtet **Bericht planen** eine automatische Generierung von Berichten in bestimmten zukünftigen Intervallen ein, z. B. täglich, wöchentlich, monatlich oder jährlich. Diese Funktion hilft, die wiederkehrenden Berichtsanforderungen zu optimieren und stellt zeitnahe Datenaktualisierungen sicher. Während **Bericht erstellen** Berichte für vergangene Daten generiert. Abgeschlossene Berichte werden unter **Ausgeführte Berichte** aufgelistet und bevorstehende Berichte finden Sie unter **Terminierte Berichte**.
+In der AEM Essentials-Benutzeroberfläche wird durch **Bericht planen** eine automatische Generierung von Berichten in bestimmten zukünftigen Intervallen eingerichtet, z. B. täglich, wöchentlich, monatlich oder jährlich. Diese Funktion hilft, die wiederkehrenden Berichtsanforderungen zu optimieren, und stellt zeitnahe Datenaktualisierungen sicher. **Bericht erstellen** generiert dagegen Berichte für vergangene Daten. Abgeschlossene Berichte werden unter **Ausgeführte Berichte** aufgelistet, und die anstehenden Berichte finden Sie unter **Geplante Berichte**.
 
 Gehen Sie wie folgt vor, um einen Bericht zu planen:
 
-1. Klicken Sie im linken Bereich auf Berichte und dann oben rechts auf Bericht erstellen .
-1. Im Dialogfeld &quot;Bericht&quot;werden die folgenden Informationen angezeigt:
+1. Klicken Sie im linken Bereich auf „Berichte“ und dann oben rechts auf „Bericht erstellen“.
+1. Im Dialogfeld „Bericht“ werden die folgenden Informationen angezeigt:
    1. **Berichtstyp:** Wählen Sie zwischen dem Upload- und dem Download-Typ aus.
    1. **Titel:** Fügen Sie dem Bericht einen Titel hinzu.
    1. **Beschreibung**: Fügen Sie dem Bericht eine optionale Beschreibung hinzu.
-   1. **Ordnerpfad auswählen:** Wählen Sie einen Ordnerpfad aus, um einen Bericht für Assets zu generieren, die in diesen bestimmten Ordner hochgeladen oder von diesem heruntergeladen werden.
-   1. Umschalten zwischen **Bericht planen:** Umschalten, um den Bericht für einen späteren Zeitpunkt oder für sein wiederholtes Auftreten zu planen.
+   1. **Ordnerpfad auswählen**: Wählen Sie einen Ordnerpfad aus, um einen Bericht für Assets zu generieren, die in Zukunft in diesen bestimmten Ordner hochgeladen bzw. aus diesem Ordner heruntergeladen werden.
+   1. Umschalter **Bericht planen**: Schalten Sie zwischen den beiden Optionen um, den Bericht entweder für einen späteren Zeitpunkt oder für ein wiederholtes Vorkommen zu planen.
       ![Bericht planen](/help/using/assets/schedule-reports1.svg)
 
-   1. **Häufigkeit auswählen:** Geben Sie das Intervall für die Generierung des Berichts an (z. B. täglich, wöchentlich, monatlich, jährlich oder einmal) und legen Sie Datum und Uhrzeit für die Ausführung des Berichts zusammen mit dem Enddatum für die Wiederholung fest. Wählen Sie für einen einmaligen Bericht den Datumsbereich für den Bericht über den ausgewählten Aktivitätstyp in der AEM Umgebung aus. Wenn Sie beispielsweise einen Bericht zu heruntergeladenen Assets vom 10. bis zum 29. (zukünftigen) eines bestimmten Monats benötigen, wählen Sie diese Daten im Feld **Datumsintervall auswählen** aus.
+   1. **Häufigkeit auswählen**: Geben Sie das Intervall für die Generierung des Berichts an (z. B. täglich, wöchentlich, monatlich, jährlich oder einmalig) und legen Sie Datum und Uhrzeit für die Ausführung des Berichts zusammen mit dem Enddatum für das Intervall fest. Wählen Sie für einen einmaligen Bericht den Datumsbereich für den Bericht über den ausgewählten Aktivitätstyp in der AEM-Umgebung aus. Wenn Sie beispielsweise einen Bericht zu den vom 10. bis zum 29. (Datumsangaben in der Zukunft) eines bestimmten Monats heruntergeladenen Assets benötigen, wählen Sie diese Datumsangaben im Feld **Datumsintervall auswählen** aus.
 
    >[!NOTE]
    >
    > Assets Essentials konvertiert alle lokalen Zeitzonen in die koordinierte Weltzeit (UTC).
 
-## Geplante Berichte anzeigen {#view-scheduled-reports}
+## Anzeigen geplanter Berichte {#view-scheduled-reports}
 
-Geplante Berichte werden systematisch organisiert auf der Registerkarte **Terminierte Berichte** angezeigt. Alle abgeschlossenen Berichte für jeden terminierten Bericht werden in einem einzigen Berichtsordner gespeichert. Klicken Sie auf ![Reduzieren erweitern](/help/using/assets/expand-icon1.svg) , um die abgeschlossenen Berichte anzuzeigen. Wenn Sie beispielsweise einen täglichen Bericht geplant haben, werden alle abgeschlossenen Berichte in einem Ordner zusammengefasst. Diese Organisation vereinfacht die Navigation und Erkennung von Berichten. Um terminierte Berichte anzuzeigen, klicken Sie auf **Berichte** und dann auf **Terminierte Berichte**. Alle terminierten Berichte werden angezeigt, wobei ihr Status fortlaufend oder abgeschlossen ist. Die abgeschlossenen Berichte können heruntergeladen werden.
-![terminierter Bericht](/help/using/assets/scheduled-reports-tab.png)
+Geplante Berichte werden systematisch organisiert auf der Registerkarte **Geplante Berichte** angezeigt. Alle abgeschlossenen Berichte für jeden geplanten Bericht werden in einem einzigen Berichtsordner gespeichert. Klicken Sie auf ![Ein- und Ausblenden](/help/using/assets/expand-icon1.svg), um die abgeschlossenen Berichte anzuzeigen. Wenn Sie beispielsweise einen täglichen Bericht geplant haben, werden alle abgeschlossenen Berichte in einem Ordner gruppiert. Diese Organisation vereinfacht die Navigation und die Erkennung von Berichten. Um geplante Berichte anzuzeigen, klicken Sie auf **Berichte** und dann auf **Geplante Berichte**. Alle geplanten Berichte werden angezeigt, wobei ihr Status entweder „Laufend“ oder „Abgeschlossen“ ist. Die abgeschlossenen Berichte können heruntergeladen werden.
+![Geplanter Bericht](/help/using/assets/scheduled-reports-tab.png)
 
-## Terminierte Berichte bearbeiten und abbrechen {#edit-cancel-scheduled-reports}
+## Bearbeiten und Abbrechen von geplanten Berichten {#edit-cancel-scheduled-reports}
 
-1. Navigieren Sie zur Registerkarte **Terminierte Berichte** .
+1. Navigieren Sie zur Registerkarte **Geplante Berichte**.
 1. Wählen Sie die Berichtszeile aus.
 1. Klicken Sie auf **Bearbeiten**.
-1. Klicken Sie auf **Zeitplan abbrechen** und dann auf **Bestätigen**, um den terminierten Bericht abzubrechen. Bei abgebrochenen Berichten wird die nächste Laufzeit leer und der Status zeigt abgebrochen an.
-   ![terminierten Bericht bearbeiten und abbrechen](/help/using/assets/cancel-edit-scheduled-reports.png)
+1. Klicken Sie auf **Zeitplan abbrechen** und dann auf **Bestätigen**, um den geplanten Bericht abzubrechen. Bei abgebrochenen Berichten ist „Zeit der nächsten Ausführung“ leer und der Status ist „Abgebrochen“.
+   ![Bearbeiten und Abbrechen eines geplanten Berichts](/help/using/assets/cancel-edit-scheduled-reports.png)
 
 ### Zeitplan fortsetzen {#resume-schedule}
 
-Um den abgebrochenen Zeitplan wieder aufzunehmen, wählen Sie die Berichtszeile aus und klicken Sie auf **Zeitplan fortsetzen**. Nach der Wiederaufnahme werden die nächsten Laufzeiteinträge erneut angezeigt und der Status zeigt &quot;Laufend&quot;an.
-![Zeitplan für die Wiederaufnahme ](/help/using/assets/resume-schedule.png)
+Um den abgebrochenen Zeitplan wieder aufzunehmen, wählen Sie die Berichtszeile aus und klicken Sie auf **Zeitplan fortsetzen**. Nach dem Fortsetzen werden die Einträge für die nächsten Ausführungen erneut angezeigt und der Status ist „Laufend“.
+![Zeitplan fortsetzen](/help/using/assets/resume-schedule.png)
 
 >[!NOTE]
 >
-> Wenn Sie einen abgebrochenen Bericht vor dem geplanten Enddatum fortsetzen, werden automatisch die Berichte vom Abbruchsdatum bis zum Wiederaufnahmedatum generiert.
+> Wenn Sie einen abgebrochenen Bericht vor dem geplanten Enddatum fortsetzen, werden die Berichte vom Abbruchdatum bis zum Fortsetzungsdatum automatisch generiert.
 
 ## Anzeigen von Insights {#view-live-statistics}
 
@@ -203,9 +203,9 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
    ![Insights](assets/insights2.png)
    -->
 
-* **Asset-Anzahl nach Größe:** Segmentiert die Gesamtanzahl der Assets in Ihrer Assets-Basisumgebung in unterschiedliche Größenbereiche, wobei die Anzahl und der Prozentsatz der Assets in jedem Größenbereich durch ein Ringdiagramm dargestellt werden.
+* **Asset-Anzahl nach Größe:** Segmentiert die gesamte Asset-Anzahl in Ihrer Assets Essentials-Umgebung in unterschiedliche Größenbereiche und hebt die Anzahl und den Prozentsatz der Assets in jedem Größenbereich hervor, dargestellt durch ein Ringdiagramm.
   ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **Asset-Anzahl nach Asset-Typ:** Segmentiert die Gesamtanzahl der Assets in Ihrer Assets-Basisumgebung und hebt die Anzahl und den Prozentsatz der Assets anhand ihrer Dateitypen hervor, dargestellt durch ein Ringdiagramm.
+* **Asset-Anzahl nach Asset-Typ:** Segmentiert die gesamte Asset-Anzahl in Ihrer Assets Essentials-Umgebung und hebt die Anzahl und den Prozentsatz der Assets anhand ihrer Dateitypen hervor, dargestellt durch ein Ringdiagramm.
   ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
