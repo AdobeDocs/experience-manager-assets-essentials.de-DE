@@ -1,6 +1,6 @@
 ---
-title: Arbeitet mit anderen Adobe-Lösungen zusammen
-description: „[!DNL Assets Essentials] arbeitet mit anderen Adobe-Lösungen zusammen und bietet ein eingebettetes Erlebnis innerhalb des nativen Programms.“
+title: Integration mit anderen Adobe-Lösungen
+description: '[!DNL Assets Essentials] lässt sich mit anderen Adobe-Lösungen integrieren und bietet ein eingebettetes Erlebnis innerhalb des nativen Programms.'
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8

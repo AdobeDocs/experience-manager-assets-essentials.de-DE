@@ -1,10 +1,10 @@
 ---
-title: „Benutzeroberfläche von [!DNL Assets Essentials]“
+title: Benutzeroberfläche von [!DNL Assets Essentials]
 description: Grundlegendes zur Benutzeroberfläche von und Navigation in [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Sie können die Spalten auswählen, die in der Assets-Listenansicht angezeigt we
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
