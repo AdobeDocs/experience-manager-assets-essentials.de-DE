@@ -5,7 +5,7 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -124,7 +124,7 @@ Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassend
 
 ## Anzeigen und Herunterladen von vorhandenen Berichten {#View-and-download-existing-report}
 
-Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf **Berichte** und wählen Sie **Ausgeführte Berichte** aus, um alle erstellten Berichte mit dem Status **Abgeschlossen** anzuzeigen. Dieser Status bedeutet, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder den Bericht zu löschen, wählen Sie die Berichtszeile aus und danach **CSV herunterladen** oder **Löschen**.
+Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf **Berichte** und wählen Sie **Ausgeführte Berichte** aus, um alle erstellten Berichte mit dem Status **Abgeschlossen** anzuzeigen. Dieser Status bedeutet, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder um ihn zu löschen, wählen Sie die Berichtszeile und danach **CSV herunterladen** bzw. **Löschen** aus.
 ![Anzeigen und Herunterladen von vorhandenen Berichten](/help/using/assets/view-download-existing-report.png)
 
 ## Planen eines Berichts {#schedule-report}
