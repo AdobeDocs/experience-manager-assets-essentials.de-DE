@@ -2,7 +2,8 @@
 title: Umbenennen und Massenumbenennen von Assets in [!DNL Assets Essentials]
 description: Erfahren Sie, wie Sie Assets mithilfe der neuen Assets-Benutzeroberfläche (Assets Essentials) stapelweise umbenennen. Sie bietet die Möglichkeit, mehrere Assets gleichzeitig umzubenennen.
 role: User
-source-git-commit: 9232f1ccb1d71057c909330d7e4861d048310b7b
+exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
+source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 17%
@@ -67,3 +68,4 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung von KI zum Massenum
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
 * Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+
