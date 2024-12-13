@@ -4,10 +4,10 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+source-git-commit: 09040ef6dc777aa631b00bb37108f86b83bdf583
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1884'
+ht-degree: 94%
 
 ---
 
@@ -130,9 +130,11 @@ Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und
 | Dropdown | Fügt eine Dropdown-Liste hinzu. |
 | Status | Fügt die Repository-Statuseigenschaft hinzu (zugeordnet zu repo:state) |
 | Asset-Status | Fügt die standardmäßige Asset-Status-Eigenschaft hinzu (zugeordnet zu „dam:assetStatus“). |
+| Genehmigt für | |
 | Tags | Fügt ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (zugeordnet zu „xcm:tags“). |
 | Keywords | Fügt freie Keywords hinzu (zugeordnet zu „dc:subject“). |
 | Smart-Tags | Fügt automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
+| Link | Fügen Sie dies hinzu, um externe URLs zu aktivieren. |
 
 ### Zuweisen eines Metadatenformulars zu Ordnern {#assign-metadata-form-folder}
 
@@ -165,6 +167,19 @@ So entfernen Sie ein Metadatenformular aus einem Ordner:
 1. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Entfernen]**. Sie können auch mehrere Ordner aus der Liste auswählen.
 
 Sie können auch zur Seite mit den Ordnerdetails navigieren und im Feld **[!UICONTROL Metadatenformulare]** die Option **[!UICONTROL Systemzugeordnete Metadatenformulare]** auswählen, um das zugewiesene Metadatenformular aus einem Ordner zu entfernen.
+
+### Arbeiten mit einer Link-Komponente im Metadatenformular {#link-component-metadata-form}
+
+Die Link-Komponente wird verwendet, um externe URLs zu aktivieren, einschließlich Speicher-Links, Copyright-Informationen, Kontaktformulare usw. Um die Link-Komponente im Metadatenformular zu verwenden, müssen Sie [Metadatenformular konfigurieren](#metadata-forms).
+
+Gehen Sie wie folgt vor, um die Link-Komponente im Metadatenformular zu verwenden:
+
+1. Gehen Sie zur Seite mit Asset-Details und navigieren Sie zu **[!UICONTROL Link-URL]**.
+1. Fügen Sie eine URL hinzu, die Sie für das ausgewählte Asset umleiten möchten.
+1. Klicken Sie **[!UICONTROL Link hinzufügen]**. Führen Sie eine der folgenden Aktionen aus:
+   * Klicken Sie auf ![copy icon](assets/do-not-localize/copy.svg), um die URL zu kopieren.
+   * Klicken Sie ![edit icon](assets/do-not-localize/edit.svg), um die URL zu bearbeiten.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
 
 ## Nächste Schritte {#next-steps}
 
