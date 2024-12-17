@@ -4,10 +4,10 @@ description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
+source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 94%
+source-wordcount: '1964'
+ht-degree: 90%
 
 ---
 
@@ -130,11 +130,10 @@ Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und
 | Dropdown | Fügt eine Dropdown-Liste hinzu. |
 | Status | Fügt die Repository-Statuseigenschaft hinzu (zugeordnet zu repo:state) |
 | Asset-Status | Fügt die standardmäßige Asset-Status-Eigenschaft hinzu (zugeordnet zu „dam:assetStatus“). |
-| Genehmigt für | |
 | Tags | Fügt ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (zugeordnet zu „xcm:tags“). |
 | Keywords | Fügt freie Keywords hinzu (zugeordnet zu „dc:subject“). |
 | Smart-Tags | Fügt automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
-| Link | Fügen Sie dies hinzu, um externe URLs zu aktivieren. |
+| Link | Fügen Sie dies hinzu, um externe URLs zu aktivieren. Nach der Konfiguration im Metadatenformular kann die URL-Komponente einer bestimmten Metadateneigenschaft auf der Seite „Metadaten-Editor“ zugeordnet werden. Dieses [Metadatenformular kann Ordnern zugewiesen ](#assign-metadata-form-folder). |
 
 ### Zuweisen eines Metadatenformulars zu Ordnern {#assign-metadata-form-folder}
 
@@ -170,9 +169,9 @@ Sie können auch zur Seite mit den Ordnerdetails navigieren und im Feld **[!UICO
 
 ### Arbeiten mit einer Link-Komponente im Metadatenformular {#link-component-metadata-form}
 
-Die Link-Komponente wird verwendet, um externe URLs zu aktivieren, einschließlich Speicher-Links, Copyright-Informationen, Kontaktformulare usw. Um die Link-Komponente im Metadatenformular zu verwenden, müssen Sie [Metadatenformular konfigurieren](#metadata-forms).
+Die Link-Komponente wird verwendet, um externe URLs zu aktivieren, einschließlich Speicher-Links, Copyright-Informationen, Kontaktformulare usw. Um die Link-Komponente im Metadatenformular zu verwenden, müssen Sie [Metadatenformular konfigurieren](#metadata-forms). Die URL-Komponente kann auf der Seite Metadaten-Editor einer bestimmten Metadateneigenschaft zugeordnet werden. Dies funktioniert genauso wie bei anderen Metadatenkomponenten. Dieses Metadatenformular kann Ordnern zugewiesen werden. Auf der Detailseite des zugewiesenen Ordner-Assets wird daher möglicherweise der Wert für die Asset-Link-Metadaten angezeigt.
 
-Gehen Sie wie folgt vor, um die Link-Komponente im Metadatenformular zu verwenden:
+Gehen Sie wie folgt vor, um die Komponente Link auf der Seite „Asset-Details“ zu verwenden:
 
 1. Gehen Sie zur Seite mit Asset-Details und navigieren Sie zu **[!UICONTROL Link-URL]**.
 1. Fügen Sie eine URL hinzu, die Sie für das ausgewählte Asset umleiten möchten.
