@@ -4,7 +4,7 @@ description: Bearbeiten Sie Bilder mit von [!DNL Adobe Express] unterstützten O
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 100%
 
@@ -195,7 +195,7 @@ TBD: Insert a video of the available social media options.
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General?lang=de#support)
 
 >[!MORELIKETHIS]
 >

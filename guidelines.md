@@ -1,7 +1,7 @@
 ---
 source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
-workflow-type: ht
-source-wordcount: '719'
+workflow-type: tm+mt
+source-wordcount: '705'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit mögl
 
 Alle Ideen, die Sie möglicherweise zur Verbesserung der [!DNL Experience Manager]-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anforderungen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von [!DNL Experience Manager], die Implementierung Ihres [!DNL Experience Manager]-Projekts oder zur Lösung technischer Probleme gedacht.
 
-Fragen zur Verwendung von [!DNL Experience Manager] oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem üblichen Support-Prozess über das [[!DNL Experience Manager] -Support-Portal](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=de#support) gemeldet oder in der [Experience Manager-Community diskutiert werden](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Fragen zur Verwendung von [!DNL Experience Manager] oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem üblichen Support-Prozess über das [[!DNL Experience Manager] -Support-Portal](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=de#support) gemeldet oder in der [Experience Manager-Community diskutiert werden](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?lang=de).
 
 ***[!DNL Experience Manager]-Dokumentationsbeiträge sind kein Ersatz für den Adobe-Support*** und Beiträge, die um Antwort auf Support-spezifische Fragen bitten, werden abgelehnt.
 

@@ -1,7 +1,7 @@
 ---
 source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
-workflow-type: ht
-source-wordcount: '512'
+workflow-type: tm+mt
+source-wordcount: '502'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Wir freuen uns zwar über jeden Beitrag, der die [!DNL Experience Manager]-Dokum
 
 ## So können Sie einen Beitrag leisten
 
-Wir möchten es Ihnen so einfach wie möglich machen, Ihre Beiträge einzureichen. Es gibt zwei Möglichkeiten:
+Wir möchten es Ihnen so einfach wie möglich machen, Ihre Beiträge einzureichen. Sie können auf zwei Arten beitragen:
 
 * [Erstellen eines Problems](#create-an-issue)
 * [Erstellen einer Pull-Anfrage](#create-a-pull-request)

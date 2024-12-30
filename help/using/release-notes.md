@@ -5,7 +5,7 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2976'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Folgende Funktionen wurden kürzlich hinzugefügt:
 
 **Integration der Inhaltsurhebernachweise**
 
-Experience Manager Assets unterstützt jetzt Inhaltsurhebernachweise für unterstützte Bildformate. Hier finden Sie Informationen zur Herkunft des Assets und seiner Erstellung, einschließlich Angaben dazu, ob es mit GenAI geändert wurde.
+Experience Manager Assets unterstützt jetzt Inhaltsurhebernachweise für unterstützte Bildformate. Hier finden Sie Informationen zur Herkunft des Assets und seiner Erstellung, einschließlich Informationen dazu, ob es mit GenAI geändert wurde.
 
 ![Inhaltsurhebernachweise](/help/using/assets/content-credentials.png)
 

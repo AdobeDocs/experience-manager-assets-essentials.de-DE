@@ -3,7 +3,7 @@ title: Verwalten von Berichten in Assets Essentials
 description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Essentials zu, um die Produkt- und Funktionsnutzung zu bewerten und Erkenntnisse zu wichtigen Erfolgsmetriken zu erhalten.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 100%
 
