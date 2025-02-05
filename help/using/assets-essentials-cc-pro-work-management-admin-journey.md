@@ -2,9 +2,9 @@
 title: Einrichten von Assets Essentials für Creative Cloud Pro mit Work-Management-Lösungen
 description: In diesem Tutorial erfahren Administratoren, wie sie die Integration von Assets Essentials mit Creative Cloud-Client-Programmen und Adobe Workfront aktivieren. Zu den Creative Cloud-Desktop-Programmen gehören Adobe Photoshop, Adobe Illustrator, Adobe InDesign und Adobe XD.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ Nach der Verwaltung der Benutzerberechtigungen in der Admin Console können Admi
 
 * Einrichten von Metadatenformularen
 
-[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+[![Siehe Handbuch](assets/see-the-guide-sm.png)](deploy-administer.md)
 
 Nachdem Sie nun Assets Essentials konfiguriert und verwaltet haben, [integrieren Sie Creative Cloud-Programme mit Experience Manager Assets Essentials](integrate-with-creative-cloud.md).
 
@@ -99,7 +99,7 @@ Ziele:
 
 * Verwenden von Adobe Asset Link
 
-[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![Siehe Handbuch](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
 Nachdem Sie nun die Creative Cloud-Programme mit Assets Essentials integriert haben, [integrieren Sie Adobe Workfront mit Experience Manager Assets Essentials](integrate-with-workfront.md).
 
@@ -119,4 +119,4 @@ Ziele:
 
 * Konfigurieren der Integration von Experience Manager Assets Essentials
 
-[![Siehe Handbuch](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![Siehe Handbuch](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
