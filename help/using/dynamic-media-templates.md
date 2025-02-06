@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorl
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: a06bdadcd2194e1ffce23c672e605cfb95f14bcf
+source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ Um [Ordner zu erstellen](/help/assets/add-delete-assets-view.md) unter **[!UICON
 **Menüoptionen im linken Bereich:** Sie diese Optionen für allgemeine Editor-Aktionen wie unten beschrieben.
 
 * ![DM-Vorlagen](/help/using/assets/layer-selector.svg): Wählen Sie eine Ebene aus.
-* ![Vorlagen, die Anpassungen unterstützen](/help/using/assets/bring-forward.svg): Klicken Sie, um eine ausgewählte Ebene nach vorne zu bringen, oder drücken Sie **Strg** + **]** (Windows) oder **Cmd** + **]** (Mac).
-* ![So erstellen Sie eine Vorlage, die einfach angepasst werden kann](/help/using/assets/send-backward.svg): Klicken Sie, um eine ausgewählte Ebene rückwärts zu senden, oder drücken Sie **Strg** + **[** (Windows) oder **Cmd** + **[** (Mac).
 * ![Erstellen Sie eine Vorlage, die sofort angepasst werden kann](/help/using/assets/undo.svg): Klicken Sie, um die letzte Aktion rückgängig zu machen, oder drücken Sie **Strg** + **Z** (Windows) oder **Befehl** + **Z** (Mac).
 * ![Vorlage, um Banner schnell zu erstellen](/help/using/assets/redo.svg): Klicken Sie, um die letzte Aktion wiederherzustellen, oder drücken Sie **Strg** + **Y** (Windows) oder **Cmd** + **Y** (Mac).
 * ![Vorlage, um Flyer schnell zu erstellen](/help/using/assets/zoomin.svg): Klicken Sie, um die Arbeitsfläche zu vergrößern, oder drücken Sie **Strg** + **+** (Windows) oder Befehl + **+** (Mac).
