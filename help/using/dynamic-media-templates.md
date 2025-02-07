@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorl
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
+source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
 workflow-type: tm+mt
-source-wordcount: '2758'
-ht-degree: 0%
+source-wordcount: '2766'
+ht-degree: 1%
 
 ---
 
 # Dynamic Media-Vorlagen{#dynamic-media-templates}
 
-| [Best Practices für die Suche](/help/assets/search-best-practices.md) | [Best Practices für Metadaten](/help/assets/metadata-best-practices.md) | [Content Hub](/help/assets/product-overview.md) | [Entwicklerdokumentation zu AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [Best Practices für die Suche](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Best Practices für Metadaten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Entwicklerdokumentation zu AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 Erstellen Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorlageneditor und schließen Sie mehrere Bilder und Textebenen ein, um schnell Banner und Flyer zu erstellen und sie in nachgelagerten Anwendungen zu verwenden. Sie können auch Parameter zu den Bildern und Textebenen in der Vorlage hinzufügen und [Dynamic Media-URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) verwenden, um die Werte für diese Ebenen in Echtzeit zu aktualisieren.
@@ -44,10 +44,10 @@ Zu den wichtigsten Vorteilen von Dynamic Media-Vorlagen gehören:
 Um eine Dynamic Media-Vorlage zu erstellen, benötigen Sie Folgendes:
 
 1. Zugriff auf Dynamic Media.
-1. [Die in Ihrer AEM Assets-Instanz verfügbaren Bilder wurden mit Dynamic Media synchronisiert, um sie für die Erstellung der Vorlage zu verwenden](/help/assets/dynamic-media/config-dm.md).
+1. [Die in Ihrer AEM Assets-Instanz verfügbaren Bilder wurden mit Dynamic Media synchronisiert, um sie für die Erstellung der Vorlage zu verwenden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Überprüfen Sie Folgendes in der Touch-optimierten Benutzeroberfläche:
-   * Auf der **[!UICONTROL Seite &quot;Dynamic Media-Konfiguration bearbeiten]** wird **** Synchronisierungsmodus für Dynamic Media, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen [ Sie unter „Konfigurieren ](/help/assets/dynamic-media/config-dm.md) Dynamic Media-Cloud Service&quot;.
-   * **[!UICONTROL Dynamic Media-Synchronisierungsmodus]** ist für den Zielordner oder ]**, in dem Sie die Vorlage nach der Erstellung speichern, auf**[!UICONTROL  Für Unterordner aktivieren festgelegt. Weitere Informationen [ Sie unter „Konfigurieren ](/help/assets/dynamic-media/config-dm.md) Dynamic Media-Cloud Service&quot;.
+   * Auf der **[!UICONTROL Seite &quot;Dynamic Media-Konfiguration bearbeiten]** wird **** Synchronisierungsmodus für Dynamic Media, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen [ Sie unter „Konfigurieren ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Dynamic Media-Cloud Service&quot;.
+   * **[!UICONTROL Dynamic Media-Synchronisierungsmodus]** ist für den Zielordner oder ]**, in dem Sie die Vorlage nach der Erstellung speichern, auf**[!UICONTROL  Für Unterordner aktivieren festgelegt. Weitere Informationen [ Sie unter „Konfigurieren ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Dynamic Media-Cloud Service&quot;.
 
 ## Erstellen einer Dynamic Media WYSIWYG-Vorlage{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um eine leere Arbeitsfläche zu erstelle
 
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage unter Dynamic Media Assets zu speichern, oder gehen Sie zu einem Ordner und klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage in diesem Ordner zu speichern. Das **[!UICONTROL Neue Vorlage]** Dialogfeld wird angezeigt.
    ![Erstellen dynamischer Vorlagen, die in Echtzeit angepasst werden können](/help/using/assets/new-template.png)
-Um [Ordner zu erstellen](/help/assets/add-delete-assets-view.md) unter **[!UICONTROL Dynamic Media Assets]** erstellen Sie einen Ordner unter **[!UICONTROL Assets]**. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media Assets]** repliziert.
+Um [Ordner zu erstellen](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media Assets]** erstellen Sie einen Ordner unter **[!UICONTROL Assets]**. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media Assets]** repliziert.
 1. Geben Sie einen Vorlagennamen an, definieren Sie die Breite und Höhe der Arbeitsfläche und klicken Sie auf **[!UICONTROL Erstellen]**. Eine leere Arbeitsfläche wird mit Menüoptionen auf beiden Seiten angezeigt, die zum Erstellen der Vorlage verwendet werden können. Bewegen Sie den Mauszeiger über die Menüoptionen, um deren QuickInfo anzuzeigen.
    ![Anpassbare Echtzeit-Vorlage](/help/using/assets/blank-canvas-page.png)
 
@@ -89,7 +89,7 @@ Um [Ordner zu erstellen](/help/assets/add-delete-assets-view.md) unter **[!UICON
 * ![Erstellen Sie eine Vorlage, die sofort angepasst werden kann](/help/using/assets/undo.svg): Klicken Sie, um die letzte Aktion rückgängig zu machen, oder drücken Sie **Strg** + **Z** (Windows) oder **Befehl** + **Z** (Mac).
 * ![Vorlage, um Banner schnell zu erstellen](/help/using/assets/redo.svg): Klicken Sie, um die letzte Aktion wiederherzustellen, oder drücken Sie **Strg** + **Y** (Windows) oder **Cmd** + **Y** (Mac).
 * ![Vorlage, um Flyer schnell zu erstellen](/help/using/assets/zoomin.svg): Klicken Sie, um die Arbeitsfläche zu vergrößern, oder drücken Sie **Strg** + **+** (Windows) oder Befehl + **+** (Mac).
-* ![Vorlage, um Banner schnell zu erstellen](/help/using/assets/zoomout.svg): Klicken Sie, um die Arbeitsfläche auszuzoomen, oder drücken Sie **Strg** + **-** (Windows) oder **Befehlstaste** + **-** (Mac).
+* ![Vorlage, um Banner schnell zu erstellen](/help/using/assets/ZoomOut-1.svg): Klicken Sie, um die Arbeitsfläche auszuzoomen, oder drücken Sie **Strg** + **-** (Windows) oder **Befehlstaste** + **-** (Mac).
 * Drücken Sie **Rücktaste** oder **Löschen**, um die ausgewählte Ebene zu löschen, wenn kein Text oder keine Eigenschaft bearbeitet wird.
 
 Klicken Sie ![Vorlage, um Flyer schnell zu erstellen](/help/using/assets/show-layers-list.svg) **>** weitere Optionen (![](/help/using/assets/three-dots.svg)) auf der Arbeitsflächen-Ebene, um die Arbeitsflächen-Dimensionen jederzeit beim Erstellen der Vorlage zu bearbeiten.
@@ -121,7 +121,7 @@ Informationen [**[!UICONTROL  Neupositionieren, Ändern der Größe, Drehen oder
 
 >[!NOTE]
 >
-> Um eine andere Schriftart als die standardmäßige Adobe Sans F2-Schriftfamilie zu verwenden, müssen Sie die Schriftartdatei hochladen und in AEM Assets und Dynamic Media veröffentlichen. Wenn Sie einige alte Schriftarten in Ihrer Instanz haben, stellen Sie sicher, dass Sie [erneut verarbeiten](/help/assets/reprocessing-assets-view.md), um sie im Vorlageneditor anzuzeigen.
+> Um eine andere Schriftart als die standardmäßige Adobe Sans F2-Schriftfamilie zu verwenden, müssen Sie die Schriftartdatei hochladen und in AEM Assets und Dynamic Media veröffentlichen. Wenn Sie einige alte Schriftarten in Ihrer Instanz haben, stellen Sie sicher, dass Sie [erneut verarbeiten](/help/using/reprocessing.md), um sie im Vorlageneditor anzuzeigen.
 
 ### Bearbeiten oder Löschen einer Ebene {#edit-or-delete-a-layer}
 
@@ -281,5 +281,5 @@ Bearbeiten Sie die Vorlage, indem Sie folgende Schritte ausführen:
 
 ## Siehe auch
 
-1. Erkunden von [Dynamic Media und seinen Funktionen](/help/assets/dynamic-media/dynamic-media.md)
-1. Erkunden von [Dynamic Media mit OpenAPI-Funktionen](/help/assets/dynamic-media-open-apis-overview.md)
+1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Erkunden von [Dynamic Media mit OpenAPI-Funktionen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)

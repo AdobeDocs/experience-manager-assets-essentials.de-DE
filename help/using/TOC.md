@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
-workflow-type: ht
-source-wordcount: '146'
-ht-degree: 100%
+source-git-commit: dec81fe265f907775addee640ff307ab142e15d8
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 + [Verwalten von Sammlungen](manage-collections.md)
 + [Überwachen von Assets, Ordnern und Sammlungen](manage-notifications.md)
 + [Verwalten von Berichten](manage-reports.md)
-+ [Erneute Verarbeitung](reprocessing.md)
++ [Erneutes Verarbeiten](reprocessing.md)
 + [Verwalten von Tags](tagging-management.md)
 + [Inhaltsurhebernachweise](/help/using/content-credentials.md)
 + Integration mit anderen Lösungen {#integration-with-other-solutions}
@@ -55,4 +55,5 @@ ht-degree: 100%
 + Integration in Creative Cloud {#integration-with-creative-cloud}
    + [Verbinden von AEM Assets mit Creative Cloud](connect-assets-with-creative-cloud.md)
 + [Videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=de)
++ [Dynamic Media-Vorlagen](dynamic-media-templates.md)
 
