@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorl
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
+source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2810'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 1%
 
 | [Best Practices für die Suche](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Best Practices für Metadaten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Entwicklerdokumentation zu AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
+
+>[!CONTEXTUALHELP]
+>id="assets_dm_templates"
+>title="Verwalten von Dynamic Media-Vorlagen"
+>abstract="Erstellen und personalisieren Sie Bild- und Textbanner im Handumdrehen über eine benutzerfreundliche WYSIWYG-Oberfläche und betten Sie die Dynamic Media-URL in Erstanbieter- oder Drittanbieterprogramme ein, um ansprechende Erlebnisse zu schaffen. Probier es mal!"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Video ansehen"
 
 Erstellen Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorlageneditor und schließen Sie mehrere Bilder und Textebenen ein, um schnell Banner und Flyer zu erstellen und sie in nachgelagerten Anwendungen zu verwenden. Sie können auch Parameter zu den Bildern und Textebenen in der Vorlage hinzufügen und [Dynamic Media-URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) verwenden, um die Werte für diese Ebenen in Echtzeit zu aktualisieren.
 
