@@ -7,7 +7,7 @@ exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
 source-wordcount: '2810'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="assets_dm_templates"
 >title="Verwalten von Dynamic Media-Vorlagen"
->abstract="Erstellen und personalisieren Sie Bild- und Textbanner im Handumdrehen über eine benutzerfreundliche WYSIWYG-Oberfläche und betten Sie die Dynamic Media-URL in Erstanbieter- oder Drittanbieterprogramme ein, um ansprechende Erlebnisse zu schaffen. Probier es mal!"
+>abstract="Erstellen und personalisieren Sie Bild- und Textbanner im Handumdrehen über eine benutzerfreundliche WYSIWYG-Oberfläche und betten Sie die Dynamic Media-URL in Erstanbieter- oder Drittanbieterprogramme ein, um besonders ansprechende Erlebnisse zu schaffen. Probieren Sie es aus!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Video ansehen"
 
 Erstellen Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorlageneditor und schließen Sie mehrere Bilder und Textebenen ein, um Banner und Flyer schnell zu erstellen und in nachgelagerten Anwendungen zu verwenden. Sie können auch Parameter zu den Bildern und Textebenen in der Vorlage hinzufügen und [Dynamic Media-URLs](https://experienceleague.adobe.com/de/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) verwenden, um die Werte für diese Ebenen in Echtzeit zu aktualisieren.
@@ -52,8 +52,8 @@ Um eine Dynamic Media-Vorlage zu erstellen, benötigen Sie Folgendes:
 1. Zugriff auf Dynamic Media.
 1. [Die in Ihrer AEM Assets-Instanz verfügbaren Bilder müssen mit Dynamic Media synchronisiert worden sein, um sie für die Erstellung der Vorlage verwenden zu können](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Überprüfen Sie Folgendes in der Touch-optimierten Benutzeroberfläche:
-   * Auf der **[!UICONTROL Seite &quot;Dynamic Media-Konfiguration bearbeiten]** wird **** Synchronisierungsmodus für Dynamic Media, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen [ Sie unter „Konfigurieren ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Dynamic Media-Cloud Service&quot;.
-   * **[!UICONTROL Dynamic Media-Synchronisierungsmodus]** ist für den Zielordner oder ]**, in dem Sie die Vorlage nach der Erstellung speichern, auf**[!UICONTROL  Für Unterordner aktivieren festgelegt. Weitere Informationen [ Sie unter „Konfigurieren ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Dynamic Media-Cloud Service&quot;.
+   * Auf der **[!UICONTROL Seite Dynamic Media-Konfiguration bearbeiten]** wird **[!UICONTROL Synchronisierungsmodus für Dynamic Media]**, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen [ Sie unter „Konfigurieren von Dynamic Media ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Cloud Service&quot;.
+   * **[!UICONTROL Synchronisierungsmodus für Dynamic Media]** ist für den Zielordner oder Unterordner, in **[!UICONTROL Sie die Vorlage nach der Erstellung speichern, auf Für Unterordner aktivieren]** festgelegt. Weitere Informationen [ Sie unter „Konfigurieren von Dynamic Media ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Cloud Service&quot;.
 
 ## Erstellen einer Dynamic Media-WYSIWYG-Vorlage{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Um eine Dynamic Media-Vorlage zu erstellen, führen Sie die folgenden Schritte a
 
 Führen Sie die folgenden Schritte aus, um eine leere Arbeitsfläche zu erstellen:
 
-1. Navigieren Sie zu Assets Essentials und klicken Sie auf **[!UICONTROL Dynamic Media Assets]** im linken Bereich.
+1. Navigieren Sie zu Assets Essentials und klicken Sie **[!UICONTROL linken Bedienfeld auf]** Dynamic Media Assets&quot;.
 
    ![Dynamic Media-Vorlagen](/help/using/assets/DM-Assets1.png)
 
@@ -223,7 +223,7 @@ Führen Sie diese Schritte aus, um den Ausblendungsparametern (![schnelle Inhalt
 
 Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeigen und zu veröffentlichen und die Bereitstellungs-URL zu kopieren:
 
-1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen und auswählen **>** klicken Sie auf **** Vorlage bearbeiten **>** klicken Sie **[!UICONTROL Vorschau]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
+1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen **>** klicken **[!UICONTROL Vorlage bearbeiten**>**klicken****]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
 1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Zum Beispiel:
    1. Auswählen einer Textebene und Bearbeiten ihres Textes oder
    1. Wählen Sie eine Bildebene aus, klicken Sie auf ![Inhalt spontan erstellen](/help/using/assets/add-image.svg), wählen Sie ein Bild aus der Asset-Auswahl aus und klicken Sie auf **[!UICONTROL Aktualisieren]**.
@@ -271,7 +271,7 @@ Fügen Sie diese aktualisierte URL in Ihren Browser ein, um die Änderungen anzu
 
 Gehen Sie wie folgt vor, um die Vorlage zu bearbeiten:
 
-1. Klicken Sie auf Assets Essentials auf **[!UICONTROL Dynamic Media Assets]**.
+1. Klicken Sie in Assets Essentials auf **[!UICONTROL Dynamic Media Assets]**.
 2. Navigieren Sie zum Speicherort der Vorlage.
 3. Wählen Sie die Vorlage aus.
 4. Klicken Sie auf **[!UICONTROL Vorlage bearbeiten]**. Auf der Vorlagenarbeitsfläche werden die Vorlage und die Liste aller zugehörigen Ebenen im Bedienfeld „Ebenen“ angezeigt. Bearbeiten Sie Ihre Vorlage gemäß Ihren Anforderungen.
