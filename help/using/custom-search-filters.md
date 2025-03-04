@@ -3,9 +3,9 @@ title: Benutzerdefinierte Suchfilter
 description: Erfahren Sie mehr über das Anpassen von Suchfiltern in Formularen
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
-source-git-commit: 7d87b25b25d866af741a8aef22ec52abdaa7b974
+source-git-commit: e7068ab473eb016fa2bbdd7ed21e7c2c582544e5
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 13%
 
 ---
@@ -376,7 +376,7 @@ Jedes Filterelement ist mit einer Reihe von Eigenschaften verknüpft. Die folgen
         <ul>
         <li>Klicken Sie <b>Hinzufügen</b>, um einen neuen Wert hinzuzufügen. 
         <li>Klicken Sie auf <span>✎</span>, um den Titel zu bearbeiten. 
-        <li>Klicken Sie auf <img src="assets/do-not-localize/delete-icon.png"> , um den Optionswert zu löschen. 
+        <li>Klicken Sie auf <span>??</span>, um den Optionswert zu löschen. 
         <li>Klicken Sie <b>Bearbeiten</b>, um die Bearbeitungsoptionen zu ändern. 
         <li>Sie können auch die Reihenfolge der Optionen ändern, indem Sie sie gedrückt halten.
         </td>
