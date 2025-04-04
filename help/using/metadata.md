@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2159'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -169,33 +169,33 @@ Sie können auch zur Seite mit den Ordnerdetails navigieren und im Feld **[!UICO
 
 ### Arbeiten mit der Link-Komponente im Metadatenformular {#link-component-metadata-form}
 
-Die Link-Komponente wird verwendet, um externe URLs wie Speicher-Links, Copyright-Informationen, Kontaktformulare usw. zu aktivieren. Um die Link-Komponente im Metadatenformular zu verwenden, müssen Sie das [Metadatenformular konfigurieren](#metadata-forms). Die URL-Komponente kann einer bestimmten Metadateneigenschaft auf der Seite „Metadaten-Editor“ zugeordnet werden. Diese funktioniert auf die gleiche Weise wie andere Metadatenkomponenten. Dieses Metadatenformular kann Ordnern zugewiesen werden. Auf der Detailseite des zugewiesenen Ordner-Assets wird daher möglicherweise der Wert für die Asset-Link-Metadaten angezeigt.
+Die Link-Komponente wird verwendet, um externe URLs wie Speicher-Links, Copyright-Informationen, Kontaktformulare usw. zu aktivieren. Um die Link-Komponente im Metadatenformular zu verwenden, müssen Sie das [Metadatenformular konfigurieren](#metadata-forms). Die URL-Komponente kann einer bestimmten Metadateneigenschaft auf der Seite „Metadaten-Editor“ zugeordnet werden. Diese funktioniert auf die gleiche Weise wie andere Metadatenkomponenten. Dieses Metadatenformular kann Ordnern zugewiesen werden. Daher wird Ihnen auf der Seite mit den Details zum zugewiesenen Ordner-Asset möglicherweise der Metadatenwert des Assetlinks angezeigt.
 
-Gehen Sie wie folgt vor, um die Komponente Link auf der Seite Asset-Details zu verwenden:
+Führen Sie die folgenden Schritte aus, um die Komponente „Link“ auf der Seite „Asset-Details“ zu verwenden:
 
-1. Navigieren Sie auf der Seite mit Asset-Details zur **[!UICONTROL Link-URL]**.
+1. Gehen Sie zur Seite „Asset-Details“ und navigieren Sie zur **[!UICONTROL Link-URL]**.
 1. Fügen Sie eine URL hinzu, die Sie zur Weiterleitung für das ausgewählte Asset verwenden möchten.
 1. Klicken Sie auf **[!UICONTROL Link hinzufügen]**. Führe Sie eine der folgenden Aktionen aus:
    * Klicken Sie auf ![Symbol „Kopieren“](assets/do-not-localize/copy.svg), um die URL zu kopieren.
    * Klicken Sie auf ![Symbol „Bearbeiten“](assets/do-not-localize/edit.svg), um die URL zu bearbeiten.
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
 
-### Arbeiten mit Tags-Komponenten im Metadatenformular {#tag-component-metadata-form}
+### Arbeiten mit der Komponente „Tags“ im Metadatenformular {#tag-component-metadata-form}
 
-Das Stammelement stellt die Baumstruktur der Tags dar, die Sie mit den Assets verknüpfen können, und hilft Ihnen, das Asset anhand des ihm zugewiesenen Tags zu identifizieren. Darüber hinaus können Sie beim Konfigurieren des Metadatenformulars im Metadaten-Editor den Zugriff auf eine bestimmte Taxonomie einschränken.
+Das Stammelement stellt die Baumstruktur der Tags dar, die Sie mit den Assets verknüpfen können, und identifiziert das Asset anhand des ihm zugewiesenen Tags. Darüber hinaus können Sie beim Konfigurieren des Metadatenformulars im Metadaten-Editor den Zugriff auf eine bestimmte Taxonomie beschränken.
 
-#### Konfiguration der Tags-Komponente {#tags-component-configuration}
+#### Konfigurieren der Komponente „Tags“ {#tags-component-configuration}
 
-Konfigurieren Sie die Tag-Komponente, indem Sie die folgenden Schritte ausführen:
+Gehen Sie wie folgt vor, um die Komponente „Tags“ zu konfigurieren:
 
-1. Wechseln Sie zum Metadaten-Editor, navigieren Sie zu **[!UICONTROL Tags]** und platzieren Sie ihn auf der Arbeitsfläche.
-1. Benennen Sie die Komponente auf der Arbeitsfläche um. Navigieren Sie dazu zu **[!UICONTROL Beschriftung]** unter [!UICONTROL Metadateneigenschaft] im Einstellungsbereich und fügen Sie den Text für die Identifizierung hinzu.
-1. Suchen Sie unter [!UICONTROL Metadateneigenschaft] im Bedienfeld Einstellungen nach der Metadateneigenschaft, die Sie der Komponente zuweisen möchten.
-1. Klicken Sie **[!UICONTROL Auf bestimmte Taxonomie beschränken]**, um den Stammpfad der Taxonomie zu beschränken. Durchsuchen Sie dazu Tags und wählen Sie die Taxonomie für den jeweiligen Pfad aus.
+1. Wechseln Sie zum Metadaten-Editor, navigieren Sie zu **[!UICONTROL Tags]** und platzieren Sie die Komponente auf der Arbeitsfläche.
+1. Benennen Sie die Komponente auf der Arbeitsfläche um. Navigieren Sie dazu im Panel „Einstellungen“ unter [!UICONTROL Metadaten-Eigenschaft] zu **[!UICONTROL Label]** und fügen Sie den Text zur Identifizierung der Komponente hinzu.
+1. Suchen Sie im Panel „Einstellungen“ unter [!UICONTROL Metadaten-Eigenschaft] nach der Metadateneigenschaft, die der Komponente zugewiesen werden soll.
+1. Klicken Sie auf **[!UICONTROL Auf bestimmte Taxonomie beschränken]**, um den Stammpfad der Taxonomie zu beschränken. Durchsuchen Sie dazu die Tags und wählen Sie die Taxonomie für den jeweiligen Pfad aus.
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
 
    ![Konfiguration von Stamm-Tags](assets/root-tag-config.png)
-1. [Zuweisen von Metadatenformularen zu Ordnern](#assign-metadata-form-folder).
+1. [Zuweisen eines Metadatenformulars zu Ordnern](#assign-metadata-form-folder).
 
 <!--
 #### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
@@ -209,7 +209,7 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 1. Click **[!UICONTROL Assign]**.
 -->
 
-Um die konfigurierten Stamm-Tags anzuzeigen, gehen Sie zur Detailseite des Assets, wo die Zuordnung zwischen dem Metadatenformular und Stamm-Tags durchgeführt wird.
+Um die konfigurierten Stamm-Tags anzuzeigen, gehen Sie zur Seite mit den Asset-Details, wo die Zuordnung zwischen dem Metadatenformular und Stamm-Tags erfolgt.
 
 ## Nächste Schritte {#next-steps}
 
