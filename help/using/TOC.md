@@ -10,7 +10,7 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: bbc08d7762f1f8f87e5874977b65136522ba8a4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 + [Verwalten von Tags](tagging-management.md)
 + [Content Credentials](/help/using/content-credentials.md)
 + Integration mit anderen Lösungen {#integration-with-other-solutions}
-   + [Übersicht](integration.md)
+   + [Überblick](integration.md)
    + [Integrieren mit Adobe Asset Link](integrate-with-creative-cloud.md)
    + [Integrieren mit Adobe Workfront](integrate-with-workfront.md)
 + Integration in Creative Cloud {#integration-with-creative-cloud}
