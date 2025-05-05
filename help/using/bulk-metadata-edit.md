@@ -62,7 +62,7 @@ Führen Sie diese Schritte aus, um die Metadaten mehrerer Assets gleichzeitig in
 
 1. Klicken Sie in Assets Essentials auf **Assets**.
 1. Suchen Sie nach bestimmten Assets oder suchen Sie sie mithilfe von Keywords in der Suchleiste.
-1. Wählen Sie die Assets aus und klicken Sie **oberen Menü auf**Massenbearbeitung von Metadaten“.
+1. Wählen Sie die Assets aus und klicken Sie **oberen Menü auf**&#x200B;Massenbearbeitung von Metadaten“.
    ![bulk-metadata-edit](/help/using/assets/bulk-metadata-edit1.png)
 1. Bearbeiten Sie auf der Seite „Metadaten bearbeiten“ die folgenden Felder im Bedienfeld **Eigenschaften**:
    * **Status** Wählen Sie einen Status für die ausgewählten Assets aus.
@@ -71,6 +71,7 @@ Führen Sie diese Schritte aus, um die Metadaten mehrerer Assets gleichzeitig in
    * **Schlüsselwörter:** Fügen Sie bestimmte Begriffe oder Textzeichenfolgen hinzu, die allgemeine Informationen über die Assets enthalten, um ihre Auffindbarkeit zu verbessern. Fügen Sie ein Keyword hinzu und drücken Sie die Eingabetaste oder die Eingabetaste, um der Liste ein weiteres Keyword hinzuzufügen.
    * **Tags:** Klicken Sie auf ![Tags-Symbol](/help/using/assets/tags-icon.svg), um Tags aus den verfügbaren Optionen auszuwählen. Tags bieten spezifischere Informationen über die Assets und verbessern ihre Auffindbarkeit. Auf die ausgewählten Assets bereits angewendete Tags werden im Bedienfeld **Eigenschaften** angezeigt. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Weitere [ zum Erstellen und Zuweisen von Tags zu Assets finden Sie unter ](/help/using/tagging-management.md)Verwalten von Tags in Assets Essentials“.
    * Klicken Sie **Speichern**, um die oben genannten Metadaten-Aktualisierungen auf die ausgewählten Assets anzuwenden. Nach dem Speichern werden Keywords und Tags angehängt, während die aktualisierten Details für Status, Ablaufdatum und Autor ihre vorhandenen Details überschreiben.
+
      ![save-bulk-metadata-edit-properties](/help/using/assets/save-bulk-metadata-edit-properties2.png)
 
      >[!NOTE]
