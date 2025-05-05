@@ -48,7 +48,7 @@ Mit dieser Funktion können Sie eine PDF- oder JPG-Datei mit niedriger Auflösun
 
 Für die Übersetzungs-Workflows ist die Erstellung von Quellbeziehungen / abgeleiteten Beziehungen zwischen Assets mit der Funktion „Verknüpfte Assets“ nützlich. Wenn Sie für ein abgeleitetes Asset einen Übersetzungs-Workflow ausführen, ruft [!DNL Experience Manager Assets] automatisch beliebige Assets ab, die von der Quelldatei referenziert werden, und nimmt sie in die Übersetzung auf. Auf diese Weise wird das vom Quell-Asset referenzierte Asset zusammen mit dem Quell-Asset und den abgeleiteten Assets übersetzt. Ist die Quelldatei mit einem anderen Asset verknüpft, ruft [!DNL Experience Manager Assets] das referenzierte Asset ab und nimmt es in die Übersetzung auf.
 
-Siehe [Übersetzen von Assets in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets).
+Siehe [Übersetzen von Assets in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/admin/translate-assets).
 
 ## Nächste Schritte {#next-steps}
 
@@ -61,5 +61,5 @@ Siehe [Übersetzen von Assets in AEM](https://experienceleague.adobe.com/en/docs
 >[!MORELIKETHIS]
 >
 >* [Anzeigen von Versionen eines Assets](manage-organize.md#view-versions)
->* [Übersetzen von Assets in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
+>* [Übersetzen von Assets in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
 >* [Unterstützte Dateiformate in der Assets-Ansicht](supported-file-formats.md).
