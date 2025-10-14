@@ -34,7 +34,7 @@ Mit dieser Funktion können Sie eine PDF- oder JPG-Datei mit niedriger Auflösun
    * Um eine abgeleitete Datei zu verknüpfen, wählen **[!UICONTROL Abgeleitete hinzufügen]** aus der Liste aus. Sie können mehrere Assets in dieser Kategorie verknüpfen.
    * Um eine bidirektionale Beziehung zwischen den Assets zu erstellen, wählen Sie **[!UICONTROL Weitere hinzufügen]** aus der Liste aus. Sie können mehrere Assets in dieser Kategorie verknüpfen.
 
-1. Navigieren Sie **[!UICONTROL Bildschirm &quot;Assets]**&quot; zum Speicherort des Assets, das Sie verknüpfen möchten, und wählen Sie es aus. Sie können ein einzelnes Asset oder mehrere Assets gleichzeitig auswählen, indem Sie beim Klicken die Umschalttaste gedrückt halten, was eines der [unterstützten Dateiformate in der Assets-Ansicht“ ](supported-file-formats.md) kann.
+1. Navigieren Sie **[!UICONTROL Bildschirm &quot;Assets]**&quot; zum Speicherort des Assets, das Sie verknüpfen möchten, und wählen Sie es aus. Sie können ein einzelnes Asset oder mehrere Assets gleichzeitig auswählen, indem Sie beim Klicken die Umschalttaste gedrückt halten, was eines der [unterstützten Dateiformate in der Assets-Ansicht“ &#x200B;](supported-file-formats.md) kann.
 
    ![Verknüpftes Asset hinzufügen](assets/add-related-asset.png)
 

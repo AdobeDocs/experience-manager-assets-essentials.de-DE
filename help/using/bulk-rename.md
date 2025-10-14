@@ -20,7 +20,7 @@ Gehen Sie wie folgt vor, um ein Asset oder einen Ordner umzubenennen:
 
 1. Verwenden Sie eine der folgenden Möglichkeiten, um ein Asset oder einen Ordner umzubenennen:
 
-   * Wählen Sie das Asset oder den Ordner aus und klicken Sie ![ oberen Menü auf ](assets/do-not-localize/rename-icon.png)Symbol **[!UICONTROL Umbenennen]** .
+   * Wählen Sie das Asset oder den Ordner aus und klicken Sie ![&#x200B; oberen Menü auf &#x200B;](assets/do-not-localize/rename-icon.png)Symbol **[!UICONTROL Umbenennen]** .
    * Klicken Sie auf Weitere Optionen `...` dem Asset oder Ordner und wählen Sie **[!UICONTROL Umbenennen]**.
    * Klicken Sie auf den Titel eines Assets oder Ordners, um ihn umzubenennen. Geben Sie den neuen Text in das Textfeld **Asset umbenennen** ein und klicken Sie auf **Speichern**. Diese Funktion ist in den Ansichten „Raster“, „Galerie“, „Wasserfall“ und „Liste“ verfügbar.
 
@@ -67,5 +67,5 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung von KI zum Massenum
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support)
 
