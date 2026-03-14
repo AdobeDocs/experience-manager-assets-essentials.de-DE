@@ -49,7 +49,7 @@ Bevor Sie Assets aus Ihrem Dropbox-Konto in AEM Assets importieren können, müs
 
 Führen Sie die folgenden Schritte aus:
 
-1. Melden Sie sich bei Ihrem [Dropbox-Konto an ](https://www.dropbox.com/developers) klicken Sie auf **[!UICONTROL Apps erstellen]**. <br>Wenn Sie ein Enterprise Dropbox-Konto verwenden, benötigen Sie Zugriff auf die Rolle des Inhaltsadministrators.
+1. Melden Sie sich bei Ihrem [Dropbox-Konto an &#x200B;](https://www.dropbox.com/developers) klicken Sie auf **[!UICONTROL Apps erstellen]**. <br>Wenn Sie ein Enterprise Dropbox-Konto verwenden, benötigen Sie Zugriff auf die Rolle des Inhaltsadministrators.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL API auswählen]** das einzige verfügbare Optionsfeld aus.
 
