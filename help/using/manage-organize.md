@@ -4,10 +4,10 @@ description: Verschieben, Löschen, Kopieren, Umbenennen, Aktualisieren und Vers
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 100%
+source-wordcount: '1240'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können die Assets auswählen, die in den Suchergebnissen angezeigt werden, 
 
 * ![Symbol zum Aufheben der Auswahl](assets/do-not-localize/close-icon.png) Aufheben der Auswahl.
 
-* ![Symbol „Ähnliche suchen“](assets/do-not-localize/find-similar.svg) Suchen Sie anhand der Metadaten und Smart Tags nach ähnlichen Bild-Assets in der Assets-Benutzeroberfläche.
+* ![Symbol „Ähnliche suchen“](assets/do-not-localize/find-similar.svg) Suchen Sie anhand der Metadaten und Smart-Tags nach ähnlichen Bild-Assets in der Assets-Benutzeroberfläche.
 
 * ![details icon](assets/do-not-localize/edit-in-icon.png) Anklicken, um ein Asset in der Vorschau anzuzeigen und die detaillierten Metadaten anzuzeigen. Aus der Vorschau heraus können Sie die Versionen anzeigen und ein Bild bearbeiten.
 
@@ -79,11 +79,12 @@ Sie können ein oder mehrere Assets oder Ordner oder eine Kombination aus beiden
 ## Asset-Versionierung {#versions-of-assets}
 
 <!-- 
-TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? -->
+TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? 
+-->
 
 [!DNL Assets Essentials] versioniert die Assets, wenn die Assets, die aktualisiert oder bearbeitet werden, erneut hochgeladen werden. Sie können den Versionsverlauf und frühere Versionen anzeigen und eine frühere Version von Assets als neueste Version wiederherstellen, die bei Bedarf auf eine frühere Version zurückgesetzt wird. Asset-Versionen werden in den folgenden Szenarien erstellt:
 
-* Ein neues Asset wird mit demselben Dateinamen wie ein vorhandenes Asset und in denselben Ordner wie das vorhandene Asset hochgeladen. [!DNL Assets Essentials] fordert dazu auf, entweder das vorherige Asset zu überschreiben oder das neue Asset als Version zu speichern. Siehe [Hochladen von Asset-Duplikaten](/help/using/add-delete.md#resolve-upload-fails).
+* Laden Sie ein neues Asset mit demselben Dateinamen wie ein vorhandenes Asset und in denselben Ordner wie das vorhandene Asset hoch. [!DNL Assets Essentials] fordert dazu auf, entweder das vorherige Asset zu überschreiben oder das neue Asset als Version zu speichern. Siehe [Hochladen von Asset-Duplikaten](/help/using/add-delete.md#resolve-upload-fails).
 
   ![Erstellen von Versionen beim Hochladen](assets/uploads-manage-duplicates.png)
 
@@ -105,7 +106,7 @@ Beim Hochladen eines Duplikats oder einer geänderten Kopie eines Assets können
 
 Um Versionen anzuzeigen, öffnen Sie die Vorschau eines Assets und klicken Sie in der rechten Seitenleiste auf **[!UICONTROL Versionen]** ![Versions icon](assets/do-not-localize/versions-clock-icon.png). Um eine bestimmte Version in der Vorschau anzuzeigen, wählen Sie sie aus. Um zu ihr zurückzukehren, klicken Sie auf **[!UICONTROL Neueste erstellen]**.
 
-Sie können Versionen auch aus der Versions-Zeitleiste erstellen. Wählen Sie die neueste Version aus, klicken Sie auf **[!UICONTROL Neue Version]** und laden Sie eine neue Kopie des Assets aus Ihrem lokalen Dateisystem hoch.
+Sie können Versionen auch aus der Versions-Timeline erstellen. Wählen Sie die neueste Version aus, klicken Sie auf **[!UICONTROL Neue Version]** und laden Sie eine neue Kopie des Assets aus Ihrem lokalen Dateisystem hoch.
 
 ![Anzeigen von Versionen eines Assets](assets/view-asset-versions1.png)
 
@@ -171,7 +172,7 @@ Um das Metadatenfeld „Ablaufdatum“ zum Formular hinzuzufügen, ziehen Sie di
 
 * [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets-essentials/basics/managing)
 
-* Geben Sie Feedback zum Produkt über die Option[!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
+* Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 

@@ -1,13 +1,13 @@
 ---
 title: Versionshinweise
 description: Versionshinweise zu und bekannte Probleme von  [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '2976'
-ht-degree: 100%
+source-wordcount: '3041'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,11 @@ Die aktuelle Version von Assets Essentials wurde am 25. Juli 2024 veröffentlich
 
 Folgende Funktionen wurden kürzlich hinzugefügt:
 
-**Integration der Inhaltsurhebernachweise**
+**Integration von Content Credentials**
 
-Experience Manager Assets unterstützt jetzt Inhaltsurhebernachweise für unterstützte Bildformate. Hier finden Sie Informationen zur Herkunft des Assets und seiner Erstellung, einschließlich Informationen dazu, ob es mit GenAI geändert wurde.
+Experience Manager Assets unterstützt jetzt Content Credentials für unterstützte Bildformate. Hier finden Sie Informationen zur Herkunft des Assets und seiner Erstellung, einschließlich Informationen dazu, ob es mit GenAI geändert wurde.
 
-![Inhaltsurhebernachweise](/help/using/assets/content-credentials.png)
+![Content Credentials](/help/using/assets/content-credentials.png)
 
 **Visuelle Vorschau des Ordnerinhalts**
 
@@ -62,7 +62,7 @@ Ein Metadatenformular kann jetzt mehreren Ordnern zugewiesen oder aus diesen ent
 
 **Verwalten von Berechtigungen für private Sammlungen**
 
-Sie können Admins oder anderen Benutzenden die Verwaltung von Zugriffsstufen für private Sammlungen erlauben, die im Repository verfügbar sind. Sie können den Benutzergruppen oder Benutzenden Berechtigungen zuweisen, beispielsweise `Can View` und `Can Edit`. Außerdem können Sie Berechtigungen zur Berechtigungsverwaltung an Benutzergruppen delegieren. 
+Sie können Admins oder anderen Benutzenden die Verwaltung von Zugriffsstufen für private Sammlungen erlauben, die im Repository verfügbar sind. Sie können den Benutzergruppen oder Benutzenden Berechtigungen zuweisen, beispielsweise `Can View` und `Can Edit`. Außerdem können Sie Berechtigungen zur Zugriffsberechtigungsverwaltung an Benutzergruppen delegieren.
 
 
 **Verbesserungen auf der Basis von Kunden-Feedback**
@@ -186,17 +186,17 @@ Flache Listen mit kontrolliertem Vokabular werden im Laufe der Zeit immer unübe
 
 ![Tagging-Verwaltung](assets/tags-hierarchy.png)
 
-**Anheften von Dateien, Ordnern und Sammlungen zwecks Schnellzugriffs**
+**Anheften von Dateien, Ordnern und Sammlungen für schnellen Zugriff**
 
-Sie können nun Dateien, Ordner und Sammlungen anheften, um schneller auf diese Elemente zugreifen zu können, wenn Sie sie zu einem späteren Zeitpunkt benötigen. Alle angehefteten Elemente werden im Dashboard „Mein Arbeitsbereich“ im Abschnitt **Schnellzugriff** angezeigt. Sie können über „Mein Arbeitsbereich“ darauf zugreifen, anstatt zu dem Speicherort zu navigieren, an dem sie im Repository gespeichert sind.
+Sie können nun Dateien, Ordner und Sammlungen anheften, um schneller auf diese Elemente zugreifen zu können, wenn Sie sie zu einem späteren Zeitpunkt benötigen. Die angehefteten Elemente werden im Abschnitt **Schnellzugriff** von „Mein Arbeitsbereich“ angezeigt. Sie können über „Mein Arbeitsbereich“ darauf zugreifen, anstatt zu dem Speicherort zu navigieren, an dem sie im Repository gespeichert sind.
 
 ![Aufgaben in Workspace](assets/quick-access.png)
 
 **Filtern von Assets im Papierkorb-Ordner**
 
-Mit Assets Essentials können Sie nun im Papierkorb-Ordner verfügbare Assets filtern. Sie können standardmäßige oder benutzerdefinierte Filter anwenden, um im Papierkorb-Ordner nach geeigneten Assets zum Wiederherstellen oder dauerhaften Löschen zu suchen.
+Mit Assets Essentials können Sie nun im Papierkorb-Ordner verfügbare Assets filtern. Sie können standardmäßige oder benutzerdefinierte Filter anwenden, um geeignete Assets im Papierkorb-Ordner zu suchen, um sie wiederherzustellen oder dauerhaft zu löschen.
 
-**Miniaturansichtsvorschau für 3D-Assets**
+**Vorschau von Miniaturansichten für 3D-Assets**
 
 Assets Essentials generiert nun Miniaturansichtsvorschauen für gängige 3D-Dateiformate wie gLB, USDz, FBX, 3DS, OBJ und SBSAR. Wenn diese Dateien in Assets Essentials hochgeladen werden, werden vom System standardmäßig und automatisch Miniaturansichten generiert.
 
@@ -204,7 +204,7 @@ Assets Essentials generiert nun Miniaturansichtsvorschauen für gängige 3D-Date
 
 **Anzeigen der am häufigsten gesuchten Begriffe**
 
-Assets Essentials unterstützt nun das Anzeigen der am häufigsten gesuchten Begriffe in Ihrer Assets Essentials-Bereitstellung, und zwar mithilfe des Abschnitts **Erkenntnisse** im Dashboard „Mein Arbeitsbereich“. Sie können zudem zu detaillierten Erkenntnissen navigieren, um die häufigsten Suchanfragen der letzten 30 Tage oder 12 Monate anzuzeigen.
+Assets Essentials unterstützt nun das Anzeigen der am häufigsten gesuchten Begriffe in Ihrer Assets Essentials-Bereitstellung, und zwar mithilfe des Abschnitts **Erkenntnisse** im Dashboard „Mein Arbeitsbereich“. Sie können auch zu detaillierten Einblicken navigieren, um die häufigsten Suchbegriffe der letzten 30 Tage oder 12 Monate anzuzeigen.
 
 ![Aufgaben in Workspace](assets/insights-top-searches.png)
 
@@ -334,7 +334,7 @@ Assets Essentials-Benachrichtigungen ermöglichen es Ihnen, [die Operationen zu 
 
 **Reporting**
 
-Mithilfe des Asset-Reportings können Admins die Benutzeraktivität in Adobe Experience Manager Assets Essentials bewerten. Die Berichte und das Dashboard für Live-Statistiken liefern nützliche Informationen darüber, wie Benutzende mit den in Ihrer Bereitstellung verfügbaren Assets interagieren. [Verwenden Sie die Informationen aus den Berichten](manage-reports.md), um wesentliche Erfolgsmetriken abzuleiten und festzustellen, wie gut Assets innerhalb Ihrer Organisation und von Ihren Kundinnen und Kunden angenommen wird.
+Mithilfe des Asset-Reportings können Admins die Benutzeraktivität in Adobe Experience Manager Assets Essentials bewerten. Die Berichte und das Dashboard für Live-Statistiken liefern nützliche Informationen darüber, wie Benutzende mit den in Ihrer Bereitstellung verfügbaren Assets interagieren. [Verwenden Sie die Informationen aus den Berichten](manage-reports.md) um wesentliche Erfolgsmetriken abzuleiten und festzustellen, wie gut Assets in Ihrem Unternehmen und von Ihren Kunden angenommen wird.
 
 Zeigen Sie das Dashboard-Modul zum Herunterladen von Asset-Berichten und Live-Statistiken an, um zu sehen, welche Assets heruntergeladen werden und wie häufig Downloads stattfinden.
 
@@ -406,7 +406,7 @@ Mit dieser Version optimieren wir die Leistung der Benutzeroberfläche. Bestimmt
 
 * Mit [!DNL Assets Essentials] können Sie jetzt [einen Link erstellen und Medienelemente für externe Beteiligte freigeben](share-links-for-assets.md), die keinen Zugriff auf das Programm [!DNL Assets Essentials] haben. Sie können ein Ablaufdatum für den Link definieren und ihn dann mithilfe Ihrer bevorzugten Kommunikationsmethode wie E-Mail oder Messaging-Services für andere freigeben. Empfänger des Links können eine Vorschau der Medienelemente anzeigen und sie herunterladen.
 
-* [!DNL Assets Essentials] besitzt jetzt zusätzlich zu den bestehenden regulären und Privatkundenproduktprofilen in der Admin Console auch [ein Administratorproduktprofil](deploy-administer.md#add-users-to-essentials). Ein Administrator kann dem Administratorproduktprofil jetzt weitere Benutzer zuweisen.
+* [!DNL Assets Essentials] besitzt jetzt zusätzlich zu den bestehenden Produktprofilen für reguläre Benutzende und Endbenutzende in der Admin Console auch [ein Produktprofil für Admins](deploy-administer.md#add-users-to-essentials). Ein Administrator kann dem Administratorproduktprofil jetzt weitere Benutzer zuweisen.
 
 * Assets Essentials ermöglicht es Administratoren jetzt, [die Zugriffsebenen für im Repository verfügbare Ordner zu verwalten](manage-permissions.md). Als Administrator können Sie Benutzergruppen erstellen und diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zuweisen. Sie können Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 
@@ -427,7 +427,9 @@ Außerdem wurde die [!DNL Adobe Asset Link]-Erweiterung für Creative Cloud (Pho
 
 * Adobe stellt Assets Essentials nach Abschluss des Bereitstellungsprozesses automatisch bereit. Die Administratoren müssen keine zusätzlichen Schritte ausführen, um Assets Essentials mithilfe der [!DNL Cloud Manager]-Benutzeroberfläche bereitzustellen. Diese automatische Bereitstellung ist für Umgebungen verfügbar, die nach dem 6. Januar 2022 bereitgestellt werden.
 * Neue Versionen von Creative Cloud-Plug-ins, die mit Assets Essentials funktionieren, sind auf Adobe Exchange verfügbar - [Adobe Asset Link für Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) und [Adobe Asset Link für Photoshop/InDesign/Illustrator 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
-* Verschiedene Fehlerbehebungen und Produktverbesserungen, einschließlich vorheriger bekannter Probleme (Ordner werden nun nach dem Hochladen korrekt in der linken Navigationsstruktur angezeigt<!-- CQ-4337638 -->, Upload per Drag-and-Drop ermöglicht es dem Benutzer, beim Ablegen zum Hochladen entweder den aktuellen Ordner oder einen beliebigen Unterordner auszuwählen<!-- CQ-4327753 -->.)
+* Verschiedene Fehlerbehebungen und Produktverbesserungen, einschließlich vorheriger bekannter Probleme (Ordner werden nun nach dem Hochladen korrekt in der linken Navigationsstruktur angezeigt<!-- CQ-4337638 --> Upload per Drag-and-Drop ermöglicht es dem Benutzer, beim Ablegen zum Hochladen entweder den aktuellen Ordner oder einen beliebigen Unterordner auszuwählen).
+
+<!-- CQ-4327753 -->
 
 ### Version 2021.8.0 {#august2021}
 

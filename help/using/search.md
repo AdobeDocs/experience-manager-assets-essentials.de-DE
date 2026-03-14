@@ -3,10 +3,10 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 98%
+source-wordcount: '2217'
+ht-degree: 95%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 98%
     <tr>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
-            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime und Ultimate</b></a>
+<a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime und Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
-            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
+<a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
-            <a href="http://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets-Integration mit Edge Delivery Services</b></a>
+<a href="http://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets-Integration mit Edge Delivery Services</b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
-            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
+<a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
         </td>
           <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
-            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Benutzerdefinierte Suchfilter</b></a>
+<a href="https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Benutzerdefinierte Suchfilter</b></a>
         </td>
     </tr>
     <tr>
@@ -48,7 +48,7 @@ ht-degree: 98%
             <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamic Media mit OpenAPI-Funktionen</b></a>
         </td>
         <td>
-            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>Entwicklerdokumentation zu AEM Assets</b></a>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/?lang=de"><b>Entwicklerdokumentation zu AEM Assets</b></a>
         </td>
     </tr>
 </table>
@@ -61,7 +61,7 @@ ht-degree: 98%
 >abstract="Sie können nach Assets suchen, indem Sie ein Keyword in der Suchleiste eingeben oder Assets nach ihrem Status, Dateityp, MIME-Typ, Erstellungs-, Änderungs- und Ablaufdatum oder ihrer Größe filtern. Zusätzlich zu den Standardfiltern können Sie auch benutzerdefinierte Filter anwenden. Sie können die gefilterten Ergebnisse als gespeicherte Suche oder Smart-Sammlung speichern."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de#manage-smart-collection" text="Erstellung von Smart-Sammlungen"
 
-[!DNL Assets Essentials] bietet eine effektive Suche, die einfach standardmäßig funktioniert. Die Suche ist umfassend, da es sich um eine Volltextsuche handelt. Mit der leistungsstarken Suchfunktion können Sie schnell das passende Asset ermitteln und die Geschwindigkeit Ihrer Inhaltserstellung steigern. [!DNL Assets Essentials] bietet Volltextsuche und Suchvorgänge durch die Metadaten wie Smart-Tags, Titel, Erstellungsdatum und Copyright.
+[!DNL Assets Essentials] bietet eine effektive Suche, die einfach standardmäßig funktioniert. Die Suche ist umfassend, da es sich um eine Volltextsuche handelt. Mit der leistungsstarken Suchfunktion können Sie schnell das passende Asset ermitteln und die Geschwindigkeit Ihrer Inhaltserstellung erhöhen. [!DNL Assets Essentials] bietet Volltextsuche und Suchvorgänge durch die Metadaten wie Smart-Tags, Titel, Erstellungsdatum und Copyright.
 
 Um nach Assets zu suchen,
 
@@ -179,7 +179,7 @@ So generieren Sie neue Assets mit [!DNL Adobe Firefly]:
 
    ![Integration mit Firefly](assets/firefly-integration.png)
 
-   Die neuen Assets wurden erfolgreich generiert. Darüber hinaus können Sie die Bildbeschreibung ändern, indem Sie den neuen Text-Prompt in das Beschreibungsfeld eingeben. [Erfahren Sie, wie Sie einen guten KI-Prompt schreiben, um außergewöhnliche und relevante Inhalte zu generieren.](https://helpx.adobe.com/de/firefly/using/tips-and-tricks.html) Alternativ können Sie [Bilder mit verschiedenen anderen Funktionen bearbeiten, wie dem Ändern von Stil, Bildabmessungen und mehr.](https://helpx.adobe.com/de/firefly/using/text-to-image.html)
+   Die neuen Assets wurden erfolgreich generiert. Darüber hinaus können Sie die Bildbeschreibung ändern, indem Sie die neue Textaufforderung in das Feld Beschreibung eingeben. [Erfahren Sie, wie Sie eine gute KI-Eingabeaufforderung schreiben, um außergewöhnliche und relevante Inhalte zu generieren.](https://helpx.adobe.com/de/firefly/using/tips-and-tricks.html) Alternativ können Sie [Bild mit verschiedenen anderen Funktionen wie Ändern des Stils, der Bildabmessungen und mehr bearbeiten.](https://helpx.adobe.com/de/firefly/using/text-to-image.html)
 
    ![Integration mit Firefly](assets/bugatti-type-57.png)
 
@@ -213,7 +213,8 @@ Um eine gespeicherte Suche zu erstellen, suchen Sie nach einem Asset, wenden Sie
 
 ![Erstellen einer Smart-Sammlung](assets/create-smart-collection.png)
 
-<!-- TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
+<!--
+TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
 Report poor UX that users can only save a filtered search and not a simple search.
 .
 Are other supported files fully indexed and support full-text search? Eg. audio/videos files can at best have metadata indexed.
@@ -279,7 +280,7 @@ Sie können zu Ihrer Startseite für die erste Suche ein Markenlogo und ein Hint
 
 1. Navigieren Sie zum Abschnitt **[!UICONTROL Hintergrund- und Logo-Bild]** unter **[!UICONTROL Startseite]**.
 1. Klicken Sie auf **[!UICONTROL Ersetzen]**, um die Bilder in einem vorhandenen Asset-Repository zu durchsuchen.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Öffnen Sie die [Vorschau](#preview-configured-homepage) der Änderungen, um die Änderungen zu überprüfen.
+1. Klicken Sie **[!UICONTROL Speichern]**. [Vorschau](#preview-configured-homepage) die Änderungen zur Überprüfung der Änderungen.
 
 ### Vorschau der konfigurierten Startseite {#preview-configured-homepage}
 
@@ -287,7 +288,7 @@ Sie können eine Vorschau anzeigen, um das Layout und die Formatierung der Start
 
 1. Klicken Sie auf **[!UICONTROL Allgemeine Einstellungen]** und wähle Sie **[!UICONTROL Erste Suche]**.
 1. Navigieren Sie zu **[!UICONTROL Startseite für erste Suche anpassen]** und klicken Sie auf **[!UICONTROL Vorschau]**. Schalten Sie mit der Schaltfläche **[!UICONTROL Dunkles Thema]** um, um die Startseite mit dunklem oder hellem Thema als Vorschau anzuzeigen.
-1. Klicken Sie auf **[!UICONTROL Schließen]**, um den Vorschau-Bildschirm zu schließen. 
+1. Klicken Sie auf **[!UICONTROL Schließen]**, um den Vorschau-Bildschirm zu schließen.
 
    ![Vorschau der Startseite für die erste Suche](assets/search-first-preview.gif)
 
@@ -383,7 +384,7 @@ Um Feedback zur Kontextsuche zu geben, klicken Sie auf das Symbol für die ![Kon
 
 * Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
-* Geben Sie Feedback zur Dokumentation über die Option zum [!UICONTROL Bearbeiten der Seite] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder zum [!UICONTROL Melden eines Problems] ![GitHub-Ticket erstellen](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste.
+* Geben Sie Feedback zur Dokumentation mithilfe der Option zum [!UICONTROL Bearbeiten der Seite] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder zum [!UICONTROL Melden eines Problems] ![GitHub-Ticket erstellen](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste.
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 

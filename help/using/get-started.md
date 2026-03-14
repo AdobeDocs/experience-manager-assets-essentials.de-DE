@@ -3,10 +3,10 @@ title: Erste Schritte mit  [!DNL Assets Essentials]
 description: Wie Sie auf  [!DNL Assets Essentials] zugreifen können, wie Sie sich anmelden, wie Sie Anwendungsfälle unterstützen und bekannte Probleme.
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Um Ihre [!UICONTROL Experience Cloud-Voreinstellungen] zu ändern, klicken Sie a
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/theme-change.png)
 
-## [!DNL Assets Essentials]-Anwendungsfälle  {#use-cases}
+## [!DNL Assets Essentials]-Anwendungsfälle {#use-cases}
 
 Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management), die Sie mit [!DNL Assets Essentials] ausführen können.
 
@@ -63,15 +63,15 @@ Nachfolgend finden Sie die verschiedenen DAM-Aufgaben (Digital Asset Management)
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 
 
-<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+<!--
+TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/using/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
-
 -->
 
 <!-- 
@@ -94,6 +94,7 @@ To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit 
 >* [Grundlegendes zur Benutzeroberfläche](/help/using/navigate-view.md).
 >* [Versionshinweise und bekannte Probleme](/help/using/release-notes.md).
 
-<!-- TBD: 
+<!-- 
+TBD: 
 >* [Supported file types](/help/using/supported-file-formats.md).
 -->

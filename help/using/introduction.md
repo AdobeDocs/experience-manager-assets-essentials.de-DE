@@ -3,18 +3,18 @@ title: Einführung in  [!DNL Assets Essentials]
 description: Verwalten Sie Ihre Assets mit Experience Manager Assets Essentials, einem schlanken Tool für Digital Asset Management, das in Experience Cloud-Programmen verwendet werden kann.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 97%
 
 ---
 
 # Überblick über [!DNL Adobe Experience Manager Assets Essentials] {#assets-essentials}
 
-<!-- TBD: Update this banner to remove Beta label. 
+<!-- 
+TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
-
 -->
 
 Adobe bietet stabile DAM-Lösungen (Digital Asset Management), mit denen Sie Ihre digitalen Assets optimal nutzen können. Adobe Experience Manager Assets Essentials ist die einfache Asset-Management-Lösung von Adobe zum Speichern, Verwalten, Entdecken und Verwenden digitaler Assets.
@@ -81,7 +81,7 @@ Basierend auf der Cloud-Infrastruktur von Adobe ermöglicht Assets Essentials es
 
 Profitieren Sie von den zentralen Funktionen für Digital Asset Management über verschiedene Teams hinweg, um Assets Essentials schnell zu nutzen.
 
-Wenn Ihr Geschäftsbedarf wächst und Sie Unterstützung für erweiterte Digital-Asset-Management-Anforderungen wie Anpassungen, Erweiterbarkeit und Integrationen, Automatisierung, Dynamic Media und Brand Portal benötigen, bietet Ihnen Adobe auch [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=de).
+Wenn Ihre geschäftlichen Anforderungen wachsen und Sie Unterstützung für erweiterte Digital-Asset-Management-Anforderungen wie Anpassungen, Erweiterbarkeit und Integrationen, Automatisierung, Dynamic Media und Brand Portal benötigen, bietet Ihnen Adobe auch [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=de).
 
 
 ## Nächste Schritte {#next-steps}
@@ -90,7 +90,7 @@ Wenn Ihr Geschäftsbedarf wächst und Sie Unterstützung für erweiterte Digital
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 
 
 >[!MORELIKETHIS]

@@ -1,12 +1,12 @@
 ---
 title: Unterstützte Dateiformate
 description: Unterstützte Dateiformate für die verschiedenen Anwendungsfälle von  [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 243a41aef81cd1fdcbad8f4355fe2d888db394d1
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,8 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 
 ## Hinzufügen, Hochladen und Anzeigen von Assets {#support-to-upload-view}
 
-<!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
+<!-- 
+TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
 | Asset-Typ | [Durchsuchen](/help/using/navigate-view.md) | Kopieren | [Hochladen](/help/using/add-delete.md) | Erstellen | [Löschen](/help/using/add-delete.md#delete-assets) | Details | Bild-Zoom | [Kürzlich angesehen](/help/using/navigate-view.md) |
@@ -48,7 +49,8 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 | PSD, AI, PSB und INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | Andere Binärdateien | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
-<!-- Hiding CC Libraries (considered beta) as per PM feedback.
+<!-- 
+Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
 -->
 
@@ -57,7 +59,7 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 | Asset-Typ | [Download](/help/using/manage-organize.md#download) | Drag-and-Drop | [Bildeditor](/help/using/edit-images.md) | [Suchen](/help/using/search.md) | [Smart-Tags](/help/using/metadata.md#tags) | [Umbenennen](/help/using/manage-organize.md) | [Versionen](/help/using/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Raw-Dateien | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Raw-Dateien | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | Ordner | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | Videos | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC-Bibliotheken | − | − | − | − | − | ✓ | ✓ |
@@ -102,9 +104,10 @@ Die verschiedenen Dateitypen werden, wie unten beschrieben, in unterschiedlichem
 | PSD und PSB | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Andere Binärdateien | ✓ | − | ✓ | ✓ | ✓ |
 
-Benutzer von [!DNL Adobe Asset Link] können Dateien aus den unterstützten Desktop-Programmen von [!DNL Adobe Creative Cloud] in das [!DNL Assets Essentials]-Repository hochladen und einchecken (eine neue Version hochladen).
+Benutzende von [!DNL Adobe Asset Link] können Dateien aus den unterstützten Desktop-Programmen von [!DNL Adobe Creative Cloud] in das [!DNL Assets Essentials]-Repository hochladen und einchecken (eine neue Version hochladen).
 
-<!-- TBD: Saving the template table separately for later use.
+<!-- 
+TBD: Saving the template table separately for later use.
 | Asset type    | Features |
 |---------------|----------|
 | Raster images |          |

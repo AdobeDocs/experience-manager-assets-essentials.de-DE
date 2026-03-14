@@ -1,13 +1,13 @@
 ---
 title: Verwalten von Metadaten
 description: Verwalten von Metadaten von Assets in  [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
-workflow-type: ht
-source-wordcount: '2159'
-ht-degree: 100%
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+workflow-type: tm+mt
+source-wordcount: '2195'
+ht-degree: 98%
 
 ---
 
@@ -66,9 +66,9 @@ Tags können auch in einer Hierarchie verschachtelt werden, um Beziehungen wie K
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
 >title="Metadatenformulare"
->abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite „Details“ eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets."
+>abstract="[!DNL Experience Manager Assets] bietet standardmäßig viele Standard-Metadatenfelder. Organisationen haben zusätzliche Anforderungen bezüglich Metadaten und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen auf der Seite „Details“ eines Assets benutzerdefinierte Metadatenfelder hinzufügen. Unternehmensspezifische Metadaten verbessern die Verwaltung und Erkennung der Assets."
 
-Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
+Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Unternehmensspezifische Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
 Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Assets Essentials gleicht den MIME-Typ der hochgeladenen Assets automatisch mit dem Namen des Formulars ab und aktualisiert die Metadaten für die hochgeladenen Assets auf Basis der Formularfelder.
 
@@ -128,10 +128,10 @@ Nachfolgend finden Sie eine Übersicht über die einzelnen Eigenschaftstypen und
 | Kontrollkästchen | Fügt einen booleschen Wert hinzu. Wird als TRUE oder FALSE gespeichert, sobald ein Wert gespeichert wird. |
 | Datum | Fügen Sie eine Datumskomponente hinzu. |
 | Dropdown | Fügt eine Dropdown-Liste hinzu. |
-| Status | Fügt die Repository-Statuseigenschaft hinzu (zugeordnet zu repo:state) |
+| Status | Fügt die Statuseigenschaft des Repositorys hinzu (zugeordnet zu „repo:state“). |
 | Asset-Status | Fügt die standardmäßige Asset-Status-Eigenschaft hinzu (zugeordnet zu „dam:assetStatus“). |
 | Tags | Fügt ein Tag aus den Werten hinzu, die in der Taxonomie-Verwaltung gespeichert sind (zugeordnet zu „xcm:tags“). |
-| Keywords | Fügt freie Keywords hinzu (zugeordnet zu „dc:subject“). |
+| Keywords | Fügt Freiform-Keywords hinzu (zugeordnet zu „dc:subject“). |
 | Smart-Tags | Fügt automatisch Metadaten-Tags hinzu, um Suchfunktionen zu ergänzen. |
 | Link | Hinzufügen, um externe URLs zu aktivieren. Nach der Konfiguration im Metadatenformular kann die URL-Komponente einer bestimmten Metadateneigenschaft auf der Seite „Metadaten-Editor“ zugeordnet werden. Dieses [Metadatenformular kann Ordnern zugewiesen werden](#assign-metadata-form-folder). |
 
@@ -209,7 +209,7 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 1. Click **[!UICONTROL Assign]**.
 -->
 
-Um die konfigurierten Stamm-Tags anzuzeigen, gehen Sie zur Seite mit den Asset-Details, wo die Zuordnung zwischen dem Metadatenformular und Stamm-Tags erfolgt.
+Um die konfigurierten Stamm-Tags anzuzeigen, gehen Sie zur Seite mit den Asset-Details, wo die Zuordnung zwischen dem Metadatenformular und den Stamm-Tags erfolgt.
 
 ## Nächste Schritte {#next-steps}
 
@@ -219,9 +219,10 @@ Um die konfigurierten Stamm-Tags anzuzeigen, gehen Sie zur Seite mit den Asset-D
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 
-<!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
+<!-- 
+TBD: Cannot create a form using the second option. Documenting only the first option for now.
 To reuse an existing form to create a new form, do one of these:
 
 * Select a metadata form and click **[!UICONTROL Copy]** from the toolbar, provide a name, and click **[!UICONTROL Confirm]**.
@@ -229,7 +230,8 @@ To reuse an existing form to create a new form, do one of these:
 * Click **[!UICONTROL Create]**, select **[!UICONTROL Use existing form structure as template]** option, and select an existing form. 
 -->
 
-<!-- TBD: Queries for PM and engg.
+<!-- 
+TBD: Queries for PM and engg.
 
 Can we edit the existing metadata in any form?
 
@@ -244,7 +246,8 @@ Is there a detailed metadata tab. Where do the other details of an asset go?
 How can one search based strictly on the metadata. Similar to AEM Assets GQL queries.
 -->
 
-<!-- TBD: Link to related articles if any.
+<!-- 
+TBD: Link to related articles if any.
 
 >[!MORELIKETHIS]
 >
