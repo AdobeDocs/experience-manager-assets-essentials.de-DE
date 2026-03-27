@@ -4,8 +4,8 @@ description: Greifen Sie auf die Daten im Abschnitt „Berichte“ von Assets Es
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 100%
+source-wordcount: '1243'
+ht-degree: 96%
 
 ---
 
@@ -124,8 +124,8 @@ Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassend
 
 ## Anzeigen und Herunterladen von vorhandenen Berichten {#View-and-download-existing-report}
 
-Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf **Berichte** und wählen Sie **Ausgeführte Berichte** aus, um alle erstellten Berichte mit dem Status **Abgeschlossen** anzuzeigen. Dieser Status bedeutet, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder um ihn zu löschen, wählen Sie die Berichtszeile und danach **CSV herunterladen** bzw. **Löschen** aus.
-![Anzeigen und Herunterladen von vorhandenen Berichten](/help/using/assets/view-download-existing-report.png)
+Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf **Berichte** und wählen Sie **Ausgeführte Berichte** aus, um alle erstellten Berichte mit dem Status **Abgeschlossen** anzuzeigen. Dieser Status bedeutet, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder zu löschen, wählen Sie die Berichtszeile aus und wählen Sie **CSV herunterladen** oder **Löschen**.
+![Anzeigen und Herunterladen vorhandener Berichte](/help/using/assets/view-download-existing-report.png)
 
 ## Planen eines Berichts {#schedule-report}
 
@@ -150,7 +150,7 @@ Gehen Sie wie folgt vor, um einen Bericht zu planen:
 
 ## Anzeigen geplanter Berichte {#view-scheduled-reports}
 
-Geplante Berichte werden systematisch organisiert auf der Registerkarte **Geplante Berichte** angezeigt. Alle abgeschlossenen Berichte für jeden geplanten Bericht werden in einem einzigen Berichtsordner gespeichert. Klicken Sie auf ![Ein- und Ausblenden](/help/using/assets/expand-icon1.svg), um die abgeschlossenen Berichte anzuzeigen. Wenn Sie beispielsweise einen täglichen Bericht geplant haben, werden alle abgeschlossenen Berichte in einem Ordner gruppiert. Diese Organisation vereinfacht die Navigation und die Erkennung von Berichten. Um geplante Berichte anzuzeigen, klicken Sie auf **Berichte** und dann auf **Geplante Berichte**. Alle geplanten Berichte werden angezeigt, wobei ihr Status entweder „Laufend“ oder „Abgeschlossen“ ist. Die abgeschlossenen Berichte können heruntergeladen werden.
+Geplante Berichte werden systematisch organisiert auf der Registerkarte **Geplante Berichte** angezeigt. Alle abgeschlossenen Berichte für jeden geplanten Bericht werden in einem einzigen Berichtsordner gespeichert. Klicken Sie auf ![Ein- und Ausblenden](/help/using/assets/expand-icon1.svg), um die abgeschlossenen Berichte anzuzeigen. Wenn Sie beispielsweise einen täglichen Bericht geplant haben, werden alle abgeschlossenen Berichte in einem Ordner gruppiert. Diese Organisation vereinfacht die Navigation und die Erkennung von Berichten. Um geplante Berichte anzuzeigen, klicken Sie auf **Berichte** und dann auf **Geplante Berichte**. Alle geplanten Berichte werden angezeigt, wobei ihr Status entweder „Laufend“ oder „Abgeschlossen“ ist. Abgeschlossene Berichte stehen zum Download bereit.
 ![Geplanter Bericht](/help/using/assets/scheduled-reports-tab.png)
 
 ## Bearbeiten und Abbrechen von geplanten Berichten {#edit-cancel-scheduled-reports}
@@ -163,7 +163,7 @@ Geplante Berichte werden systematisch organisiert auf der Registerkarte **Geplan
 
 ### Zeitplan fortsetzen {#resume-schedule}
 
-Um den abgebrochenen Zeitplan wieder aufzunehmen, wählen Sie die Berichtszeile aus und klicken Sie auf **Zeitplan fortsetzen**. Nach dem Fortsetzen werden die Einträge für die nächsten Ausführungen erneut angezeigt und der Status ist „Laufend“.
+Um den abgebrochenen Zeitplan wieder aufzunehmen, wählen Sie die Berichtszeile aus und klicken Sie auf **Zeitplan fortsetzen**. Wenn sie fortgesetzt wird, werden die nächsten Laufzeiteinträge erneut angezeigt und der Status wird „Fortaufend“ angezeigt.
 ![Zeitplan fortsetzen](/help/using/assets/resume-schedule.png)
 
 >[!NOTE]

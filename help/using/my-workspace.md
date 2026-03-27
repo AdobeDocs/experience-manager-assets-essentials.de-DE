@@ -4,7 +4,7 @@ description: Mein Arbeitsbereich ist eine Seite, die anpassbare visuelle Module 
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ So veröffentlichen Sie ein Asset, einen Ordner oder eine Sammlung:
 
 Administrierende können eine Zusammenfassung der Anzahl der Downloads und Uploads anzeigen, die in den letzten 30 Tagen in der Assets-Umgebung durchgeführt wurden. Sie können auf **[!UICONTROL Alle anzeigen]** klicken, um schnell zur Seite „Erkenntnisse“ zu navigieren, um detailliertere Dashboards zu erhalten.
 
-Im Dashboard „Mein Arbeitsbereich“ können Sie über den Abschnitt **Erkenntnisse** auch die am häufigsten gesuchten Begriffe sowie die Anzahl der Suchvorgänge für diese Begriffe in Ihrer Assets Essentials-Bereitstellung anzeigen. Sie können zudem zu detaillierten Erkenntnissen navigieren, um die häufigsten Suchanfragen der letzten 30 Tage oder 12 Monate anzuzeigen.
+Im Dashboard „Mein Arbeitsbereich“ können Sie über den Abschnitt **Erkenntnisse** auch die am häufigsten gesuchten Begriffe sowie die Anzahl der Suchvorgänge für diese Begriffe in Ihrer Assets Essentials-Bereitstellung anzeigen. Sie können auch zu detaillierten Einblicken navigieren, um die häufigsten Suchbegriffe der letzten 30 Tage oder 12 Monate anzuzeigen.
 
 ![Erkenntnisse in Workspace](assets/insights.png)
 

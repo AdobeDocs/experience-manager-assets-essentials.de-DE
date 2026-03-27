@@ -3,8 +3,8 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 441136b23281185b82a5767aefc2c382512501a7
-workflow-type: ht
-source-wordcount: '907'
+workflow-type: tm+mt
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 >title="Verwalten von Sammlungen"
 >abstract="Eine Sammlung ist ein Set von Assets, Ordnern oder sonstigen Sammlungen in Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden. Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten."
 
-Eine Sammlung ist ein Set von Assets, Ordnern oder sonstigen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden.
+Eine Sammlung ist ein Set von Assets, Ordnern oder sonstigen Sammlungen in Adobe Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzern gemeinsam verwendet werden.
 
 Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten.
 
@@ -206,4 +206,4 @@ Weitere Informationen zum vollständigen Workflow finden Sie unter [Verwalten vo
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)

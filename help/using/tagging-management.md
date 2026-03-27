@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie Tags in Assets Essentials verwalten. Mit Tags
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: eef4aec6f67700d0a5b096577b9637d96949b488
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 100%
+source-wordcount: '1770'
+ht-degree: 97%
 
 ---
 
@@ -129,7 +129,7 @@ Führen Sie die folgenden Schritte aus, um Tags zu löschen:
 
 ## Hinzufügen der Tag-Komponente zum Metadatenformular {#add-tags-to-metadata-form}
 
-Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadatenformular-Vorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadaten-Eigenschaftszuordnung wird automatisch ausgefüllt und kann zurzeit nicht geändert werden. [!DNL Assets as a Cloud Service]Benutzende können die Zuordnung so aktualisieren, dass Tag-Werte mithilfe benutzerdefinierter Namespaces gespeichert und nur Untergruppen von Hierarchien über Stammpfade angezeigt werden.
+Die Tag-Komponente wird zum Metadatenformular `default` automatisch hinzugefügt. Sie können ein [Metadatenformular](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=de#metadata-forms) entweder durch Verwendung einer Vorlage oder von Grund auf neu entwerfen. Wenn Sie keine vorhandene Metadaten-Formularvorlage verwenden, können Sie Ihr Metadatenformular ändern und die Tags-Komponente hinzufügen. Die Metadateneigenschaften-Zuordnung wird automatisch ausgefüllt und kann derzeit nicht geändert werden. [!DNL Assets as a Cloud Service] Benutzerinnen und Benutzer können die Zuordnung aktualisieren, um Tag-Werte mithilfe benutzerdefinierter Namespaces zu speichern und nur Untergruppen von Hierarchien mithilfe von Stammpfaden verfügbar zu machen.
 
 Sehen Sie sich dieses kurze Video an, um zu erfahren, wie Sie die Tags-Komponente zu Ihrem Metadatenformular hinzufügen:
 

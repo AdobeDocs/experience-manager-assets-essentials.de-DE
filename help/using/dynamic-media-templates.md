@@ -6,8 +6,8 @@ role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 95%
+source-wordcount: '3000'
+ht-degree: 91%
 
 ---
 
@@ -34,12 +34,12 @@ Zu den Hauptfunktionen gehören:
 
 Zu den wichtigsten Vorteilen von Dynamic Media-Vorlagen gehören:
 
-* **1:1-Optimierung von der Personalisierung:** Passen Sie Inhalte an Echtzeit-Kundensignale an.
+* **1:1-Optimierung der Personalisierung:** Passen Sie Inhalte an Echtzeit-Kundensignale an.
 * **Weniger manueller Aufwand:** Automatisieren und beschleunigen Sie die Inhaltserstellung und -verwaltung.
 * **Sicherstellung konsistenter Omni-Channel-Erlebnisse:** Gewährleisten Sie die Markenkonsistenz kanalübergreifend.
 * **Effektive Wiederverwendung von Inhalten:** Vermeiden Sie Inhalte für die einmalige Verwendung und skalieren Sie mit dynamischen, parametrisierten Vorlagen.
 * **Minderung von Risiken:** Aktualisieren Sie Preise, Rabatte und Links in Echtzeit.
-* **Kundeninteraktion verbessern:** interaktive, kontextbezogene Erlebnisse fördern.
+* **Verbesserung der Kundeninteraktion:** Fördern Sie interaktive, kontextuell relevante Erlebnisse.
 
 >[!NOTE]
 >
@@ -52,8 +52,8 @@ Um eine Dynamic Media-Vorlage zu erstellen, benötigen Sie Folgendes:
 1. Zugriff auf Dynamic Media.
 1. [Die in Ihrer AEM Assets-Instanz verfügbaren Bilder müssen mit Dynamic Media synchronisiert worden sein, um sie für die Erstellung der Vorlage verwenden zu können](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Überprüfen Sie Folgendes in der Touch-optimierten Benutzeroberfläche:
-   * Auf der **[!UICONTROL Seite Dynamic Media-Konfiguration bearbeiten]** wird **[!UICONTROL Synchronisierungsmodus für Dynamic Media]**, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen [&#x200B; Sie unter „Konfigurieren von Dynamic Media &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Cloud Service&quot;.
-   * **[!UICONTROL Synchronisierungsmodus für Dynamic Media]** ist für den Zielordner oder Unterordner, in **[!UICONTROL Sie die Vorlage nach der Erstellung speichern, auf Für Unterordner aktivieren]** festgelegt. Weitere Informationen [&#x200B; Sie unter „Konfigurieren von Dynamic Media &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) Cloud Service&quot;.
+   * Auf der Seite **[!UICONTROL Dynamic Media-Konfiguration bearbeiten]** wird **[!UICONTROL Synchronisierungsmodus für Dynamic Media]**, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen Sie unter [Konfigurieren von Dynamic Media Cloud Services](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+   * **[!UICONTROL Synchronisierungsmodus für Dynamic Media]** ist für den Zielordner oder den Unterordner, in dem Sie die Vorlage nach der Erstellung speichern, auf **[!UICONTROL Für Unterordner aktivieren]** festgelegt. Weitere Informationen finden Sie unter [Konfigurieren von Dynamic Media Cloud Services](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 
 ## Erstellen einer Dynamic Media-WYSIWYG-Vorlage{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -167,7 +167,7 @@ Sehen Sie sich die folgenden allgemeinen Ebenenbearbeitungsaktionen an, um eine 
 Formatieren Sie Schriftart, Größe, Farbe, Stil und Ausrichtung (auf der Ebene) des Textes nach Ihren Wünschen, indem Sie die Werte in den entsprechenden Feldern unter dem Abschnitt **[!UICONTROL Text]** des Bedienfelds ändern.
 
 **[!UICONTROL Intelligente Textgrößenänderung:]** Schließen Sie **[!UICONTROL Intelligente Textgrößenänderung]** ([Copyfit](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) ein, um einen beliebigen Text im vorgesehenen Bereich durch die intelligente Anpassung von Schriftgröße und -länge optimal anzupassen. Diese Funktion verhindert einen Textüberlauf und minimiert zusätzliche Leerzeichen am unteren Rand des Textes.
-![Inhaltserstellung im Handumdrehen](/help/using/assets/smart-text-resize.png)
+![Content-Erstellung im Handumdrehen](/help/using/assets/smart-text-resize.png)
 
 ### Parametrisieren von Ebenen {#parameterise-a-layer}
 
@@ -188,21 +188,21 @@ Die parametrisierten Eigenschaften können als URL-Parameter in die Vorlagen-URL
 
 **Bildparameter:**
 
-**X:** Fügen Sie dies ein, um die Ebene horizontal entlang ihrer Mittellinie parallel zur x-Achse der Vorlagenebene zu verschieben, indem der Wert des Parameters in der URL geändert wird.
-**Y:** Fügen Sie dies ein, um die Ebene vertikal entlang ihrer Mittellinie parallel zur y-Achse der Vorlagenebene zu verschieben, indem der Wert des Parameters in der URL geändert wird.
-**Breite:** Fügen Sie dies ein, um die Breite der Ebene anzupassen, indem der Wert des Parameters in der URL geändert wird.
-**Höhe** Fügen Sie dies ein, um die Höhe der Ebene anzupassen, indem der Wert des Parameters in der URL geändert wird.
-**Ausblenden:** Fügen Sie dies ein, um die Ebene in der Vorlage mit 0 (Anzeigen) und 1 (Ausblenden) ein- oder auszublenden.
-**Quelle:** Fügen Sie dies ein, um das Bild der Ebene durch ein neues Bild zu ersetzen, indem der Bildpfad im Wert des Parameters in der URL geändert wird.
+**X:** Einfügen, um die Ebene horizontal entlang ihrer Mittellinie parallel zur X-Achse der Vorlagenebene zu verschieben, indem der Parameterwert in der URL geändert wird.
+**Y:** Einschließen , um die Ebene vertikal entlang ihrer Mittellinie parallel zur Y-Achse der Vorlagenebene zu verschieben, indem der Parameterwert in der URL geändert wird.
+**Breite:** Sie ein, um die Breite der Ebene anzupassen, indem Sie den Parameterwert in der URL ändern.
+**Höhe:** Sie ein, um die Höhe der Ebene anzupassen, indem Sie den Parameterwert in der URL ändern.
+**Ausblenden** Einschließen, um die Ebene in der Vorlage mit 0 (Anzeigen) und 1 (Ausblenden) ein- oder auszublenden.
+**Source:** Include , um das Ebenenbild durch ein neues Bild zu ersetzen, indem der Bildpfad im Parameterwert in der URL geändert wird.
 
 **Textformatierungsparameter:**
 
 Schließen Sie die folgenden Parameter ein, um den Text, seine Schriftart, Farbe und Größe aus der URL zu bearbeiten, indem Sie die Werte des Parameters in der URL aktualisieren.
 
-**Text:** Fügen Sie dies ein, um Text in der URL zu aktualisieren.
-**Schriftfamilie:** Fügen Sie dies ein, um die Schriftart des Textes in der URL zu aktualisieren.
-**Schriftgröße:** Fügen Sie dies ein, um die Schriftgröße des Textes in der URL zu aktualisieren.
-**Textfarbe:** Fügen Sie dies ein, um die Schriftfarbe des Textes in der URL zu aktualisieren.
+**Text:** Include , um Text aus der URL zu aktualisieren.
+**Schriftfamilie:** Sie ein, um die Schriftart des Textes in der URL zu aktualisieren.
+**Schriftgröße:** , um die Schriftgröße des Textes in der URL zu aktualisieren.
+**Textfarbe:** Einschließen, um die Schriftfarbe des Textes in der URL zu aktualisieren.
 
 ### Gruppieren von Ebenen für die gleichzeitige Steuerung Ihrer Sichtbarkeit{#group-layers}
 
@@ -223,8 +223,8 @@ Führen Sie diese Schritte aus, um den Ausblendungsparametern (![schnelle Inhalt
 
 Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeigen und zu veröffentlichen und die Bereitstellungs-URL zu kopieren:
 
-1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen **>** klicken **[!UICONTROL Vorlage bearbeiten**>**klicken**&#x200B;**]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
-1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Zum Beispiel:
+1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen **>** klicken **[!UICONTROL Vorlage bearbeiten**>**klicken****]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
+1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Beispiel:
    1. Auswählen einer Textebene und Bearbeiten ihres Textes oder
    1. Wählen Sie eine Bildebene aus, klicken Sie auf ![Inhalt spontan erstellen](/help/using/assets/add-image.svg), wählen Sie ein Bild aus der Asset-Auswahl aus und klicken Sie auf **[!UICONTROL Aktualisieren]**.
 
@@ -247,7 +247,7 @@ Die ausgewählten Parameter auf der Seite **[!UICONTROL Vorschau]** werden zu de
 
 So kopieren Sie die in der Vorschau angezeigte URL der veröffentlichten Vorlage:
 
-1. Klicken Sie auf **[!UICONTROL URL kopieren]**. Das Dialogfeld **[!UICONTROL URL kopieren]** wird angezeigt. Wählen Sie die angezeigte URL aus und kopieren Sie sie. Beachten Sie, dass der erste Parameter in der URL nach einem Fragezeichen (**?)** beginnt, während ein Schlüssel-Wert-Paar mit **$** beginnt und mit **&amp;** endet. Schlüssel und Wert werden durch ein Gleichheitszeichen (**=**) getrennt, wobei sich der Schlüssel links und der Wert rechts befindet.
+1. Klicken Sie auf **[!UICONTROL URL kopieren]**. Das Dialogfeld **[!UICONTROL URL kopieren]** wird angezeigt. Wählen Sie die angezeigte URL aus und kopieren Sie sie. Beachten Sie, dass der erste Parameter in der URL nach einem Fragezeichen **(?) beginnt** Ein Schlüssel-Wert-Paar beginnt mit **$** und endet mit **&amp;**. Schlüssel und Wert werden durch ein Gleichheitszeichen (**=**) getrennt, wobei sich der Schlüssel links und der Wert rechts befindet.
 1. Fügen Sie diese URL in Ihre Browser-Registerkarte ein und sehen Sie sich Ihre Live-Vorlage an. Passen Sie die Vorlage in Echtzeit an, indem Sie den erforderlichen Parameterwert (Schlüsselwert) in der URL direkt aktualisieren, wie in [Schritt 2](#preview-and-publish-template-and-copy-template-deliver-url) des Abschnitts **Vorschau und Veröffentlichung** gezeigt.
 1. Verwenden Sie diese URL für das schnelle Merchandising Ihrer Produkte oder Services. Sie können diese URL für Ihre Kundschaft freigeben oder in Ihre Website oder eine nachgelagerte Drittanbieteranwendung integrieren, um das Banner anzuzeigen und Aktualisierungen daran in Echtzeit vorzunehmen, sodass die laufenden Angebote widergespiegelt werden.
 
@@ -287,5 +287,5 @@ Gehen Sie wie folgt vor, um die Vorlage zu bearbeiten:
 
 ## Siehe auch
 
-1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
 1. Erkunden von [Dynamic Media mit OpenAPI-Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
