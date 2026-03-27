@@ -287,5 +287,5 @@ Gehen Sie wie folgt vor, um die Vorlage zu bearbeiten:
 
 ## Siehe auch
 
-1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
 1. Erkunden von [Dynamic Media mit OpenAPI-Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
