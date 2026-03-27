@@ -15,7 +15,7 @@ Als Teil seines [!DNL Adobe Experience Cloud] bietet Adobe eine robuste Digital-
 
 ## Zur Dokumentation beitragen
 
-Dieses Projekt hat den [Open Source-Verhaltenskodex für Adobe ](code-of-conduct.md) den [.NET Foundation-Verhaltenskodex ](https://dotnetfoundation.org/code-of-conduct). Weitere Informationen finden Sie unter [So können Sie einen Beitrag leisten](contributing.md).
+Dieses Projekt hat den [Open Source-Verhaltenskodex für Adobe &#x200B;](code-of-conduct.md) den [.NET Foundation-Verhaltenskodex &#x200B;](https://dotnetfoundation.org/code-of-conduct). Weitere Informationen finden Sie unter [So können Sie einen Beitrag leisten](contributing.md).
 
 **Geringfügige Inhaltsaktualisierungen**: Klicken Sie am rechten Rand eines Artikels auf „Bearbeiten“, um kleinere Korrekturen oder Klarstellungen vorzunehmen und einzureichen. Alternativ können Sie in diesem Repository ein Problem erstellen, das die Änderungen beschreibt. Solche geringfügigen Beiträge werden von den Nutzungsbedingungen von Adobe abgedeckt.
 
