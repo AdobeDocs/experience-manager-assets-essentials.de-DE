@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorl
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
+source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
 workflow-type: tm+mt
 source-wordcount: '3000'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -74,8 +74,8 @@ Führen Sie die folgenden Schritte aus, um eine leere Arbeitsfläche zu erstelle
    ![Dynamic Media-Vorlagen](/help/using/assets/DM-Assets1.png)
 
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage unter Dynamic Media-Assets zu speichern, oder navigieren Sie zu einem Ordner und klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage in diesem Ordner zu speichern. Das Dialogfeld **[!UICONTROL Neue Vorlage]** wird angezeigt.
-   ![So erstellen Sie dynamische Vorlagen, die in Echtzeit angepasst werden können:](/help/using/assets/new-template.png)
-Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media-Assets]** müssen Sie einen Ordner unter **[!UICONTROL Assets]** erstellen. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
+   ![Erstellen dynamischer Vorlagen, die in Echtzeit angepasst werden können](/help/using/assets/new-template.png)
+Um [Ordner zu erstellen](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media Assets]** erstellen Sie einen Ordner unter **[!UICONTROL Assets]**. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
 1. Geben Sie einen Namen für die Vorlage an, definieren Sie die Breite und Höhe der Arbeitsfläche und klicken Sie auf **[!UICONTROL Erstellen]**. Es wird eine leere Arbeitsfläche mit Menüoptionen auf beiden Seiten angezeigt, die zum Erstellen der Vorlage verwendet werden können. Bewegen Sie den Mauszeiger über die Menüoptionen, um deren QuickInfo anzuzeigen.
    ![In Echtzeit anpassbare Vorlage](/help/using/assets/blank-canvas-page.png)
 
@@ -98,7 +98,7 @@ Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dyn
 * ![Vorlage zum schnellen Erstellen von Bannern](/help/using/assets/ZoomOut-1.svg): Klicken Sie, um die Arbeitsfläche zu verkleinern, oder drücken Sie **Strg**+**-** (Windows) oder **Befehlstaste**+**-** (Mac).
 * Drücken Sie die **Rücktaste** oder **Entf**, um die ausgewählte Ebene zu löschen, wenn kein Text oder keine Eigenschaft bearbeitet wird.
 
-Klicken Sie in der Arbeitsflächenebene auf ![Vorlage zum schnellen Erstellen von Flyern](/help/using/assets/show-layers-list.svg) **>** Weitere Optionen (![](/help/using/assets/three-dots.svg)), um die Abmessungen der Arbeitsfläche jederzeit beim Erstellen der Vorlage zu bearbeiten.
+Klicken Sie ![Vorlage, um Flyer schnell zu erstellen](/help/using/assets/show-layers-list.svg) **>** weitere Optionen (![](/help/using/assets/three-dots.svg)) auf der Arbeitsflächen-Ebene, um die Arbeitsflächen-Dimensionen jederzeit beim Erstellen der Vorlage zu bearbeiten.
 ![](/help/using/assets/edit-canvas1.png)
 
 >[!NOTE]
@@ -167,7 +167,7 @@ Sehen Sie sich die folgenden allgemeinen Ebenenbearbeitungsaktionen an, um eine 
 Formatieren Sie Schriftart, Größe, Farbe, Stil und Ausrichtung (auf der Ebene) des Textes nach Ihren Wünschen, indem Sie die Werte in den entsprechenden Feldern unter dem Abschnitt **[!UICONTROL Text]** des Bedienfelds ändern.
 
 **[!UICONTROL Intelligente Textgrößenänderung:]** Schließen Sie **[!UICONTROL Intelligente Textgrößenänderung]** ([Copyfit](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) ein, um einen beliebigen Text im vorgesehenen Bereich durch die intelligente Anpassung von Schriftgröße und -länge optimal anzupassen. Diese Funktion verhindert einen Textüberlauf und minimiert zusätzliche Leerzeichen am unteren Rand des Textes.
-![Content-Erstellung im Handumdrehen](/help/using/assets/smart-text-resize.png)
+![Inhaltserstellung im Handumdrehen](/help/using/assets/smart-text-resize.png)
 
 ### Parametrisieren von Ebenen {#parameterise-a-layer}
 
@@ -180,7 +180,7 @@ So parametrisieren Sie eine Ebene:
 1. **Optional:** Benennen Sie den Parameter um. Ein Parametername hat einen Ebenennamen, gefolgt von einem Suffix. Für eine ausgewählte Ebene verwenden alle parametrisierten Eigenschaften denselben Ebenennamen, gefolgt von einem variierenden Suffix. Benennen Sie den Ebenennamen um, indem Sie der semantischen Namenskonvention folgen, sodass bei Aufnahme des Parameters in die URL der Parametername selbst den Inhalt oder den Zweck der Ebene erklärt.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
    ![Sofortige Inhaltserstellung](/help/using/assets/parameterise-a-layer.png)
-Um zwischen dem Bedienfeld „Parameter“ eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
+Um zwischen dem Bedienfeld Parameter eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
 
 #### Option des Bedienfelds „Parameter“ {#parameterisation-options-or-allowed-parameters}
 
@@ -188,21 +188,21 @@ Die parametrisierten Eigenschaften können als URL-Parameter in die Vorlagen-URL
 
 **Bildparameter:**
 
-**X:** Einfügen, um die Ebene horizontal entlang ihrer Mittellinie parallel zur X-Achse der Vorlagenebene zu verschieben, indem der Parameterwert in der URL geändert wird.
-**Y:** Einschließen , um die Ebene vertikal entlang ihrer Mittellinie parallel zur Y-Achse der Vorlagenebene zu verschieben, indem der Parameterwert in der URL geändert wird.
-**Breite:** Sie ein, um die Breite der Ebene anzupassen, indem Sie den Parameterwert in der URL ändern.
-**Höhe:** Sie ein, um die Höhe der Ebene anzupassen, indem Sie den Parameterwert in der URL ändern.
-**Ausblenden** Einschließen, um die Ebene in der Vorlage mit 0 (Anzeigen) und 1 (Ausblenden) ein- oder auszublenden.
-**Source:** Include , um das Ebenenbild durch ein neues Bild zu ersetzen, indem der Bildpfad im Parameterwert in der URL geändert wird.
+**X:** Fügen Sie dies ein, um die Ebene horizontal entlang ihrer Mittellinie parallel zur x-Achse der Vorlagenebene zu verschieben, indem der Wert des Parameters in der URL geändert wird.
+**Y:** Fügen Sie dies ein, um die Ebene vertikal entlang ihrer Mittellinie parallel zur y-Achse der Vorlagenebene zu verschieben, indem der Wert des Parameters in der URL geändert wird.
+**Breite:** Fügen Sie dies ein, um die Breite der Ebene anzupassen, indem der Wert des Parameters in der URL geändert wird.
+**Höhe** Fügen Sie dies ein, um die Höhe der Ebene anzupassen, indem der Wert des Parameters in der URL geändert wird.
+**Ausblenden:** Fügen Sie dies ein, um die Ebene in der Vorlage mit 0 (Anzeigen) und 1 (Ausblenden) ein- oder auszublenden.
+**Quelle:** Fügen Sie dies ein, um das Bild der Ebene durch ein neues Bild zu ersetzen, indem der Bildpfad im Wert des Parameters in der URL geändert wird.
 
 **Textformatierungsparameter:**
 
 Schließen Sie die folgenden Parameter ein, um den Text, seine Schriftart, Farbe und Größe aus der URL zu bearbeiten, indem Sie die Werte des Parameters in der URL aktualisieren.
 
-**Text:** Include , um Text aus der URL zu aktualisieren.
-**Schriftfamilie:** Sie ein, um die Schriftart des Textes in der URL zu aktualisieren.
-**Schriftgröße:** , um die Schriftgröße des Textes in der URL zu aktualisieren.
-**Textfarbe:** Einschließen, um die Schriftfarbe des Textes in der URL zu aktualisieren.
+**Text:** Fügen Sie dies ein, um Text in der URL zu aktualisieren.
+**Schriftfamilie:** Fügen Sie dies ein, um die Schriftart des Textes in der URL zu aktualisieren.
+**Schriftgröße:** Fügen Sie dies ein, um die Schriftgröße des Textes in der URL zu aktualisieren.
+**Textfarbe:** Fügen Sie dies ein, um die Schriftfarbe des Textes in der URL zu aktualisieren.
 
 ### Gruppieren von Ebenen für die gleichzeitige Steuerung Ihrer Sichtbarkeit{#group-layers}
 
@@ -232,8 +232,8 @@ Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeige
 1. Wählen Sie den Parameter „Ausblenden“ für [gruppierte Ebenen](#group-layers) aus der Liste aus, um sie zusammen in der Vorlage ein- oder auszublenden.
 1. **Optional:** Ändern Sie den Wert des Parameters **[!UICONTROL Ausblenden]** von 0 auf 1 oder umgekehrt und klicken Sie auf **[!UICONTROL Aktualisieren]**, um die Änderungen anzuzeigen. Ebenen mit demselben Parameter „Ausblenden“ werden zusammen ausgeblendet oder angezeigt. Auf ähnliche Weise können Sie die Sichtbarkeit der Ebenen über die URL steuern.
 
-   ![Inhalt spontan erstellen](/help/using/assets/dm-templates-publish-status.png)
-Sie können auch **[!UICONTROL Alle Parameter einbeziehen]** umschalten, um alle angezeigten Parameterwerte zu bearbeiten und die Aktualisierungen in der Vorlagenvorschau anzuzeigen.
+   ![Inhalte im laufenden Betrieb erstellen](/help/using/assets/dm-templates-publish-status.png)
+Sie können auch **[!UICONTROL Alle Parameter einschließen]** umschalten, um alle angezeigten Parameterwerte zu bearbeiten und die Aktualisierungen in der Vorlagenvorschau anzuzeigen.
    <br>
 1. Um die Vorlage auf der Vorschauseite zu veröffentlichen, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie die Veröffentlichung. Es wird die Meldung „Veröffentlichung abgeschlossen“ angezeigt, und der Veröffentlichungsstatus wird auf „Veröffentlicht“ aktualisiert.
 
