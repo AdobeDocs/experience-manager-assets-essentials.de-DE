@@ -2,12 +2,13 @@
 title: Wie werden Dynamic Media-Vorlagen verwaltet?
 description: Erfahren Sie, wie Sie Dynamic Media-Vorlagen mit einem WYSIWYG-Vorlageneditor erstellen und mehrere Bilder und Textebenen einschließen, um Banner und Flyer schnell zu erstellen und in nachgelagerten Programmen zu verwenden.
 hide: true
+hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
+source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
 workflow-type: tm+mt
 source-wordcount: '3000'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -51,7 +52,7 @@ Um eine Dynamic Media-Vorlage zu erstellen, benötigen Sie Folgendes:
 
 1. Zugriff auf Dynamic Media.
 1. [Die in Ihrer AEM Assets-Instanz verfügbaren Bilder müssen mit Dynamic Media synchronisiert worden sein, um sie für die Erstellung der Vorlage verwenden zu können](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
-1. Überprüfen Sie Folgendes in der Touch-optimierten Benutzeroberfläche:
+1. Folgendes auf der Touch-optimierten Benutzeroberfläche überprüft:
    * Auf der Seite **[!UICONTROL Dynamic Media-Konfiguration bearbeiten]** wird **[!UICONTROL Synchronisierungsmodus für Dynamic Media]**, der auf **[!UICONTROL Standardmäßig deaktiviert]** festgelegt ist, nicht auf alle AEM-Ordner angewendet (**[!UICONTROL Alle Inhalte synchronisieren]** ist deaktiviert). Weitere Informationen Sie unter [Konfigurieren von Dynamic Media Cloud Services](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
    * **[!UICONTROL Synchronisierungsmodus für Dynamic Media]** ist für den Zielordner oder den Unterordner, in dem Sie die Vorlage nach der Erstellung speichern, auf **[!UICONTROL Für Unterordner aktivieren]** festgelegt. Weitere Informationen finden Sie unter [Konfigurieren von Dynamic Media Cloud Services](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 
@@ -223,7 +224,7 @@ Führen Sie diese Schritte aus, um den Ausblendungsparametern (![schnelle Inhalt
 
 Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeigen und zu veröffentlichen und die Bereitstellungs-URL zu kopieren:
 
-1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen **>** klicken **[!UICONTROL Vorlage bearbeiten**>**klicken**&#x200B;**]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
+1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen **>** klicken **[!UICONTROL Vorlage bearbeiten**>**klicken****]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
 1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Beispiel:
    1. Auswählen einer Textebene und Bearbeiten ihres Textes oder
    1. Wählen Sie eine Bildebene aus, klicken Sie auf ![Inhalt spontan erstellen](/help/using/assets/add-image.svg), wählen Sie ein Bild aus der Asset-Auswahl aus und klicken Sie auf **[!UICONTROL Aktualisieren]**.
@@ -287,5 +288,5 @@ Gehen Sie wie folgt vor, um die Vorlage zu bearbeiten:
 
 ## Siehe auch
 
-1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Erkunden von [Dynamic Media und seinen Funktionen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
 1. Erkunden von [Dynamic Media mit OpenAPI-Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
