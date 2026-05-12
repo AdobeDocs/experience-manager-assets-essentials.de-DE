@@ -3,10 +3,15 @@ title: Bearbeiten von Videos
 description: Bearbeiten Sie Videos mit von [!DNL Adobe Express] unterstützten Optionen und speichern Sie aktualisierte Videos als Versionen.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
+TQID: https://experienceleague.adobe.com/j9r915ua9GXUoTHdbSBHWxnHm-FIhCwvIuKOp91AFCg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 83%
+source-wordcount: 841
+ht-degree: 91%
 
 ---
 
@@ -42,11 +47,11 @@ Mit den eingebetteten Schnellaktionen von [!DNL Adobe Express] können Sie unerw
 5. Klicken Sie auf **[!UICONTROL Übernehmen]**.
    ![Zuschneiden von Videos mit Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
-   Das zugeschnittene Video kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets speichern oder es als neues Asset speichern. ![Video mit Adobe Express speichern](/help/using/assets/adobe-express-save-video.png)
+   Das zugeschnittene Video kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets oder als neues Asset speichern. ![Speichern von Videos mit Adobe Express](/help/using/assets/adobe-express-save-video.png)
 
 ### Anpassen der Videogröße {#resize-video-using-express}
 
-Der endgültige Videoinhalt im DAM muss häufig geändert werden, damit er auf bestimmten Kanälen verteilt werden kann. [!DNL Assets Essentials] Mit können Sie die Größe von Videos einfach an die Abmessungen anpassen, die für gängige Social-Media-Kanäle erforderlich sind, und Sie können die Größe auch auf benutzerdefinierte Auflösungen ändern. Um die Videogröße mit [!DNL Assets Essentials] zu ändern, führen Sie die folgenden Schritte aus:
+Die Größe des endgültigen Videoinhalts im DAM muss für die Verteilung an bestimmte Kanäle oft geändert werden. Mit [!DNL Assets Essentials] können Sie die Größe des Videos einfach an die für gängige soziale Kanäle erforderlichen Dimensionen anpassen. Anpassungen der Größe an benutzerdefinierte Auflösungen sind ebenfalls möglich. Um die Videogröße mit [!DNL Assets Essentials] zu ändern, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie ein Video aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 2. Klicken Sie in den Schnellaktionen im linken Bereich auf **[!UICONTROL Videogröße anpassen]**.
@@ -104,7 +109,7 @@ Ihr Video kann nun im GIF-Format heruntergeladen werden. Sie können das bearbei
 
 * Geben Sie Feedback zur Dokumentation über die Option zum [!UICONTROL Bearbeiten der Seite] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder zum [!UICONTROL Melden eines Problems] ![GitHub-Ticket erstellen](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste.
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General#support).
 
 >[!MORELIKETHIS]
 >

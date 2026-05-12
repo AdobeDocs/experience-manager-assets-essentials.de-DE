@@ -2,10 +2,16 @@
 title: Verwalten von Zugriffsberechtigungen für Ordner in AEM Assets Essentials
 description: Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner verwalten, die im Repository verfügbar sind. Erstellen Sie Benutzergruppen und weisen Sie diesen Gruppen Berechtigungen zum Verwalten von Zugriffsebenen zu. Als Administrator können Sie Benutzergruppen die Berechtigung zur Zugriffsberechtigungsverwaltung auch auf Ordnerebene zuweisen.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
+TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 97%
+source-wordcount: 1700
+ht-degree: 98%
 
 ---
 
@@ -32,7 +38,7 @@ Fügen Sie Administratoren für das Assets Essentials-Programm hinzu, damit sie 
 
 So fügen Sie Administratoren hinzu:
 
-1. Rufen Sie [Admin Console](https://adminconsole.adobe.com) für Ihr Unternehmen auf, klicken Sie **[!UICONTROL der oberen Leiste auf]** Produkte klicken Sie auf **[!UICONTROL AEM Assets Essentials]** und klicken Sie dann auf [!DNL Assets Essentials] Umgebung. [!DNL Assets Essentials] verfügt über drei Produktprofile, die den Zugriff für Administratoren, Standardbenutzer und Privatkunden darstellen.
+1. Rufen Sie die [Admin Console](https://adminconsole.adobe.com) für Ihr Unternehmen auf, klicken Sie in der oberen Leiste auf **[!UICONTROL Produkte]**, dann auf **[!UICONTROL AEM Assets Essentials]** und anschließend auf die [!DNL Assets Essentials]-Umgebung. [!DNL Assets Essentials] verfügt über drei Produktprofile, die den Zugriff für Admins, reguläre Benutzende und Endbenutzende darstellen.
 
    ![Admin-Profil der Admin Console](assets/admin-console-admin-profile.png)
 
@@ -81,7 +87,7 @@ Sie können den Benutzergruppen oder Benutzern die folgenden Berechtigungen zuwe
 
 | Berechtigungsname | Beschreibung |
 |-----|------|
-| Anzeigen | <ul><li>Lesezugriff zum Anzeigen und Navigieren in Ordnern </li><li>Vorschau von Assets</li><li>Herunterladen von Assets</li><li>Kopieren von Assets</li><li>Freigeben von Links zu Medienelementen</li><ul> |
+| Anzeigen | <ul><li>Lesezugriff zum Anzeigen und Navigieren in Ordnern </li><li>Vorschau von Assets</li><li>Assets herunterladen</li><li>Kopieren von Assets</li><li>Freigeben von Links zu Medienelementen</li><ul> |
 | Bearbeiten | <ul><li>Alle Rechte, die für Anzeige-Berechtigungen verfügbar sind </li><li>Erstellen von Ordnern</li><li>Entfernen von Ordnern</li><li>Umbenennen von Ordnern</li><li>Erstellen von Medienelementen</li><li>Aktualisieren von Medienelementen</li><li>Entfernen von Medienelementen</li><li>Verschieben von Medienelementen</li><li>Umbenennen von Medienelementen</li><ul> |
 | Inhaber | <ul><li>Alle Rechte, die für Bearbeitungsberechtigungen verfügbar sind</li><li>Verwalten von Berechtigungen für Ordner und deren Unterordner</li>Diese Berechtigung erlaubt es den Administratoren, Administratorberechtigungen für einen Ordner und dessen Unterordner an andere zu delegieren.<ul> |
 | Verweigern des Zugriffs | Entfernen der Anzeige- und Bearbeitungsberechtigungen sowie der Inhaberberechtigungen für einen Ordner und dessen Unterordner. |
@@ -188,7 +194,7 @@ Erstellen Sie die folgenden Benutzergruppen in der Admin Console:
 * Rechtsabteilung
 
 Die folgende Abbildung zeigt die Ordnerhierarchie und die den einzelnen Benutzergruppen zugewiesenen Berechtigungen:
-![Berechtigungen zuweisen](assets/use-case-permissions-management.png)
+![Zuweisen von Berechtigungen](assets/use-case-permissions-management.png)
 
 Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordnerhierarchie:
 
