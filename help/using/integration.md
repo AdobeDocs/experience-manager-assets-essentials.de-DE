@@ -4,10 +4,14 @@ description: '[!DNL Assets Essentials] lässt sich mit anderen Adobe-Lösungen i
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 TQID: https://experienceleague.adobe.com/TFjf7jmmlN5iuoWzFg32WqfNuLMIdf29d-SkrO6Ar58
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 491
@@ -25,7 +29,7 @@ Das eingebettete [!DNL Assets Essentials]-Erlebnis kann in die folgenden Lösung
 
   [Video zur Integration von Assets Essentials in Adobe Creative Cloud Libraries ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html?lang=de)
 
-* **[!DNL Adobe Journey Optimizer]**: [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/de/products/journey-optimizer/adobe-journey-optimizer.html) vereinfacht das Journey-Management für Kunden und stellt Omni-Channel-Kampagnen mit intelligenter Entscheidungsfindung und Erkenntnissen bereit. Beim Entwerfen von Nachrichten mit [!DNL Journey Optimizer] können Sie direkt über die Benutzeroberfläche von [!DNL Journey Optimizer] auf das [!DNL Assets Essentials]-Repository zugreifen. Benutzer erhalten über die eingebettete Benutzeroberfläche von [!DNL Assets Essentials] Zugriff auf Assets. Siehe [Hilfe-Artikel zum Verwenden von  [!DNL Assets Essentials] ](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de) oder [Video-Tutorial zum Erstellen von E-Mail-Inhalten](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=de).
+* **[!DNL Adobe Journey Optimizer]**: [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/de/products/journey-optimizer/adobe-journey-optimizer.html) vereinfacht das Journey-Management für Kunden und stellt Omni-Channel-Kampagnen mit intelligenter Entscheidungsfindung und Erkenntnissen bereit. Beim Entwerfen von Nachrichten mit [!DNL Journey Optimizer] können Sie direkt über die Benutzeroberfläche von [!DNL Journey Optimizer] auf das [!DNL Assets Essentials]-Repository zugreifen. Benutzer erhalten über die eingebettete Benutzeroberfläche von [!DNL Assets Essentials] Zugriff auf Assets. Siehe [Hilfe-Artikel zum Verwenden von  [!DNL Assets Essentials] &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=de) oder [Video-Tutorial zum Erstellen von E-Mail-Inhalten](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=de).
 
 * **[!DNL Adobe Workfront]**: [[!DNL Adobe Workfront]](https://www.workfront.com/) ist ein Programm für das Arbeits-Management, mit dem Sie den gesamten Arbeitszyklus an einem Ort verwalten können. Durch die native Integration von [!DNL Adobe Workfront] und [!DNL Assets Essentials] können Unternehmen die Content Velocity und die Time-to-Market verbessern, indem sie Arbeit und Asset-Management intern miteinander verbinden. Im Rahmen der Verwaltung ihrer Arbeit haben Benutzer in derselben Lösung Zugriff auf die erforderlichen Dokumente und Bilder. [!DNL Assets Essentials] ist als Add-on verfügbar, das neue [!DNL Workfront]-Kunden separat erwerben können. Weitere Informationen finden Sie unter [Konfigurieren und verwenden von [!DNL Workfront] und [!DNL Essentials] -Integration](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
 

@@ -3,10 +3,15 @@ title: Massenbearbeitung von Metadaten in Assets Essentials
 description: Erfahren Sie, wie Sie einen vordefinierten Satz von Standard-Metadatenfeldern für mehrere Assets aktualisieren können, die gleichzeitig in Assets Essentials verfügbar sind.
 exl-id: 17185160-6c51-4581-a716-77b365ef3dd9
 TQID: https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 649
@@ -73,7 +78,7 @@ Führen Sie diese Schritte aus, um die Metadaten mehrerer Assets gleichzeitig in
    * **Ablaufdatum:** Sie ein Datum ein, nach dem die Assets nicht mehr gültig oder benötigt werden.
    * **Autor:** Geben Sie den Namen des Autors an.
    * **Schlüsselwörter:** Fügen Sie bestimmte Begriffe oder Textzeichenfolgen hinzu, die allgemeine Informationen über die Assets enthalten, um ihre Auffindbarkeit zu verbessern. Fügen Sie ein Keyword hinzu und drücken Sie die Eingabetaste oder die Eingabetaste, um der Liste ein weiteres Keyword hinzuzufügen.
-   * **Tags:** Klicken Sie auf ![Tags-Symbol](/help/using/assets/tags-icon.svg), um Tags aus den verfügbaren Optionen auszuwählen. Tags bieten genauere Informationen über die Assets und verbessern ihre Auffindbarkeit. Bereits auf die ausgewählten Assets angewendete Tags werden im Panel **Eigenschaften** angezeigt. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Weitere [ zum Erstellen und Zuweisen von Tags zu Assets finden Sie unter ](/help/using/tagging-management.md)Verwalten von Tags in Assets Essentials“.
+   * **Tags:** Klicken Sie auf ![Tags-Symbol](/help/using/assets/tags-icon.svg), um Tags aus den verfügbaren Optionen auszuwählen. Tags bieten genauere Informationen über die Assets und verbessern ihre Auffindbarkeit. Bereits auf die ausgewählten Assets angewendete Tags werden im Panel **Eigenschaften** angezeigt. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Weitere [&#x200B; zum Erstellen und Zuweisen von Tags zu Assets finden Sie unter &#x200B;](/help/using/tagging-management.md)Verwalten von Tags in Assets Essentials“.
    * Klicken Sie **Speichern**, um die oben genannten Metadatenaktualisierungen auf die ausgewählten Assets anzuwenden. Nach dem Speichern werden Keywords und Tags angehängt, während die aktualisierten Details für Status, Ablaufdatum und Autor ihre vorhandenen Details überschreiben.
      ![save-bulk-metadata-edit-properties](/help/using/assets/save-bulk-metadata-edit-properties2.png)
 
