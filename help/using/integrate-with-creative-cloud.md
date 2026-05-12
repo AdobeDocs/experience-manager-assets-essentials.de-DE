@@ -2,16 +2,20 @@
 title: Integrieren von Assets Essentials mit Creative Cloud-Programmen
 description: Integrieren Sie Assets Essentials in Creative Cloud-Programmen, damit Sie innerhalb der unterstützten Desktop-Programme von  [!DNL Adobe Creative Cloud]  über das Bedienfeld „Adobe Asset Link“ direkt im Programm eine Verbindung zum  [!DNL Assets Essentials] -Repository herstellen können.
 exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+TQID: https://experienceleague.adobe.com/LaIILrdXTbQEfmgcDXszeze1nBd2UpqUXALqTiFdMIA
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: 785
 ht-degree: 100%
 
 ---
 
 # Integrieren von Assets Essentials mit Creative Cloud-Programmen {#integrate-assets-essentials-creative-cloud-applications}
 
-[Mit dem programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/de/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Assets Essentials]-Desktop-Programmen heraus eine Verbindung zum [!DNL Adobe Creative Cloud]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum dazu beiträgt, die Content Velocity zu erhöhen.
+[Mit dem programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Assets Essentials]-Desktop-Programmen heraus eine Verbindung zum [!DNL Adobe Creative Cloud]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum dazu beiträgt, die Content Velocity zu erhöhen.
 
 Anwender von Creative Cloud-Programmen können das Bedienfeld „Adobe Asset Link“ nur verwenden, wenn Sie die Creative Cloud-Programme in das Repository von Experience Manager Assets Essentials integrieren.
 
@@ -37,7 +41,7 @@ Klicken Sie in der Admin Console von Experience Cloud auf **[!UICONTROL Einstell
 
 Nachdem Sie das Verzeichnisvertrauen zwischen der Admin Console für Creative Cloud und der Admin Console für Experience Cloud eingerichtet haben, weisen Sie die Creative Cloud-Benutzer dem Produktprofil **[!DNL Assets Essentials]Benutzer** unter der [!DNL Assets Essentials]-Produktkarte in der Admin Console für Experience Cloud zu. Dadurch können Creative Cloud-Benutzer über ihr Plug-in-Bedienfeld „Adobe Asset Link“ auf Assets Essentials zugreifen. Darüber hinaus erhalten sie Zugriff auf die vollständige Web-Benutzeroberfläche von Assets Essentials zum Hochladen, Organisieren, Kennzeichnen und Suchen digitaler Assets über einen Webbrowser.
 
-Andere Assets Essentials-Produktprofile, wie **[!DNL Assets Essentials]-Administratoren** und **[!DNL Assets Essentials]-Verbraucherbenutzer**, werden für verschiedene Benutzerberechtigungen verwendet (Programmadministratoren und Anwender, die über Experience Cloud-Integrationen auf Assets Essentials zugreifen).
+Andere Assets Essentials-Produktprofile, wie **[!DNL Assets Essentials]-Admins** und **[!DNL Assets Essentials]-Endbenutzende**, werden für verschiedene Benutzerberechtigungen verwendet (Programmadministratoren und Anwender, die über Experience Cloud-Integrationen auf Assets Essentials zugreifen).
 
 Weitere Informationen zum Zuweisen von Benutzern zu Assets Essentials-Produktprofilen finden Sie unter [Zuweisen von Benutzern zu Assets Essentials-Produktprofilen](deploy-administer.md#add-users-to-product-profiles).
 

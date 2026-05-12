@@ -2,10 +2,14 @@
 title: Massenimport von Assets mithilfe von Assets Essentials
 description: Erfahren Sie, wie Sie Assets über die neue Assets-Benutzeroberfläche (Assets Essentials) per Massenimport importieren. Admins können damit eine große Anzahl von Assets aus einer Datenquelle in AEM Assets importieren.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/6Fq368rg7WeWVL4E098y0skHagS8y1kTbEcvgVn9l94
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 92%
+source-wordcount: 1849
+ht-degree: 100%
 
 ---
 
@@ -49,7 +53,7 @@ Bevor Sie Assets aus Ihrem Dropbox-Konto in AEM Assets importieren können, müs
 
 Führen Sie die folgenden Schritte aus:
 
-1. Melden Sie sich bei Ihrem [Dropbox-Konto an &#x200B;](https://www.dropbox.com/developers) klicken Sie auf **[!UICONTROL Apps erstellen]**. <br>Wenn Sie ein Enterprise Dropbox-Konto verwenden, benötigen Sie Zugriff auf die Rolle des Inhaltsadministrators.
+1. Melden Sie sich bei Ihrem [Dropbox-Konto](https://www.dropbox.com/developers) an und klicken Sie auf **[!UICONTROL Apps erstellen]**. <br>Wenn Sie ein Enterprise Dropbox-Konto verwenden, benötigen Sie Zugriff auf die Rolle „Content-Administrator“.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL API auswählen]** das einzige verfügbare Optionsfeld aus.
 
@@ -129,7 +133,7 @@ Führen Sie die folgenden Schritte aus, um in [!DNL Experience Manager Assets] 
    >
    >Wenn Sie Dropbox als Datenquelle verwenden, geben Sie den Quellordnerpfad anhand der folgenden Regeln an:
    >* Wenn Sie beim Erstellen der Dropbox-Anwendung die Option **Vollständige Dropbox** wählen und der Ordner mit den Assets in `https://www.dropbox.com/home/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` in das Feld **[!UICONTROL Quellordner]** ein.
-   >* Wenn Sie **Programmordner** beim Erstellen des Dropbox-Programms auswählen und der Ordner, der die Assets enthält, unter `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` im Feld **[!UICONTROL Source-Ordner]** an, wobei `BulkImportAppFolderScope` auf den Namen des Programms verweist. `Apps` wird in diesem Fall nach dem `home` automatisch hinzugefügt.
+   >* Wenn Sie beim Erstellen der Dropbox-Anwendung die Option **App-Ordner** wählen und der Ordner mit den Assets in `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` vorhanden ist, geben Sie `bulkimport-assets` in das Feld **[!UICONTROL Quellordner]** ein, wobei sich `BulkImportAppFolderScope` auf den Namen der Anwendung bezieht. `Apps` wird in diesem Fall automatisch hinter `home` eingefügt.
 
 1. (Optional) Wählen Sie die Option **[!UICONTROL Quelldatei nach Import löschen]**, um die Originaldateien aus dem Quelldatenspeicher zu löschen, nachdem die Dateien in [!DNL Experience Manager Assets] importiert wurden.
 1. Wählen Sie den **[!UICONTROL Importmodus]**. Wählen Sie **[!UICONTROL Überspringen]**, **[!UICONTROL Ersetzen]** oder **[!UICONTROL Version erstellen]**. Der Modus „Überspringen“ ist der Standardmodus. In diesem Modus überspringt das Aufnahme-Tool den Import eines Assets, wenn es bereits vorhanden ist.
@@ -165,8 +169,8 @@ Weitere Informationen zu unzulässigen Namen und zum Umgang mit Asset-Namen und 
 
 ## Anzeigen der vorhandenen Massenimportkonfigurationen {#view-import-configuration}
 
-Um die vorhandenen Massenimporte anzuzeigen, wählen Sie die Option **[!UICONTROL Massenimporte]** im linken Bereich. Die Seite mit den Massenimporten wird mit der Liste der **[!UICONTROL ausgeführten Importe]** angezeigt. <br>
-Sie können auch die Optionen **[!UICONTROL Gespeicherte Importe]** und **[!UICONTROL Geplante Importe]** aus der Dropdown-Option anzeigen.
+Um die vorhandenen Massenimporte anzuzeigen, wählen Sie die Option **[!UICONTROL Massenimporte]** im linken Bereich. Die Seite mit den Massenimporten mit der Liste **[!UICONTROL Ausgeführte Importe]** wird angezeigt. <br>
+Sie können auch die **[!UICONTROL gespeicherten Importe]** und die **[!UICONTROL geplanten Importe]** über die Dropdown-Option anzeigen.
 
 ![Speichern der Massenimportkonfiguration](assets/bulk-import-options.png)
 

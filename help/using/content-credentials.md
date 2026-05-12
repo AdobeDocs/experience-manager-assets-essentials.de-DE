@@ -1,12 +1,17 @@
 ---
 title: Integration von Content Credentials
-description: Content credentials, die in AEM Assets integriert sind und in der AEM Assets Essentials-Benutzeroberfläche angezeigt werden, können Kontext zum Verlauf eines Assets bieten, einschließlich dessen, wie es erstellt wurde und wer an seiner Erstellung beteiligt war. Content Credentials können, ähnlich einer Nährwertkennzeichnung für digitale Inhalte, dazu beitragen, die Transparenz zu erhöhen und Vertrauen bei den Zielgruppen zu schaffen.
+description: Content Credentials ist in AEM Assets integriert und in der AEM Assets Essentials-Benutzeroberfläche verfügbar. Es bietet Kontext zum Verlauf eines Assets, einschließlich dessen Herstellung und der an seiner Erstellung beteiligten Personen. Content Credentials können, ähnlich einer Nährwertkennzeichnung für digitale Inhalte, dazu beitragen, die Transparenz zu erhöhen und Vertrauen bei den Zielgruppen zu schaffen.
 role: User
 exl-id: 703f74a6-24d4-4181-8174-9ff4a90ee7aa
-source-git-commit: b7c5a6da5833d68c618a1cabf8ff9d1ed9f45178
+TQID: https://experienceleague.adobe.com/witCqgAh8EKfD-hdn8efjZ-M4sypX44KB2ELs3ECInI
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 80%
+source-wordcount: 474
+ht-degree: 81%
 
 ---
 
@@ -26,22 +31,19 @@ Zu diesen Informationen gehören:
 
 Die Option [Überprüfen](https://contentcredentials.org/verify) bietet Ihnen mit einem umfassenderen Einblick in den Asset-Verlauf eine vollständige Ansicht.
 
-Adobe Experience Manager Assets unterstützt jetzt Content credentials und ermöglicht es Benutzenden, Content credentials direkt in der Assets Essentials-Benutzeroberfläche von AEM anzuzeigen. Bei der Anzeige der Asset-Details zeigt jedes Bild mit Content Credentials (z. B. mit GenAI-Diensten erstellte Bilder) die Manifest-Details in einem dedizierten Bedienfeld an. Wenn das Asset heruntergeladen, veröffentlicht oder freigegeben wird, bleiben die Anmeldeinformationen mit dem Asset intakt.
+Adobe Experience Manager Assets unterstützt jetzt Content Credentials, sodass Benutzer Content Credentials direkt in der Assets Essentials-Benutzeroberfläche von AEM sehen können. Bei der Anzeige der Asset-Details zeigt jedes Bild mit Content Credentials (z. B. mit GenAI-Diensten erstellte Bilder) die Manifest-Details in einem dedizierten Bedienfeld an. Wenn das Asset heruntergeladen, veröffentlicht oder freigegeben wird, bleiben die Anmeldeinformationen mit dem Asset intakt.
 
 ![ASSETS](/help/using/assets/content-credentials.png)
 
 ## Zugriff auf Content Credentials {#access-content-credentials}
 
-1. Wechseln Sie zur Benutzeroberfläche &quot;Assets Essentials&quot; und klicken Sie **linken Bereich auf** Assets.
+1. Wechseln Sie zur Assets Essentials-Benutzeroberfläche und klicken Sie **linken Bereich auf** Assets.
 1. Navigieren Sie zu einem Ordner und wählen Sie das gewünschte Asset aus.
 1. Klicken Sie auf **Details** und wählen Sie im Bereich ganz rechts die Option `Cr pin` aus. Auf der Registerkarte „Content Credentials“ werden die folgenden Informationen zum Asset angezeigt.
    1. **Generiertes Bild:** Datum und Uhrzeit, zu der die Content Credentials angewendet wurden.
    1. **Inhaltszusammenfassung:** Gibt an, ob das Asset teilweise oder vollständig von KI generiert wurde oder wie es bearbeitet wurde.
-
       ![Inhaltszusammenfassung](/help/using/assets/content-credentials1.png)
    1. **Verlauf:** Details zu der Anwendung, dem Gerät und dem KI-Tool (z. B. Adobe Firefly), die zum Generieren des Assets verwendet wurden, sowie zu nachfolgend gemachten Änderungen.
-
       ![Verlauf](/help/using/assets/CR-Process.png)
    1. **Informationen zu diesen Content Credentials:** Name des Ausstellers zusammen mit Datum und Uhrzeit der Ausstellung.
-
       ![Aussteller](/help/using/assets/CR-issuer.png)

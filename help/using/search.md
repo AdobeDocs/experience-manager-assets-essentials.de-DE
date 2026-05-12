@@ -3,13 +3,17 @@ title: Suchen und Auffinden von Assets in  [!DNL Assets Essentials]
 description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/V--WXU30ed6P-HWqE1rquXPupmJwImyYfARZ006RpDg
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '2217'
-ht-degree: 95%
+source-wordcount: 2217
+ht-degree: 98%
 
 ---
-
 
 <table>
     <tr>
@@ -48,7 +52,7 @@ ht-degree: 95%
             <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamic Media mit OpenAPI-Funktionen</b></a>
         </td>
         <td>
-            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/?lang=de"><b>Entwicklerdokumentation zu AEM Assets</b></a>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>Entwicklerdokumentation zu AEM Assets</b></a>
         </td>
     </tr>
 </table>
@@ -61,7 +65,7 @@ ht-degree: 95%
 >abstract="Sie können nach Assets suchen, indem Sie ein Keyword in der Suchleiste eingeben oder Assets nach ihrem Status, Dateityp, MIME-Typ, Erstellungs-, Änderungs- und Ablaufdatum oder ihrer Größe filtern. Zusätzlich zu den Standardfiltern können Sie auch benutzerdefinierte Filter anwenden. Sie können die gefilterten Ergebnisse als gespeicherte Suche oder Smart-Sammlung speichern."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=de#manage-smart-collection" text="Erstellung von Smart-Sammlungen"
 
-[!DNL Assets Essentials] bietet eine effektive Suche, die einfach standardmäßig funktioniert. Die Suche ist umfassend, da es sich um eine Volltextsuche handelt. Mit der leistungsstarken Suchfunktion können Sie schnell das passende Asset ermitteln und die Geschwindigkeit Ihrer Inhaltserstellung erhöhen. [!DNL Assets Essentials] bietet Volltextsuche und Suchvorgänge durch die Metadaten wie Smart-Tags, Titel, Erstellungsdatum und Copyright.
+[!DNL Assets Essentials] bietet eine effektive Suche, die einfach standardmäßig funktioniert. Die Suche ist umfassend, da es sich um eine Volltextsuche handelt. Mit der leistungsstarken Suchfunktion können Sie schnell das passende Asset ermitteln und die Geschwindigkeit Ihrer Inhaltserstellung steigern. [!DNL Assets Essentials] bietet Volltextsuche und Suchvorgänge durch die Metadaten wie Smart-Tags, Titel, Erstellungsdatum und Copyright.
 
 Um nach Assets zu suchen,
 
@@ -179,7 +183,7 @@ So generieren Sie neue Assets mit [!DNL Adobe Firefly]:
 
    ![Integration mit Firefly](assets/firefly-integration.png)
 
-   Die neuen Assets wurden erfolgreich generiert. Darüber hinaus können Sie die Bildbeschreibung ändern, indem Sie die neue Textaufforderung in das Feld Beschreibung eingeben. [Erfahren Sie, wie Sie eine gute KI-Eingabeaufforderung schreiben, um außergewöhnliche und relevante Inhalte zu generieren.](https://helpx.adobe.com/de/firefly/using/tips-and-tricks.html) Alternativ können Sie [Bild mit verschiedenen anderen Funktionen wie Ändern des Stils, der Bildabmessungen und mehr bearbeiten.](https://helpx.adobe.com/de/firefly/using/text-to-image.html)
+   Die neuen Assets wurden erfolgreich generiert. Darüber hinaus können Sie die Bildbeschreibung ändern, indem Sie den neuen Text-Prompt in das Beschreibungsfeld eingeben. [Erfahren Sie, wie Sie eine gute KI-Eingabeaufforderung schreiben, um außergewöhnliche und relevante Inhalte zu generieren.](https://helpx.adobe.com/de/firefly/using/tips-and-tricks.html) Alternativ können Sie [Bild mit verschiedenen anderen Funktionen wie Ändern des Stils, der Bildabmessungen und mehr bearbeiten.](https://helpx.adobe.com/de/firefly/using/text-to-image.html)
 
    ![Integration mit Firefly](assets/bugatti-type-57.png)
 
@@ -280,7 +284,7 @@ Sie können zu Ihrer Startseite für die erste Suche ein Markenlogo und ein Hint
 
 1. Navigieren Sie zum Abschnitt **[!UICONTROL Hintergrund- und Logo-Bild]** unter **[!UICONTROL Startseite]**.
 1. Klicken Sie auf **[!UICONTROL Ersetzen]**, um die Bilder in einem vorhandenen Asset-Repository zu durchsuchen.
-1. Klicken Sie **[!UICONTROL Speichern]**. [Vorschau](#preview-configured-homepage) die Änderungen zur Überprüfung der Änderungen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Öffnen Sie die [Vorschau](#preview-configured-homepage) der Änderungen, um die Änderungen zu überprüfen.
 
 ### Vorschau der konfigurierten Startseite {#preview-configured-homepage}
 
@@ -386,5 +390,5 @@ Um Feedback zur Kontextsuche zu geben, klicken Sie auf das Symbol für die ![Kon
 
 * Geben Sie Feedback zur Dokumentation mithilfe der Option zum [!UICONTROL Bearbeiten der Seite] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder zum [!UICONTROL Melden eines Problems] ![GitHub-Ticket erstellen](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste.
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 
