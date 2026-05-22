@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 917
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Dokumentations-Touren werden auf der Grundlage von Best-Practice-Prinzipien entw
 
 ## Voraussetzungen
 
-* [Zugriff auf Adobe Admin Console für Experience Cloud-Lösungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=de)
+* [Zugriff auf die Adobe Admin Console für Experience Cloud-Lösungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=de)
 
-* [Zugriff auf die Bereitstellung von Adobe Admin Console for Creative Cloud für Unternehmen](https://helpx.adobe.com/de/enterprise/admin-guide.html)
+* [Zugriff auf die Adobe Admin Console für die Bereitstellung von Creative Cloud für Unternehmen](https://helpx.adobe.com/de/enterprise/admin-guide.html)
 
 ## Verwalten von Experience Manager Assets Essentials {#administer-assets-essentials}
 

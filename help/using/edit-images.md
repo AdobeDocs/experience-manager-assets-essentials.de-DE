@@ -13,7 +13,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1258
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Mit den eingebetteten Schnellaktionen von [!DNL Adobe Express] ist es einfach, e
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Bild zuschneiden]**.
 2. Ziehen Sie die Griffe an den Ecken des Bildes, um den gewünschten Zuschnitt zu erstellen.
 3. Klicken Sie auf **[!UICONTROL Übernehmen]**.
-   ![Bild mit Adobe Express speichern](/help/using/assets/adobe-express-crop-image.png)
+   ![Speichern des Bildes mit Adobe Express](/help/using/assets/adobe-express-crop-image.png)
 Das zugeschnittene Bild kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets oder als neues Asset speichern.
 
 #### JPEG in PNG konvertieren {#Convert-JPEG-to-PNG}

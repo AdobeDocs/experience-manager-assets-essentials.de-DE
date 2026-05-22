@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1240
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ Um das Metadatenfeld „Ablaufdatum“ zum Formular hinzuzufügen, ziehen Sie di
 
 ## Nächste Schritte {#next-steps}
 
-* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets-essentials/basics/managing)
+* [Video zum Verwalten von Assets in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing?lang=de)
 
 * Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 

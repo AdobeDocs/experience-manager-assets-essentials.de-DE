@@ -8,7 +8,7 @@ exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
 workflow-type: tm+mt
 source-wordcount: '3000'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -70,13 +70,13 @@ Um eine Dynamic Media-Vorlage zu erstellen, führen Sie die folgenden Schritte a
 
 Führen Sie die folgenden Schritte aus, um eine leere Arbeitsfläche zu erstellen:
 
-1. Navigieren Sie zu Assets Essentials und klicken Sie **[!UICONTROL linken Bedienfeld auf]** Dynamic Media Assets&quot;.
+1. Navigieren Sie zu Assets Essentials und klicken Sie im linken Bedienfeld auf **[!UICONTROL Dynamic Media-Assets]**.
 
    ![Dynamic Media-Vorlagen](/help/using/assets/DM-Assets1.png)
 
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage unter Dynamic Media-Assets zu speichern, oder navigieren Sie zu einem Ordner und klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage in diesem Ordner zu speichern. Das Dialogfeld **[!UICONTROL Neue Vorlage]** wird angezeigt.
    ![Erstellen dynamischer Vorlagen, die in Echtzeit angepasst werden können](/help/using/assets/new-template.png)
-Um [Ordner zu erstellen](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media Assets]** erstellen Sie einen Ordner unter **[!UICONTROL Assets]**. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
+Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media-Assets]** müssen Sie einen Ordner unter **[!UICONTROL Assets]** erstellen. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
 1. Geben Sie einen Namen für die Vorlage an, definieren Sie die Breite und Höhe der Arbeitsfläche und klicken Sie auf **[!UICONTROL Erstellen]**. Es wird eine leere Arbeitsfläche mit Menüoptionen auf beiden Seiten angezeigt, die zum Erstellen der Vorlage verwendet werden können. Bewegen Sie den Mauszeiger über die Menüoptionen, um deren QuickInfo anzuzeigen.
    ![In Echtzeit anpassbare Vorlage](/help/using/assets/blank-canvas-page.png)
 
@@ -99,7 +99,7 @@ Um [Ordner zu erstellen](/help/using/add-delete.md) unter **[!UICONTROL Dynamic 
 * ![Vorlage zum schnellen Erstellen von Bannern](/help/using/assets/ZoomOut-1.svg): Klicken Sie, um die Arbeitsfläche zu verkleinern, oder drücken Sie **Strg**+**-** (Windows) oder **Befehlstaste**+**-** (Mac).
 * Drücken Sie die **Rücktaste** oder **Entf**, um die ausgewählte Ebene zu löschen, wenn kein Text oder keine Eigenschaft bearbeitet wird.
 
-Klicken Sie ![Vorlage, um Flyer schnell zu erstellen](/help/using/assets/show-layers-list.svg) **>** weitere Optionen (![](/help/using/assets/three-dots.svg)) auf der Arbeitsflächen-Ebene, um die Arbeitsflächen-Dimensionen jederzeit beim Erstellen der Vorlage zu bearbeiten.
+Klicken Sie in der Arbeitsflächenebene auf ![Vorlage zum schnellen Erstellen von Flyern](/help/using/assets/show-layers-list.svg) **&#x200B;** und wählen Sie weitere Optionen (![](/help/using/assets/three-dots.svg)) aus, um die Abmessungen der Arbeitsfläche beim Erstellen der Vorlage jederzeit zu bearbeiten.
 ![](/help/using/assets/edit-canvas1.png)
 
 >[!NOTE]
@@ -181,7 +181,7 @@ So parametrisieren Sie eine Ebene:
 1. **Optional:** Benennen Sie den Parameter um. Ein Parametername hat einen Ebenennamen, gefolgt von einem Suffix. Für eine ausgewählte Ebene verwenden alle parametrisierten Eigenschaften denselben Ebenennamen, gefolgt von einem variierenden Suffix. Benennen Sie den Ebenennamen um, indem Sie der semantischen Namenskonvention folgen, sodass bei Aufnahme des Parameters in die URL der Parametername selbst den Inhalt oder den Zweck der Ebene erklärt.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
    ![Sofortige Inhaltserstellung](/help/using/assets/parameterise-a-layer.png)
-Um zwischen dem Bedienfeld Parameter eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
+Um zwischen dem Bedienfeld „Parameter“ eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
 
 #### Option des Bedienfelds „Parameter“ {#parameterisation-options-or-allowed-parameters}
 
@@ -224,7 +224,7 @@ Führen Sie diese Schritte aus, um den Ausblendungsparametern (![schnelle Inhalt
 
 Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeigen und zu veröffentlichen und die Bereitstellungs-URL zu kopieren:
 
-1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** navigieren, Ihre Vorlage suchen **>** klicken **[!UICONTROL Vorlage bearbeiten**>**klicken**&#x200B;**]**. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
+1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media-Assets]** **&#x200B;** navigieren, Ihre Vorlage suchen und auswählen **&#x200B;**&#x200B;und dann auf **[!UICONTROL Vorlage bearbeiten]**&#x200B;**sowie auf**&#x200B;**[!UICONTROL Vorschau]** klicken. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
 1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Beispiel:
    1. Auswählen einer Textebene und Bearbeiten ihres Textes oder
    1. Wählen Sie eine Bildebene aus, klicken Sie auf ![Inhalt spontan erstellen](/help/using/assets/add-image.svg), wählen Sie ein Bild aus der Asset-Auswahl aus und klicken Sie auf **[!UICONTROL Aktualisieren]**.
@@ -233,8 +233,8 @@ Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeige
 1. Wählen Sie den Parameter „Ausblenden“ für [gruppierte Ebenen](#group-layers) aus der Liste aus, um sie zusammen in der Vorlage ein- oder auszublenden.
 1. **Optional:** Ändern Sie den Wert des Parameters **[!UICONTROL Ausblenden]** von 0 auf 1 oder umgekehrt und klicken Sie auf **[!UICONTROL Aktualisieren]**, um die Änderungen anzuzeigen. Ebenen mit demselben Parameter „Ausblenden“ werden zusammen ausgeblendet oder angezeigt. Auf ähnliche Weise können Sie die Sichtbarkeit der Ebenen über die URL steuern.
 
-   ![Inhalte im laufenden Betrieb erstellen](/help/using/assets/dm-templates-publish-status.png)
-Sie können auch **[!UICONTROL Alle Parameter einschließen]** umschalten, um alle angezeigten Parameterwerte zu bearbeiten und die Aktualisierungen in der Vorlagenvorschau anzuzeigen.
+   ![Spontanes Erstellen von Inhalten](/help/using/assets/dm-templates-publish-status.png)
+Sie können auch **[!UICONTROL Alle Parameter einbeziehen]** umschalten, um alle angezeigten Parameterwerte zu bearbeiten und die Aktualisierungen in der Vorlagenvorschau anzuzeigen.
    <br>
 1. Um die Vorlage auf der Vorschauseite zu veröffentlichen, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie die Veröffentlichung. Es wird die Meldung „Veröffentlichung abgeschlossen“ angezeigt, und der Veröffentlichungsstatus wird auf „Veröffentlicht“ aktualisiert.
 
@@ -248,7 +248,7 @@ Die ausgewählten Parameter auf der Seite **[!UICONTROL Vorschau]** werden zu de
 
 So kopieren Sie die in der Vorschau angezeigte URL der veröffentlichten Vorlage:
 
-1. Klicken Sie auf **[!UICONTROL URL kopieren]**. Das Dialogfeld **[!UICONTROL URL kopieren]** wird angezeigt. Wählen Sie die angezeigte URL aus und kopieren Sie sie. Beachten Sie, dass der erste Parameter in der URL nach einem Fragezeichen **(?) beginnt** Ein Schlüssel-Wert-Paar beginnt mit **$** und endet mit **&amp;**. Schlüssel und Wert werden durch ein Gleichheitszeichen (**=**) getrennt, wobei sich der Schlüssel links und der Wert rechts befindet.
+1. Klicken Sie auf **[!UICONTROL URL kopieren]**. Das Dialogfeld **[!UICONTROL URL kopieren]** wird angezeigt. Wählen Sie die angezeigte URL aus und kopieren Sie sie. Beachten Sie, dass der erste Parameter in der URL nach einem Fragezeichen **(?)** beginnt, während ein Schlüssel-Wert-Paar mit **$** beginnt und mit **&amp;** endet. Schlüssel und Wert werden durch ein Gleichheitszeichen (**=**) getrennt, wobei sich der Schlüssel links und der Wert rechts befindet.
 1. Fügen Sie diese URL in Ihre Browser-Registerkarte ein und sehen Sie sich Ihre Live-Vorlage an. Passen Sie die Vorlage in Echtzeit an, indem Sie den erforderlichen Parameterwert (Schlüsselwert) in der URL direkt aktualisieren, wie in [Schritt 2](#preview-and-publish-template-and-copy-template-deliver-url) des Abschnitts **Vorschau und Veröffentlichung** gezeigt.
 1. Verwenden Sie diese URL für das schnelle Merchandising Ihrer Produkte oder Services. Sie können diese URL für Ihre Kundschaft freigeben oder in Ihre Website oder eine nachgelagerte Drittanbieteranwendung integrieren, um das Banner anzuzeigen und Aktualisierungen daran in Echtzeit vorzunehmen, sodass die laufenden Angebote widergespiegelt werden.
 
@@ -272,7 +272,7 @@ Fügen Sie diese aktualisierte URL in Ihren Browser ein, um die Änderungen anzu
 
 Gehen Sie wie folgt vor, um die Vorlage zu bearbeiten:
 
-1. Klicken Sie in Assets Essentials auf **[!UICONTROL Dynamic Media Assets]**.
+1. Klicken Sie in Assets Essentials auf **[!UICONTROL Dynamic Media-Assets]**.
 2. Navigieren Sie zum Speicherort der Vorlage.
 3. Wählen Sie die Vorlage aus.
 4. Klicken Sie auf **[!UICONTROL Vorlage bearbeiten]**. Auf der Vorlagenarbeitsfläche werden die Vorlage und die Liste aller zugehörigen Ebenen im Bedienfeld „Ebenen“ angezeigt. Bearbeiten Sie Ihre Vorlage gemäß Ihren Anforderungen.

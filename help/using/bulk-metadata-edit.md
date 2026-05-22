@@ -1,6 +1,6 @@
 ---
 title: Massenbearbeitung von Metadaten in Assets Essentials
-description: Erfahren Sie, wie Sie einen vordefinierten Satz von Standard-Metadatenfeldern für mehrere Assets aktualisieren können, die gleichzeitig in Assets Essentials verfügbar sind.
+description: Erfahren Sie, wie Sie einen vordefinierten Satz von standardmäßigen Metadatenfeldern für mehrere Assets, die in Assets Essentials verfügbar sind, gleichzeitig aktualisieren können.
 exl-id: 17185160-6c51-4581-a716-77b365ef3dd9
 TQID: https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ
 product_v2:
@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 649
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 52%
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="Neu">
-<a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
+            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
         </td>
           <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="Neu">
@@ -63,7 +63,7 @@ ht-degree: 52%
 
 # Massenbearbeitung von Metadaten in Assets Essentials{#how-to-edit-the-metadata-of-multiple-assets-simultaneously}
 
-Mit **Funktion „Massenbearbeitung von Metadaten** in Assets Essentials können Benutzer einen vordefinierten Satz von Standard-Metadatenfeldern für mehrere Asset-Dateien gleichzeitig bearbeiten. Wählen Sie mehrere Assets aus und führen Sie eine Massenaktualisierung ihres vordefinierten Satzes von standardmäßigen Metadaten gleichzeitig durch, anstatt diese standardmäßigen Metadaten für jedes Asset einzeln zu aktualisieren. Diese Funktion verbessert die Effizienz, Konsistenz und Genauigkeit von Standard-Metadateneigenschaften in einem großen Satz von Assets und verbessert so die Durchsuchbarkeit und Organisation von Assets.
+Mit der Funktion **Massenbearbeitung von Metadaten** in Assets Essentials können Benutzende einen vordefinierten Satz von Standard-Metadatenfeldern für verschiedene Asset-Dateien gleichzeitig bearbeiten. Wählen Sie mehrere Assets aus und führen Sie eine Massenaktualisierung ihres vordefinierten Satzes von standardmäßigen Metadaten gleichzeitig durch, anstatt diese standardmäßigen Metadaten für jedes Asset einzeln zu aktualisieren. Diese Funktion erhöht die Effizienz, Konsistenz und Genauigkeit von Standard-Metadateneigenschaften in einem großen Satz von Assets und verbessert so die Durchsuchbarkeit und Organisation von Assets.
 
 ## Massenbearbeitung von Asset-Metadaten {#how-to-bulk-edit-the-metadata-of-multiple-assets-on-assets-essentials}
 
@@ -73,21 +73,21 @@ Führen Sie diese Schritte aus, um die Metadaten mehrerer Assets gleichzeitig in
 1. Durchsuchen Sie Ansicht nach bestimmten Assets oder oder suchen Sie diese mithilfe von Keywords in der Suchleiste.
 1. Wählen Sie die Assets aus und klicken Sie oben im Menü auf **Massenbearbeitung von Metadaten**.
    ![bulk-metadata-edit](/help/using/assets/bulk-metadata-edit1.png)
-1. Bearbeiten Sie auf der Seite „Metadaten bearbeiten“ die folgenden Felder im Bedienfeld **Eigenschaften**:
-   * **Status** Wählen Sie einen Status für die ausgewählten Assets aus.
-   * **Ablaufdatum:** Sie ein Datum ein, nach dem die Assets nicht mehr gültig oder benötigt werden.
-   * **Autor:** Geben Sie den Namen des Autors an.
-   * **Schlüsselwörter:** Fügen Sie bestimmte Begriffe oder Textzeichenfolgen hinzu, die allgemeine Informationen über die Assets enthalten, um ihre Auffindbarkeit zu verbessern. Fügen Sie ein Keyword hinzu und drücken Sie die Eingabetaste oder die Eingabetaste, um der Liste ein weiteres Keyword hinzuzufügen.
-   * **Tags:** Klicken Sie auf ![Tags-Symbol](/help/using/assets/tags-icon.svg), um Tags aus den verfügbaren Optionen auszuwählen. Tags bieten genauere Informationen über die Assets und verbessern ihre Auffindbarkeit. Bereits auf die ausgewählten Assets angewendete Tags werden im Panel **Eigenschaften** angezeigt. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Weitere [&#x200B; zum Erstellen und Zuweisen von Tags zu Assets finden Sie unter &#x200B;](/help/using/tagging-management.md)Verwalten von Tags in Assets Essentials“.
-   * Klicken Sie **Speichern**, um die oben genannten Metadatenaktualisierungen auf die ausgewählten Assets anzuwenden. Nach dem Speichern werden Keywords und Tags angehängt, während die aktualisierten Details für Status, Ablaufdatum und Autor ihre vorhandenen Details überschreiben.
+1. Bearbeiten Sie auf der Seite „Metadaten bearbeiten“ die folgenden Felder im Panel **Eigenschaften**:
+   * **Status**: Wählen Sie einen Status für die ausgewählten Assets aus.
+   * **Ablaufdatum**: Legen Sie ein Datum fest, nach dem die Assets nicht mehr gültig sind oder benötigt werden.
+   * **Autorin bzw. Autor**: Geben Sie den Namen der Autorin bzw. des Autors an.
+   * **Keywords**: Fügen Sie bestimmte Begriffe oder Textzeichenfolgen hinzu, die allgemeine Informationen über die Assets bieten und ihre Auffindbarkeit verbessern. Fügen Sie ein Keyword hinzu und drücken Sie die Eingabetaste oder Return-Taste, um der Liste ein weiteres Keyword hinzuzufügen.
+   * **Tags**: Klicken Sie auf das ![Tags-Symbol](/help/using/assets/tags-icon.svg), um „Tags“ aus den verfügbaren Optionen auszuwählen. Tags bieten genauere Informationen über die Assets und verbessern ihre Auffindbarkeit. Bereits auf die ausgewählten Assets angewendete Tags werden im Panel **Eigenschaften** angezeigt. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Weitere Informationen zum Erstellen von Tags und Zuweisen von diesen zu Assets finden Sie unter [Verwalten von Tags in Assets Essentials](/help/using/tagging-management.md).
+   * Klicken Sie **Speichern**, um die oben genannten Metadatenaktualisierungen auf die ausgewählten Assets anzuwenden. Nach dem Speichern werden Keywords und Tags hinzugefügt, und die aktualisierten Details für Status, Ablaufdatum und Autorin bzw. Autor überschreiben die vorhandenen Details.
      ![save-bulk-metadata-edit-properties](/help/using/assets/save-bulk-metadata-edit-properties2.png)
 
      >[!NOTE]
      >
      >Sie können die Metadaten von jeweils 100 Assets gleichzeitig bearbeiten.
 
-Um die auf ein Asset angewendeten Metadaten-Aktualisierungen anzuzeigen, navigieren Sie zur Asset-Detailseite (wählen Sie das Asset aus und klicken Sie auf **Details**) und klicken Sie auf ![](/help/using/assets/info-icon-solid-black.svg), um die Metadaten des Assets im Bedienfeld **Informationen** anzuzeigen.
+Um die auf ein Asset angewendeten Metadatenaktualisierungen anzuzeigen, navigieren Sie zur Seite „Asset-Details“ (wählen Sie das Asset aus und klicken Sie auf **Details**) und klicken Sie auf ![](/help/using/assets/info-icon-solid-black.svg), um die Metadaten des Assets im Panel **Informationen** anzuzeigen.
 
 >[!NOTE]
 >
->**Status**, **Ablaufdatum**, **Autorin bzw. Autor**, **Keywords** und **Tags** sind standardmäßige Metadateneigenschaften für die Massenbearbeitung von Metadaten, die unabhängig von ordnerspezifischen Metadaten verfügbar sind. Diese Metadateneigenschaften werden nur dann auf der Seite mit den Asset-Details angezeigt, wenn sie in dem Metadatenformular enthalten sind, das auf den Ordner des Assets angewendet wurde. Wenn Sie diese Standard-Metadateneigenschaften auf der Seite mit den Asset-Details nicht finden können, bearbeiten Sie das Metadatenformular des Asset-Ordners, um sie einzuschließen. Unter [Metadaten in Assets Essentials](/help/using/metadata.md) erfahren Sie, wie Sie ein Metadatenformular erstellen oder bearbeiten und es auf einen Ordner anwenden.
+>**Status**, **Ablaufdatum**, **Autorin bzw. Autor**, **Keywords** und **Tags** sind standardmäßige Metadateneigenschaften für die Massenbearbeitung von Metadaten, die unabhängig von ordnerspezifischen Metadaten verfügbar sind. Diese Metadateneigenschaften werden nur dann auf der Seite „Asset-Details“ angezeigt, wenn sie in dem Metadatenformular enthalten sind, das auf den Ordner des Assets angewendet wurde. Wenn Sie diese standardmäßigen Metadateneigenschaften auf der Seite „Asset-Details“ nicht finden können, bearbeiten Sie das Metadatenformular des Asset-Ordners, um sie einzuschließen. Unter [Metadaten in Assets Essentials](/help/using/metadata.md) erfahren Sie, wie Sie ein Metadatenformular erstellen oder bearbeiten und auf einen Ordner anwenden.

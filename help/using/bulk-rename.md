@@ -1,6 +1,6 @@
 ---
 title: Umbenennung und Massenumbenennung von Assets in [!DNL Assets Essentials]
-description: Erfahren Sie, wie Sie Assets mithilfe der neuen Assets-Benutzeroberfläche (Assets Essentials) stapelweise umbenennen. Sie bietet die Möglichkeit, mehrere Assets gleichzeitig umzubenennen.
+description: Erfahren Sie, wie Sie Assets über die neue Assets-Benutzeroberfläche (Assets Essentials) massenhaft umbenennen. Sie bietet die Möglichkeit, mehrere Assets gleichzeitig umzubenennen.
 role: User
 exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
 TQID: https://experienceleague.adobe.com/NEmoIDy8etw5vhpxRbf9RyVnT1TKfoOvK4tpPrGHP-Q
@@ -13,7 +13,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 458
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung von KI zur Massenum
 * Verwende als Präfix „00“, „01“ usw. und als Suffix das heutige Datum.
 * Ändere alle Dateien in „my-file“ und hänge eine inkrementierende Zahl an.
 * Entferne Präfix und Suffix und behalte nur den mittleren Teil des Namens.
-* Stellen Sie den Dateien 001, 002 usw. als Präfix voran und übersetzen Sie sie ins Englische.
+* Verwende als Präfix für die Dateien „001“, „002“ usw. und übersetze ins Englische.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3440975)
 
