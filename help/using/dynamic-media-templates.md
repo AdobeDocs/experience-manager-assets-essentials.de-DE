@@ -99,7 +99,7 @@ Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dyn
 * ![Vorlage zum schnellen Erstellen von Bannern](/help/using/assets/ZoomOut-1.svg): Klicken Sie, um die Arbeitsfläche zu verkleinern, oder drücken Sie **Strg**+**-** (Windows) oder **Befehlstaste**+**-** (Mac).
 * Drücken Sie die **Rücktaste** oder **Entf**, um die ausgewählte Ebene zu löschen, wenn kein Text oder keine Eigenschaft bearbeitet wird.
 
-Klicken Sie in der Arbeitsflächenebene auf ![Vorlage zum schnellen Erstellen von Flyern](/help/using/assets/show-layers-list.svg) **** und wählen Sie weitere Optionen (![](/help/using/assets/three-dots.svg)) aus, um die Abmessungen der Arbeitsfläche beim Erstellen der Vorlage jederzeit zu bearbeiten.
+Klicken Sie in der Arbeitsflächenebene auf ![Vorlage zum schnellen Erstellen von Flyern](/help/using/assets/show-layers-list.svg) **&#x200B;** und wählen Sie weitere Optionen (![](/help/using/assets/three-dots.svg)) aus, um die Abmessungen der Arbeitsfläche beim Erstellen der Vorlage jederzeit zu bearbeiten.
 ![](/help/using/assets/edit-canvas1.png)
 
 >[!NOTE]
@@ -224,7 +224,7 @@ Führen Sie diese Schritte aus, um den Ausblendungsparametern (![schnelle Inhalt
 
 Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeigen und zu veröffentlichen und die Bereitstellungs-URL zu kopieren:
 
-1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media-Assets]** **** navigieren, Ihre Vorlage suchen und auswählen **** und dann auf **[!UICONTROL Vorlage bearbeiten]****sowie auf****[!UICONTROL Vorschau]** klicken. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
+1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media-Assets]** **&#x200B;** navigieren, Ihre Vorlage suchen und auswählen **&#x200B;**&#x200B;und dann auf **[!UICONTROL Vorlage bearbeiten]**&#x200B;**sowie auf**&#x200B;**[!UICONTROL Vorschau]** klicken. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
 1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Beispiel:
    1. Auswählen einer Textebene und Bearbeiten ihres Textes oder
    1. Wählen Sie eine Bildebene aus, klicken Sie auf ![Inhalt spontan erstellen](/help/using/assets/add-image.svg), wählen Sie ein Bild aus der Asset-Auswahl aus und klicken Sie auf **[!UICONTROL Aktualisieren]**.
