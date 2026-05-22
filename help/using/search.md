@@ -4,19 +4,14 @@ description: Suchen und Auffinden von Assets in  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 TQID: https://experienceleague.adobe.com/V--WXU30ed6P-HWqE1rquXPupmJwImyYfARZ006RpDg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 2217
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +31,7 @@ ht-degree: 98%
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
-<a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
+            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
         </td>
           <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="Neu">
@@ -188,7 +183,7 @@ So generieren Sie neue Assets mit [!DNL Adobe Firefly]:
 
    ![Integration mit Firefly](assets/firefly-integration.png)
 
-   Die neuen Assets wurden erfolgreich generiert. Darüber hinaus können Sie die Bildbeschreibung ändern, indem Sie den neuen Text-Prompt in das Beschreibungsfeld eingeben. [Erfahren Sie, wie Sie eine gute KI-Eingabeaufforderung schreiben, um außergewöhnliche und relevante Inhalte zu generieren.](https://helpx.adobe.com/de/firefly/using/tips-and-tricks.html) Alternativ können Sie [Bild mit verschiedenen anderen Funktionen wie Ändern des Stils, der Bildabmessungen und mehr bearbeiten.](https://helpx.adobe.com/de/firefly/using/text-to-image.html)
+   Die neuen Assets wurden erfolgreich generiert. Darüber hinaus können Sie die Bildbeschreibung ändern, indem Sie den neuen Text-Prompt in das Beschreibungsfeld eingeben. [Erfahren Sie, wie Sie einen guten KI-Prompt schreiben, um außergewöhnliche und relevante Inhalte zu generieren.](https://helpx.adobe.com/de/firefly/using/tips-and-tricks.html) Alternativ können Sie [Bilder mit verschiedenen anderen Funktionen bearbeiten, wie dem Ändern von Stil, Bildabmessungen und mehr.](https://helpx.adobe.com/de/firefly/using/text-to-image.html)
 
    ![Integration mit Firefly](assets/bugatti-type-57.png)
 
@@ -395,5 +390,5 @@ Um Feedback zur Kontextsuche zu geben, klicken Sie auf das Symbol für die ![Kon
 
 * Geben Sie Feedback zur Dokumentation mithilfe der Option zum [!UICONTROL Bearbeiten der Seite] ![Seite bearbeiten](assets/do-not-localize/edit-page.png) oder zum [!UICONTROL Melden eines Problems] ![GitHub-Ticket erstellen](assets/do-not-localize/github-issue.png) in der rechten Seitenleiste.
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 

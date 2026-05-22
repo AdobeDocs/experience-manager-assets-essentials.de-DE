@@ -4,16 +4,13 @@ description: Bearbeiten Sie Bilder mit von [!DNL Adobe Express] unterstützten O
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 TQID: https://experienceleague.adobe.com/DAhAV4RClHSyCj-NgVALulD0gzddSip5f56LsUq0bHU
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1258
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +70,7 @@ Mit den eingebetteten Schnellaktionen von [!DNL Adobe Express] ist es einfach, e
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Bild zuschneiden]**.
 2. Ziehen Sie die Griffe an den Ecken des Bildes, um den gewünschten Zuschnitt zu erstellen.
 3. Klicken Sie auf **[!UICONTROL Übernehmen]**.
-   ![Bild mit Adobe Express speichern](/help/using/assets/adobe-express-crop-image.png)
+   ![Speichern des Bildes mit Adobe Express](/help/using/assets/adobe-express-crop-image.png)
 Das zugeschnittene Bild kann heruntergeladen werden. Sie können das bearbeitete Asset entweder als neue Version desselben Assets oder als neues Asset speichern.
 
 #### JPEG in PNG konvertieren {#Convert-JPEG-to-PNG}
@@ -159,7 +156,7 @@ The brush samples the retouched area and makes the repaired pixels blend seamles
 
 <!-- 
 TBD: See if we should give backlinks to PS docs for these concepts.
-For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/de/photoshop/using/retouching-repairing-images.html). 
+For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). 
 -->
 <!--
 ### Crop and straighten images {#crop-straighten-images-using-photoshop-express}
@@ -202,7 +199,7 @@ TBD: Insert a video of the available social media options.
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General?lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General?lang=de#support)
 
 >[!MORELIKETHIS]
 >

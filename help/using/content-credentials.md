@@ -1,21 +1,17 @@
 ---
 title: Integration von Content Credentials
-description: Content Credentials ist in AEM Assets integriert und in der AEM Assets Essentials-Benutzeroberfläche verfügbar. Es bietet Kontext zum Verlauf eines Assets, einschließlich dessen Herstellung und der an seiner Erstellung beteiligten Personen. Content Credentials können, ähnlich einer Nährwertkennzeichnung für digitale Inhalte, dazu beitragen, die Transparenz zu erhöhen und Vertrauen bei den Zielgruppen zu schaffen.
+description: Content Credentials sind in AEM Assets integriert und werden in der Benutzeroberfläche von AEM Assets Essentials angezeigt. Sie können Kontext für den Verlauf eines Assets bieten, einschließlich Informationen dazu, wie es erstellt wurde und wer an dessen Erstellung beteiligt war. Content Credentials können, ähnlich einer Nährwertkennzeichnung für digitale Inhalte, dazu beitragen, die Transparenz zu erhöhen und Vertrauen bei den Zielgruppen zu schaffen.
 role: User
 exl-id: 703f74a6-24d4-4181-8174-9ff4a90ee7aa
 TQID: https://experienceleague.adobe.com/witCqgAh8EKfD-hdn8efjZ-M4sypX44KB2ELs3ECInI
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 474
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +19,7 @@ ht-degree: 81%
 
 Marken machen sich mehr denn je Gedanken um die Transparenz von Inhalten, die Offenlegung von KI und die Verhinderung der Manipulation von Assets. Die Content Authenticity Initiative (CAI) von Adobe erstellt Tools, die mit dem technischen Standard der [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) konform sind. Content Credentials sind eine neue Art verschlüsselter, manipulationssicherer Metadaten. Sie können Betrachtende dabei unterstützen, die Herkunft von Inhalten zu verstehen und dazu beitragen, die Integrität von Marken-Assets sicherzustellen. Sie können eine breite Palette von Herkunftsdaten enthalten, die Einblicke in den Verlauf eines digitalen Assets bieten.
 
-Zu diesen Informationen gehören:
+Hierzu gehört Folgendes:
 
 * **Aussteller oder Unterzeichner:** Informationen über die Entität oder Firma, die die digitale Signatur zum Zertifizieren oder Unterzeichnen des Assets ausgestellt hat.
 * **Ausstellungsdatum:** Das Datum, an dem die Content Credential auf das Asset angewendet wurde.
@@ -35,13 +31,13 @@ Zu diesen Informationen gehören:
 
 Die Option [Überprüfen](https://contentcredentials.org/verify) bietet Ihnen mit einem umfassenderen Einblick in den Asset-Verlauf eine vollständige Ansicht.
 
-Adobe Experience Manager Assets unterstützt jetzt Content Credentials, sodass Benutzer Content Credentials direkt in der Assets Essentials-Benutzeroberfläche von AEM sehen können. Bei der Anzeige der Asset-Details zeigt jedes Bild mit Content Credentials (z. B. mit GenAI-Diensten erstellte Bilder) die Manifest-Details in einem dedizierten Bedienfeld an. Wenn das Asset heruntergeladen, veröffentlicht oder freigegeben wird, bleiben die Anmeldeinformationen mit dem Asset intakt.
+Adobe Experience Manager Assets unterstützt jetzt Content Credentials, sodass Benutzende Content Credentials direkt in der Assets Essentials-Benutzeroberfläche von AEM einsehen können. Bei der Anzeige der Asset-Details zeigt jedes Bild mit Content Credentials (z. B. mit GenAI-Diensten erstellte Bilder) die Manifest-Details in einem dedizierten Bedienfeld an. Wenn das Asset heruntergeladen, veröffentlicht oder freigegeben wird, bleiben die Content Credentials zusammen mit dem Asset intakt.
 
-![ASSETS](/help/using/assets/content-credentials.png)
+![Assets](/help/using/assets/content-credentials.png)
 
 ## Zugriff auf Content Credentials {#access-content-credentials}
 
-1. Wechseln Sie zur Assets Essentials-Benutzeroberfläche und klicken Sie **linken Bereich auf** Assets.
+1. Wechseln Sie zur Benutzeroberfläche von Assets Essentials und klicken Sie im linken Bereich auf **Assets**.
 1. Navigieren Sie zu einem Ordner und wählen Sie das gewünschte Asset aus.
 1. Klicken Sie auf **Details** und wählen Sie im Bereich ganz rechts die Option `Cr pin` aus. Auf der Registerkarte „Content Credentials“ werden die folgenden Informationen zum Asset angezeigt.
    1. **Generiertes Bild:** Datum und Uhrzeit, zu der die Content Credentials angewendet wurden.

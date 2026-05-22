@@ -4,14 +4,12 @@ description: Bearbeiten Sie Videos mit von [!DNL Adobe Express] unterstützten O
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
 TQID: https://experienceleague.adobe.com/j9r915ua9GXUoTHdbSBHWxnHm-FIhCwvIuKOp91AFCg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 841
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 91%
 
 Assets-Benutzende können Varianten von Videoinhalten ganz einfach mit den eingebetteten [!DNL Adobe Express]-Schnellaktionen für Videos erstellen. Schnellaktionen in [!DNL Assets Essentials] auf Basis von [!DNL Adobe Express] bieten benutzerfreundliche Optionen zur Videobearbeitung, einschließlich dem Zuschneiden, Ändern der Größe, Zuschneiden und Konvertieren von Videos in GIF.
 
-Navigieren Sie zum Bearbeiten eines Videos zu den Details des Videos und klicken Sie auf [!UICONTROL Video bearbeiten]. Wählen Sie alternativ das Asset aus, klicken Sie auf „Details“ und klicken Sie anschließend im rechten Bereich auf das Symbol ![scissors](assets/do-not-localize/cut.svg). Nach der Bearbeitung eines Videos können Sie das neue Video als neue Version oder als neues Asset speichern.
+Navigieren Sie zum Bearbeiten eines Videos zu den Details des Videos und klicken Sie auf [!UICONTROL Video bearbeiten]. Wählen Sie alternativ das Asset aus, klicken Sie auf „Details“ und klicken Sie anschließend im rechten Bereich auf das Symbol ![scissors](assets/do-not-localize/cut.svg). Nachdem Sie ein Video bearbeitet haben, können Sie das neue Video als neue Version oder als neues Asset speichern.
 
 Erfahren Sie mehr über die [Vorschau-Oberfläche](/help/using/navigate-view.md#preview-assets).
 
@@ -65,7 +63,7 @@ Ihr bearbeitetes Video kann heruntergeladen werden. Sie können das bearbeitete 
 
 ### Zuschneiden eines Videos {#trim-video-using-express}
 
-Wenn Sie einen Clip eines größeren Videos verwenden müssen, können Sie mit der Funktion „Video trimmen“ einen Abschnitt des Videos auswählen und trimmen. Führen Sie dazu folgende Schritte durch:
+Wenn Sie einen Clip eines größeren Videos verwenden möchten, können Sie mit der Funktion „Video zuschneiden“ einen Abschnitt des Videos auswählen und zuschneiden. Führen Sie dazu folgende Schritte durch:
 
 1. Wählen Sie ein Video aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 2. Klicken Sie in den Schnellaktionen im linken Bereich auf **[!UICONTROL Video zuschneiden]**.
@@ -97,7 +95,7 @@ Ihr Video kann nun im GIF-Format heruntergeladen werden. Sie können das bearbei
 
 * Die maximal unterstützte Quelldateigröße beträgt 1 GB.
 
-* Die unterstützten Videos sind größer als 46 Pixel und kleiner als 3840 Pixel auf jeder Seite.
+* Unterstützte Videos sind auf jeder Seite größer als 46 Pixel und kleiner als 3.840 Pixel.
 
 * Unterstützte Webbrowser sind Google Chrome, Firefox, Safari und Edge.
 

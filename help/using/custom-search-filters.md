@@ -4,21 +4,14 @@ description: Erfahren Sie mehr über das Anpassen von Suchfiltern in Formularen
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
 TQID: https://experienceleague.adobe.com/h5wa-Umxw-KIYoicGOIEccNf4dBYe0a7zTkdtCi4-Ak
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1475
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +31,11 @@ ht-degree: 94%
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="Neu">
-<a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
+            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Erweiterbarkeit der Benutzeroberfläche</b></a>
         </td>
           <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="Neu">
-            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Aktivieren von Dynamic Media Prime und Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Aktivieren von Dynamic Media Prime und Ultimate</b></a>
         </td>
     </tr>
     <tr>
@@ -86,7 +79,7 @@ Angepasste Suchfilter in AEM Assets können nur Einträgen in Ihrem durchsuchbar
 
 ## Verfügbare benutzerdefinierte Filter {#available-custom-filters}
 
-Assets Essentials bietet die folgenden benutzerdefinierten Filter, die gemäß der Anforderung rekonfigurierbar sind:
+Assets Essentials bietet die folgenden benutzerdefinierten Filter, die je nach Anforderung neu konfigurierbar sind:
 
 * [Filterelemente](#filter-elements)
 * [Vorkonfigurierte Filter](#preconfigured-filters)
@@ -106,7 +99,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Ein Textfeld ist ein Eingabebereich, in den Sie Informationen zum Filter eingeben können.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Werte
                 <li>Beschreibung
@@ -118,7 +111,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Optionen beziehen sich auf die verfügbaren Alternativen zur Auswahl eines bevorzugten Elements aus einer Liste.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Werte
                 <li>Optionen
@@ -131,7 +124,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Ein boolescher Wert stellt einen wahren Wert dar. Er kann dort verwendet werden, wo Sie konkret eine Option unter mehreren auswählen möchten.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Beschreibung
             </ul>
@@ -142,7 +135,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Verwenden Sie dieses Filterelement, um einen numerischen Wert darzustellen.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Schritte
@@ -156,7 +149,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Zur Auswahl zwischen verschiedenen Optionen, die in einer Liste mit Optionen angezeigt werden.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Optionen
                 <li>Werte
@@ -169,7 +162,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Wird zur Angabe des Datums verwendet.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Beschreibung
@@ -181,7 +174,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Wird zum Navigieren durch Dateien oder Ordner im Experience Manager-Repository verwendet.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Pfad-Explorer
                 <li>Beschreibung
@@ -190,10 +183,10 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
     </tr>
     <tr>
         <td>Tags</td>
-        <td>Wird verwendet, um Tags aus den verfügbaren Optionen auszuwählen. Tags bieten genauere Informationen über die Assets und verbessern ihre Auffindbarkeit. Bereits auf die ausgewählten Assets angewendete Tags werden im Panel <b>Eigenschaften</b> angezeigt. Wenn Sie Tags in einer benutzerdefinierten Metadateneigenschaft speichern und den Stammpfad verwenden, um ihn auf eine Hierarchie zu beschränken, können Sie dieselbe Konfiguration in Ihren Suchfiltern nutzen. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Siehe <a href = "/help/using/tagging-management.md"> Verwalten von Tags in Assets Essentials </a> für Details zum Erstellen und Zuweisen von Tags zu Assets.</td>
+        <td>Wird verwendet, um Tags aus den verfügbaren Optionen auszuwählen. Tags bieten genauere Informationen über die Assets und verbessern ihre Auffindbarkeit. Bereits auf die ausgewählten Assets angewendete Tags werden im Panel <b>Eigenschaften</b> angezeigt. Wenn Sie Tags in einer benutzerdefinierten Metadateneigenschaft speichern und den Stammpfad verwenden, um ihn auf eine Hierarchie zu beschränken, können Sie dieselbe Konfiguration in Ihren Suchfiltern nutzen. Wenn Sie die entsprechenden Tags nicht finden können, erstellen Sie sie und weisen Sie sie den ausgewählten Assets zu. Weitere Informationen zum Erstellen von Tags und Zuweisen von diesen zu Assets finden Sie unter <a href = "/help/using/tagging-management.md">Verwalten von Tags in Assets Essentials</a>.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Tag-Wähler
                 <li>Beschreibung
@@ -205,7 +198,7 @@ Benutzerdefinierte Filter in AEM Assets ermöglichen Ihnen die Verwendung einer 
         <td>Wird verwendet, um den Benutzertyp unter Admins, Standardbenutzenden und Verbrauchenden anzugeben.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Beschreibung
             </ul>
@@ -228,7 +221,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Filtern Sie die Suchergebnisse nach den unterstützten Dateitypen „Bilder“, „Dokumente“ und „Videos“.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Optionen
@@ -242,7 +235,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Assets Essentials unterstützt alle binären Dateiformate mit grundlegenden Services wie Speichern, Hochladen, Kopieren, Verschieben, Löschen und Hinzufügen von Metadaten.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Beschreibung
@@ -254,7 +247,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Geben Sie eine oder mehrere der minimalen und maximalen Abmessungen zum Filtern von Bildern an. Die Größe wird in Pixeln angegeben und ist nicht die Dateigröße der Bilder.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Schritte
@@ -268,7 +261,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Vertikale Abmessungen eines Bildes.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Schritte
@@ -282,7 +275,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Horizontale Abmessungen eines Bildes.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Schritte
@@ -296,7 +289,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Datumsbereich, in dem die Assets erstellt wurden.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Beschreibung
@@ -308,7 +301,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Datumsbereich, in dem Assets geändert wurden.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Beschreibung
@@ -317,10 +310,10 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
     </tr>
     <tr>
         <td>Asset-Status</td>
-        <td>Mit Assets Essentials können Sie den Status für im Repository verfügbare Assets festlegen. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser steuern und verwalten zu können. Wählen Sie zwischen <b>„Genehmigt“, „Abgelehnt“ oder „Kein Status“</b>.</td>
+        <td>In Assets Essentials können Sie den Status der im Repository verfügbaren Assets festlegen. Legen Sie einen Asset-Status fest, um die nachgelagerte Nutzung digitaler Assets besser steuern und verwalten zu können. Wählen Sie zwischen <b>„Genehmigt“, „Abgelehnt“ oder „Kein Status“</b>.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Beschreibung
@@ -332,7 +325,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Filtern Sie Assets mithilfe von Smart-Tags, die im Experience Manager-Repository hinzugefügt werden.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Unterstützung von Trennzeichen
@@ -345,7 +338,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Wählen Sie beim Status eines Assets zwischen „Veröffentlicht“ und „Unveröffentlicht“.</td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Optionen
@@ -359,7 +352,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Filtern Sie Assets und geben Sie einen Datumsbereich an, nach dem die Assets nicht mehr gültig sind oder benötigt werden. </td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Auswahlart
                 <li>Beschreibung
@@ -371,7 +364,7 @@ Die vorkonfigurierten Filter sind Voreinstellungen, die direkt auf der Arbeitsfl
         <td>Es handelt sich um ein System zur Organisation und Klassifizierung digitaler Assets mithilfe von Tags, bei dem im Wesentlichen eine hierarchische Struktur von Keywords erstellt wird, mit der Benutzende mühelos relevante Inhalte suchen und finden können, indem sie bestimmte Tags auf jedes Asset anwenden. </td>
         <td>
             <ul>
-                <li>Label
+                <li>Bezeichnung
                 <li>Metadaten
                 <li>Tag-Wähler
                 <li>Beschreibung
@@ -391,7 +384,7 @@ Jedes Filterelement ist mit einer Reihe von Eigenschaften verknüpft. AEM Assets
         <th>Beschreibung</th>
     </tr>
     <tr>
-        <td>Label</td>
+        <td>Bezeichnung</td>
         <td>Text</td>
         <td>Eine Kennung des verwendeten Filters.</td>
     </tr>
@@ -431,7 +424,7 @@ Jedes Filterelement ist mit einer Reihe von Eigenschaften verknüpft. AEM Assets
         <li>Klicken Sie auf <b>Hinzufügen</b>, um einen neuen Wert hinzuzufügen. 
         <li>Klicken Sie auf <span>✎</span>, um das Label zu bearbeiten. 
         <li>Klicken Sie auf <span>🗑</span>, um den Optionswert zu löschen. 
-        <li>Klicken Sie <b>Bearbeiten</b>, um die Bearbeitungsoptionen zu ändern. 
+        <li>Klicken Sie auf <b>Bearbeiten</b>, um die Bearbeitungsoptionen zu ändern. 
         <li>Sie können auch die Sequenz der Optionen ändern, indem Sie sie gedrückt halten.
         </td>
     </tr>

@@ -4,18 +4,13 @@ description: Anwendungsfälle für Administratoren, wie z. B. Bereitstellen und
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 TQID: https://experienceleague.adobe.com/q-Eq1tZANfkgtIpwSifDVfLakJvRhia0pO2lXEMCYYg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1364
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +64,7 @@ So fügen Sie Benutzergruppen Produktprofile hinzu:
 1. Rufen Sie die [Admin Console](https://adminconsole.adobe.com) für Ihre Organisation auf, klicken Sie in der oberen Leiste auf **[!UICONTROL Produkte]**, dann auf **[!UICONTROL AEM Assets Essentials]** und anschließend auf die Instanz für [!DNL Assets Essentials]. Der Name der Instanz kann sich von dem im folgenden Screenshot unterscheiden.
    >[!NOTE]
    >
-   >Die [!DNL Cloud Manager]-Instanz ist nur für spezielle Admin-Zwecke wie die Überprüfung des Service-Status und den Zugriff auf Service-Protokolle vorgesehen und kann nicht zum Hinzufügen von Benutzern zum Produkt verwendet werden.
+   >Die [!DNL Cloud Manager]-Instanz ist nur für spezielle Admin-Zwecke wie die Überprüfung des Service-Status und den Zugriff auf Service-Protokolle vorgesehen und kann nicht zum Hinzufügen von Benutzenden zum Produkt verwendet werden.
 
    ![Admin-Profil der Admin Console](assets/assets-essentials-instance.png)
 
@@ -124,7 +119,7 @@ Es gibt verschiedene mögliche Ordnerstrukturtypen, die Sie für Ihr Unternehmen
 
 >[!NOTE]
 >
->Um diese Aufgaben, insbesondere die Verwaltung von Berechtigungen, durchführen zu können, muss Ihr Benutzer über Administratorrechte für Programme verfügen und dazu dem [Produktprofil eines Assets Essentials-Administrators](#add-users-to-product-profiles) hinzugefügt werden.
+>Um diese Aufgaben, insbesondere die Verwaltung von Berechtigungen, durchführen zu können, müssen Ihr Benutzenden über Administratorrechte für Programme verfügen und dazu dem [Produktprofil eines Assets Essentials-Administrators](#add-users-to-product-profiles) hinzugefügt werden.
 
 ### Hochladen von Assets {#upload-assets}
 
@@ -140,7 +135,7 @@ Mit Assets Essentials können Administratoren die Zugriffsebenen für Ordner ver
 
 Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Ordner](manage-permissions.md).
 
-### Einrichten von Metadaten-Forms (optional) {#metadata-forms}
+### Einrichten von Metadatenformularen (optional) {#metadata-forms}
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
@@ -170,7 +165,7 @@ Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorte
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 
 
 
