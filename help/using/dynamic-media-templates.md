@@ -5,13 +5,11 @@ hide: true
 hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '3017'
 ht-degree: 99%
-
 ---
-
 # Dynamic Media-Vorlagen{#dynamic-media-templates}
 
 | [Best Practices für die Suche](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Best Practices für Metadaten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Entwicklerdokumentation zu AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
@@ -35,7 +33,7 @@ Zu den Hauptfunktionen gehören:
 
 Zu den wichtigsten Vorteilen von Dynamic Media-Vorlagen gehören:
 
-* **1:1-Optimierung der Personalisierung:** Passen Sie Inhalte an Echtzeit-Kundensignale an.
+* **1:1-Optimierung von Personalization:** Passen Sie Inhalte an Echtzeit-Kundensignale an.
 * **Weniger manueller Aufwand:** Automatisieren und beschleunigen Sie die Inhaltserstellung und -verwaltung.
 * **Sicherstellung konsistenter Omni-Channel-Erlebnisse:** Gewährleisten Sie die Markenkonsistenz kanalübergreifend.
 * **Effektive Wiederverwendung von Inhalten:** Vermeiden Sie Inhalte für die einmalige Verwendung und skalieren Sie mit dynamischen, parametrisierten Vorlagen.
@@ -76,7 +74,7 @@ Führen Sie die folgenden Schritte aus, um eine leere Arbeitsfläche zu erstelle
 
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage unter Dynamic Media-Assets zu speichern, oder navigieren Sie zu einem Ordner und klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage in diesem Ordner zu speichern. Das Dialogfeld **[!UICONTROL Neue Vorlage]** wird angezeigt.
    ![Erstellen dynamischer Vorlagen, die in Echtzeit angepasst werden können](/help/using/assets/new-template.png)
-Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media-Assets]** müssen Sie einen Ordner unter **[!UICONTROL Assets]** erstellen. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
+   Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media-Assets]** müssen Sie einen Ordner unter **[!UICONTROL Assets]** erstellen. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
 1. Geben Sie einen Namen für die Vorlage an, definieren Sie die Breite und Höhe der Arbeitsfläche und klicken Sie auf **[!UICONTROL Erstellen]**. Es wird eine leere Arbeitsfläche mit Menüoptionen auf beiden Seiten angezeigt, die zum Erstellen der Vorlage verwendet werden können. Bewegen Sie den Mauszeiger über die Menüoptionen, um deren QuickInfo anzuzeigen.
    ![In Echtzeit anpassbare Vorlage](/help/using/assets/blank-canvas-page.png)
 
@@ -99,7 +97,7 @@ Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dyn
 * ![Vorlage zum schnellen Erstellen von Bannern](/help/using/assets/ZoomOut-1.svg): Klicken Sie, um die Arbeitsfläche zu verkleinern, oder drücken Sie **Strg**+**-** (Windows) oder **Befehlstaste**+**-** (Mac).
 * Drücken Sie die **Rücktaste** oder **Entf**, um die ausgewählte Ebene zu löschen, wenn kein Text oder keine Eigenschaft bearbeitet wird.
 
-Klicken Sie in der Arbeitsflächenebene auf ![Vorlage zum schnellen Erstellen von Flyern](/help/using/assets/show-layers-list.svg) **&#x200B;** und wählen Sie weitere Optionen (![](/help/using/assets/three-dots.svg)) aus, um die Abmessungen der Arbeitsfläche beim Erstellen der Vorlage jederzeit zu bearbeiten.
+Klicken Sie in der Arbeitsflächenebene auf ![Vorlage zum schnellen Erstellen von Flyern](/help/using/assets/show-layers-list.svg) **** und wählen Sie weitere Optionen (![](/help/using/assets/three-dots.svg)) aus, um die Abmessungen der Arbeitsfläche beim Erstellen der Vorlage jederzeit zu bearbeiten.
 ![](/help/using/assets/edit-canvas1.png)
 
 >[!NOTE]
@@ -181,7 +179,7 @@ So parametrisieren Sie eine Ebene:
 1. **Optional:** Benennen Sie den Parameter um. Ein Parametername hat einen Ebenennamen, gefolgt von einem Suffix. Für eine ausgewählte Ebene verwenden alle parametrisierten Eigenschaften denselben Ebenennamen, gefolgt von einem variierenden Suffix. Benennen Sie den Ebenennamen um, indem Sie der semantischen Namenskonvention folgen, sodass bei Aufnahme des Parameters in die URL der Parametername selbst den Inhalt oder den Zweck der Ebene erklärt.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
    ![Sofortige Inhaltserstellung](/help/using/assets/parameterise-a-layer.png)
-Um zwischen dem Bedienfeld „Parameter“ eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
+   Um zwischen dem Bedienfeld „Parameter“ eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
 
 #### Option des Bedienfelds „Parameter“ {#parameterisation-options-or-allowed-parameters}
 
@@ -224,7 +222,7 @@ Führen Sie diese Schritte aus, um den Ausblendungsparametern (![schnelle Inhalt
 
 Führen Sie die folgenden Schritte aus, um die Vorlage in der Vorschau anzuzeigen und zu veröffentlichen und die Bereitstellungs-URL zu kopieren:
 
-1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media-Assets]** **&#x200B;** navigieren, Ihre Vorlage suchen und auswählen **&#x200B;**&#x200B;und dann auf **[!UICONTROL Vorlage bearbeiten]**&#x200B;**sowie auf**&#x200B;**[!UICONTROL Vorschau]** klicken. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
+1. Klicken Sie auf der Seite „Arbeitsfläche“ auf **[!UICONTROL Vorschau]**. Sie können auch zu **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media-Assets]** **** navigieren, Ihre Vorlage suchen und auswählen **** und dann auf **[!UICONTROL Vorlage bearbeiten]****sowie auf****[!UICONTROL Vorschau]** klicken. Auf der Seite „Vorschau“ werden die Vorlage, ihre Parameter (parametrisierte Ebenen und Eigenschaften), der Veröffentlichungsstatus und die Option **[!UICONTROL Veröffentlichen]** angezeigt.
 1. Wählen Sie Parameter aus dem Bedienfeld **[!UICONTROL Vorlagenparameter]** aus, um ihre Werte zu bearbeiten und den Inhalt, die Größe, die Position oder die Textformatierung der entsprechenden Vorlagenebene in der Vorschau sofort zu aktualisieren. Beispiel:
    1. Auswählen einer Textebene und Bearbeiten ihres Textes oder
    1. Wählen Sie eine Bildebene aus, klicken Sie auf ![Inhalt spontan erstellen](/help/using/assets/add-image.svg), wählen Sie ein Bild aus der Asset-Auswahl aus und klicken Sie auf **[!UICONTROL Aktualisieren]**.
