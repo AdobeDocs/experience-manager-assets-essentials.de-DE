@@ -1,24 +1,27 @@
 ---
 title: Verwalten von Benutzern
-description: Anwendungsfälle für Administratoren, wie z. B. Bereitstellen und Verwalten von Benutzern in  [!DNL Assets Essentials].
+description: Anwendungsfälle für Administratoren, wie z. B. Bereitstellung und Benutzerverwaltung in [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 TQID: https://experienceleague.adobe.com/q-Eq1tZANfkgtIpwSifDVfLakJvRhia0pO2lXEMCYYg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1364
-ht-degree: 100%
-
+source-wordcount: '1365'
+ht-degree: 99%
 ---
-
 # Verwalten von [!DNL Assets Essentials] und Hinzufügen von Benutzern {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials] wird von Adobe für seine Kunden bereitgestellt. Im Rahmen der Implementierung wird [!DNL Assets Essentials] in der [!DNL Adobe Admin Console] zur Organisation eines Kunden hinzugefügt. Administratoren verwenden die [!DNL Admin Console], um Benutzerberechtigungen für [!DNL Assets Essentials] zu verwalten, und ernennen Programmadministratoren, um Berechtigungen und Metadatenformulare in [!DNL Assets Essentials] einzurichten.
@@ -80,7 +83,7 @@ So fügen Sie Benutzergruppen Produktprofile hinzu:
    * Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf die gesamte Benutzeroberfläche. Diese Benutzer können digitale Assets hochladen, organisieren, taggen und suchen.
 
    * **[!DNL Assets Essentials]-Endbenutzende** können Such-, Vorschau- und Download-Vorgänge in Assets Essentials durchführen. Sie können auch Assets in Adobe Journey Optimizer suchen und auswählen sowie Assets zur Verwendung in Workfront suchen und auswählen.
-Weitere Informationen finden Sie unter [Integration mit anderen Lösungen](integration.md).
+     Weitere Informationen finden Sie unter [Integration mit anderen Lösungen](integration.md).
 
    ![Admin-Profil der Admin Console](assets/admin-console-admin-profile.png)
 

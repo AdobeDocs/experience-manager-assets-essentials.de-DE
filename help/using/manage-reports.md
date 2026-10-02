@@ -5,19 +5,22 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 TQID: https://experienceleague.adobe.com/fTzTJd0JhjMbexn1ffynNQM7wx-nX-8Os1Y-c79FKdo
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Insights
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: '1261'
 ht-degree: 100%
-
 ---
-
 # Verwalten von Berichten {#manage-reports}
 
 Das Asset-Reporting bietet Admins Einblicke in die Aktivität der Adobe Experience Manager Assets Essentials-Umgebung. Diese Daten liefern nützliche Informationen darüber, wie Benutzende mit Inhalten und dem Produkt interagieren. Alle Benutzenden können auf das Insights-Dashboard zugreifen, und diejenigen, die dem Produktprofil der Admins zugewiesen sind, können benutzerdefinierte Berichte erstellen.

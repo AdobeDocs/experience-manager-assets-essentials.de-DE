@@ -5,13 +5,11 @@ hide: true
 hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '3017'
 ht-degree: 99%
-
 ---
-
 # Dynamic Media-Vorlagen{#dynamic-media-templates}
 
 | [Best Practices für die Suche](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Best Practices für Metadaten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Entwicklerdokumentation zu AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
@@ -35,7 +33,7 @@ Zu den Hauptfunktionen gehören:
 
 Zu den wichtigsten Vorteilen von Dynamic Media-Vorlagen gehören:
 
-* **1:1-Optimierung der Personalisierung:** Passen Sie Inhalte an Echtzeit-Kundensignale an.
+* **1:1-Optimierung von Personalization:** Passen Sie Inhalte an Echtzeit-Kundensignale an.
 * **Weniger manueller Aufwand:** Automatisieren und beschleunigen Sie die Inhaltserstellung und -verwaltung.
 * **Sicherstellung konsistenter Omni-Channel-Erlebnisse:** Gewährleisten Sie die Markenkonsistenz kanalübergreifend.
 * **Effektive Wiederverwendung von Inhalten:** Vermeiden Sie Inhalte für die einmalige Verwendung und skalieren Sie mit dynamischen, parametrisierten Vorlagen.
@@ -76,7 +74,7 @@ Führen Sie die folgenden Schritte aus, um eine leere Arbeitsfläche zu erstelle
 
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage unter Dynamic Media-Assets zu speichern, oder navigieren Sie zu einem Ordner und klicken Sie auf **[!UICONTROL Vorlage erstellen]**, um die Vorlage in diesem Ordner zu speichern. Das Dialogfeld **[!UICONTROL Neue Vorlage]** wird angezeigt.
    ![Erstellen dynamischer Vorlagen, die in Echtzeit angepasst werden können](/help/using/assets/new-template.png)
-Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media-Assets]** müssen Sie einen Ordner unter **[!UICONTROL Assets]** erstellen. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
+   Zum [Erstellen eines Ordners](/help/using/add-delete.md) unter **[!UICONTROL Dynamic Media-Assets]** müssen Sie einen Ordner unter **[!UICONTROL Assets]** erstellen. Die Ordnerstruktur unter **[!UICONTROL Assets]** wird unter **[!UICONTROL Dynamic Media-Assets]** repliziert.
 1. Geben Sie einen Namen für die Vorlage an, definieren Sie die Breite und Höhe der Arbeitsfläche und klicken Sie auf **[!UICONTROL Erstellen]**. Es wird eine leere Arbeitsfläche mit Menüoptionen auf beiden Seiten angezeigt, die zum Erstellen der Vorlage verwendet werden können. Bewegen Sie den Mauszeiger über die Menüoptionen, um deren QuickInfo anzuzeigen.
    ![In Echtzeit anpassbare Vorlage](/help/using/assets/blank-canvas-page.png)
 
@@ -181,7 +179,7 @@ So parametrisieren Sie eine Ebene:
 1. **Optional:** Benennen Sie den Parameter um. Ein Parametername hat einen Ebenennamen, gefolgt von einem Suffix. Für eine ausgewählte Ebene verwenden alle parametrisierten Eigenschaften denselben Ebenennamen, gefolgt von einem variierenden Suffix. Benennen Sie den Ebenennamen um, indem Sie der semantischen Namenskonvention folgen, sodass bei Aufnahme des Parameters in die URL der Parametername selbst den Inhalt oder den Zweck der Ebene erklärt.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
    ![Sofortige Inhaltserstellung](/help/using/assets/parameterise-a-layer.png)
-Um zwischen dem Bedienfeld „Parameter“ eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
+   Um zwischen dem Bedienfeld „Parameter“ eines Bildes und der Textebene zu wechseln, wählen Sie die Ebene auf der Arbeitsfläche aus und klicken Sie auf **[!UICONTROL Parameter]**.
 
 #### Option des Bedienfelds „Parameter“ {#parameterisation-options-or-allowed-parameters}
 
