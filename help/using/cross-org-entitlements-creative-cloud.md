@@ -2,13 +2,16 @@
 title: Organisationsübergreifende Berechtigungen in AEM Assets für Creative Cloud-Integrationen
 description: Erfahren Sie, wie Sie organisationsübergreifende Berechtigungen in AEM Assets für Creative Cloud-Integrationen konfigurieren. Stellen Sie eine Verbindung zu einer Creative Cloud-Berechtigung her, die einer anderen IMS-Organisation zugewiesen wurde, um die neuesten Creative Cloud-Integrationen in AEM Assets, einschließlich Express- und Creative Cloud-Bibliotheken, bequem verwenden zu können.
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
-source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
-
 ---
-
 # Organisationsübergreifende Berechtigungen für Creative Cloud-Integrationen  {#cross-org-entitlements}
 
 Experience Manager Assets bietet die Möglichkeit, eine Verbindung zu einer Creative Cloud-Berechtigung herzustellen, die einer anderen IMS-Organisation zugewiesen wurde, um die neuesten Creative Cloud-Integrationen in AEM Assets, einschließlich Express- und Creative Cloud-Bibliotheken, bequem verwenden zu können.

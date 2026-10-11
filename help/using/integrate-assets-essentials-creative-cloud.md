@@ -1,14 +1,17 @@
 ---
 title: Integrieren von Assets Essentials mit Creative Cloud-Programmen
-description: Integrieren Sie Assets Essentials in Creative Cloud-Programmen, damit Sie innerhalb der unterstützten Desktop-Programme von  [!DNL Adobe Creative Cloud]  über das Bedienfeld „Adobe Asset Link“ direkt im Programm eine Verbindung zum  [!DNL Assets Essentials] -Repository herstellen können.
+description: Integrieren Sie Assets Essentials in Creative Cloud-Programmen, damit Sie innerhalb der unterstützten [!DNL Adobe Creative Cloud]-Desktop-Programme von über das Bedienfeld "Adobe Asset Link“ direkt im Programm eine Verbindung zum [!DNL Assets Essentials]-Repository herstellen können.
 exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '879'
-ht-degree: 100%
-
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 96%
 ---
-
 # Integrieren von Assets Essentials mit Creative Cloud-Programmen {#integrate-assets-essentials-creative-cloud-applications}
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/cce-creative-cloud.png)

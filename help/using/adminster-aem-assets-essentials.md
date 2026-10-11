@@ -2,13 +2,16 @@
 title: Verwalten von Experience Manager Assets Essentials
 description: Konfigurieren Sie den Zugriff auf Assets Essentials mithilfe der Admin Console und verwalten Sie dann die Aufgaben, die nach der Anmeldung bei Assets Essentials ausgeführt werden können.
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
-
 ---
-
 # Verwalten von Experience Manager Assets Essentials {#administer-assets-essentials}
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/cce-assets.png)
