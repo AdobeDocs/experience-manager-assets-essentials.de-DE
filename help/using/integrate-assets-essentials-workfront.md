@@ -2,13 +2,16 @@
 title: Integrieren von Assets Essentials mit Adobe Workfront
 description: Integrieren Sie Assets Essentials in Adobe Workfront, damit Sie in Workfront auf das Assets Essentials-Repository zugreifen können.
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
-
 ---
-
 # Integrieren von Assets Essentials mit Adobe Workfront {#integrate-assets-essentials-workfront}
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/cce-workfront.png)
