@@ -55,4 +55,4 @@ Wenn Sie ein Adobe-Mitarbeiter sind und einen Beitrag leisten, bitten wir Sie, d
 
 ## Über die GitHub-Authoring-Plattform und den Markdown von Adobe
 
-Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) Sie im Adobe-Handbuch für Mitwirkende an Dokumenten .
+Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de) Sie im Adobe-Handbuch für Mitwirkende an Dokumenten .
