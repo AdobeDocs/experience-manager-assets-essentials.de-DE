@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Das eingebettete [!DNL Assets Essentials]-Erlebnis kann in die folgenden Lösungen integriert werden:
 
-* **[!DNL Creative Cloud for Enterprise]**: Mit dem [programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Adobe Creative Cloud]-Desktop-Programmen heraus eine Verbindung zum [!DNL Assets Essentials]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum die Content Velocity erhöht. Siehe [Verwalten von Assets mit  [!DNL Adobe Asset Link]](https://helpx.adobe.com/de/enterprise/using/manage-assets-using-adobe-asset-link.html).
+* **[!DNL Creative Cloud for Enterprise]**: Mit dem [programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/de/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Adobe Creative Cloud]-Desktop-Programmen heraus eine Verbindung zum [!DNL Assets Essentials]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum die Content Velocity erhöht. Siehe [Verwalten von Assets mit  [!DNL Adobe Asset Link]](https://helpx.adobe.com/de/enterprise/using/manage-assets-using-adobe-asset-link.html).
 
   [Video zur Integration von Assets Essentials in Adobe Creative Cloud Libraries ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html?lang=de)
 

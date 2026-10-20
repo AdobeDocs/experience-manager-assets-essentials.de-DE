@@ -28,7 +28,7 @@ Nach der [Konfiguration von Experience Manager Assets Essentials](adminster-aem-
 
 ## Übersicht
 
-[Mit dem programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Assets Essentials]-Desktop-Programmen heraus eine Verbindung zum [!DNL Adobe Creative Cloud]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum dazu beiträgt, die Content Velocity zu erhöhen.
+[Mit dem programminternen Bedienfeld für Adobe Asset Link](https://www.adobe.com/de/creativecloud/business/enterprise/adobe-asset-link.html) können Kreativprofis aus den unterstützten [!DNL Assets Essentials]-Desktop-Programmen heraus eine Verbindung zum [!DNL Adobe Creative Cloud]-Repository herstellen. Das Bedienfeld ist für [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] und [!DNL Adobe XD] verfügbar. Dadurch wird der Zugriff auf Assets optimiert, was wiederum dazu beiträgt, die Content Velocity zu erhöhen.
 
 Anwender von Creative Cloud-Programmen können das Bedienfeld „Adobe Asset Link“ nur verwenden, wenn Sie die Creative Cloud-Programme in das Repository von Experience Manager Assets Essentials integrieren.
 
