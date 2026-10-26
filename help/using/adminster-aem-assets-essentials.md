@@ -7,7 +7,7 @@ product_v2:
     internal-label: Experience Manager
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
-source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+source-git-commit: f15fe91faf6a1f1341e4f4cda45bbe10bcd19544
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 Das folgende Datenflussdiagramm zeigt die Aufgabensequenz, die ein Administrator zur Konfiguration und Verwaltung von Assets Essentials durchführen muss:
 
-![Fluss zur Verwaltung von Assets Essentials](assets/permissions-management-cce-next.svg)
+![Fluss zur Verwaltung von Assets Essentials](assets/permission-management-cce-next.png)
 
 ## Zugang zur Admin Console {#access-admin-console}
 
@@ -51,7 +51,7 @@ Führen Sie die folgenden Aufgaben in der Admin Console durch:
 
 ### Hinzufügen von Benutzern zu Produktprofilen {#add-users-to-product-profiles}
 
-Hinzufügen von Benutzern zu Produktprofilen, damit diese Zugriff auf Asset Essentials haben.
+Hinzufügen von Benutzern zu Produktprofilen, damit diese Zugriff auf die Assets Essentials-Anwendung haben.
 
 Hinzufügen von Benutzern zu Produktprofilen
 
@@ -70,7 +70,7 @@ Hinzufügen von Benutzern zu Produktprofilen
 
    ![Hinzufügen des Administratorprofils für Benutzer](assets/add-users-admin-profile.png)
 
-   Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
+   Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail, um loszulegen. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
 
 1. Um einen Benutzer aus einer Gruppe zu entfernen, klicken Sie auf die Gruppe, wählen Sie einen vorhandenen Benutzer aus und wählen Sie **[!UICONTROL Benutzer entfernen]** aus.
 
@@ -84,7 +84,7 @@ Erstellen Sie Benutzergruppen und weisen Sie dann Ihre Benutzer den Benutzergrup
 
 Sie können Benutzer zu Benutzergruppen (1) und [zu Assets Essentials-Produktprofilen (2)](#add-admin-users) hinzufügen. Es ist jedoch nicht möglich, Benutzergruppen direkt zu Assets Essentials-Produktprofilen (3) hinzuzufügen.
 
-![Hinzufügen von Benutzern zu Gruppen und Produktprofilen](assets/user-groups-product-profiles.svg)
+![Hinzufügen von Benutzern zu Gruppen und Produktprofilen](assets/user-group-product-profiles.png)
 
 Informationen zum Verwalten von Benutzergruppen finden Sie unter `Create user groups` und `Edit user groups`, verfügbar unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html).
 
@@ -99,7 +99,7 @@ Nachdem Sie Benutzergruppen erstellt haben, können Sie damit beginnen, Benutzer
 
 Informationen zum Verwalten hinzugefügter Benutzer zu Benutzergruppen finden Sie unter `Add users to groups`, verfügbar unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html#add-users-to-groups).
 
-## Verwalten von Assets Essentials-Verwaltungsaufgaben {#manage-assets-essentials-tasks}
+## Verwaltung von Assets Essentials-Verwaltungsaufgaben {#manage-assets-essentials-tasks}
 
 Nach Ausführung der Admin Console-Aufgaben können Sie jetzt die folgenden Verwaltungsaufgaben in Assets Essentials ausführen:
 
@@ -122,7 +122,7 @@ Sie können die folgenden Methoden verwenden, um eine Ordnerstruktur im Assets E
 
 * Klicken Sie auf die Option **[!UICONTROL Assets hinzufügen]** in der Symbolleiste, um [eine auf Ihrem lokalen Computer vorhandene Ordnerstruktur hochzuladen](add-delete.md).
 
-Erstellen Sie eine Ordnerstruktur entsprechend Ihren betrieblichen Anforderungen. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md).
+Erstellen Sie eine Ordnerstruktur, die gut zu den Geschäftszielen der Organisation passt. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md).
 
 Beachten Sie die folgenden Punkte, wenn Sie mit der Erstellung einer Ordnerstruktur im Assets Essentials-Repository beginnen:
 
@@ -130,13 +130,13 @@ Beachten Sie die folgenden Punkte, wenn Sie mit der Erstellung einer Ordnerstruk
 
 * Skalierbar: Die Ordnerstruktur sollte den künftigen Anforderungen Ihres Unternehmens entsprechen und leicht skalierbar sein.
 
-* Größe: Ein Ordner darf nicht zu viele Medienelemente enthalten. Dies kann zu Problemen bei der Benutzung führen und schwierig zu handhaben sein.
+* Größe: Ein Ordner darf nicht zu viele Assets enthalten. Dies kann zu Problemen bei der Benutzung führen und schwierig zu verwalten sein.
 
-* Intuitiv: Die Ordnerstruktur sollte für die Endbenutzer einfach zu durchsuchen und intuitiv gestaltet sein. Benutzer sollten leicht erkennen können, wo ein neues Medienelement in die Ordnerstruktur hochgeladen werden soll.
+* Intuitiv: Die Ordnerstruktur sollte für die Endbenutzer einfach zu durchsuchen und intuitiv gestaltet sein. Benutzer sollten leicht erkennen können, wo ein neues Asset in die Ordnerstruktur hochgeladen werden soll.
 
 Es gibt verschiedene mögliche Ordnerstrukturtypen, die Sie für Ihr Unternehmen verwenden können. Im Folgenden finden Sie einige Beispiele für typische Ordnerstrukturen:
 
-![Typische Ordnerstrukturen](assets/folder-structure.svg)
+![Typische Ordnerstrukturen](assets/folder-structure-new.png)
 
 ### Verwaltung von Zugriffsberechtigungen für Ordner {#manage-permissions-for-folders}
 
@@ -150,7 +150,7 @@ Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Ordner
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
-Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Essentials passt den MIME-Typ der hochgeladenen Assets automatisch an den Namen des Formulars an und aktualisiert die Metadaten für die hochgeladenen Assets basierend auf den Formularfeldern.
+Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Essentials ordnet den MIME-Typ der hochgeladenen Assets automatisch dem Namen des Formulars zu und aktualisiert die Metadaten für die hochgeladenen Assets basierend auf den Formularfeldern.
 
 Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden.
 

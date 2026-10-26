@@ -5,27 +5,31 @@ exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 TQID: https://experienceleague.adobe.com/nYLF2t3wzkhjKS-cdR1dhW-CZ8YwQcJS4FxS2FAYXzg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '917'
 ht-degree: 100%
-
 ---
-
 # Assets Essentials für Creative Cloud Pro mit Work-Management-Lösungen {#creative-cloud-enterprise-user-journeys}
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/cce-next-banner-landing-page.png)
 
 ## Einführung {#introduction}
 
-Creative Cloud Pro für Unternehmen mit Work-Management-Lösungen integriert Tools für Kreativ-, Inhalts- und Arbeitsverwaltung, um Ihre Fähigkeit zu steigern, kreative Inhalte zu erstellen und Geschäftsziele schnell zu erreichen. Die Lösung umfasst die folgenden Komponenten:
+Creative Cloud Pro für Unternehmen mit Work-Management-Lösungen integriert Tools für Kreativ-, Content- und Arbeitsverwaltung, um Ihre Fähigkeit zu steigern, kreative Inhalte zu erstellen und Geschäftsziele schnell zu erreichen. Die Lösung umfasst die folgenden Komponenten:
 
 * Creative Cloud Pro
 
@@ -37,7 +41,7 @@ In diesem Tutorial erfahren Administratoren, wie sie die Integration von Assets 
 
 ## Bereitstellungstypen {#deployment-types}
 
-Da die Lösung aus Programmen und Services von Creative Cloud und Adobe Experience Cloud besteht, können sie in einer oder zwei Adobe Admin Consoles in Ihrem Unternehmen bereitgestellt werden.
+Da die Lösung aus Anwendungen und Services von Creative Cloud und Adobe Experience Cloud besteht, können sie in einer oder zwei Adobe Admin Consoles in Ihrem Unternehmen bereitgestellt werden.
 
 Bei einer Bereitstellung in zwei Admin Consoles ist ein zusätzlicher Konfigurationsschritt erforderlich:
 
@@ -45,11 +49,11 @@ Bei einer Bereitstellung in zwei Admin Consoles ist ein zusätzlicher Konfigurat
 
 * Adobe Workfront und Adobe Experience Manager Assets Essentials werden in der [Adobe Admin Console für Experience Cloud-Lösungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=de) verwaltet.
 
-Um Creative Cloud- und Assets Essentials-Programme zu integrieren, müssen die Benutzer, die in der Admin Console für Creative Cloud verfügbar sind, auch in der Admin Console für Experience Cloud verfügbar gemacht werden. Um die Benutzer in der Admin Console von Experience Cloud verfügbar zu machen, erstellen Sie ein Verzeichnis, um [Verzeichnisvertrauen](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html#directory-trusting) zwischen den beiden Admin Consoles herzustellen.
+Um Creative Cloud- und Assets Essentials-Anwendungen zu integrieren, müssen die Benutzer, die in der Admin Console für Creative Cloud verfügbar sind, auch in der Admin Console für Experience Cloud verfügbar gemacht werden. Um die Benutzer in der Admin Console von Experience Cloud verfügbar zu machen, erstellen Sie ein Verzeichnis, um [Verzeichnisvertrauen](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html#directory-trusting) zwischen den beiden Admin Consoles herzustellen.
 
-![Creative Cloud-Benutzer](assets/creative-cloud-users.svg)
+![Creative Cloud-Benutzer](assets/creative-cloud-users.png)
 
-Wie im Diagramm dargestellt, werden die Creative Cloud-Benutzer automatisch in der Admin Console von Experience Cloud bereitgestellt, basierend auf einer Vertrauensbeziehung zwischen den beiden Konsolen. Anschließend können Sie die Benutzer zu Assets Essentials-Produktprofilen hinzufügen. Daher können Creative Cloud-Benutzer auf Adobe Asset Link zugreifen, das mit dem Assets Essentials-Repository interagieren kann. Weitere Informationen finden Sie unter [Integrieren von Assets Essentials mit Creative Cloud-Programmen](integrate-with-creative-cloud.md).
+Wie im Diagramm dargestellt, werden die Creative Cloud-Benutzer automatisch in der Admin Console von Experience Cloud bereitgestellt, basierend auf einer Vertrauensbeziehung zwischen den beiden Konsolen. Anschließend können Sie die Benutzer zu Assets Essentials-Produktprofilen hinzufügen. Daher können Creative Cloud-Benutzer auf die Adobe Asset Link-Anwendung zugreifen, die mit dem Assets Essentials-Repository interagieren kann. Weitere Informationen finden Sie unter [Integrieren von Assets Essentials mit Creative Cloud-Programmen](integrate-with-creative-cloud.md).
 
 ## Dokumentations-Touren zu Experience Manager {#documentation-journeys}
 
@@ -71,7 +75,7 @@ Adobe Experience Manager Assets Essentials ist eine neue, schlanke Edition von A
 
 Adobe Experience Manager Assets Essentials wird von Adobe für seine Kunden bereitgestellt. Im Rahmen der Bereitstellung wird Assets Essentials der Organisation eines Kunden in der Adobe Admin Console hinzugefügt.
 
-Administratoren verwenden die Admin Console, um Benutzerberechtigungen für Assets Essentials-Produkte zu verwalten:
+Administratoren verwenden die Admin Console, um Benutzerberechtigungen für das Assets Essentials-Produkt zu verwalten:
 
 * Hinzufügen von Benutzergruppen
 
@@ -91,7 +95,7 @@ Nach der Verwaltung der Benutzerberechtigungen in der Admin Console können Admi
 
 Nachdem Sie nun Assets Essentials konfiguriert und verwaltet haben, [integrieren Sie Creative Cloud-Programme mit Experience Manager Assets Essentials](integrate-with-creative-cloud.md).
 
-## Integration von Creative Cloud-Programmen mit Experience Manager Assets Essentials {#administer-creative-cloud-applications}
+## Integration von Creative Cloud-Anwendungen mit Experience Manager Assets Essentials {#administer-creative-cloud-applications}
 
 ![Voreinstellung zum Umschalten zwischen dunklem und hellem Design](assets/cce-creative-cloud.png)
 
@@ -101,7 +105,7 @@ Dieses Tutorial führt Sie durch die Integration der Programme [!DNL Adobe Photo
 
 Ziele:
 
-* Herstellen von Verzeichnisvertrauen zwischen der Admin Console von Creative Cloud und Experience Cloud
+* Herstellen von Verzeichnisvertrauen zwischen den Admin Consoles von Creative Cloud und Experience Cloud
 
 * Hinzufügen von Creative Cloud-Benutzern zu Assets Essentials-Produktprofilen
 
@@ -119,7 +123,7 @@ Nachdem Sie nun die Creative Cloud-Programme mit Assets Essentials integriert ha
 
 [[!DNL Adobe Workfront]](https://www.workfront.com/) ist ein Programm für Work-Management, mit dem Sie den gesamten Arbeitszyklus an einem Ort verwalten können. Durch die native Integration von [!DNL Adobe Workfront] und [!DNL Assets Essentials] können Unternehmen die Geschwindigkeit von Inhalten und die Markteinführungszeit verbessern, indem sie Work- und Asset-Management miteinander verbinden. Im Rahmen der Verwaltung ihrer Arbeit haben Benutzer in derselben Lösung Zugriff auf die erforderlichen Dokumente und Bilder.
 
-In diesem Tutorial erfahren Sie, wie Sie Adobe Workfront verwalten und dann in Experience Manager Assets Essentials integrieren können.
+In diesem Tutorial erfahren Sie, wie Sie Adobe Workfront verwalten und dann mit Experience Manager Assets Essentials integrieren können.
 
 Ziele:
 

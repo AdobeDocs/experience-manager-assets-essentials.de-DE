@@ -5,16 +5,17 @@ exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Leader
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1700'
 ht-degree: 100%
-
 ---
-
 # Verwaltung von Zugriffsberechtigungen für Ordner {#manage-permissions}
 
 >[!CONTEXTUALHELP]
@@ -34,7 +35,7 @@ Bevor Sie mit der Verwaltung von Zugriffsberechtigungen für Ordner in Ihrem Ass
 
 ### Hinzufügen von Administratoren {#add-admin-users}
 
-Fügen Sie Administratoren für das Assets Essentials-Programm hinzu, damit sie Ordnerberechtigungen für andere Benutzergruppen verwalten können.
+Fügen Sie Administratoren für die Assets Essentials-Anwendung hinzu, damit sie Ordnerberechtigungen für andere Benutzergruppen verwalten können.
 
 So fügen Sie Administratoren hinzu:
 
@@ -46,7 +47,7 @@ So fügen Sie Administratoren hinzu:
 
    ![Hinzufügen des Administratorprofils für Benutzer](assets/add-users-admin-profile.png)
 
-   Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
+   Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail, um loszulegen. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
 
 1. Um einen Benutzer aus einer Gruppe zu entfernen, klicken Sie auf die Gruppe, wählen Sie einen vorhandenen Benutzer aus und wählen Sie **[!UICONTROL Benutzer entfernen]** aus.
 
@@ -54,7 +55,7 @@ So fügen Sie Administratoren hinzu:
 
 Verwalten Sie Ordnerzugriffsebenen im Assets Essentials-Repository, indem Sie Benutzergruppen erstellen und diesen Gruppen Berechtigungen zuweisen. Anschließend können Sie Ihre Benutzer den Benutzergruppen zuweisen.
 
-![Hinzufügen von Benutzern zu Gruppen und Produktprofilen](assets/user-groups-product-profiles.svg)
+![Hinzufügen von Benutzern zu Gruppen und Produktprofilen](assets/user-group-product-profiles.png)
 
 Sie können Benutzer zu Benutzergruppen (1) und [zu Assets Essentials-Produktprofilen (2)](#add-admin-users) hinzufügen. Es ist jedoch nicht möglich, Benutzergruppen direkt zu Assets Essentials-Produktprofilen (3) hinzuzufügen.
 
@@ -79,7 +80,7 @@ Sie können die folgenden Methoden verwenden, um eine Ordnerstruktur im Assets E
 
 * Klicken Sie auf die Option **[!UICONTROL Assets hinzufügen]** in der Symbolleiste, um [eine auf Ihrem lokalen Computer vorhandene Ordnerstruktur hochzuladen](add-delete.md).
 
-Erstellen Sie eine Ordnerstruktur entsprechend Ihren betrieblichen Anforderungen. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md).
+Erstellen Sie eine Ordnerstruktur, die gut zu den Geschäftszielen der Organisation passt. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md).
 
 ## Verwalten von Zugriffsberechtigungen für Ordner {#manage-permissions-on-folders}
 
@@ -87,9 +88,9 @@ Sie können den Benutzergruppen oder Benutzern die folgenden Berechtigungen zuwe
 
 | Berechtigungsname | Beschreibung |
 |-----|------|
-| Anzeigen | <ul><li>Lesezugriff zum Anzeigen und Navigieren in Ordnern </li><li>Vorschau von Assets</li><li>Assets herunterladen</li><li>Kopieren von Assets</li><li>Freigeben von Links zu Medienelementen</li><ul> |
-| Bearbeiten | <ul><li>Alle Rechte, die für Anzeige-Berechtigungen verfügbar sind </li><li>Erstellen von Ordnern</li><li>Entfernen von Ordnern</li><li>Umbenennen von Ordnern</li><li>Erstellen von Medienelementen</li><li>Aktualisieren von Medienelementen</li><li>Entfernen von Medienelementen</li><li>Verschieben von Medienelementen</li><li>Umbenennen von Medienelementen</li><ul> |
-| Inhaber | <ul><li>Alle Rechte, die für Bearbeitungsberechtigungen verfügbar sind</li><li>Verwalten von Berechtigungen für Ordner und deren Unterordner</li>Diese Berechtigung erlaubt es den Administratoren, Administratorberechtigungen für einen Ordner und dessen Unterordner an andere zu delegieren.<ul> |
+| Anzeigen | <ul><li>Lesezugriff zum Anzeigen und Navigieren in Ordnern </li><li>Vorschau von Medienelementen</li><li>Herunterladen von Medienelementen</li><li>Kopieren von Medienelementen</li><ul> |
+| Bearbeiten | <ul><li>Alle für Anzeigeberechtigungen verfügbaren Rechte </li><li>Erstellen von Ordnern</li><li>Entfernen von Ordnern</li><li>Umbenennen von Ordnern</li><li>Erstellen von Medienelementen</li><li>Aktualisieren von Medienelementen</li><li>Entfernen von Medienelementen</li><li>Verschieben von Medienelementen</li><li>Umbenennen von Medienelementen</li><li>Geben Sie Links zu Assets frei</li><ul> |
+| Inhaber | <ul><li>Alle für Bearbeitungsberechtigungen verfügbaren Rechte</li><li>Verwalten von Berechtigungen für Ordner und deren Unterordner</li>Diese Berechtigung erlaubt es den Administratoren, Administratorberechtigungen für einen Ordner und dessen Unterordner an andere zu delegieren.<ul> |
 | Verweigern des Zugriffs | Entfernen der Anzeige- und Bearbeitungsberechtigungen sowie der Inhaberberechtigungen für einen Ordner und dessen Unterordner. |
 
 **Standardberechtigungen**
@@ -104,13 +105,13 @@ Wenn Sie beispielsweise die `Can View`-Berechtigungen für einen Ordner zu einer
 
 Wenn Sie Bearbeitungsberechtigungen für den Ordner `Marketing` nur der Marketing-Abteilung Ihres Unternehmens und für andere nur Ansichtsberechtigungen erteilen möchten, weisen Sie der Übergruppe `All Authenticated Users` `Can View`-Berechtigungen und ihrer Untergruppe `Marketing` `Can Edit`-Berechtigungen zu.
 
-![Zuweisen von Berechtigungen](assets/permissions-management-groups.svg)
+![Zuweisen von Berechtigungen](assets/permissions-management-group.png)
 
 **Vererbung von Berechtigungen**
 
 Assets Essentials verwendet die Berechtigungsvererbung, mit der Sie die für den übergeordneten Ordner festgelegten Berechtigungen an den untergeordneten Ordner vererben können. Wenn der übergeordnete Ordner beispielsweise `Can View`-Berechtigungen für die Gruppe `All Authenticated Users` und der untergeordnete Ordner `Can Edit`-Berechtigungen für die Benutzergruppe `Marketing` hat, haben alle authentifizierten Benutzer Anzeigeberechtigungen für den untergeordneten Ordner und die Benutzergruppe `Marketing` hat auch Bearbeitungsberechtigungen für den untergeordneten Ordner. Die Benutzergruppe `Marketing` hat Bearbeitungsberechtigungen für weitere Ordnerebenen unter dem untergeordneten Ordner (Marketing).
 
-![Zuweisen von Berechtigungen](assets/permissions-inheritance.svg)
+![Zuweisen von Berechtigungen](assets/permission-inheritance.png)
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ So weisen Sie Gruppenberechtigungen für Ordner zu:
 
 ### Bearbeiten von Berechtigungen, die Benutzergruppen zugewiesen sind {#edit-permissions}
 
-So bearbeiten Sie Berechtigungen, die Benutzergruppen für Ordner zugewiesen sind:
+So bearbeiten Sie Berechtigungen, die Benutzergruppen für Ordner zugewiesen wurden:
 
 1. Wählen Sie den Ordner aus und klicken Sie auf **[!UICONTROL Berechtigungen verwalten]**.
 
@@ -179,7 +180,7 @@ So bearbeiten Sie Berechtigungen für das gesamte Assets Essentials-Repository:
 
 * Die Gruppe aller authentifizierten Benutzer hat Anzeigezugriff auf das Repository.
 * Team-spezifische Benutzergruppen haben Bearbeitungsberechtigungen für ihren eigenen funktionsspezifischen Ordner.
-* Der Ordner „Legal“ ist für keinen authentifizierten Benutzer außer dem Personal der Rechtsabteilung einsehbar.
+* Der Ordner „Legal“ ist für keinen authentifizierten Benutzer außer dem Legal-Team einsehbar.
 
 Erstellen Sie die folgenden Benutzergruppen in der Admin Console:
 
@@ -198,7 +199,7 @@ Die folgende Abbildung zeigt die Ordnerhierarchie und die den einzelnen Benutzer
 
 Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordnerhierarchie:
 
-* /All Assets: Der Administrator ändert die Berechtigungen auf der Stammebene von der Standardeinstellung `Can Edit` in `Can View`. Alle Benutzer können Ordner und Medienelemente ansehen, sie jedoch nicht bearbeiten.
+* /All Assets: Der Administrator ändert die Berechtigungen auf der Stammebene von der Standardeinstellung `Can Edit` in `Can View`. Alle Benutzer können Ordner und Assets ansehen, sie jedoch nicht bearbeiten.
 
 * /marketing: Alle Benutzer können die Ordner und die Unterordner basierend auf der Vererbung von Berechtigungen anzeigen. Die Benutzergruppe „Marketing-Team“ hat jedoch Bearbeitungsberechtigungen für den Ordner.
 
@@ -206,9 +207,9 @@ Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordn
 
 * /projects: Alle Benutzer können die Ordner und Unterordner auf der Grundlage der Vererbung von Berechtigungen anzeigen. Die Benutzergruppe „Projekt-Manager-Team“ kann:
 
-   * Berechtigungen bearbeiten
+  * Berechtigungen bearbeiten
 
-   * Inhaber-Berechtigungen: Verwalten von Berechtigungen für einen Ordner und dessen Unterordner.
+  * Inhaber-Berechtigungen: Verwalten von Berechtigungen für einen Ordner und dessen Unterordner.
 
 * /projects/project-x: Alle Benutzer können die Ordner und die Unterordner einsehen. Die Benutzergruppe „Projekt-Manager-Team“ hat Bearbeitungsberechtigungen und kann Berechtigungen für einen Ordner und dessen Unterordner verwalten (Inhaber-Berechtigungen). Die Benutzergruppe „Projekt-X-Team“ verfügt über Bearbeitungsberechtigungen.
 
@@ -216,7 +217,7 @@ Im Folgenden finden Sie die Zugriffsebenen für alle Benutzergruppen in der Ordn
 
 ## Nächste Schritte {#next-steps}
 
-* [Video zum Verwalten von Berechtigungen in Assets Essentials ansehen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=de)
+* [Video zum Verwalten von Berechtigungen in Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=de)
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
