@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 100%
@@ -45,19 +45,19 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 ## Erstellen eines Berichts {#create-report}
 
-Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassende Berichtsfunktionen. Mit dieser Funktion können Benutzende CSV-Berichte erstellen und herunterladen, die Details zu Asset-Uploads und -Downloads innerhalb eines bestimmten Zeitraums angeben. Die Intervalle können einmalig, täglich, wöchentlich, monatlich oder jährlich sein.
+Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassende Reporting-Funktionen. Mit dieser Funktion können Benutzende CSV-Berichte erstellen und herunterladen, die Details zu Asset-Uploads und -Downloads innerhalb eines bestimmten Zeitraums angeben. Die Intervalle können einmalig, täglich, wöchentlich, monatlich oder jährlich sein.
 
 **So erstellen Sie einen Bericht:**
 
 1. Navigieren Sie zu **Berichte** und klicken Sie auf **Bericht erstellen** (oben rechts). Im Dialogfeld **Bericht erstellen** werden die folgenden Felder angezeigt:
-   ![create-report](/help/using/assets/executed-reports1.svg)
+   ![create-report](/help/using/assets/executed-reports1.png)
 
    **Auf der Registerkarte „Konfiguration“:**
 
    1. **Berichtstyp:** Wählen Sie unter dem Berichtstyp [!UICONTROL Upload] oder [!UICONTROL Download] aus.
    1. **Titel:** Fügen Sie dem Bericht einen Titel hinzu.
    1. **Beschreibung:** Fügen Sie dem Bericht eine optionale Beschreibung hinzu.
-   1. **Ordnerpfad auswählen:** Wählen Sie einen Ordnerpfad aus, um den Bericht der hochgeladenen und heruntergeladenen Assets in diesem bestimmten Ordner zu generieren. Wenn Sie beispielsweise den Bericht der Assets benötigen, die in einen Ordner hochgeladen wurden, geben Sie den Pfad zu diesem Ordner an.
+   1. **Ordnerpfad auswählen:** Wählen Sie einen Ordnerpfad aus, um den Bericht der hochgeladenen und heruntergeladenen Assets in diesem bestimmten Ordner zu generieren. Wenn Sie beispielsweise den Bericht zu Assets benötigen, die in einen Ordner hochgeladen wurden, geben Sie den Pfad zu diesem Ordner an.
    1. **Datumsintervall auswählen:** Wählen Sie den Datumsbereich aus, für den die Upload- oder Download-Aktivität im Ordner angezeigt werden soll.
    <br>
 
@@ -101,7 +101,7 @@ Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassend
      </tr>
      <tr>
       <td>Herunterladen-Datum</td>
-      <td>Das Datum, an dem die Aktion zum Herunterladen des Assets durchgeführt wurde.</td>
+      <td>Das Datum, an dem die Aktion zum Herunterladen des Assets durchgeführt wird.</td>
       <td>Herunterladen</td>
      </tr>
      <tr>
@@ -134,7 +134,7 @@ Die AEM Assets Essentials-Umgebung bietet über das Berichte-Dashboard umfassend
 
 
 
-## Anzeigen und Herunterladen von vorhandenen Berichten {#View-and-download-existing-report}
+## Anzeigen und Herunterladen vorhandener Berichte {#View-and-download-existing-report}
 
 Vorhandene Berichte werden auf der Registerkarte **Ausgeführte Berichte** angezeigt. Klicken Sie auf **Berichte** und wählen Sie **Ausgeführte Berichte** aus, um alle erstellten Berichte mit dem Status **Abgeschlossen** anzuzeigen. Dieser Status bedeutet, dass sie zum Herunterladen bereit sind. Um den Bericht im CSV-Format herunterzuladen oder um ihn zu löschen, wählen Sie die Berichtszeile und danach **CSV herunterladen** bzw. **Löschen** aus.
 ![Anzeigen und Herunterladen von vorhandenen Berichten](/help/using/assets/view-download-existing-report.png)
@@ -146,15 +146,15 @@ In der AEM Essentials-Benutzeroberfläche wird durch **Bericht planen** eine aut
 Gehen Sie wie folgt vor, um einen Bericht zu planen:
 
 1. Klicken Sie im linken Bereich auf „Berichte“ und dann oben rechts auf „Bericht erstellen“.
-1. Im Dialogfeld „Bericht“ werden die folgenden Informationen angezeigt:
+1. Im Dialogfeld für Berichte werden die folgenden Informationen angezeigt:
    1. **Berichtstyp:** Wählen Sie zwischen dem Upload- und dem Download-Typ aus.
    1. **Titel:** Fügen Sie dem Bericht einen Titel hinzu.
    1. **Beschreibung**: Fügen Sie dem Bericht eine optionale Beschreibung hinzu.
    1. **Ordnerpfad auswählen**: Wählen Sie einen Ordnerpfad aus, um einen Bericht für Assets zu generieren, die in Zukunft in diesen bestimmten Ordner hochgeladen bzw. aus diesem Ordner heruntergeladen werden.
    1. Umschalter **Bericht planen**: Schalten Sie zwischen den beiden Optionen um, den Bericht entweder für einen späteren Zeitpunkt oder für ein wiederholtes Vorkommen zu planen.
-      ![Bericht planen](/help/using/assets/schedule-reports1.svg)
+      ![Bericht planen](/help/using/assets/schedule-reports1.png)
 
-   1. **Häufigkeit auswählen**: Geben Sie das Intervall für die Generierung des Berichts an (z. B. täglich, wöchentlich, monatlich, jährlich oder einmalig) und legen Sie Datum und Uhrzeit für die Ausführung des Berichts zusammen mit dem Enddatum für das Intervall fest. Wählen Sie für einen einmaligen Bericht den Datumsbereich für den Bericht über den ausgewählten Aktivitätstyp in der AEM-Umgebung aus. Wenn Sie beispielsweise einen Bericht zu den vom 10. bis zum 29. (Datumsangaben in der Zukunft) eines bestimmten Monats heruntergeladenen Assets benötigen, wählen Sie diese Datumsangaben im Feld **Datumsintervall auswählen** aus.
+   1. **Häufigkeit auswählen**: Geben Sie das Intervall für die Generierung des Berichts an (z. B. täglich, wöchentlich, monatlich, jährlich oder einmalig) und legen Sie Datum und Uhrzeit für die Ausführung des Berichts zusammen mit dem Enddatum für das Intervall fest. Wählen Sie für einen einmaligen Bericht den Datumsbereich für den Bericht basierend auf dem ausgewählten Aktivitätstyp in der AEM-Umgebung aus. Wenn Sie beispielsweise einen Bericht zu den vom 10. bis zum 29. (Datumsangaben in der Zukunft) eines bestimmten Monats heruntergeladenen Assets benötigen, wählen Sie diese Datumsangaben im Feld **Datumsintervall auswählen** aus.
 
    >[!NOTE]
    >
@@ -162,7 +162,7 @@ Gehen Sie wie folgt vor, um einen Bericht zu planen:
 
 ## Anzeigen geplanter Berichte {#view-scheduled-reports}
 
-Geplante Berichte werden systematisch organisiert auf der Registerkarte **Geplante Berichte** angezeigt. Alle abgeschlossenen Berichte für jeden geplanten Bericht werden in einem einzigen Berichtsordner gespeichert. Klicken Sie auf ![Ein- und Ausblenden](/help/using/assets/expand-icon1.svg), um die abgeschlossenen Berichte anzuzeigen. Wenn Sie beispielsweise einen täglichen Bericht geplant haben, werden alle abgeschlossenen Berichte in einem Ordner gruppiert. Diese Organisation vereinfacht die Navigation und die Erkennung von Berichten. Um geplante Berichte anzuzeigen, klicken Sie auf **Berichte** und dann auf **Geplante Berichte**. Alle geplanten Berichte werden angezeigt, wobei ihr Status entweder „Laufend“ oder „Abgeschlossen“ ist. Die abgeschlossenen Berichte können heruntergeladen werden.
+Geplante Berichte werden systematisch organisiert auf der Registerkarte **Geplante Berichte** angezeigt. Alle abgeschlossenen Berichte für jeden geplanten Bericht werden in einem einzigen Berichtsordner gespeichert. Klicken Sie auf ![Ein- und Ausblenden](/help/using/assets/expand-icon1.svg), um die abgeschlossenen Berichte anzuzeigen. Wenn Sie beispielsweise einen täglichen Bericht geplant haben, werden alle abgeschlossenen Berichte in einem Ordner gruppiert. Diese Organisation vereinfacht sowohl die Navigation als auch das Auffinden von Berichten. Um geplante Berichte anzuzeigen, klicken Sie auf **Berichte** und dann auf **Geplante Berichte**. Alle geplanten Berichte werden angezeigt, wobei ihr Status entweder „Laufend“ oder „Abgeschlossen“ ist. Die abgeschlossenen Berichte können heruntergeladen werden.
 ![Geplanter Bericht](/help/using/assets/scheduled-reports-tab.png)
 
 ## Bearbeiten und Abbrechen von geplanten Berichten {#edit-cancel-scheduled-reports}
@@ -189,28 +189,28 @@ Um den abgebrochenen Zeitplan wieder aufzunehmen, wählen Sie die Berichtszeile 
 >title="Berichte"
 >abstract="Im Insights-Dashboard können Sie Echtzeit-Ereignismetriken für Ihre Experience Manager Assets-Umgebung während der letzten 30 Tage oder der letzten 12 Monate anzeigen. Die Ereignisliste enthält die Anzahl der Downloads, Uploads, Top-Suchbegriffe usw."
 
-In Assets Essentials können Sie mit dem Dashboard „Erkenntnisse“ Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken für die letzten 30 Tage oder für die letzten 12 Monate anzeigen.
+In Assets Essentials können Sie mit dem Insights-Dashboard Echtzeitdaten für Ihre Assets Essentials-Umgebung anzeigen. Sie können Echtzeit-Ereignismetriken für die letzten 30 Tage oder für die letzten 12 Monate anzeigen.
 
 <!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um die folgenden automatisch generierten Diagramme anzuzeigen:
 
 * **Downloads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten aus der Assets Essentials-Umgebung heruntergeladen wurden, dargestellt als Liniendiagramm.
-  ![Downloads](/help/using/assets/insights-downloads2341.svg)
+  ![Downloads](/help/using/assets/insights-downloads2341.png)
 
 * **Uploads**: Die Anzahl der Assets, die in den letzten 30 Tagen oder 12 Monaten in die Assets Essentials-Umgebung hochgeladen wurden, dargestellt als Liniendiagramm.
-  ![Uploads](/help/using/assets/insights-uplods2.svg)
+  ![Uploads](/help/using/assets/insights-uplods2.png)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Speichernutzung**: Darstellung der Speichernutzung in Byte für die Assets Essentials-Umgebung mithilfe eines Balkendiagramms.
-  ![Speicherverwendung](/help/using/assets/insights-storage-usage1.svg)
+  ![Speicherverwendung](/help/using/assets/insights-storage-usage1.png)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Häufigste Suchanfragen**: Die am häufigsten gesuchten Begriffe und die Suchhäufigkeit dieser Begriffe in den letzten 30 Tagen oder 12 Monaten in Ihrer Assets Essentials-Umgebung, dargestellt in Tabellenform.
-  ![Speicherverwendung](/help/using/assets/insights-top-search.svg)
+  ![Speicherverwendung](/help/using/assets/insights-top-search.png)
 
   <!--
    ![Insights](assets/insights1.png)
@@ -218,8 +218,8 @@ Klicken Sie auf **[!UICONTROL Erkenntnisse]** im linken Navigationsbereich, um d
    -->
 
 * **Asset-Anzahl nach Größe:** Segmentiert die gesamte Asset-Anzahl in Ihrer Assets Essentials-Umgebung in unterschiedliche Größenbereiche und hebt die Anzahl und den Prozentsatz der Assets in jedem Größenbereich hervor, dargestellt durch ein Ringdiagramm.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.png)
 
 * **Asset-Anzahl nach Asset-Typ:** Segmentiert die gesamte Asset-Anzahl in Ihrer Assets Essentials-Umgebung und hebt die Anzahl und den Prozentsatz der Assets anhand ihrer Dateitypen hervor, dargestellt durch ein Ringdiagramm.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.png)
 

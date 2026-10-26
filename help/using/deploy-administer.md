@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Benutzern
+title: Administrieren und Verwalten von Benutzern
 description: Anwendungsfälle für Administratoren, wie z. B. Bereitstellung und Benutzerverwaltung in [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 Das folgende Datenflussdiagramm zeigt die Aufgabensequenz, die ein Administrator zur Konfiguration und Verwaltung von Assets Essentials durchführen muss:
 
-![Bereitstellen von Assets Essentials](assets/deploy-assets-essentials.svg)
+![Bereitstellen von Assets Essentials](assets/deploy-assets-essentials.png)
 
 ## Zugang zur Admin Console {#access-admin-console}
 
@@ -65,7 +65,7 @@ Informationen zum Verwalten hinzugefügter Benutzender zu Benutzergruppen finden
 
 ### Hinzufügen von Produktprofilen zu Benutzergruppen {#add-product-profiles-to-user-groups}
 
-Fügen Sie Benutzergruppen Produktprofile hinzu, damit diese Zugriff auf die Asset Essentials-Anwendung haben.
+Fügen Sie Benutzergruppen Produktprofile hinzu, damit diese Zugriff auf die Assets Essentials-Anwendung haben.
 
 So fügen Sie Benutzergruppen Produktprofile hinzu:
 
@@ -80,7 +80,7 @@ So fügen Sie Benutzergruppen Produktprofile hinzu:
 
    * **[!DNL Assets Essentials]-Administratoren** verfügen über administrativen Zugriff auf das Programm. Zusätzlich zu allen Endbenutzer-Funktionen können Programmadministratoren in dieser Gruppe auch die Berechtigungen aller Ordner und Gruppen/Benutzer im gesamten Programm-Repository verwalten.
 
-   * Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf die gesamte Benutzeroberfläche. Diese Benutzer können digitale Assets hochladen, organisieren, taggen und suchen.
+   * Benutzer von **[!DNL Assets Essentials]** haben Zugriff auf die gesamte Benutzeroberfläche. Diese Benutzer können digitale Assets hochladen, organisieren, taggen und finden.
 
    * **[!DNL Assets Essentials]-Endbenutzende** können Such-, Vorschau- und Download-Vorgänge in Assets Essentials durchführen. Sie können auch Assets in Adobe Journey Optimizer suchen und auswählen sowie Assets zur Verwendung in Workfront suchen und auswählen.
      Weitere Informationen finden Sie unter [Integration mit anderen Lösungen](integration.md).
@@ -91,7 +91,7 @@ So fügen Sie Benutzergruppen Produktprofile hinzu:
 
    ![Hinzufügen des Administratorprofils für Benutzer](assets/add-users-admin-profile.png)
 
-   Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
+   Wenn Sie einen Benutzer hinzufügen, erhält der Benutzer eine Einladung per E-Mail, um loszulegen. Sie können die E-Mail-Einladungen in den Produktprofileinstellungen in der [!DNL Admin Console] deaktivieren.
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ Sie können die folgenden Methoden verwenden, um eine Ordnerstruktur im Assets E
 
 * Klicken Sie auf die Option **[!UICONTROL Assets hinzufügen]** in der Symbolleiste, um [eine auf Ihrem lokalen Computer vorhandene Ordnerstruktur hochzuladen](add-delete.md).
 
-Erstellen Sie eine Ordnerstruktur entsprechend Ihren betrieblichen Anforderungen. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md##folder-structure-assets-essentials).
+Erstellen Sie eine Ordnerstruktur, die gut zu den Geschäftszielen der Organisation passt. Wenn Sie eine vorhandene Ordnerstruktur in das Assets Essentials-Repository hochladen, sollten Sie die Struktur überprüfen. Weitere Informationen finden Sie unter [Best Practices für die effektive Verwaltung von Zugriffsberechtigungen](permission-management-best-practices.md##folder-structure-assets-essentials).
 
 Es gibt verschiedene mögliche Ordnerstrukturtypen, die Sie für Ihr Unternehmen verwenden können. Im Folgenden finden Sie einige Beispiele für typische Ordnerstrukturen:
 
-![Typische Ordnerstrukturen](assets/folder-structure.svg)
+![Typische Ordnerstrukturen](assets/folder-structure-new.png)
 
 >[!NOTE]
 >
@@ -147,7 +147,7 @@ Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Ordner
 
 Assets Essentials bietet standardmäßig viele Standard-Metadatenfelder. Unternehmen haben zusätzliche Metadatenanforderungen und benötigen mehr Metadatenfelder, um geschäftsspezifische Metadaten hinzuzufügen. Mit Metadatenformularen können Unternehmen benutzerdefinierte Metadatenfelder zur Seite [!UICONTROL Details] eines Assets hinzufügen. Die geschäftsspezifischen Metadaten verbessern die Verwaltung und Erkennung der Assets. Sie können Formulare von Grund auf neu erstellen oder ein vorhandenes Formular wiederverwenden.
 
-Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Essentials passt den MIME-Typ der hochgeladenen Assets automatisch an den Namen des Formulars an und aktualisiert die Metadaten für die hochgeladenen Assets basierend auf den Formularfeldern.
+Sie können Metadatenformulare für verschiedene Asset-Typen (verschiedene MIME-Typen) konfigurieren. Verwenden Sie denselben Formularnamen wie den MIME-Typ der Datei. Essentials ordnet den MIME-Typ der hochgeladenen Assets automatisch dem Namen des Formulars zu und aktualisiert die Metadaten für die hochgeladenen Assets basierend auf den Formularfeldern.
 
 Wenn beispielsweise ein Metadatenformular mit dem Namen `PDF` oder `pdf` vorhanden ist, enthalten die hochgeladenen PDF-Dokumente Metadatenfelder, wie sie im Formular definiert wurden.
 
@@ -159,7 +159,7 @@ Weitere Informationen zu Metadatenformularen finden Sie unter [Metadatenformular
 
 ### Erstellen öffentlicher Sammlungen (optional) {#create-public-collections}
 
-Eine Sammlung ist ein Satz von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden.
+Eine Sammlung ist eine Gruppe von Assets innerhalb von Experience Manager Assets Essentials. Anhand von Sammlungen können Assets von mehreren Benutzenden gemeinsam verwendet werden.
 
 Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorten enthalten. Sie können mehrere Sammlungen für eine Benutzerin bzw. einen Benutzer freigeben. Jede Sammlung enthält Verweise auf Assets. Die referenzielle Integrität von Assets wird sammlungsübergreifend aufrechterhalten. Weitere Informationen finden Sie unter [Verwalten von Sammlungen](manage-collections.md).
 
@@ -167,13 +167,13 @@ Im Gegensatz zu Ordnern kann eine Sammlung Assets von verschiedenen Speicherorte
 
 ## Nächste Schritte {#next-steps}
 
-<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=de) -->
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * Geben Sie Produkt-Feedback über die Option [!UICONTROL Feedback] in der Benutzeroberfläche von Assets Essentials
 
 * Geben Sie Feedback zur Dokumentation durch ![Bearbeiten der Seite](assets/do-not-localize/edit-page.png) über die Option [!UICONTROL Diese Seite bearbeiten] oder durch ![Erstellen eines GitHub-Themas](assets/do-not-localize/github-issue.png) über die Option [!UICONTROL Problem protokollieren] in der rechten Seitenleiste
 
-* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support)
+* Kontaktieren Sie die [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&lang=de#support)
 
 
 
